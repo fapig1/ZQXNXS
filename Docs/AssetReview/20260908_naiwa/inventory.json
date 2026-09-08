@@ -1,0 +1,481 @@
+{
+  "review_date": "2026-09-08",
+  "method": "Pillow decode; FFmpeg stream probe and audio decode/volume analysis; no listening assessment",
+  "image_count": 35,
+  "video_count": 12,
+  "standalone_audio_files": [],
+  "images": [
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/artwork/last_supper_parody.png",
+      "width": 2691,
+      "height": 1096,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "bytes": 2481736
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/milkyfrog_official/mf-logo.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "bytes": 1059383
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/milkyfrog_official/mf-pose-belly.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 568533
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/milkyfrog_official/mf-pose-lying.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 435187
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/milkyfrog_official/mf-pose-rolling.png",
+      "width": 1262,
+      "height": 1262,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 507226
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/milkyfrog_official/mf-pose-wave.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 439952
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/milkyfrog_official/milkyfrog-hero.png",
+      "width": 1535,
+      "height": 2732,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 2591640
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/naiwa_meme/naiwa-smiling.png",
+      "width": 1414,
+      "height": 1514,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 1190671
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/naiwa_meme/naiwa-standing.png",
+      "width": 1142,
+      "height": 1498,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 658110
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/naiwa_meme/naiwa-thinking.png",
+      "width": 1538,
+      "height": 1514,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 1047246
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/video_frames/mfstream_t1.png",
+      "width": 1152,
+      "height": 1796,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 453784
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/video_frames/mfstream_t2.png",
+      "width": 1152,
+      "height": 1796,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 580081
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/video_frames/mfstream_t3.png",
+      "width": 1152,
+      "height": 1796,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 618838
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/video_frames/mfstream_t4.png",
+      "width": 1152,
+      "height": 1796,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 691291
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/video_frames/mfstream_t5.png",
+      "width": 1152,
+      "height": 1796,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 643428
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/video_frames/mfstream_t6.png",
+      "width": 1152,
+      "height": 1796,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 635400
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/video_frames/mfstream_t7.png",
+      "width": 1152,
+      "height": 1796,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 469512
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/video_frames/mfstream_t8.png",
+      "width": 1152,
+      "height": 1796,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 448936
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/video_frames/naiwalaugh_t1.png",
+      "width": 576,
+      "height": 1020,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 173746
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/video_frames/naiwalaugh_t2.png",
+      "width": 576,
+      "height": 1020,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 229703
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/video_frames/naiwalaugh_t3.png",
+      "width": 576,
+      "height": 1020,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 222114
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/video_frames/naiwalaugh_t4.png",
+      "width": 576,
+      "height": 1020,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 238425
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/video_frames/naiwalaugh_t5.png",
+      "width": 576,
+      "height": 1020,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 226958
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/video_frames/naiwalaugh_t6.png",
+      "width": 576,
+      "height": 1020,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 174090
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/xinye_variants/angel.jpg",
+      "width": 1440,
+      "height": 2560,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 41665
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/xinye_variants/apple.jpg",
+      "width": 408,
+      "height": 720,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 64314
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/xinye_variants/egg.jpg",
+      "width": 408,
+      "height": 720,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 43759
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/xinye_variants/glimpse.jpg",
+      "width": 408,
+      "height": 720,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 12775
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/xinye_variants/kid.jpg",
+      "width": 408,
+      "height": 720,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 31857
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/xinye_variants/meditation.jpg",
+      "width": 408,
+      "height": 720,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 9762
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/xinye_variants/og-image.jpg",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 135329
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/xinye_variants/police.jpg",
+      "width": 408,
+      "height": 720,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 36635
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/xinye_variants/rain.jpg",
+      "width": 408,
+      "height": 720,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 30734
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/xinye_variants/sad.jpg",
+      "width": 408,
+      "height": 720,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 21138
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/xinye_variants/turtle.jpg",
+      "width": 408,
+      "height": 720,
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "bytes": 11039
+    }
+  ],
+  "videos": [
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/naiwa_meme/naiwa-laugh.mp4",
+      "bytes": 958058,
+      "duration_seconds": 17.13,
+      "streams": [
+        "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 576x1020 [SAR 1:1 DAR 48:85], 346 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 91 kb/s (default)"
+      ],
+      "has_audio": true,
+      "audio_decode_exit_code": 0,
+      "mean_volume_db": "-9.7",
+      "max_volume_db": "0.0"
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/videos/glimpse.mp4",
+      "bytes": 2096584,
+      "duration_seconds": 17.47,
+      "streams": [
+        "Stream #0:0[0x1](eng): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 408x720, 836 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 116 kb/s (default)"
+      ],
+      "has_audio": true,
+      "audio_decode_exit_code": 0,
+      "mean_volume_db": "-11.2",
+      "max_volume_db": "-0.6"
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/videos/mf-stream.mp4",
+      "bytes": 17639670,
+      "duration_seconds": 17.5,
+      "streams": [
+        "Stream #0:0[0x1](eng): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1152x1796, 7717 kb/s, 24 fps, 24 tbr, 24k tbn (default)",
+        "Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 317 kb/s (default)"
+      ],
+      "has_audio": true,
+      "audio_decode_exit_code": 0,
+      "mean_volume_db": "-11.2",
+      "max_volume_db": "-0.3"
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/xinye_variant_videos/angel.mp4",
+      "bytes": 2136033,
+      "duration_seconds": 15.91,
+      "streams": [
+        "Stream #0:0[0x1](eng): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 408x720, 938 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)"
+      ],
+      "has_audio": true,
+      "audio_decode_exit_code": 0,
+      "mean_volume_db": "-10.9",
+      "max_volume_db": "-0.0"
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/xinye_variant_videos/apple.mp4",
+      "bytes": 5155827,
+      "duration_seconds": 13.8,
+      "streams": [
+        "Stream #0:0[0x1](eng): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 408x720, 2896 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 84 kb/s (default)"
+      ],
+      "has_audio": true,
+      "audio_decode_exit_code": 0,
+      "mean_volume_db": "-12.8",
+      "max_volume_db": "-0.2"
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/xinye_variant_videos/egg.mp4",
+      "bytes": 6622222,
+      "duration_seconds": 20.95,
+      "streams": [
+        "Stream #0:0[0x1](eng): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 408x720, 2392 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 130 kb/s (default)"
+      ],
+      "has_audio": true,
+      "audio_decode_exit_code": 0,
+      "mean_volume_db": "-12.7",
+      "max_volume_db": "0.0"
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/xinye_variant_videos/kid.mp4",
+      "bytes": 1972495,
+      "duration_seconds": 13.85,
+      "streams": [
+        "Stream #0:0[0x1](eng): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 408x720, 1003 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 129 kb/s (default)"
+      ],
+      "has_audio": true,
+      "audio_decode_exit_code": 0,
+      "mean_volume_db": "-21.2",
+      "max_volume_db": "-8.9"
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/xinye_variant_videos/meditation.mp4",
+      "bytes": 3464279,
+      "duration_seconds": 17.05,
+      "streams": [
+        "Stream #0:0[0x1](eng): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 408x720, 1497 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 121 kb/s (default)"
+      ],
+      "has_audio": true,
+      "audio_decode_exit_code": 0,
+      "mean_volume_db": "-11.5",
+      "max_volume_db": "0.0"
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/xinye_variant_videos/police.mp4",
+      "bytes": 4613831,
+      "duration_seconds": 12.74,
+      "streams": [
+        "Stream #0:0[0x1](eng): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 408x720, 2781 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 109 kb/s (default)"
+      ],
+      "has_audio": true,
+      "audio_decode_exit_code": 0,
+      "mean_volume_db": "-11.1",
+      "max_volume_db": "0.0"
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/xinye_variant_videos/rain.mp4",
+      "bytes": 3161682,
+      "duration_seconds": 15.02,
+      "streams": [
+        "Stream #0:0[0x1](eng): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 408x720, 1549 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 129 kb/s (default)"
+      ],
+      "has_audio": true,
+      "audio_decode_exit_code": 0,
+      "mean_volume_db": "-18.0",
+      "max_volume_db": "-1.6"
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/xinye_variant_videos/sad.mp4",
+      "bytes": 3880031,
+      "duration_seconds": 20.42,
+      "streams": [
+        "Stream #0:0[0x1](eng): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 408x720, 1384 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 129 kb/s (default)"
+      ],
+      "has_audio": true,
+      "audio_decode_exit_code": 0,
+      "mean_volume_db": "-13.3",
+      "max_volume_db": "0.0"
+    },
+    {
+      "path": "ArtSource/References/20260908_naiwa_assets/xinye_variant_videos/turtle.mp4",
+      "bytes": 818004,
+      "duration_seconds": 8.98,
+      "streams": [
+        "Stream #0:0[0x1](eng): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 408x720, 596 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 124 kb/s (default)"
+      ],
+      "has_audio": true,
+      "audio_decode_exit_code": 0,
+      "mean_volume_db": "-22.2",
+      "max_volume_db": "-2.5"
+    }
+  ],
+  "visual_sampling": {
+    "method": "Five evenly spaced samples per video at 5%, 25%, 50%, 75%, 95% of duration; not a full playback review",
+    "decoded_frame_count": 60,
+    "boards": [
+      "video_samples_1.jpg",
+      "video_samples_2.jpg"
+    ]
+  },
+  "blender_probe": {
+    "version": "5.1.1",
+    "background_bpy_execution": "passed",
+    "fbx_export_operator": "EXPORT_SCENE_OT_fbx",
+    "model_created": false,
+    "fbx_export_executed": false,
+    "unity_import_tested": false
+  }
+}
