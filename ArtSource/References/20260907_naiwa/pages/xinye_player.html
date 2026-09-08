@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:title" content="奶蛙 – 辛野">
+    <meta property="og:description" content="点一下就狂笑抽象魔性">
+    <meta property="og:image" content="https://xinyewebsite.com/games/milk-frog/og-image.jpg">
+    <meta property="og:url" content="https://xinyewebsite.com/games/milk-frog/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>奶蛙 – 辛野</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Roboto','Segoe UI',Arial,sans-serif;background-color:#f5f5f5;color:#202124;display:flex;justify-content:center;align-items:center;min-height:100vh;padding:20px}
+        #main{max-width:383px;width:100%;background-color:#fff;border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,.12),0 4px 6px rgba(0,0,0,.08);padding:20px;position:relative}
+        .top{text-align:center;margin-bottom:20px}
+        .top .name{font-size:28px;font-weight:500;color:#1a73e8;margin-bottom:15px}
+        .ctrl{display:block}
+        .video-container{position:relative;width:100%;padding-top:177.78%;border-radius:8px;overflow:hidden;background:#fff;margin-bottom:12px}
+        .video-container video{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover}
+        .btn-row{display:flex;gap:10px;margin-bottom:10px}
+        .toggle-btn, .more-btn{
+            flex: 1;
+            border-radius:8px;
+            padding:12px;
+            text-align:center;
+            cursor:pointer;
+            box-shadow:0 1px 3px rgba(0,0,0,.2);
+            transition:background-color .3s ease;
+            border:none;
+            font-size:14px;
+        }
+        .toggle-btn{background-color:#1a73e8;color:#fff;}
+        .toggle-btn:hover{background-color:#1765cc}
+        .more-btn{background-color:#34a853;color:#fff;}
+        .more-btn:hover{background-color:#2d9248}
+        .help{background-color:#f8f9fa;border-radius:8px;padding:15px;margin-top:20px;border:1px solid #dadce0}
+        .help .title{font-size:18px;font-weight:500;color:#1a73e8;margin-bottom:10px}
+        .help .content{font-size:14px;color:#5f6368;line-height:1.5}
+        .float-btn{position:fixed;bottom:20px;right:20px;background-color:#1a73e8;color:#fff;width:40px;height:40px;border-radius:50%;display:flex;justify-content:center;align-items:center;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.2);transition:background-color .3s ease;opacity:0;visibility:hidden;font-size:18px}
+        .float-btn.show{opacity:1;visibility:hidden}
+        .toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background-color:#3c4043;color:#fff;padding:10px 20px;border-radius:4px;opacity:0;visibility:hidden;transition:opacity .3s ease,visibility .3s ease;font-size:14px}
+        .toast.show{opacity:1;visibility:visible}
+        .modal{position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:999;display:flex;align-items:center;justify-content:center;padding:15px;opacity:0;visibility:hidden;transition:0.3s}
+        .modal.show{opacity:1;visibility:visible}
+        .modal-box{width:100%;max-width:350px;background:#fff;border-radius:12px;padding:15px;max-height:80vh;overflow-y:auto}
+        .modal-title{font-size:18px;text-align:center;margin-bottom:15px;font-weight:500;color:#202124}
+
+        .group-wrap{margin-bottom:18px;}
+        .group-title{
+            font-size:15px;
+            color:#1a73e8;
+            font-weight:500;
+            margin-bottom:10px;
+            padding-left:4px;
+            border-left:3px solid #1a73e8;
+        }
+        .item-group{
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            gap:12px;
+        }
+
+        .video-item{cursor:pointer;border-radius:8px;overflow:hidden;border:1px solid #eee}
+        .item-img{width:100%;aspect-ratio:9/16;object-fit:cover;display:block}
+        .item-text{text-align:center;font-size:13px;padding:6px;color:#5f6368;background:#f8f9fa}
+        .close-modal{margin-top:15px;width:100%;padding:10px;border:none;background:#eee;border-radius:8px;cursor:pointer;font-size:14px}
+    </style>
+    <script src="https://xinyewebsite.com/xinye-dark-mode.js?ver=1.0.0"></script>
+<script>
+window.xinyeDarkMode.auto();
+</script>
+</head>
+<body>
+    <div id="main">
+        <div class="top">
+            <div class="name">奶蛙</div>
+        </div>
+        <div class="ctrl">
+            <div class="video-container">
+                <video id="videoPlayer" 
+                       src="video/glimpse.mp4" 
+                       poster="image/glimpse.jpg" 
+                       playsinline></video>
+            </div>
+            <div class="btn-row">
+                <button class="toggle-btn" id="toggleBtn">♻️ 循环</button>
+                <button class="more-btn" id="moreBtn">💡 更多</button>
+            </div>
+        </div>
+        <div class="help">
+            <div class="title">使用帮助</div>
+            <div class="content">
+                点击按钮切换循环／停止，点击更多切换不同奶蛙版本。
+            </div>
+        </div>
+        <a href="https://xinyewebsite.com/" style="text-decoration: underline; display: block; text-align: center; margin-top: 15px; color: #1a73e8; font-weight: 500;">辛野</a>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-box">
+            <div class="modal-title">💡 更多</div>
+
+            <div class="group-wrap">
+                <div class="group-title">动作</div>
+                <div class="item-group">
+                    <div class="video-item" 
+                         data-src="video/glimpse.mp4" 
+                         data-poster="image/glimpse.jpg"
+                         data-tip="惊鸿一瞥">
+                        <img class="item-img" src="image/glimpse.jpg" alt="">
+                        <div class="item-text">惊鸿一瞥</div>
+                    </div>
+                    <div class="video-item" 
+                         data-src="video/meditation.mp4" 
+                         data-poster="image/meditation.jpg"
+                         data-tip="嘘">
+                        <img class="item-img" src="image/meditation.jpg" alt="">
+                        <div class="item-text">嘘</div>
+                    </div>
+                    <div class="video-item" 
+                         data-src="video/angel.mp4" 
+                         data-poster="image/angel.jpg"
+                         data-tip="虔诚">
+                        <img class="item-img" src="image/angel.jpg" alt="">
+                        <div class="item-text">虔诚</div>
+                    </div>
+                    <div class="video-item" 
+                         data-src="video/turtle.mp4" 
+                         data-poster="image/turtle.jpg"
+                         data-tip="龟速前进">
+                        <img class="item-img" src="image/turtle.jpg" alt="">
+                        <div class="item-text">龟速前进</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group-wrap">
+                <div class="group-title">场景</div>
+                <div class="item-group">
+                    <div class="video-item" 
+                         data-src="video/sad.mp4" 
+                         data-poster="image/sad.jpg"
+                         data-tip="负蛙">
+                        <img class="item-img" src="image/sad.jpg" alt="">
+                        <div class="item-text">负蛙</div>
+                    </div>
+                    <div class="video-item" 
+                         data-src="video/egg.mp4" 
+                         data-poster="image/egg.jpg"
+                         data-tip="破壳">
+                        <img class="item-img" src="image/egg.jpg" alt="">
+                        <div class="item-text">破壳</div>
+                    </div>
+                    <div class="video-item" 
+                         data-src="video/police.mp4" 
+                         data-poster="image/police.jpg"
+                         data-tip="相视一笑">
+                        <img class="item-img" src="image/police.jpg" alt="">
+                        <div class="item-text">相视一笑</div>
+                    </div>
+                    <div class="video-item" 
+                         data-src="video/apple.mp4" 
+                         data-poster="image/apple.jpg"
+                         data-tip="万有引力">
+                        <img class="item-img" src="image/apple.jpg" alt="">
+                        <div class="item-text">万有引力</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group-wrap">
+                <div class="group-title">陪伴</div>
+                <div class="item-group">
+                    <div class="video-item" 
+                         data-src="video/rain.mp4" 
+                         data-poster="image/rain.jpg"
+                         data-tip="蛙不易">
+                        <img class="item-img" src="image/rain.jpg" alt="">
+                        <div class="item-text">蛙不易</div>
+                    </div>
+                    <div class="video-item" 
+                         data-src="video/kid.mp4" 
+                         data-poster="image/kid.jpg"
+                         data-tip="忧郁童年">
+                        <img class="item-img" src="image/kid.jpg" alt="">
+                        <div class="item-text">忧郁童年</div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="close-modal" id="closeModal">取消</button>
+        </div>
+    </div>
+
+    <div class="float-btn" onclick="scrollToTop()">↑</div>
+    <div class="toast" id="toast"></div>
+
+    <script>
+        const video = document.getElementById('videoPlayer');
+        const toggleBtn = document.getElementById('toggleBtn');
+        const moreBtn = document.getElementById('moreBtn');
+        const modal = document.getElementById('modal');
+        const closeModal = document.getElementById('closeModal');
+        const videoItems = document.querySelectorAll('.video-item');
+        let isPlaying = false;
+
+        function togglePlay(){
+            if(isPlaying){
+                video.pause();
+                video.currentTime = 0;
+                toggleBtn.textContent = '♻️ 循环';
+                showToast('🛑 停止');
+            }else{
+                video.loop = true;
+                video.play();
+                toggleBtn.textContent = '🛑 停止';
+                showToast('♻️ 循环');
+            }
+            isPlaying = !isPlaying;
+        }
+        toggleBtn.addEventListener('click', togglePlay);
+
+        moreBtn.addEventListener('click',()=> modal.classList.add('show'));
+        closeModal.addEventListener('click',()=> modal.classList.remove('show'));
+
+        videoItems.forEach(item=>{
+            item.addEventListener('click',function(){
+                const src = this.dataset.src;
+                const poster = this.dataset.poster;
+                const tip = this.dataset.tip;
+                video.src = src;
+                video.poster = poster;
+                video.load();
+                video.pause();
+                video.currentTime = 0;
+                isPlaying = false;
+                toggleBtn.textContent = '♻️ 循环';
+                modal.classList.remove('show');
+                showToast(tip);
+            })
+        })
+
+        function showToast(message){
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.classList.add('show');
+            setTimeout(()=>toast.classList.remove('show'),2000);
+        }
+        function scrollToTop(){window.scrollTo({top:0,behavior:'smooth'})}
+    </script>
+    <!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//xinyewebsite.com/matomo/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</body>
+</html>

@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="zh" data-lang="zh">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>奶蛙 Milky Frog — 点一下就狂笑</title>
+<meta name="description" content="奶蛙 — 互联网最魔性的笑声。100w+ 用户的快乐制造机,现已上架 App Store。" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=JetBrains+Mono:wght@500;600&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ============================================
+     NAVBAR
+     ============================================ -->
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a href="#" class="nav-logo">
+      <span class="logo-mark"><img src="assets/mf-logo.png" alt="奶蛙" /></span>
+      <span class="lang-cn">奶蛙</span><span class="lang-en">Milky Frog</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#character"><span class="lang-cn">角色</span><span class="lang-en">Character</span></a>
+      <a href="#moods"><span class="lang-cn">表情图鉴</span><span class="lang-en">Moods</span></a>
+      <a href="#app"><span class="lang-cn">App</span><span class="lang-en">App</span></a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang-toggle" role="group" aria-label="语言切换">
+        <button data-lang="zh" class="active">中</button>
+        <button data-lang="en">EN</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============================================
+     HERO
+     ============================================ -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-deco d1">HA</div>
+    <div class="hero-deco d2">HA</div>
+
+    <div class="hero-grid">
+      <div class="hero-left">
+        <div class="hero-eyebrow">
+          <span class="dot"></span>
+          <span class="lang-cn">App Store 音乐榜热门 · 百万用户在笑</span>
+          <span class="lang-en">App Store Music · Loved by millions</span>
+        </div>
+
+        <h1 class="hero-title">
+          <span class="lang-cn">点一下,<br />就<span class="accent">狂笑</span>。</span>
+          <span class="lang-en">Tap once.<br />Laugh <span class="accent">forever</span>.</span>
+        </h1>
+
+        <p class="hero-sub">
+          <span class="lang-cn">奶蛙站在那里,安安静静。你点了它一下——它开始狂笑。捧腹、颤抖、喘不上气,笑到整个身体都在发抖。</span>
+          <span class="lang-en">Milky Frog just stands there, quietly. You tap it once — and it starts laughing. Trembling, gasping, the most infectious laugh on the internet.</span>
+        </p>
+
+        <div class="hero-cta">
+          <a href="https://apps.apple.com/cn/app/id6761310915" target="_blank" rel="noopener" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 12.04c-.02-2.36 1.93-3.5 2.02-3.55-1.1-1.62-2.82-1.84-3.43-1.86-1.46-.15-2.85.86-3.59.86-.75 0-1.89-.84-3.1-.82-1.6.02-3.07.93-3.89 2.36-1.66 2.88-.42 7.13 1.19 9.46.79 1.14 1.72 2.42 2.94 2.37 1.18-.05 1.63-.76 3.05-.76 1.42 0 1.82.76 3.07.74 1.27-.02 2.07-1.15 2.84-2.3.9-1.32 1.27-2.6 1.29-2.67-.03-.01-2.46-.94-2.49-3.73zM14.86 5.34c.65-.79 1.09-1.89.97-2.98-.94.04-2.08.62-2.75 1.41-.6.7-1.13 1.82-.99 2.9 1.05.08 2.12-.53 2.77-1.33z"/></svg>
+            <span><span class="lang-cn">App Store 下载</span><span class="lang-en">Download on App Store</span></span>
+            <span class="arrow">→</span>
+          </a>
+          <a href="#app" class="btn btn-secondary">
+            <span class="lang-cn">看看奶蛙怎么笑</span>
+            <span class="lang-en">See it laugh</span>
+            <span class="arrow">↓</span>
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="num num-text"><span class="lang-cn">百万</span><span class="lang-en">Millions</span></div>
+            <div class="label"><span class="lang-cn">全球用户</span><span class="lang-en">of users</span></div>
+          </div>
+          <div class="hero-stat">
+            <div class="num">4.7★</div>
+            <div class="label"><span class="lang-cn">App Store 评分</span><span class="lang-en">Rating</span></div>
+          </div>
+          <div class="hero-stat">
+            <div class="num num-text"><span class="lang-cn">无广告</span><span class="lang-en">Zero ads</span></div>
+            <div class="label"><span class="lang-cn">不收数据 · 不打扰</span><span class="lang-en">No tracking · no noise</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- right: phone with tappable frog -->
+      <div class="hero-phone-wrap">
+        <div class="phone" aria-label="奶蛙交互演示">
+          <div class="phone-screen" id="frogScreen" role="button" tabindex="0" aria-label="点击让奶蛙狂笑">
+            <div class="frog-stage">
+              <video
+                id="frogVideo"
+                class="frog-video"
+                src="assets/mf-stream-7b3f29d1c8.mp4"
+                playsinline
+                webkit-playsinline
+                muted
+                preload="auto"
+                controlsList="nodownload noplaybackrate noremoteplayback"
+                disablePictureInPicture
+                disableRemotePlayback
+                oncontextmenu="return false"
+              ></video>
+              <div class="video-shield" oncontextmenu="return false"></div>
+            </div>
+            <span class="haha">哈哈哈</span>
+            <span class="haha">HAHA</span>
+            <span class="haha">嘎嘎嘎</span>
+            <span class="haha">啊哈哈</span>
+          </div>
+          <!-- control bar lives INSIDE the phone screen -->
+          <div class="phone-controls">
+            <button type="button" class="pc-btn pc-loop" id="loopBtn" aria-pressed="false">
+              <span class="pc-icon">♻️</span>
+              <span class="pc-label pc-label-off"><span class="lang-cn">循环大笑</span><span class="lang-en">Loop laugh</span></span>
+              <span class="pc-label pc-label-on"><span class="lang-cn">🚫 禁止喧哗</span><span class="lang-en">🚫 Quiet, please</span></span>
+            </button>
+            <button type="button" class="pc-btn pc-play" id="playBtn">
+              <span class="pc-icon" aria-hidden="true">▶</span>
+              <span class="pc-label"><span class="lang-cn">大笑一下</span><span class="lang-en">Make him laugh</span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     TICKER
+     ============================================ -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span>哈哈哈哈哈</span><span>MILKY FROG</span><span>点一下就够了</span><span>HAHAHA</span><span>赛博诵经</span><span>笑到发抖</span>
+    <span>哈哈哈哈哈</span><span>MILKY FROG</span><span>点一下就够了</span><span>HAHAHA</span><span>赛博诵经</span><span>笑到发抖</span>
+  </div>
+</div>
+
+<!-- ============================================
+     CHARACTER
+     ============================================ -->
+<section class="section character" id="character">
+  <div class="wrap">
+    <div class="section-eyebrow">
+      <span class="lang-cn">/ 角色档案</span><span class="lang-en">/ Character File</span>
+    </div>
+    <h2 class="section-title">
+      <span class="lang-cn">他是一只<span class="accent-y">圆滚滚</span>的、<br />笑起来停不下来的蛙。</span>
+      <span class="lang-en">A round little frog<br />who simply <span class="accent-y">cannot</span> stop laughing.</span>
+    </h2>
+    <p class="section-lead">
+      <span class="lang-cn">奶蛙没什么大事要说,也不讲什么道理。他唯一会做的就是——你点他一下,他就笑给你看。捧着肚子笑、抖着身子笑、笑到喘不上气、最后笑晕过去。是互联网时代的电子木鱼,也是你口袋里的快乐制造机。</span>
+      <span class="lang-en">Milky Frog has nothing important to say. The only thing he does is laugh — when you tap him. Belly-clutching, full-body-shaking, can't-catch-his-breath laughter. He's a cyber wooden fish, a pocket-sized joy generator for the internet age.</span>
+    </p>
+
+    <div class="character-grid">
+      <div class="character-portrait">
+        <span class="corner-tag">MILKY FROG</span>
+        <span class="corner-id">N°001</span>
+        <img src="assets/milkyfrog-hero.png" alt="奶蛙肖像" />
+      </div>
+
+      <div>
+        <div class="traits">
+          <div class="trait">
+            <div class="trait-label"><span class="lang-cn">物种</span><span class="lang-en">Species</span></div>
+            <div class="trait-value"><span class="lang-cn">奶系蛙</span><span class="lang-en">Milky Frog</span></div>
+          </div>
+          <div class="trait">
+            <div class="trait-label"><span class="lang-cn">技能</span><span class="lang-en">Skill</span></div>
+            <div class="trait-value"><span class="lang-cn">狂笑不止</span><span class="lang-en">Endless laughter</span></div>
+          </div>
+          <div class="trait">
+            <div class="trait-label"><span class="lang-cn">性格</span><span class="lang-en">Vibe</span></div>
+            <div class="trait-value"><span class="lang-cn">魔性 / 抽象</span><span class="lang-en">Chaotic & cute</span></div>
+          </div>
+          <div class="trait">
+            <div class="trait-label"><span class="lang-cn">栖息地</span><span class="lang-en">Habitat</span></div>
+            <div class="trait-value"><span class="lang-cn">你的屏幕里</span><span class="lang-en">Inside your phone</span></div>
+          </div>
+          <div class="trait">
+            <div class="trait-label"><span class="lang-cn">口头禅</span><span class="lang-en">Catchphrase</span></div>
+            <div class="trait-value"><span class="lang-cn">"哈哈哈哈"</span><span class="lang-en">"HAHAHAHA"</span></div>
+          </div>
+          <div class="trait">
+            <div class="trait-label"><span class="lang-cn">使命</span><span class="lang-en">Mission</span></div>
+            <div class="trait-value"><span class="lang-cn">让你也笑</span><span class="lang-en">Make you laugh too</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     APP
+     ============================================ -->
+<section class="section app" id="app">
+  <div class="wrap">
+    <div class="app-head">
+      <div>
+        <div class="section-eyebrow">
+          <span class="lang-cn">/ App 介绍</span><span class="lang-en">/ The App</span>
+        </div>
+        <h2 class="section-title">
+          <span class="lang-cn">一个 App,<br />只做一件事:<br /><span class="accent-y">让你笑出声</span>。</span>
+          <span class="lang-en">One app.<br />One job.<br /><span class="accent-y">Make you laugh out loud.</span></span>
+        </h2>
+      </div>
+      <div class="app-download">
+        <a href="https://apps.apple.com/cn/app/id6761310915" target="_blank" rel="noopener" class="appstore-btn">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 12.04c-.02-2.36 1.93-3.5 2.02-3.55-1.1-1.62-2.82-1.84-3.43-1.86-1.46-.15-2.85.86-3.59.86-.75 0-1.89-.84-3.1-.82-1.6.02-3.07.93-3.89 2.36-1.66 2.88-.42 7.13 1.19 9.46.79 1.14 1.72 2.42 2.94 2.37 1.18-.05 1.63-.76 3.05-.76 1.42 0 1.82.76 3.07.74 1.27-.02 2.07-1.15 2.84-2.3.9-1.32 1.27-2.6 1.29-2.67-.03-.01-2.46-.94-2.49-3.73zM14.86 5.34c.65-.79 1.09-1.89.97-2.98-.94.04-2.08.62-2.75 1.41-.6.7-1.13 1.82-.99 2.9 1.05.08 2.12-.53 2.77-1.33z"/></svg>
+          <div class="meta">
+            <span class="small"><span class="lang-cn">下载于</span><span class="lang-en">Download on</span></span>
+            <span class="big">App Store</span>
+          </div>
+        </a>
+        <div class="rating">
+          <span class="stars">★★★★★</span>
+          <span><span class="lang-cn">4.7 / 5 · 4,662 评分</span><span class="lang-en">4.7 / 5 · 4,662 ratings</span></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="feature-grid">
+      <div class="feature">
+        <div class="feature-num">/ 01</div>
+        <div class="feature-icon">
+          <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+            <circle cx="32" cy="32" r="28" fill="#FFD83D" stroke="#1A1612" stroke-width="2.5"/>
+            <circle cx="32" cy="32" r="6" fill="#1A1612"/>
+            <path d="M32 8 L32 14 M50 14 L46 18 M14 14 L18 18 M56 32 L50 32 M8 32 L14 32 M50 50 L46 46 M14 50 L18 46 M32 56 L32 50" stroke="#1A1612" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3 class="feature-title"><span class="lang-cn">点击即笑</span><span class="lang-en">Tap to laugh</span></h3>
+        <p class="feature-desc">
+          <span class="lang-cn">点一下奶蛙,看它当场发疯。播放中再点,从头再来。电子木鱼,赛博诵经。</span>
+          <span class="lang-en">Tap him once, watch him lose it. Tap again to reset. A cyber wooden fish for the chronically online.</span>
+        </p>
+      </div>
+
+      <div class="feature f-yellow">
+        <div class="feature-num">/ 02</div>
+        <div class="feature-icon">
+          <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+            <path d="M14 32a18 18 0 1 1 18 18" stroke="#1A1612" stroke-width="3" stroke-linecap="round"/>
+            <path d="M32 50l-6-6 m6 6 l-6 6" stroke="#1A1612" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M50 32a18 18 0 0 1-4 11.4" stroke="#1A1612" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 5"/>
+          </svg>
+        </div>
+        <h3 class="feature-title"><span class="lang-cn">循环大笑</span><span class="lang-en">Endless loop</span></h3>
+        <p class="feature-desc">
+          <span class="lang-cn">开启循环模式,奶蛙永不停歇。适合在群聊里精神输出,也适合一个人反复洗脑。</span>
+          <span class="lang-en">Loop mode on — Milky Frog never stops. Perfect for group chat carnage or solo brainwashing.</span>
+        </p>
+      </div>
+
+      <div class="feature f-dark">
+        <div class="feature-num">/ 03</div>
+        <div class="feature-icon">
+          <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+            <rect x="8" y="20" width="48" height="32" rx="6" stroke="#FFD83D" stroke-width="2.5"/>
+            <path d="M8 28h48" stroke="#FFD83D" stroke-width="2.5"/>
+            <circle cx="16" cy="24" r="1.5" fill="#FFD83D"/>
+            <circle cx="22" cy="24" r="1.5" fill="#FFD83D"/>
+            <path d="M22 38l8 6 12-12" stroke="#FFD83D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3 class="feature-title"><span class="lang-cn">无广告 · 极简</span><span class="lang-en">No ads · feather-light</span></h3>
+        <p class="feature-desc">
+          <span class="lang-cn">不收数据、无广告、不打扰。打开就笑,合上就走。极简到只剩快乐本身。</span>
+          <span class="lang-en">No data collection. No ads. Just a frog and a laugh. The most minimal joy on your home screen.</span>
+        </p>
+      </div>
+    </div>
+
+    <!-- reviews -->
+    <div class="reviews">
+      <div class="review-head">
+        <h3><span class="lang-cn">用户怎么说</span><span class="lang-en">What users say</span></h3>
+        <div class="meta">
+          <span class="lang-cn">App Store · 4,662 条评分中的精选</span>
+          <span class="lang-en">Highlights from 4,662 App Store reviews</span>
+        </div>
+      </div>
+      <div class="review-grid">
+        <div class="review">
+          <div class="review-stars">★★★★★</div>
+          <div class="review-title"><span class="lang-cn">很好玩</span><span class="lang-en">So fun</span></div>
+          <p class="review-body">
+            <span class="lang-cn">"现实生活中谁不想下一个奶蛙软件,一打开就能让奶蛙放声大笑啊。"</span>
+            <span class="lang-en">"Who wouldn't want a frog that bursts out laughing the second you open the app?"</span>
+          </p>
+          <div class="review-author">— 我爱奶龙</div>
+        </div>
+        <div class="review">
+          <div class="review-stars">★★★★★</div>
+          <div class="review-title"><span class="lang-cn">非常雷霆</span><span class="lang-en">Pure thunder</span></div>
+          <p class="review-body">
+            <span class="lang-cn">"加载完之后非常雷霆地点开,开始循环播放雷霆笑声,跟着笑的这辈子有了。"</span>
+            <span class="lang-en">"Opened it, hit loop, started laughing along — best decision of my life."</span>
+          </p>
+          <div class="review-author">— 猛踹瘸子那条好腿</div>
+        </div>
+        <div class="review">
+          <div class="review-stars">★★★★★</div>
+          <div class="review-title"><span class="lang-cn">非常的美味😋</span><span class="lang-en">Delicious 😋</span></div>
+          <p class="review-body">
+            <span class="lang-cn">"诶呦我去太带派了,看到这个奶蛙释怀了,作者也是必须给我多做点好吧。"</span>
+            <span class="lang-en">"This is so peak. Watching Milky Frog, I am at peace. Author, please make more."</span>
+          </p>
+          <div class="review-author">— 逍遥GG</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     MOODS / GALLERY
+     ============================================ -->
+<section class="section moods" id="moods">
+  <div class="wrap">
+    <div class="section-eyebrow">
+      <span class="lang-cn">/ 表情图鉴</span><span class="lang-en">/ Mood Gallery</span>
+    </div>
+    <h2 class="section-title">
+      <span class="lang-cn">奶蛙的<span class="accent-y">一百种</span><br />打开方式。</span>
+      <span class="lang-en">A hundred ways to<br /><span class="accent-y">be</span> Milky Frog.</span>
+    </h2>
+    <p class="section-lead">
+      <span class="lang-cn">他会瘫、会笑、会摆造型、会偶尔正经一下。每一个动作都是奶蛙,每一个奶蛙都很奶蛙。</span>
+      <span class="lang-en">He sprawls, laughs, poses, and occasionally pretends to be serious. Every move is Milky Frog. Every Milky Frog is very Milky Frog.</span>
+    </p>
+
+    <div class="mood-grid">
+      <div class="mood-card mood-1">
+        <img src="assets/mf-pose-lying.png" alt="趴着的奶蛙" />
+        <div class="mood-meta">
+          <span class="mood-num">N°02</span>
+          <span class="mood-name"><span class="lang-cn">他只是经过</span><span class="lang-en">Just passing by</span></span>
+        </div>
+      </div>
+      <div class="mood-card mood-2">
+        <img src="assets/mf-pose-belly.png" alt="挺肚子的奶蛙" />
+        <div class="mood-meta">
+          <span class="mood-num">N°03</span>
+          <span class="mood-name"><span class="lang-cn">大肚自信</span><span class="lang-en">Belly Pride</span></span>
+        </div>
+      </div>
+      <div class="mood-card mood-3">
+        <img src="assets/mf-pose-rolling.png" alt="笑到打滚的奶蛙" />
+        <div class="mood-meta">
+          <span class="mood-num">N°04</span>
+          <span class="mood-name"><span class="lang-cn">笑到打滚</span><span class="lang-en">Rolling Laugh</span></span>
+        </div>
+      </div>
+      <div class="mood-card mood-4">
+        <img src="assets/mf-pose-wave.png" alt="打招呼的奶蛙" />
+        <div class="mood-meta">
+          <span class="mood-num">N°05</span>
+          <span class="mood-name"><span class="lang-cn">你好呀</span><span class="lang-en">Hi there</span></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="moods-foot">
+      <p>
+        <span class="lang-cn">还有更多表情包正在路上 —— 想第一时间收到?去 App Store 下载奶蛙吧。</span>
+        <span class="lang-en">More moods on the way. Want them first? Get the app.</span>
+      </p>
+      <a href="https://apps.apple.com/cn/app/id6761310915" target="_blank" rel="noopener" class="btn btn-primary">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 12.04c-.02-2.36 1.93-3.5 2.02-3.55-1.1-1.62-2.82-1.84-3.43-1.86-1.46-.15-2.85.86-3.59.86-.75 0-1.89-.84-3.1-.82-1.6.02-3.07.93-3.89 2.36-1.66 2.88-.42 7.13 1.19 9.46.79 1.14 1.72 2.42 2.94 2.37 1.18-.05 1.63-.76 3.05-.76 1.42 0 1.82.76 3.07.74 1.27-.02 2.07-1.15 2.84-2.3.9-1.32 1.27-2.6 1.29-2.67-.03-.01-2.46-.94-2.49-3.73zM14.86 5.34c.65-.79 1.09-1.89.97-2.98-.94.04-2.08.62-2.75 1.41-.6.7-1.13 1.82-.99 2.9 1.05.08 2.12-.53 2.77-1.33z"/></svg>
+        <span><span class="lang-cn">去 App Store</span><span class="lang-en">Open App Store</span></span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     LEGACY-REMOVED business section kept hidden for now
+     ============================================ -->
+<section class="section business" id="business" hidden style="display:none">
+  <div class="wrap">
+    <div class="section-eyebrow">
+      <span class="lang-cn">/ 商务合作</span><span class="lang-en">/ For Business</span>
+    </div>
+    <h2 class="section-title">
+      <span class="lang-cn">把奶蛙,<br />带去更多地方。</span>
+      <span class="lang-en">Take Milky Frog<br />to more places.</span>
+    </h2>
+    <p class="section-lead">
+      <span class="lang-cn">奶蛙现已在多个国家完成 IP 版权登记。无论是品牌联名、内容合作、还是周边授权,我们都很想和你聊聊。</span>
+      <span class="lang-en">Milky Frog is a copyrighted IP in 12+ countries. We're open to brand collabs, content partnerships, and merchandise licensing — let's talk.</span>
+    </p>
+
+    <div class="biz-grid">
+      <a href="mailto:hello@milkyfrog.app?subject=IP%20Licensing" class="biz-card">
+        <div class="biz-tag">/ 01 — Licensing</div>
+        <h3><span class="lang-cn">IP 授权</span><span class="lang-en">IP Licensing</span></h3>
+        <p>
+          <span class="lang-cn">把奶蛙印在你的产品上 —— 服饰、文具、玩具、食品、数码周边。我们提供成熟的形象包。</span>
+          <span class="lang-en">Bring Milky Frog to your products — apparel, stationery, toys, snacks, gadgets. Full brand pack available.</span>
+        </p>
+        <span class="biz-link"><span class="lang-cn">写邮件聊聊</span><span class="lang-en">Get in touch</span><span class="arrow">→</span></span>
+      </a>
+
+      <a href="mailto:hello@milkyfrog.app?subject=Brand%20Collab" class="biz-card">
+        <div class="biz-tag">/ 02 — Collab</div>
+        <h3><span class="lang-cn">品牌联名</span><span class="lang-en">Brand Collab</span></h3>
+        <p>
+          <span class="lang-cn">联名礼盒、限定包装、活动现场、社交媒体内容共创 —— 用奶蛙的笑声给你的品牌加点抽象。</span>
+          <span class="lang-en">Limited boxes, co-branded packaging, live activations, social content — add a little chaos to your brand.</span>
+        </p>
+        <span class="biz-link"><span class="lang-cn">写邮件聊聊</span><span class="lang-en">Get in touch</span><span class="arrow">→</span></span>
+      </a>
+
+      <a href="mailto:hello@milkyfrog.app?subject=Content" class="biz-card">
+        <div class="biz-tag">/ 03 — Content</div>
+        <h3><span class="lang-cn">内容合作</span><span class="lang-en">Content & Media</span></h3>
+        <p>
+          <span class="lang-cn">表情包、贴纸、短视频内容、动画短片 —— 让奶蛙在你需要的平台上继续狂笑。</span>
+          <span class="lang-en">Stickers, emoji packs, short videos, animation — keep Milky Frog laughing wherever your audience lives.</span>
+        </p>
+        <span class="biz-link"><span class="lang-cn">写邮件聊聊</span><span class="lang-en">Get in touch</span><span class="arrow">→</span></span>
+      </a>
+
+      <a href="mailto:press@milkyfrog.app?subject=Press" class="biz-card">
+        <div class="biz-tag">/ 04 — Press</div>
+        <h3><span class="lang-cn">媒体采访</span><span class="lang-en">Press & Media</span></h3>
+        <p>
+          <span class="lang-cn">想了解奶蛙背后的创作故事?想做一期报道?发邮件给我们,我们提供素材包和创作者采访。</span>
+          <span class="lang-en">Curious about the creator behind the laugh? Drop us a line — media kit & interviews available.</span>
+        </p>
+        <span class="biz-link"><span class="lang-cn">写邮件聊聊</span><span class="lang-en">Get in touch</span><span class="arrow">→</span></span>
+      </a>
+    </div>
+
+    <div class="copyright-strip">
+      <div>© naiwa 2026. <span class="lang-cn">奶蛙形象及名称为已注册版权资产。</span><span class="lang-en">Milky Frog character & name are registered IP assets.</span></div>
+      <div class="certs">
+        <span>CN</span><span>US</span><span>JP</span><span>KR</span><span>EU</span><span>+8</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     FOOTER
+     ============================================ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo-mark"><img src="assets/mf-logo.png" alt="奶蛙" /></div>
+        <div class="blurb">
+          <span class="lang-cn">奶蛙 · 互联网最魔性的笑声。一只圆滚滚的蛙,负责让你笑出声。</span>
+          <span class="lang-en">Milky Frog — the most infectious laugh on the internet. One round little frog, one job.</span>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4><span class="lang-cn">产品</span><span class="lang-en">Product</span></h4>
+        <ul>
+          <li><a href="https://apps.apple.com/cn/app/id6761310915" target="_blank" rel="noopener">iOS App</a></li>
+          <li><a href="#"><span class="lang-cn">Android(即将上线)</span><span class="lang-en">Android (soon)</span></a></li>
+          <li><a href="#"><span class="lang-cn">表情包</span><span class="lang-en">Stickers</span></a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4><span class="lang-cn">关于</span><span class="lang-en">About</span></h4>
+        <ul>
+          <li><a href="#character"><span class="lang-cn">奶蛙是谁</span><span class="lang-en">Who is Milky Frog</span></a></li>
+          <li><a href="#moods"><span class="lang-cn">表情图鉴</span><span class="lang-en">Moods</span></a></li>
+          <li><a href="https://windream.super.site/naiwa/privacy-policy" target="_blank" rel="noopener"><span class="lang-cn">隐私政策</span><span class="lang-en">Privacy</span></a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4><span class="lang-cn">关注</span><span class="lang-en">Follow</span></h4>
+        <ul>
+          <li><a href="#"><span class="lang-cn">微博</span><span class="lang-en">Weibo</span></a></li>
+          <li><a href="#"><span class="lang-cn">小红书</span><span class="lang-en">RED</span></a></li>
+          <li><a href="#"><span class="lang-cn">抖音</span><span class="lang-en">Douyin</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 naiwa · <span class="lang-cn">保留所有权利</span><span class="lang-en">All rights reserved</span></div>
+      <div><span class="lang-cn">Made with 😂 in 2026</span><span class="lang-en">Made with 😂 in 2026</span></div>
+    </div>
+  </div>
+</footer>
+
+<script>
+(() => {
+  // —— Language toggle ——
+  const html = document.documentElement;
+  const buttons = document.querySelectorAll('.lang-toggle button');
+  const setLang = (lang) => {
+    html.setAttribute('lang', lang);
+    html.setAttribute('data-lang', lang);
+    buttons.forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+    try { localStorage.setItem('mf-lang', lang); } catch(e) {}
+  };
+  buttons.forEach(b => b.addEventListener('click', () => setLang(b.dataset.lang)));
+  try {
+    const saved = localStorage.getItem('mf-lang');
+    if (saved) setLang(saved);
+  } catch(e) {}
+
+  // —— Nav shadow on scroll ——
+  const nav = document.getElementById('nav');
+  const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 8);
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  // —— Frog laughing interaction ——
+  const screen = document.getElementById('frogScreen');
+  const video = document.getElementById('frogVideo');
+  const loopBtn = document.getElementById('loopBtn');
+  const playBtn = document.getElementById('playBtn');
+
+  // Force the first frame to display as a "poster" once metadata is ready
+  const showFirstFrame = () => {
+    try { video.currentTime = 0.01; } catch(e) {}
+  };
+  if (video.readyState >= 1) showFirstFrame();
+  else video.addEventListener('loadedmetadata', showFirstFrame, { once: true });
+
+  let isLooping = false;
+  const setLooping = (on) => {
+    isLooping = on;
+    video.loop = on;
+    loopBtn.classList.toggle('on', on);
+    loopBtn.setAttribute('aria-pressed', on ? 'true' : 'false');
+  };
+
+  const play = () => {
+    screen.classList.add('laughing');
+    video.muted = false;
+    try { video.currentTime = 0; } catch(e) {}
+    const p = video.play();
+    if (p && p.catch) p.catch(() => {
+      // autoplay blocked unmuted — fall back to muted
+      video.muted = true;
+      video.play().catch(() => {});
+    });
+  };
+  const stop = () => {
+    setLooping(false);
+    video.pause();
+    try { video.currentTime = 0.01; } catch(e) {}
+    screen.classList.remove('laughing');
+  };
+
+  // click anywhere on the video / phone screen -> single play (or stop if looping)
+  screen.addEventListener('click', () => {
+    if (isLooping) { stop(); return; }
+    play();
+  });
+  screen.addEventListener('keydown', (e) => {
+    if (e.key === ' ' || e.key === 'Enter') {
+      e.preventDefault();
+      if (isLooping) stop(); else play();
+    }
+  });
+
+  // single-shot play button
+  playBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (isLooping) setLooping(false);
+    play();
+  });
+
+  // loop toggle button
+  loopBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (isLooping) {
+      stop();
+    } else {
+      setLooping(true);
+      play();
+    }
+  });
+
+  // when video ends naturally (non-loop), keep last frame visible briefly then reset
+  video.addEventListener('ended', () => {
+    if (!isLooping) {
+      screen.classList.remove('laughing');
+      // keep last frame (no poster flash) — user can replay
+    }
+  });
+
+  // basic anti-save: block context menu and drag on the video
+  video.addEventListener('contextmenu', (e) => e.preventDefault());
+  video.addEventListener('dragstart', (e) => e.preventDefault());
+
+  // —— Fade in ——
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('[data-fade]').forEach(el => io.observe(el));
+})();
+</script>
+
+</body>
+</html>

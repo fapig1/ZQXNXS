@@ -1,0 +1,101 @@
+{
+  "slug": "xinye_player",
+  "url": "https://xinyewebsite.com/games/milk-frog/",
+  "title": "奶蛙 – 辛野",
+  "length": 12181,
+  "excerpt": "奶蛙 – 辛野 奶蛙 ♻️ 循环 💡 更多 使用帮助 点击按钮切换循环／停止，点击更多切换不同奶蛙版本。 辛野 💡 更多 动作 惊鸿一瞥 嘘 虔诚 龟速前进 场景 负蛙 破壳 相视一笑 万有引力 陪伴 蛙不易 忧郁童年 取消 ↑",
+  "links": [
+    {
+      "label": "辛野",
+      "url": "https://xinyewebsite.com/"
+    }
+  ],
+  "media": [
+    {
+      "url": "https://xinyewebsite.com/games/milk-frog/video/glimpse.mp4",
+      "alt": "",
+      "attribute": "src"
+    },
+    {
+      "url": "https://xinyewebsite.com/games/milk-frog/image/glimpse.jpg",
+      "alt": "",
+      "attribute": "poster"
+    },
+    {
+      "url": "https://xinyewebsite.com/games/milk-frog/image/glimpse.jpg",
+      "alt": "",
+      "attribute": "src"
+    },
+    {
+      "url": "https://xinyewebsite.com/games/milk-frog/image/meditation.jpg",
+      "alt": "",
+      "attribute": "src"
+    },
+    {
+      "url": "https://xinyewebsite.com/games/milk-frog/image/angel.jpg",
+      "alt": "",
+      "attribute": "src"
+    },
+    {
+      "url": "https://xinyewebsite.com/games/milk-frog/image/turtle.jpg",
+      "alt": "",
+      "attribute": "src"
+    },
+    {
+      "url": "https://xinyewebsite.com/games/milk-frog/image/sad.jpg",
+      "alt": "",
+      "attribute": "src"
+    },
+    {
+      "url": "https://xinyewebsite.com/games/milk-frog/image/egg.jpg",
+      "alt": "",
+      "attribute": "src"
+    },
+    {
+      "url": "https://xinyewebsite.com/games/milk-frog/image/police.jpg",
+      "alt": "",
+      "attribute": "src"
+    },
+    {
+      "url": "https://xinyewebsite.com/games/milk-frog/image/apple.jpg",
+      "alt": "",
+      "attribute": "src"
+    },
+    {
+      "url": "https://xinyewebsite.com/games/milk-frog/image/rain.jpg",
+      "alt": "",
+      "attribute": "src"
+    },
+    {
+      "url": "https://xinyewebsite.com/games/milk-frog/image/kid.jpg",
+      "alt": "",
+      "attribute": "src"
+    }
+  ],
+  "raw_media": [
+    "https://xinyewebsite.com/games/milk-frog/og-image.jpg",
+    "/glimpse.mp4",
+    "/glimpse.jpg",
+    "/meditation.mp4",
+    "/meditation.jpg",
+    "/angel.mp4",
+    "/angel.jpg",
+    "/turtle.mp4",
+    "/turtle.jpg",
+    "/sad.mp4",
+    "/sad.jpg",
+    "/egg.mp4",
+    "/egg.jpg",
+    "/police.mp4",
+    "/police.jpg",
+    "/apple.mp4",
+    "/apple.jpg",
+    "/rain.mp4",
+    "/rain.jpg",
+    "/kid.mp4",
+    "/kid.jpg"
+  ],
+  "scripts": [
+    "https://xinyewebsite.com/xinye-dark-mode.js?ver=1.0.0"
+  ]
+}
