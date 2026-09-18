@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "asset_id": "Pet01",
+  "created": "2026-09-09",
+  "updated": "2026-09-11",
+  "character": "Naiwa-style pet rebuilt to the user-selected Meshy candidate proportions",
+  "reference": "ArtSource/Characters/Pet01/Candidates/Meshy_AI_Golden_Guardian_0910135714_generate.glb",
+  "reference_frames": [
+    "ArtSource/References/20260908_naiwa_assets/video_frames/mfstream_t1.png",
+    "ArtSource/References/20260908_naiwa_assets/video_frames/mfstream_t6.png"
+  ],
+  "shape_revision": "20260911_meshy_proportions",
+  "image_reference": "Docs/AssetReview/20260908_naiwa/expression_frames.jpg",
+  "reference_sha256": "121f8b5d3afd33833e58c616c898de5baf334c2bec35a7e0eb4b596d767b0072",
+  "shape_note": "2026-09-10 to 2026-09-11: narrow torso and shoulders to the Meshy silhouette, bend arms across the belly, taper thighs into inward ankles and outward feet, and raise the mouth and eyes. Authored topology and skeletal facial controls retained.",
+  "software": "Blender 5.1.1",
+  "source_file": "ArtSource/Characters/Pet01/pet01.blend",
+  "geometry": {
+    "vertices": 10434,
+    "triangles": 20528,
+    "materials": [
+      "Pet01_Skin",
+      "Pet01_Oral",
+      "Pet01_Eyes"
+    ],
+    "bones": 26,
+    "rest_height_m": 0.20000000298023224,
+    "rest_width_m": 0.11121256649494171,
+    "rest_depth_m": 0.10253442823886871,
+    "source_forward": "+Y",
+    "source_up": "+Z",
+    "maximum_skin_influences": 3
+  },
+  "abdomen_design_profile": {
+    "height_m": 0.091,
+    "width_m": 0.0956,
+    "depth_m": 0.0946,
+    "center_y_m": -0.0022,
+    "note": "Authored cross-section parameters, compared with the height-normalized candidate mesh."
+  },
+  "proportion_reference": {
+    "normalized_height_m": 0.2,
+    "normalized_width_m": 0.1110748723,
+    "normalized_depth_m": 0.0992085189,
+    "source_triangles": 65546,
+    "has_textures": false,
+    "has_rig": false,
+    "has_animations": false,
+    "blend_collection": "REFERENCE_MESHY_NOT_EXPORTED",
+    "hidden_in_source": true,
+    "included_in_fbx": false
+  },
+  "clips": [
+    {
+      "name": "Idle",
+      "fps": 30,
+      "first_blender_frame": 1,
+      "last_blender_frame": 91,
+      "duration_seconds": 3.0,
+      "loop": true,
+      "root_motion": false
+    },
+    {
+      "name": "Eat",
+      "fps": 30,
+      "first_blender_frame": 1,
+      "last_blender_frame": 97,
+      "duration_seconds": 3.2,
+      "loop": false,
+      "root_motion": false,
+      "suggested_events": [
+        {
+          "name": "Bite01",
+          "time_seconds": 0.9333333333333333
+        },
+        {
+          "name": "Bite02",
+          "time_seconds": 1.4333333333333333
+        },
+        {
+          "name": "Bite03",
+          "time_seconds": 1.9333333333333333
+        },
+        {
+          "name": "Consume",
+          "time_seconds": 2.4
+        }
+      ]
+    }
+  ],
+  "animation_event_note": "Markers are design metadata; add Unity events only when a receiver exists. Consume is a single gameplay settlement point.",
+  "texture": "Textures/Pet01_BaseColor.png",
+  "status": {
+    "blend_created": true,
+    "fbx_exported": true,
+    "blender_fbx_roundtrip": true,
+    "unity_import_tested": false,
+    "android_device_tested": false,
+    "blender_source_validated": true,
+    "previews_generated": true
+  },
+  "export_settings": {
+    "forward": "-Z",
+    "up": "Y",
+    "apply_unit_scale": true,
+    "add_leaf_bones": false,
+    "included_object_types": [
+      "ARMATURE",
+      "MESH"
+    ],
+    "preview_studio_excluded": true
+  },
+  "export_files": [
+    "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01.fbx",
+    "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_Eat.fbx",
+    "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_Idle.fbx"
+  ],
+  "validation_report": "ArtSource/Characters/Pet01/validation_report.json",
+  "source_sha256": "fad23c5c0b4d8b50d106c4bdb943b7d6f4eebba433b15b83c6e42db559acb89f",
+  "review_page": "ArtSource/Characters/Pet01/review.html",
+  "previews": [
+    "Pet01_Turnaround.png",
+    "Pet01_Proportion_Comparison.png",
+    "Pet01_RigAndFace.png",
+    "Pet01_Eat_Storyboard.png",
+    "Pet01_Idle.mp4",
+    "Pet01_Eat.mp4",
+    "Pet01_Idle.gif",
+    "Pet01_Eat.gif"
+  ]
+}

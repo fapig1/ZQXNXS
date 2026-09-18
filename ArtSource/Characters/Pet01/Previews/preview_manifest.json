@@ -1,0 +1,23 @@
+{
+  "source_sha256": "fad23c5c0b4d8b50d106c4bdb943b7d6f4eebba433b15b83c6e42db559acb89f",
+  "videos": {
+    "Idle": {
+      "frames": 45,
+      "preview_fps": 15.0,
+      "clip_duration_seconds": 3.0,
+      "mp4_decoded": true,
+      "silent": true,
+      "mp4_sha256": "6069af9d6cbac22161bf11845b45f02ab6f8f0a1bfd46927944e199ed35a5de3"
+    },
+    "Eat": {
+      "frames": 48,
+      "preview_fps": 15.0,
+      "clip_duration_seconds": 3.2,
+      "mp4_decoded": true,
+      "silent": true,
+      "mp4_sha256": "559845182549a2a3584c36829d164cc59b3345bc3127209463c4a5661c4ec8e8"
+    }
+  },
+  "still_review_scope": "Front, side, back, hero and facial key poses",
+  "note": "Video decoding is checked; Unity and Android are not tested."
+}

@@ -1,0 +1,16 @@
+{
+    "name": "ZQXNXS.ARPet.Platform",
+    "rootNamespace": "ZQXNXS.ARPet.Platform",
+    "references": [
+        "ZQXNXS.ARPet.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

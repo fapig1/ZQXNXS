@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495088d9d4ef3524ba474ef5c29cef0c, type: 3}
+  m_Name: PetBehaviorConfig
+  m_EditorClassIdentifier: 
+  NeedSeeds:
+  - Need: 0
+    Initial: 0.3
+    DecayPerSecond: 0.0035
+    Max: 1
+  - Need: 1
+    Initial: 0.6
+    DecayPerSecond: -0.0015
+    Max: 1
+  - Need: 2
+    Initial: 0.85
+    DecayPerSecond: -0.001
+    Max: 1
+  MaxOfflineSeconds: 43200
+  HungryThreshold: 0.65
+  SleepyThreshold: 0.25
+  Behaviors:
+  - Behavior: 1
+    AnimationName: Idle
+    Loop: 1
+    DurationSeconds: 0
+    OnEnter: []
+    PerSecond: []
+    OnExitSettled: []
+    OnInterrupted: []
+  - Behavior: 2
+    AnimationName: Eat
+    Loop: 0
+    DurationSeconds: 3.2
+    OnEnter:
+    - Need: 1
+      PerSecond: 0
+      OnEnter: 0.02
+    PerSecond: []
+    OnExitSettled:
+    - Need: 0
+      PerSecond: 0
+      OnEnter: -0.45
+    OnInterrupted: []
+  - Behavior: 3
+    AnimationName: TouchReact
+    Loop: 0
+    DurationSeconds: 0.7
+    OnEnter:
+    - Need: 1
+      PerSecond: 0
+      OnEnter: 0.06
+    PerSecond: []
+    OnExitSettled: []
+    OnInterrupted: []
+  - Behavior: 4
+    AnimationName: DozeLoop
+    Loop: 1
+    DurationSeconds: 0
+    OnEnter: []
+    PerSecond:
+    - Need: 2
+      PerSecond: 0.02
+      OnEnter: 0
+    OnExitSettled: []
+    OnInterrupted: []
+  - Behavior: 5
+    AnimationName: WalkLoop
+    Loop: 1
+    DurationSeconds: 0
+    OnEnter: []
+    PerSecond:
+    - Need: 2
+      PerSecond: -0.01
+      OnEnter: 0
+    OnExitSettled: []
+    OnInterrupted: []
+  DefaultCrossFadeSeconds: 0.15
+  Eat:
+    MaxHorizontalDistance: 0.1
+    MaxHeightDelta: 0.06
+    RequiredDwellSeconds: 0.6
+    CooldownSeconds: 4
+    ReArmDistance: 0.16
+  DefaultBehavior: 1

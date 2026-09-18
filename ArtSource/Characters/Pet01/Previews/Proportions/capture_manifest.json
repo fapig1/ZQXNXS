@@ -1,0 +1,79 @@
+{
+  "revision": "20260911_meshy_proportions",
+  "comparison_height_m": 0.2,
+  "camera": "Orthographic, identical camera positions and scale for all three assets",
+  "alignment": "Ground z=0; candidate bounding-box horizontal center at origin; no fitted deformation",
+  "files": {
+    "before": {
+      "file": "ArtSource/Characters/Pet01/Archive/20260910_before_meshy_proportions/pet01.blend",
+      "sha256": "7b6405dd52fed52301eeb983fa7bbd2f906f2d64f12c47316603fb474c1ba23f"
+    },
+    "candidate": {
+      "file": "ArtSource/Characters/Pet01/Candidates/Meshy_AI_Golden_Guardian_0910135714_generate.glb",
+      "sha256": "121f8b5d3afd33833e58c616c898de5baf334c2bec35a7e0eb4b596d767b0072"
+    },
+    "after": {
+      "file": "ArtSource/Characters/Pet01/pet01.blend",
+      "sha256": "fad23c5c0b4d8b50d106c4bdb943b7d6f4eebba433b15b83c6e42db559acb89f"
+    }
+  },
+  "geometry": {
+    "before": {
+      "vertices": 10584,
+      "triangles": 20806,
+      "bounds_min": [
+        -0.07737234234809875,
+        -0.05832716077566147,
+        -8.149017571845718e-10
+      ],
+      "bounds_max": [
+        0.07734845578670502,
+        0.0681491494178772,
+        0.20000001788139343
+      ],
+      "dimensions_m": [
+        0.15472079813480377,
+        0.12647631019353867,
+        0.2000000186962952
+      ]
+    },
+    "candidate": {
+      "vertices": 32755,
+      "triangles": 65546,
+      "bounds_min": [
+        -0.05553743615746498,
+        -0.04960425943136215,
+        0.0
+      ],
+      "bounds_max": [
+        0.05553743615746498,
+        0.04960425943136215,
+        0.20000000298023224
+      ],
+      "dimensions_m": [
+        0.11107487231492996,
+        0.0992085188627243,
+        0.20000000298023224
+      ]
+    },
+    "after": {
+      "vertices": 10434,
+      "triangles": 20528,
+      "bounds_min": [
+        -0.05560198798775673,
+        -0.05031321570277214,
+        -2.2071554306446473e-10
+      ],
+      "bounds_max": [
+        0.05561057850718498,
+        0.052221208810806274,
+        0.20000000298023224
+      ],
+      "dimensions_m": [
+        0.11121256649494171,
+        0.10253442451357841,
+        0.2000000032009478
+      ]
+    }
+  }
+}

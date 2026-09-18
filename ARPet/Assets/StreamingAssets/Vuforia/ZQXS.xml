@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="food_card_placeholder" size="0.100000 0.100000" />
+    <ImageTarget name="den_card_placeholder" size="0.100000 0.100000" />
+  </Tracking>
+</QCARConfig>

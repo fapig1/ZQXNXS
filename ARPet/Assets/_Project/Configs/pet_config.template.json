@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "note": "这是 PetConfig 的字段说明与默认值清单，供人工核对与代码评审使用。实际运行时以 Assets/_Project/Configs/PetBehaviorConfig.asset（ScriptableObject）为准；本文件不是运行时读取的数据源，避免出现两份互相矛盾的配置。",
+  "updated": "2026-09-12",
+  "need_seeds": [
+    { "need": "Hunger",    "initial": 0.30,  "decay_per_second": 0.0035, "max": 1.0, "meaning": "0=很饱 1=非常饿，随时间上升" },
+    { "need": "Happiness", "initial": 0.60,  "decay_per_second": -0.0015, "max": 1.0, "meaning": "逗弄与投喂提升，随时间缓慢下降" },
+    { "need": "Energy",    "initial": 0.85,  "decay_per_second": -0.0010, "max": 1.0, "meaning": "随时间下降，休息恢复" }
+  ],
+  "max_offline_seconds": 43200,
+  "thresholds": {
+    "hungry_threshold": 0.65,
+    "sleepy_threshold": 0.25
+  },
+  "behaviors": [
+    {
+      "id": "Idle",
+      "animation": "Idle",
+      "loop": true,
+      "duration_seconds": 0.0,
+      "asset_status": "已制作（Pet01_Idle.fbx，3.0 s 循环）",
+      "enabled": true
+    },
+    {
+      "id": "Eating",
+      "animation": "Eat",
+      "loop": false,
+      "duration_seconds": 3.2,
+      "on_enter": [{ "need": "Happiness", "value": 0.02 }],
+      "on_exit_settled": [{ "need": "Hunger", "value": -0.45 }],
+      "on_interrupted": [],
+      "asset_status": "已制作（Pet01_Eat.fbx，3.2 s 单次）",
+      "enabled": true,
+      "note": "当前唯一结算点是行为层 3.2 s 完成时；2.4 s Consume 仅为设计标记，动画事件尚未接入。"
+    },
+    {
+      "id": "Petted",
+      "animation": "TouchReact",
+      "loop": false,
+      "duration_seconds": 0.7,
+      "asset_status": "动画尚未制作",
+      "enabled": false
+    },
+    {
+      "id": "Resting",
+      "animation": "DozeLoop",
+      "loop": true,
+      "duration_seconds": 0.0,
+      "per_second": [{ "need": "Energy", "value": 0.02 }],
+      "asset_status": "动画尚未制作",
+      "enabled": false
+    },
+    {
+      "id": "Chasing",
+      "animation": "WalkLoop",
+      "loop": true,
+      "duration_seconds": 0.0,
+      "per_second": [{ "need": "Energy", "value": -0.01 }],
+      "asset_status": "动画尚未制作",
+      "enabled": false
+    }
+  ],
+  "eat_rule": {
+    "max_horizontal_distance_m": 0.10,
+    "max_height_delta_m": 0.06,
+    "required_dwell_seconds": 0.6,
+    "cooldown_seconds": 4.0,
+    "re_arm_distance_m": 0.16,
+    "stale_seconds": 0.35,
+    "note": "以上为代码内置初值，全部需要在真机上按实际卡片间距与持机方式调整。"
+  },
+  "presentation": {
+    "default_cross_fade_seconds": 0.15
+  },
+  "tuning_status": "全部数值均为设计初值，尚未经过真机体验调整。"
+}

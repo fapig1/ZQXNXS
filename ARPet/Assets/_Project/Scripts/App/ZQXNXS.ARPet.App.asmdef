@@ -1,0 +1,23 @@
+{
+    "name": "ZQXNXS.ARPet.App",
+    "rootNamespace": "ZQXNXS.ARPet.App",
+    "references": [
+        "ZQXNXS.ARPet.AR",
+        "ZQXNXS.ARPet.Core",
+        "ZQXNXS.ARPet.Interaction",
+        "ZQXNXS.ARPet.Persistence",
+        "ZQXNXS.ARPet.Pet",
+        "ZQXNXS.ARPet.Platform",
+        "ZQXNXS.ARPet.Presentation",
+        "ZQXNXS.ARPet.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

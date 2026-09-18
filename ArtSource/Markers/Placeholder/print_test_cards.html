@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>桌上有龙 - 占位标记卡测试页</title>
+  <style>
+    @page { size: A4 landscape; margin: 15mm; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; color: #111; font-family: Arial, "Microsoft YaHei", sans-serif; }
+    .page { width: 267mm; min-height: 180mm; }
+    h1 { margin: 0 0 4mm; font-size: 16pt; text-align: center; }
+    .note { margin: 0 0 6mm; font-size: 10pt; text-align: center; }
+    .cards { display: flex; justify-content: center; gap: 20mm; }
+    figure { width: 100mm; margin: 0; }
+    img { display: block; width: 100mm; height: 100mm; }
+    figcaption { margin-top: 3mm; text-align: center; font-size: 11pt; font-weight: 700; }
+    .measure { margin-top: 1.5mm; text-align: center; font-size: 9pt; }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <h1>桌上有龙 - Vuforia 占位标记卡</h1>
+    <p class="note">打印时选择“实际大小”或“100%”，关闭“适合页面”。打印后量取图案边长，应为 100 mm。</p>
+    <section class="cards">
+      <figure>
+        <img src="den_card_placeholder.png" alt="小窝卡占位图">
+        <figcaption>小窝卡 / den_card_placeholder</figcaption>
+        <div class="measure">有效图案：100 mm × 100 mm</div>
+      </figure>
+      <figure>
+        <img src="food_card_placeholder.png" alt="食物卡占位图">
+        <figcaption>食物卡 / food_card_placeholder</figcaption>
+        <div class="measure">有效图案：100 mm × 100 mm</div>
+      </figure>
+    </section>
+  </main>
+</body>
+</html>

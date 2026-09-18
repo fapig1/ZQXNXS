@@ -1,0 +1,31 @@
+{
+    "name": "ZQXNXS.ARPet.Tests.EditMode",
+    "rootNamespace": "ZQXNXS.ARPet.Tests",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "ZQXNXS.ARPet.Core",
+        "ZQXNXS.ARPet.Pet",
+        "ZQXNXS.ARPet.Interaction",
+        "ZQXNXS.ARPet.Persistence",
+        "ZQXNXS.ARPet.AR",
+        "ZQXNXS.ARPet.Presentation",
+        "ZQXNXS.ARPet.App",
+        "ZQXNXS.ARPet.UI"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

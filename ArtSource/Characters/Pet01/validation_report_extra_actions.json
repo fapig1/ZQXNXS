@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "asset_id": "Pet01",
+  "extra_actions": {
+    "TouchReact": {
+      "fps": 30,
+      "frames": [
+        1,
+        22
+      ],
+      "duration_seconds": 0.7,
+      "loop": false,
+      "endpoint_max_error_m": 2.488269917966436e-19,
+      "minimum_z_m": -2.2071554306446473e-10,
+      "max_consecutive_frame_motion_m": 0.003289926655069838,
+      "root_matrix_max_error": 0.0,
+      "largest_step": {
+        "frame": 22,
+        "vertex": 6974
+      },
+      "design_markers": [
+        {
+          "name": "Start",
+          "frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "name": "Complete",
+          "frame": 22,
+          "time_seconds": 0.7
+        }
+      ]
+    },
+    "DozeLoop": {
+      "fps": 30,
+      "frames": [
+        1,
+        121
+      ],
+      "duration_seconds": 4.0,
+      "loop": true,
+      "endpoint_max_error_m": 6.754645729713212e-20,
+      "minimum_z_m": -2.2071554306446473e-10,
+      "max_consecutive_frame_motion_m": 8.698163940741903e-05,
+      "root_matrix_max_error": 0.0,
+      "largest_step": {
+        "frame": 2,
+        "vertex": 2785
+      },
+      "design_markers": [
+        {
+          "name": "Start",
+          "frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "name": "Loop",
+          "frame": 121,
+          "time_seconds": 4.0
+        }
+      ]
+    },
+    "WalkLoop": {
+      "fps": 30,
+      "frames": [
+        1,
+        31
+      ],
+      "duration_seconds": 1.0,
+      "loop": true,
+      "endpoint_max_error_m": 1.9893058914033534e-09,
+      "minimum_z_m": -0.0007930602878332138,
+      "max_consecutive_frame_motion_m": 0.007074546402302473,
+      "root_matrix_max_error": 0.0,
+      "largest_step": {
+        "frame": 17,
+        "vertex": 5794
+      },
+      "design_markers": [
+        {
+          "name": "Start",
+          "frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "name": "Loop",
+          "frame": 31,
+          "time_seconds": 1.0
+        }
+      ]
+    }
+  },
+  "checks": [
+    {
+      "name": "TouchReact_endpoints",
+      "passed": true,
+      "evidence": {
+        "max_error_m": 2.488269917966436e-19
+      }
+    },
+    {
+      "name": "TouchReact_root_bone_fixed",
+      "passed": true,
+      "evidence": {
+        "root_matrix_error": 0.0
+      }
+    },
+    {
+      "name": "TouchReact_above_ground",
+      "passed": true,
+      "evidence": {
+        "minimum_z_m": -2.2071554306446473e-10
+      }
+    },
+    {
+      "name": "TouchReact_planted_feet",
+      "passed": true,
+      "evidence": {
+        "foot_drift_m": 0.0
+      }
+    },
+    {
+      "name": "TouchReact_smooth_motion",
+      "passed": true,
+      "evidence": {
+        "max_step_m": 0.003289926655069838,
+        "largest_step": {
+          "frame": 22,
+          "vertex": 6974
+        }
+      }
+    },
+    {
+      "name": "DozeLoop_endpoints",
+      "passed": true,
+      "evidence": {
+        "max_error_m": 6.754645729713212e-20
+      }
+    },
+    {
+      "name": "DozeLoop_root_bone_fixed",
+      "passed": true,
+      "evidence": {
+        "root_matrix_error": 0.0
+      }
+    },
+    {
+      "name": "DozeLoop_above_ground",
+      "passed": true,
+      "evidence": {
+        "minimum_z_m": -2.2071554306446473e-10
+      }
+    },
+    {
+      "name": "DozeLoop_planted_feet",
+      "passed": true,
+      "evidence": {
+        "foot_drift_m": 0.0
+      }
+    },
+    {
+      "name": "DozeLoop_smooth_motion",
+      "passed": true,
+      "evidence": {
+        "max_step_m": 8.698163940741903e-05,
+        "largest_step": {
+          "frame": 2,
+          "vertex": 2785
+        }
+      }
+    },
+    {
+      "name": "WalkLoop_endpoints",
+      "passed": true,
+      "evidence": {
+        "max_error_m": 1.9893058914033534e-09
+      }
+    },
+    {
+      "name": "WalkLoop_root_bone_fixed",
+      "passed": true,
+      "evidence": {
+        "root_matrix_error": 0.0
+      }
+    },
+    {
+      "name": "WalkLoop_above_ground",
+      "passed": false,
+      "evidence": {
+        "minimum_z_m": -0.0007930602878332138
+      }
+    },
+    {
+      "name": "WalkLoop_smooth_motion",
+      "passed": true,
+      "evidence": {
+        "max_step_m": 0.007074546402302473,
+        "largest_step": {
+          "frame": 17,
+          "vertex": 5794
+        }
+      }
+    },
+    {
+      "name": "TouchReact_fbx_object_scope",
+      "passed": true,
+      "evidence": {
+        "meshes": 1,
+        "armatures": 1
+      }
+    },
+    {
+      "name": "TouchReact_fbx_bones",
+      "passed": true,
+      "evidence": {
+        "bones": 26
+      }
+    },
+    {
+      "name": "TouchReact_fbx_take",
+      "passed": true,
+      "evidence": {
+        "take": "Pet01Rig|TouchReact"
+      }
+    },
+    {
+      "name": "TouchReact_fbx_pose_preservation",
+      "passed": true,
+      "evidence": {
+        "maximum_error_m": 8.043953414471616e-08,
+        "sample_frames": 5
+      }
+    },
+    {
+      "name": "DozeLoop_fbx_object_scope",
+      "passed": true,
+      "evidence": {
+        "meshes": 1,
+        "armatures": 1
+      }
+    },
+    {
+      "name": "DozeLoop_fbx_bones",
+      "passed": true,
+      "evidence": {
+        "bones": 26
+      }
+    },
+    {
+      "name": "DozeLoop_fbx_take",
+      "passed": true,
+      "evidence": {
+        "take": "Pet01Rig|DozeLoop"
+      }
+    },
+    {
+      "name": "DozeLoop_fbx_pose_preservation",
+      "passed": true,
+      "evidence": {
+        "maximum_error_m": 7.82310962677002e-08,
+        "sample_frames": 5
+      }
+    },
+    {
+      "name": "WalkLoop_fbx_object_scope",
+      "passed": true,
+      "evidence": {
+        "meshes": 1,
+        "armatures": 1
+      }
+    },
+    {
+      "name": "WalkLoop_fbx_bones",
+      "passed": true,
+      "evidence": {
+        "bones": 26
+      }
+    },
+    {
+      "name": "WalkLoop_fbx_take",
+      "passed": true,
+      "evidence": {
+        "take": "Pet01Rig|WalkLoop"
+      }
+    },
+    {
+      "name": "WalkLoop_fbx_pose_preservation",
+      "passed": true,
+      "evidence": {
+        "maximum_error_m": 4.244420210852695e-07,
+        "sample_frames": 5
+      }
+    }
+  ],
+  "roundtrip": {
+    "TouchReact": {
+      "file": "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_TouchReact.fbx",
+      "bytes": 798764,
+      "sha256": "c76b3838a3e35a90e6e6fca70f91f46880f3549e7c8daf7283a22ccabf5934b3",
+      "pose_errors": [
+        {
+          "source_frame": 1,
+          "max_surface_distance_m": 4.842877388000488e-08
+        },
+        {
+          "source_frame": 5,
+          "max_surface_distance_m": 7.893748943388346e-08
+        },
+        {
+          "source_frame": 11,
+          "max_surface_distance_m": 8.043953414471616e-08
+        },
+        {
+          "source_frame": 16,
+          "max_surface_distance_m": 6.009737063550347e-08
+        },
+        {
+          "source_frame": 22,
+          "max_surface_distance_m": 4.842877388000488e-08
+        }
+      ],
+      "take": "Pet01Rig|TouchReact"
+    },
+    "DozeLoop": {
+      "file": "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_DozeLoop.fbx",
+      "bytes": 937404,
+      "sha256": "256deafcddcdeae444e895851dfc7ad99635428a775a875233f04b7458e1f99c",
+      "pose_errors": [
+        {
+          "source_frame": 1,
+          "max_surface_distance_m": 6.49330402779924e-08
+        },
+        {
+          "source_frame": 30,
+          "max_surface_distance_m": 6.376669858809692e-08
+        },
+        {
+          "source_frame": 60,
+          "max_surface_distance_m": 7.82310962677002e-08
+        },
+        {
+          "source_frame": 90,
+          "max_surface_distance_m": 6.838723720647977e-08
+        },
+        {
+          "source_frame": 121,
+          "max_surface_distance_m": 6.49330402779924e-08
+        }
+      ],
+      "take": "Pet01Rig|DozeLoop"
+    },
+    "WalkLoop": {
+      "file": "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_WalkLoop.fbx",
+      "bytes": 821340,
+      "sha256": "ae9ca2ca1f2c91a88f7a858555648a2e11b5d80ce1ba21b7b18470ad86876c28",
+      "pose_errors": [
+        {
+          "source_frame": 1,
+          "max_surface_distance_m": 6.032785648812933e-08
+        },
+        {
+          "source_frame": 7,
+          "max_surface_distance_m": 3.983100214099977e-07
+        },
+        {
+          "source_frame": 15,
+          "max_surface_distance_m": 1.0900950542236387e-07
+        },
+        {
+          "source_frame": 23,
+          "max_surface_distance_m": 4.244420210852695e-07
+        },
+        {
+          "source_frame": 31,
+          "max_surface_distance_m": 6.032785648812933e-08
+        }
+      ],
+      "take": "Pet01Rig|WalkLoop"
+    }
+  },
+  "passed": false
+}

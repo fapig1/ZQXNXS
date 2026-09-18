@@ -1,0 +1,645 @@
+{
+  "Scope": "Offline Roslyn C# 9 compilation with API stubs and reflection-run rule tests. Not Unity/NUnit/IL2CPP or device validation.",
+  "Timestamp": "2026-09-12T11:17:59.1914628+08:00",
+  "CompilerHost": "7.6.5",
+  "Assemblies": [
+    {
+      "Assembly": "ARPet.Validation.UnityApiStubs",
+      "Sources": 1,
+      "Errors": []
+    },
+    {
+      "Assembly": "ARPet.Validation.EditorApiStubs",
+      "Sources": 1,
+      "Errors": []
+    },
+    {
+      "Assembly": "ARPet.Validation.VuforiaApiStubs",
+      "Sources": 1,
+      "Errors": []
+    },
+    {
+      "Assembly": "ARPet.Validation.NUnitShim",
+      "Sources": 1,
+      "Errors": []
+    },
+    {
+      "Assembly": "ARPet.Validation.RuleRunner",
+      "Sources": 1,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.Core",
+      "Sources": 5,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.Pet",
+      "Sources": 4,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.Interaction",
+      "Sources": 3,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.AR",
+      "Sources": 4,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.Presentation",
+      "Sources": 1,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.Platform",
+      "Sources": 1,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.UI",
+      "Sources": 1,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.Persistence",
+      "Sources": 3,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.App",
+      "Sources": 1,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.EditorTools",
+      "Sources": 1,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.Tests.EditMode",
+      "Sources": 4,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.Core.DeviceCheck",
+      "Sources": 5,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.Pet.DeviceCheck",
+      "Sources": 4,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.Interaction.DeviceCheck",
+      "Sources": 3,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.AR.DeviceCheck",
+      "Sources": 4,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.Presentation.DeviceCheck",
+      "Sources": 1,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.Platform.DeviceCheck",
+      "Sources": 1,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.UI.DeviceCheck",
+      "Sources": 1,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.Persistence.DeviceCheck",
+      "Sources": 3,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.App.DeviceCheck",
+      "Sources": 1,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.EditorTools.DeviceCheck",
+      "Sources": 1,
+      "Errors": []
+    },
+    {
+      "Assembly": "ARPet.Validation.IntegrationChecks",
+      "Sources": 1,
+      "Errors": []
+    },
+    {
+      "Assembly": "ARPet.Validation.DeviceChecks",
+      "Sources": 1,
+      "Errors": []
+    }
+  ],
+  "RuleTestCount": 75,
+  "IntegrationCheckCount": 23,
+  "Passed": 98,
+  "Failed": 0,
+  "Results": [
+    {
+      "Name": "BehaviorStateMachineTests.Eating_IsNotInterruptedByAnotherFeed()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "BehaviorStateMachineTests.Eating_SettlesHungerOnce_ThenReturnsToIdle()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "BehaviorStateMachineTests.EventIds_AreScopedToKindAndSource()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "BehaviorStateMachineTests.Feed_IsAccepted_AndEntersEating()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "BehaviorStateMachineTests.Interrupt_DoesNotApplySettledDelta()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "BehaviorStateMachineTests.PetEvent_IsRefused_WhenAnimationIsMissing()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "BehaviorStateMachineTests.Presenter_ReceivesEatAnimationName()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "BehaviorStateMachineTests.Presenter_ReceivesResolvedConfigAnimationName(CustomEat,CustomEat)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "BehaviorStateMachineTests.Presenter_ReceivesResolvedConfigAnimationName(,Eating)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "BehaviorStateMachineTests.RejectedTouch_DoesNotBlockSubsequentFeedSequence()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "BehaviorStateMachineTests.SameEventId_IsRejected_SoOneApproachSettlesOnce()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "BehaviorStateMachineTests.StaleEventId_IsRejected()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "BehaviorStateMachineTests.Start_EntersDefaultBehavior()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "BehaviorStateMachineTests.UnanimatedBehaviors_AreNotSelectable()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "FeedingRuleTests.DenCardLost_RequiresFullDwellAgain()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "FeedingRuleTests.ExactDistanceAndHeightLimits_AreAccepted()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "FeedingRuleTests.ExactRearmDistance_DoesNotUnlockUntilExceeded()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "FeedingRuleTests.FoodCardLost_ResetsDwellTimer()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "FeedingRuleTests.InRange_ForRequiredDwell_ProducesExactlyOneEvent()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "FeedingRuleTests.LeavingAndReturning_ProducesSecondEvent()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "FeedingRuleTests.LostCard_DoesNotRearmSettledPlacement(Den)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "FeedingRuleTests.LostCard_DoesNotRearmSettledPlacement(Food)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "FeedingRuleTests.NonDirectTracking_NeitherCompletesDwellNorRearms(ExtendedTracked)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "FeedingRuleTests.NonDirectTracking_NeitherCompletesDwellNorRearms(Limited)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "FeedingRuleTests.NonDirectTracking_NeitherCompletesDwellNorRearms(Paused)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "FeedingRuleTests.StaleFarPose_DoesNotProveExit()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "FeedingRuleTests.StalePose_BlocksSettlement()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "FeedingRuleTests.StayingInZone_DoesNotProduceSecondEvent_EvenAfterCooldown()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "FeedingRuleTests.SuspendDwell_PreservesExitLock()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "FeedingRuleTests.TooFarHorizontally_ProducesNothing()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "FeedingRuleTests.TooHigh_ProducesNothing()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "InteractionPipeTests.EventsAreDroppedWhileArUnavailable()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "InteractionPipeTests.EventsPassThroughWhenArAvailable()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PersistenceTests.BrokenPrimaryAndTemporaryFile_RecoverBackup()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PersistenceTests.ClockRollback_DoesNotApplyNegativeOfflineTime()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PersistenceTests.CorruptSaveWithoutRecovery_IsReportedAsNewAndArchived()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PersistenceTests.ExplicitDeletion_RemovesAllRecoveryCandidates()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PersistenceTests.FailedAutomaticSaves_AreThrottledAndRetriedWithoutClearingDirty()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PersistenceTests.FailedWrite_PreservesOldFileAndLastSuccessfulTimestamp()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PersistenceTests.MissingPrimary_RecoversCompleteTemporaryFileBeforeBackup()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PersistenceTests.MissingSave_IsExplicitlyReportedAsNew()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PersistenceTests.PlayTimeChange_IsSavedEvenWhenNeedsDoNotChange()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PersistenceTests.SaveRestoreAndNextSession_PreserveCountsUnlocksAndTotalTime()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PersistenceTests.SecondSave_KeepsPreviousCommittedFileAsBackup()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PersistenceTests.ValidPrimary_WinsOverUncommittedTemporaryFile()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetNeedsTests.Apply_ClampsToUnitRange()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetNeedsTests.DefaultPetConfig_CanFeedWithDwellAndCooldown()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetNeedsTests.DirtyFlag_IsClearedAfterFlush()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetNeedsTests.MinuteOfSmallFrameDeltas_AccumulatesInAllNeeds(30)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetNeedsTests.MinuteOfSmallFrameDeltas_AccumulatesInAllNeeds(60)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetNeedsTests.OfflineDecay_HasCorrectDirectionsAndRemainsDirty()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetNeedsTests.OfflineDecay_IsCappedByConfig()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetNeedsTests.RestoreAndUpdate_PreservesAllInteractionCounts()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetNeedsTests.RestoreFrom_SanitisesNanAndOutOfRangeValues()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetNeedsTests.TinyDelta_IsRetainedAndMarksDirty()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TouchPokeRuleTests.CancelledPointer_IsNotReplayedAfterTrackingRecovers()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TouchPokeRuleTests.LongPress_DoesNotProduceEvent()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TouchPokeRuleTests.PointerDownOnUi_IsSwallowed()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TouchPokeRuleTests.SecondTapWithinCooldown_IsIgnored()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TouchPokeRuleTests.Swipe_DoesNotProduceEvent()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TouchPokeRuleTests.TapOnPet_ProducesEvent()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TouchPokeRuleTests.TapWhenPetInvisible_IsIgnored()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TrackingStateMachineTests.BeforeFirstDetection_RemainsSearching()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TrackingStateMachineTests.CustomFreshnessLimit_IsUsedForInteraction()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TrackingStateMachineTests.EstimatedOrLimitedPose_IsNotSettleable(Limited)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TrackingStateMachineTests.EstimatedOrLimitedPose_IsNotSettleable(ExtendedTracked)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TrackingStateMachineTests.FirstTrack_GoesStraightToTracking_NotRecovered()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TrackingStateMachineTests.InitialState_IsSearching()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TrackingStateMachineTests.InvalidFrame_DisablesInteractionBeforeLostHint()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TrackingStateMachineTests.LostThenTracked_ReportsRecovered_ThenSettlesToTracking()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TrackingStateMachineTests.PausedStatus_IsTreatedAsLost_NotAsTracking()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TrackingStateMachineTests.RepeatedLossDuringRecovered_EventuallyBecomesLost()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TrackingStateMachineTests.Reset_ClearsCountersAndInteractionAvailability()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TrackingStateMachineTests.SingleFrameDrop_DoesNotFlickerToLost()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TrackingStateMachineTests.StaleSample_IsNotSettleable()",
+      "Passed": true,
+      "Error": null
+    }
+  ],
+  "IntegrationResults": [
+    {
+      "Name": "IntegrationChecks.App_DenLossClearsPartialDwell()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "IntegrationChecks.App_NewlyAcceptedFeedDoesNotConsumePreviousFrameTime()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "IntegrationChecks.App_PauseWithoutInterveningUpdate_PreservesExitLock()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "IntegrationChecks.App_UiDebounceDoesNotPermitTouchOnInvalidPose()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "IntegrationChecks.CancelledSceneSavePrompt_StopsGeneration()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "IntegrationChecks.FreshApp_PreservesConfiguredInitialNeeds()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "IntegrationChecks.GeneratedSmokeScene_AssignsBothTrackingProxies()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "IntegrationChecks.MainScene_DoesNotAutoSubstituteSimulatedTracking()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "IntegrationChecks.Regeneration_PreservesBothExistingSceneFiles()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "IntegrationChecks.SleepyApp_OnlySlowsIdleAndAllowsFullEatDuration()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "IntegrationChecks.AndroidPermission_ConcurrentRequestsShareOnePrompt()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "IntegrationChecks.AndroidPermission_DenialCompletesExactlyOnce(False)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "IntegrationChecks.AndroidPermission_DenialCompletesExactlyOnce(True)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "IntegrationChecks.AndroidPermission_UsesRuntimeAuthorizationState()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "IntegrationChecks.PermissionDenialAndFocusReturn_DoNotStartTracking()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "IntegrationChecks.PermissionGrantedInBackground_WaitsForForeground()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "IntegrationChecks.VuforiaDisabledObserver_CannotPublishTrackedPose()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "IntegrationChecks.VuforiaEstimatedOrUnknownPose_CannotSettle(EXTENDED_TRACKED)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "IntegrationChecks.VuforiaEstimatedOrUnknownPose_CannotSettle(LIMITED)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "IntegrationChecks.VuforiaEstimatedOrUnknownPose_CannotSettle(999)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "IntegrationChecks.VuforiaLateStartedCallback_CannotUndoPause()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "IntegrationChecks.VuforiaPause_ImmediatelyInvalidatesCachedSamplesAndRegistry()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "IntegrationChecks.VuforiaResume_RequiresNewSamples()",
+      "Passed": true,
+      "Error": null
+    }
+  ]
+}

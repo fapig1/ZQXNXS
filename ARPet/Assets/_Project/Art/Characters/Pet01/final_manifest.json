@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "target_id": "Pet01",
+  "character": "奶蛙风格圆脸小生物，金黄色身体、奶油色腹部、绿色眼睛、棕色指趾",
+  "status": "final",
+  "status_label": "用户于 2026-09-11 确认当前版本为最终版",
+  "finalized_date": "2026-09-11",
+  "frozen": {
+    "source_file": "ArtSource/Characters/Pet01/pet01.blend",
+    "source_sha256": "fad23c5c0b4d8b50d106c4bdb943b7d6f4eebba433b15b83c6e42db559acb89f",
+    "geometry": {
+      "vertices": 10434,
+      "triangles": 20528,
+      "bones": 26,
+      "maximum_skin_influences": 3,
+      "rest_height_m": 0.2,
+      "rest_width_m": 0.11121256649494171,
+      "rest_depth_m": 0.10253442823886871
+    },
+    "clips": [
+      { "name": "Idle", "fps": 30, "duration_seconds": 3.0, "loop": true },
+      { "name": "Eat",  "fps": 30, "duration_seconds": 3.2, "loop": false,
+        "settlement_marker": { "name": "Consume", "time_seconds": 2.4 } }
+    ],
+    "exported_files": [
+      "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01.fbx",
+      "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_Idle.fbx",
+      "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_Eat.fbx",
+      "ARPet/Assets/_Project/Art/Characters/Pet01/Textures/Pet01_BaseColor.png"
+    ]
+  },
+  "route_forward_plus_z": true,
+  "up_axis": "Y",
+  "units": "meter",
+  "root_node": "Root",
+  "materials_planned": [
+    { "name": "Pet01_Skin", "metallic": 0.0, "smoothness": 0.43 },
+    { "name": "Pet01_Eyes", "metallic": 0.0, "smoothness": 0.64 },
+    { "name": "Pet01_Oral", "metallic": 0.0, "smoothness": 0.57 }
+  ],
+  "not_made_yet": ["WalkLoop", "TouchReact", "Happy", "DozeLoop"],
+  "verification": {
+    "blender_source_validated": true,
+    "blender_fbx_roundtrip": true,
+    "unity_import_tested": false,
+    "android_device_tested": false,
+    "materials_rebuilt_in_unity": true,
+    "materials_rebuilt_note": "2026-09-17：菜单“桌上有龙 / 3. 接入角色材质与 Animator”已创建 Pet01_Skin/Pet01_Oral/Pet01_Eyes 三个 Standard 材质（Metallic=0，Smoothness 0.43/0.57/0.64，均引用 Pet01_BaseColor.png）并按实际子网格顺序赋给 SkinnedMeshRenderer；未在真机或编辑器 Game 视图下核实光照观感。",
+    "animator_controller_created": true,
+    "animator_controller_note": "2026-09-17：Assets/_Project/Animations/Pet01Controller.controller 已生成，Idle（循环）/Eat（单次）两个状态已挂真实 AnimationClip；PetPresenter.animator 字段已在 01_TrackingSmoke 场景中指向 Pet01 的 Animator。EditMode 测试已驱动该 Controller 走完 Idle→Eat→Idle 真实状态切换。仍未验证：02_Main 场景（Vuforia 接线未完成）与真机播放效果。"
+  },
+  "note": "本文件是最终版冻结记录。任何后续形体或动画修改都视为新一轮修订，需要新开 shape_revision 并同步更新 Docs/奶蛙最终版资产说明.md。"
+}

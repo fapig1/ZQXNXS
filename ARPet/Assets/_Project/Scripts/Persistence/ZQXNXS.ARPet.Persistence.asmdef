@@ -1,0 +1,17 @@
+{
+    "name": "ZQXNXS.ARPet.Persistence",
+    "rootNamespace": "ZQXNXS.ARPet.Persistence",
+    "references": [
+        "ZQXNXS.ARPet.Core",
+        "ZQXNXS.ARPet.Pet"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

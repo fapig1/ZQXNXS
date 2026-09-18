@@ -1,0 +1,92 @@
+# ============================================================
+# 桌上有龙 — 仓库忽略规则
+# 原则：保留源码、.meta、Packages 与 ProjectSettings；
+#       排除一切可由 Unity / Gradle / Blender 重新生成的目录。
+# ============================================================
+
+# ---------- Unity 工程可重建目录 ----------
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+[Cc]rashlytics/
+
+# Unity 自动生成的工程文件
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# 旧版 / 编辑器缓存
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+*.app
+.vs/
+.vsconfig
+.idea/
+.vscode/          # 若需共享 VS Code 配置，删除本行并显式提交需要的文件
+
+# ---------- Gradle / Android ----------
+.gradle/
+gradle/
+gradle.properties.bak
+*.hprof
+.cxx/
+.utmp/
+local.properties
+
+# Unity 导出的 Gradle 工程可重新生成，不入库
+ARPet/[Ee]xport[Gg]radle/
+Builds/Android/GradleExport/
+
+# 交付产物单独保存（如需纳入交付，请手动 git add -f）
+Builds/Android/*.apk
+Builds/Android/*.aab
+
+# ---------- 超限与大体积不入库项 ----------
+# Vuforia 本地 UPM 包 132 MB，超过 GitHub 单文件 100 MB 硬限制；
+# 组员按 ARPet/SETUP.md 第 5 节导入 unitypackage 自行获得
+ARPet/Packages/*.tgz
+
+# 建模历史归档（约 182 MB，仅保留在本机；改动前归档流程见 Docs/奶蛙最终版资产说明.md 第 7 节）
+ArtSource/Characters/Pet01/Archive/
+
+# 几何验证中间产物，可由 Blender 脚本重新导出
+*.npz
+
+# Unity 测试框架的临时结果目录（ARPet/TestResults-EditMode.xml 作为证据保留，不受影响）
+ARPet/TestResults/
+
+# ---------- Blender / Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.blend1
+*.blend2
+
+# ---------- 系统 / 编辑器杂项 ----------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+*~
+*.tmp
+*.log
+!ArtSource/Characters/Pet01/Logs/**/*.log   # 建模日志属于可追溯证据，保留

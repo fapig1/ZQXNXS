@@ -1,0 +1,597 @@
+{
+  "schema_version": 1,
+  "asset_id": "Pet01",
+  "checked_at": "2026-09-11T00:31:12",
+  "software": "Blender 5.1.1",
+  "checks": [
+    {
+      "name": "finite_geometry",
+      "passed": true,
+      "evidence": {
+        "vertices": 10434
+      }
+    },
+    {
+      "name": "mobile_triangle_budget",
+      "passed": true,
+      "evidence": {
+        "triangles": 20528,
+        "ceiling": 30000
+      }
+    },
+    {
+      "name": "normalized_skin_weights",
+      "passed": true,
+      "evidence": {
+        "max_influences": 3,
+        "max_sum_error": 3.725290298461914e-08,
+        "unbound_groups": []
+      }
+    },
+    {
+      "name": "rest_size_and_ground",
+      "passed": true,
+      "evidence": {
+        "dimensions_m": [
+          0.11121256649494171,
+          0.10253442451357841,
+          0.2000000032009478
+        ],
+        "min_z_m": -2.2071554306446473e-10
+      }
+    },
+    {
+      "name": "root_at_sole_center",
+      "passed": true,
+      "evidence": {
+        "bone": "Root",
+        "head": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bone_count": 26
+      }
+    },
+    {
+      "name": "identity_object_transforms",
+      "passed": true,
+      "evidence": {
+        "Pet01_Mesh": {
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "Pet01Rig": {
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "single_skin_binding",
+      "passed": true,
+      "evidence": {
+        "mesh": "Pet01_Mesh",
+        "rig": "Pet01Rig",
+        "modifiers": [
+          "ARMATURE"
+        ]
+      }
+    },
+    {
+      "name": "uv_and_materials",
+      "passed": true,
+      "evidence": {
+        "uv_layers": [
+          "UVMap"
+        ],
+        "materials": [
+          "Pet01_Skin",
+          "Pet01_Oral",
+          "Pet01_Eyes"
+        ]
+      }
+    },
+    {
+      "name": "candidate_proportion_dimensions",
+      "passed": true,
+      "evidence": {
+        "current_dimensions_m": [
+          0.11121256649494171,
+          0.10253442451357841,
+          0.2000000032009478
+        ],
+        "candidate_dimensions_m": [
+          0.11107487231492996,
+          0.0992085188627243,
+          0.20000000298023224
+        ],
+        "absolute_error_m": [
+          0.00013769418001174927,
+          0.0033259056508541107,
+          2.2071555694225253e-10
+        ],
+        "limits_m": [
+          0.002,
+          0.005,
+          0.0001
+        ]
+      }
+    },
+    {
+      "name": "candidate_orthographic_silhouettes",
+      "passed": true,
+      "evidence": {
+        "source_hashes_match": true,
+        "intersection_over_union": {
+          "front": 0.961082154806985,
+          "side": 0.9561060844592841
+        },
+        "minimum": 0.9,
+        "note": "Guard against major silhouette errors; does not replace visual review or user acceptance."
+      }
+    },
+    {
+      "name": "bent_arms_at_belly_height",
+      "passed": true,
+      "evidence": {
+        "Forearm.L": {
+          "elbow_m": [
+            0.04450000077486038,
+            0.020999999716877937,
+            0.11599999666213989
+          ],
+          "wrist_m": [
+            0.02199999988079071,
+            0.04650000110268593,
+            0.10300000011920929
+          ]
+        },
+        "Forearm.R": {
+          "elbow_m": [
+            -0.04450000077486038,
+            0.020999999716877937,
+            0.11599999666213989
+          ],
+          "wrist_m": [
+            -0.02199999988079071,
+            0.04650000110268593,
+            0.10300000011920929
+          ]
+        }
+      }
+    },
+    {
+      "name": "continuous_closed_body_and_mouth",
+      "passed": true,
+      "evidence": {
+        "main_component_vertices": 7304,
+        "nonmanifold_edges": 0,
+        "total_mesh_islands": 16
+      }
+    },
+    {
+      "name": "Idle_endpoints",
+      "passed": true,
+      "evidence": {
+        "max_error_m": 1.1337391759379496e-19
+      }
+    },
+    {
+      "name": "Idle_planted_feet",
+      "passed": true,
+      "evidence": {
+        "foot_drift_m": 0.0,
+        "minimum_z_m": -2.2071554306446473e-10,
+        "plant_vertices": 66
+      }
+    },
+    {
+      "name": "Idle_smooth_motion_and_fixed_root",
+      "passed": true,
+      "evidence": {
+        "max_step_m": 0.002636539091315993,
+        "root_matrix_error": 0.0,
+        "largest_step": {
+          "frame": 40,
+          "vertex": 8732,
+          "rest_position": [
+            0.011857480742037296,
+            0.018254630267620087,
+            0.18083176016807556
+          ],
+          "weights": {
+            "LidUpper.L": 1.0
+          }
+        }
+      }
+    },
+    {
+      "name": "Eat_endpoints",
+      "passed": true,
+      "evidence": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "Eat_planted_feet",
+      "passed": true,
+      "evidence": {
+        "foot_drift_m": 0.0,
+        "minimum_z_m": -2.2071554306446473e-10,
+        "plant_vertices": 66
+      }
+    },
+    {
+      "name": "Eat_smooth_motion_and_fixed_root",
+      "passed": true,
+      "evidence": {
+        "max_step_m": 0.0034477606284665442,
+        "root_matrix_error": 0.0,
+        "largest_step": {
+          "frame": 86,
+          "vertex": 9899,
+          "rest_position": [
+            -0.013072694651782513,
+            0.021037470549345016,
+            0.19128958880901337
+          ],
+          "weights": {
+            "LidUpper.R": 1.0
+          }
+        }
+      }
+    },
+    {
+      "name": "Eat_three_chews_one_settlement_marker",
+      "passed": true,
+      "evidence": {
+        "chew_pulses": 3,
+        "consume_marker_frames": [
+          73
+        ],
+        "note": "Design markers do not become Unity gameplay events automatically."
+      }
+    },
+    {
+      "name": "Rest_fbx_object_scope",
+      "passed": true,
+      "evidence": {
+        "meshes": 1,
+        "armatures": 1,
+        "extra_objects": []
+      }
+    },
+    {
+      "name": "Rest_fbx_bones",
+      "passed": true,
+      "evidence": {
+        "bones": 26
+      }
+    },
+    {
+      "name": "Rest_fbx_pose_preservation",
+      "passed": true,
+      "evidence": {
+        "maximum_error_m": 4.626714655842079e-08,
+        "sample_frames": 1
+      }
+    },
+    {
+      "name": "Rest_fbx_texture_paths",
+      "passed": true,
+      "evidence": {
+        "paths": [
+          "D:\\ZengQiangXianShi\\ARPet\\Assets\\_Project\\Art\\Characters\\Pet01\\Models\\..\\Textures\\Pet01_BaseColor.png"
+        ]
+      }
+    },
+    {
+      "name": "Idle_fbx_object_scope",
+      "passed": true,
+      "evidence": {
+        "meshes": 1,
+        "armatures": 1,
+        "extra_objects": []
+      }
+    },
+    {
+      "name": "Idle_fbx_bones",
+      "passed": true,
+      "evidence": {
+        "bones": 26
+      }
+    },
+    {
+      "name": "Idle_fbx_take",
+      "passed": true,
+      "evidence": {
+        "take": "Pet01Rig|Idle"
+      }
+    },
+    {
+      "name": "Idle_fbx_duration",
+      "passed": true,
+      "evidence": {
+        "frames": [
+          2.0,
+          92.0
+        ],
+        "duration_seconds": 3.0
+      }
+    },
+    {
+      "name": "Idle_fbx_pose_preservation",
+      "passed": true,
+      "evidence": {
+        "maximum_error_m": 1.0505385006354118e-07,
+        "sample_frames": 7
+      }
+    },
+    {
+      "name": "Idle_fbx_texture_paths",
+      "passed": true,
+      "evidence": {
+        "paths": [
+          "D:\\ZengQiangXianShi\\ARPet\\Assets\\_Project\\Art\\Characters\\Pet01\\Models\\..\\Textures\\Pet01_BaseColor.png"
+        ]
+      }
+    },
+    {
+      "name": "Eat_fbx_object_scope",
+      "passed": true,
+      "evidence": {
+        "meshes": 1,
+        "armatures": 1,
+        "extra_objects": []
+      }
+    },
+    {
+      "name": "Eat_fbx_bones",
+      "passed": true,
+      "evidence": {
+        "bones": 26
+      }
+    },
+    {
+      "name": "Eat_fbx_take",
+      "passed": true,
+      "evidence": {
+        "take": "Pet01Rig|Eat"
+      }
+    },
+    {
+      "name": "Eat_fbx_duration",
+      "passed": true,
+      "evidence": {
+        "frames": [
+          2.0,
+          98.0
+        ],
+        "duration_seconds": 3.2
+      }
+    },
+    {
+      "name": "Eat_fbx_pose_preservation",
+      "passed": true,
+      "evidence": {
+        "maximum_error_m": 7.477171948266914e-08,
+        "sample_frames": 7
+      }
+    },
+    {
+      "name": "Eat_fbx_texture_paths",
+      "passed": true,
+      "evidence": {
+        "paths": [
+          "D:\\ZengQiangXianShi\\ARPet\\Assets\\_Project\\Art\\Characters\\Pet01\\Models\\..\\Textures\\Pet01_BaseColor.png"
+        ]
+      }
+    }
+  ],
+  "clips": {
+    "Idle": {
+      "fps": 30,
+      "frames": [
+        1,
+        91
+      ],
+      "duration_seconds": 3.0,
+      "loop": true,
+      "endpoint_max_error_m": 1.1337391759379496e-19,
+      "max_foot_drift_m": 0.0,
+      "minimum_z_m": -2.2071554306446473e-10,
+      "max_consecutive_frame_motion_m": 0.002636539091315993,
+      "root_matrix_max_error": 0.0,
+      "largest_step": {
+        "frame": 40,
+        "vertex": 8732,
+        "rest_position": [
+          0.011857480742037296,
+          0.018254630267620087,
+          0.18083176016807556
+        ],
+        "weights": {
+          "LidUpper.L": 1.0
+        }
+      },
+      "max_mouth_lower_translation_m": -0.0,
+      "design_markers": [
+        {
+          "name": "Start",
+          "frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "name": "Loop",
+          "frame": 91,
+          "time_seconds": 3.0
+        }
+      ]
+    },
+    "Eat": {
+      "fps": 30,
+      "frames": [
+        1,
+        97
+      ],
+      "duration_seconds": 3.2,
+      "loop": false,
+      "endpoint_max_error_m": 0.0,
+      "max_foot_drift_m": 0.0,
+      "minimum_z_m": -2.2071554306446473e-10,
+      "max_consecutive_frame_motion_m": 0.0034477606284665442,
+      "root_matrix_max_error": 0.0,
+      "largest_step": {
+        "frame": 86,
+        "vertex": 9899,
+        "rest_position": [
+          -0.013072694651782513,
+          0.021037470549345016,
+          0.19128958880901337
+        ],
+        "weights": {
+          "LidUpper.R": 1.0
+        }
+      },
+      "max_mouth_lower_translation_m": 0.006197810173034668,
+      "design_markers": [
+        {
+          "name": "Start",
+          "frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "name": "Complete",
+          "frame": 97,
+          "time_seconds": 3.2
+        },
+        {
+          "name": "Bite01",
+          "frame": 29,
+          "time_seconds": 0.9333333333333333
+        },
+        {
+          "name": "Bite02",
+          "frame": 44,
+          "time_seconds": 1.4333333333333333
+        },
+        {
+          "name": "Bite03",
+          "frame": 59,
+          "time_seconds": 1.9333333333333333
+        },
+        {
+          "name": "Consume",
+          "frame": 73,
+          "time_seconds": 2.4
+        }
+      ]
+    }
+  },
+  "roundtrip": {
+    "Rest": {
+      "file": "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01.fbx",
+      "bytes": 615228,
+      "sha256": "cb0c51d43b5fe56af0a601f5f923cf431fb4f383f017e5446ef756ce834c1a42",
+      "pose_errors": [
+        {
+          "source_frame": 1,
+          "max_surface_distance_m": 4.626714655842079e-08
+        }
+      ],
+      "take": null
+    },
+    "Idle": {
+      "file": "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_Idle.fbx",
+      "bytes": 892732,
+      "sha256": "d1ed8ebe45075124c6840ae590c7ecf23b36f5ec3427d6c6e2681e635017bc0b",
+      "pose_errors": [
+        {
+          "source_frame": 1,
+          "max_surface_distance_m": 4.842877388000488e-08
+        },
+        {
+          "source_frame": 15,
+          "max_surface_distance_m": 1.0505385006354118e-07
+        },
+        {
+          "source_frame": 29,
+          "max_surface_distance_m": 7.97083714587643e-08
+        },
+        {
+          "source_frame": 37,
+          "max_surface_distance_m": 6.664001972467304e-08
+        },
+        {
+          "source_frame": 49,
+          "max_surface_distance_m": 7.600414164699032e-08
+        },
+        {
+          "source_frame": 73,
+          "max_surface_distance_m": 7.607258112329873e-08
+        },
+        {
+          "source_frame": 91,
+          "max_surface_distance_m": 4.842877388000488e-08
+        }
+      ],
+      "take": "Pet01Rig|Idle"
+    },
+    "Eat": {
+      "file": "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_Eat.fbx",
+      "bytes": 895404,
+      "sha256": "699f0478323dee5eb36fb30b60363af615c6898b3568bbb7f351cf090390b4f7",
+      "pose_errors": [
+        {
+          "source_frame": 1,
+          "max_surface_distance_m": 4.842877388000488e-08
+        },
+        {
+          "source_frame": 15,
+          "max_surface_distance_m": 7.477171948266914e-08
+        },
+        {
+          "source_frame": 29,
+          "max_surface_distance_m": 6.009737063550347e-08
+        },
+        {
+          "source_frame": 37,
+          "max_surface_distance_m": 6.313790379408601e-08
+        },
+        {
+          "source_frame": 49,
+          "max_surface_distance_m": 6.151235965035085e-08
+        },
+        {
+          "source_frame": 73,
+          "max_surface_distance_m": 6.150795428538913e-08
+        },
+        {
+          "source_frame": 97,
+          "max_surface_distance_m": 4.842877388000488e-08
+        }
+      ],
+      "take": "Pet01Rig|Eat"
+    }
+  },
+  "scope": "Blender source and optional FBX reimport; Unity and Android remain untested.",
+  "passed": true,
+  "source_sha256": "fad23c5c0b4d8b50d106c4bdb943b7d6f4eebba433b15b83c6e42db559acb89f"
+}

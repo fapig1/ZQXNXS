@@ -1,0 +1,32 @@
+{
+    "name": "ZQXNXS.ARPet.EditorTools",
+    "rootNamespace": "ZQXNXS.ARPet.EditorTools",
+    "references": [
+        "ZQXNXS.ARPet.App",
+        "ZQXNXS.ARPet.AR",
+        "ZQXNXS.ARPet.Core",
+        "ZQXNXS.ARPet.Interaction",
+        "ZQXNXS.ARPet.Persistence",
+        "ZQXNXS.ARPet.Pet",
+        "ZQXNXS.ARPet.Platform",
+        "ZQXNXS.ARPet.Presentation",
+        "ZQXNXS.ARPet.UI"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+  "versionDefines": [
+    {
+      "name": "com.ptc.vuforia.engine",
+      "expression": "0.0.0",
+      "define": "VUFORIA_ENGINE"
+    }
+  ],
+    "noEngineReferences": false
+}

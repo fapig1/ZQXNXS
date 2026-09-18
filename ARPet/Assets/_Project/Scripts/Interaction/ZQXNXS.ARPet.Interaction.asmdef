@@ -1,0 +1,17 @@
+{
+    "name": "ZQXNXS.ARPet.Interaction",
+    "rootNamespace": "ZQXNXS.ARPet.Interaction",
+    "references": [
+        "ZQXNXS.ARPet.Core",
+        "ZQXNXS.ARPet.Pet"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
