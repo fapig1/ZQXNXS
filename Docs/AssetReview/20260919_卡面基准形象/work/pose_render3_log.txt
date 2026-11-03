@@ -1,0 +1,1214 @@
+SURGERY: pre_boundary=318 cut_faces=584 boundary_edges_before_fill=896 arm_ring=292 body_ring=500 boost=1905 strip=13 post_boundary=14 post_nonmanifold=0
+SURGERY residual boundary by zone: {'arm_zone!!': 14}
+QC[REST] boundary=14 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=3/1500 degen=76
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=14 nonmanifold=0 stretch_gt30=169 (arm/shoulder_zone=128) flip_est=6/1500 degen=76
+QC[calm] top_stretch=[(3.07, (0.014, 0.008, 0.153)), (3.05, (0.016, 0.008, 0.154)), (2.98, (0.013, 0.013, 0.141)), (2.96, (0.017, 0.012, 0.136)), (2.76, (0.016, 0.01, 0.148)), (2.66, (0.015, 0.006, 0.157))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=14 nonmanifold=0 stretch_gt30=33 (arm/shoulder_zone=21) flip_est=3/1500 degen=76
+QC[rage] top_stretch=[(1.58, (-0.014, 0.003, 0.188)), (1.58, (0.007, 0.009, 0.189)), (1.58, (0.019, 0.009, 0.157)), (1.52, (0.022, 0.003, 0.159)), (1.52, (-0.014, 0.003, 0.188)), (1.52, (-0.014, 0.003, 0.186))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=14 nonmanifold=0 stretch_gt30=237 (arm/shoulder_zone=180) flip_est=6/1500 degen=76
+QC[divine] top_stretch=[(4.19, (-0.029, 0.003, 0.129)), (3.88, (-0.027, 0.007, 0.14)), (3.78, (0.025, 0.005, 0.151)), (3.72, (0.024, 0.006, 0.15)), (3.69, (-0.027, 0.006, 0.144)), (3.68, (0.024, 0.009, 0.137))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=14 nonmanifold=0 stretch_gt30=9 (arm/shoulder_zone=0) flip_est=3/1500 degen=76
+QC[classic] top_stretch=[(1.61, (-0.001, 0.012, 0.19)), (1.51, (0.018, 0.001, 0.186)), (1.42, (0.018, 0.001, 0.188)), (1.4, (0.018, 0.001, 0.188)), (1.38, (-0.001, 0.013, 0.188)), (1.36, (0.018, 0.001, 0.186))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY: pre_boundary=318 cut_faces=584 split_edges=64 loops=[('body', 33), ('body', 15), ('body', 33), ('arm', 235), ('body', 237), ('arm', 13), ('body', 33), ('body', 7), ('body', 5), ('body', 33), ('arm', 11), ('body', 14), ('arm', 6), ('body', 33), ('body', 5), ('body', 33), ('arm', 5), ('body', 32), ('body', 32), ('arm', 15), ('body', 33), ('arm', 6), ('arm', 7), ('body', 6), ('arm', 7), ('body', 33)] body_fill_interior=9702 method=none
+SURGERY: arm_ring=289 body_ring=479 boost=3082 strip=25 post_boundary=0 post_nonmanifold=0
+SURGERY residual boundary by zone: {}
+QC[REST] boundary=0 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=1/1500 degen=70
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=0 nonmanifold=0 stretch_gt30=657 (arm/shoulder_zone=460) flip_est=5/1500 degen=70
+QC[calm] top_stretch=[(17.29, (-0.04, -0.01, 0.083)), (16.51, (-0.019, -0.014, 0.187)), (10.76, (-0.035, 0.02, 0.107)), (9.51, (-0.039, 0.002, 0.092)), (7.71, (-0.039, 0.004, 0.093)), (7.71, (0.022, -0.002, 0.155))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=0 nonmanifold=0 stretch_gt30=202 (arm/shoulder_zone=45) flip_est=2/1500 degen=70
+QC[rage] top_stretch=[(6.57, (-0.014, 0.003, 0.188)), (6.3, (0.007, 0.009, 0.187)), (5.83, (-0.014, 0.003, 0.188)), (5.7, (0.007, 0.009, 0.189)), (5.64, (-0.014, 0.003, 0.188)), (4.26, (0.007, 0.009, 0.189))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=0 nonmanifold=0 stretch_gt30=892 (arm/shoulder_zone=674) flip_est=5/1500 degen=70
+QC[divine] top_stretch=[(30.57, (-0.034, -0.012, 0.099)), (19.36, (-0.014, 0.04, 0.104)), (17.72, (-0.027, 0.008, 0.1)), (15.56, (-0.027, 0.01, 0.1)), (13.17, (-0.029, 0.0, 0.1)), (11.16, (-0.024, 0.017, 0.1))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=0 nonmanifold=0 stretch_gt30=160 (arm/shoulder_zone=0) flip_est=1/1500 degen=70
+QC[classic] top_stretch=[(5.35, (-0.001, 0.012, 0.19)), (5.28, (0.018, 0.001, 0.188)), (4.93, (-0.001, 0.012, 0.19)), (4.28, (0.018, 0.001, 0.188)), (4.11, (-0.001, 0.012, 0.19)), (4.11, (0.018, 0.001, 0.186))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY: pre_boundary=318 cut_faces=584 split_edges=64 loops=[('arm', 235), ('body', 15), ('body', 237), ('arm', 13), ('arm', 15), ('arm', 7), ('arm', 6), ('body', 14), ('arm', 11), ('body', 6), ('arm', 7), ('body', 5), ('arm', 6), ('body', 7), ('body', 5), ('arm', 5)] body_fill_interior=3483 method=sphere(r=0.0491, rms=2.15mm)
+SURGERY: arm_ring=290 body_ring=278 boost=2805 strip=14 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=33/1500 degen=80
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=574 (arm/shoulder_zone=527) flip_est=22/1500 degen=79
+QC[calm] top_stretch=[(17.29, (-0.04, -0.01, 0.083)), (11.65, (-0.037, 0.022, 0.107)), (10.61, (-0.039, 0.003, 0.092)), (7.52, (-0.039, 0.004, 0.093)), (7.28, (-0.039, 0.002, 0.092)), (7.12, (-0.039, 0.008, 0.096))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=56 (arm/shoulder_zone=47) flip_est=24/1500 degen=80
+QC[rage] top_stretch=[(2.68, (0.018, 0.017, 0.14)), (2.54, (0.033, -0.004, 0.141)), (2.53, (0.016, 0.014, 0.141)), (2.27, (0.017, 0.017, 0.141)), (2.21, (0.024, -0.005, 0.144)), (2.1, (0.016, 0.013, 0.142))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=869 (arm/shoulder_zone=761) flip_est=28/1500 degen=76
+QC[divine] top_stretch=[(30.59, (-0.034, -0.012, 0.099)), (21.51, (-0.014, 0.042, 0.104)), (19.46, (-0.027, 0.009, 0.1)), (15.18, (-0.027, 0.01, 0.1)), (12.93, (-0.029, 0.0, 0.1)), (12.44, (-0.027, 0.004, 0.101))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.565 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=6 (arm/shoulder_zone=2) flip_est=33/1500 degen=80
+QC[classic] top_stretch=[(1.45, (-0.001, 0.013, 0.188)), (1.42, (-0.001, 0.012, 0.19)), (1.37, (0.012, -0.02, 0.145)), (1.32, (0.018, 0.001, 0.186)), (1.32, (0.018, 0.001, 0.186)), (1.31, (0.01, -0.022, 0.145))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY: pre_boundary=318 cut_faces=584 loops=[('arm', 1), ('mouth_skip', 0), ('mouth_skip', 0), ('body', 0), ('body', 0), ('body', 1), ('arm', 0), ('body', 1), ('body', 1), ('arm', 1), ('arm', 1), ('body', 1), ('mouth_skip', 0), ('mouth_skip', 0), ('arm', 1), ('mouth_skip', 0), ('arm', 1), ('mouth_skip', 0), ('arm', 1), ('mouth_skip', 0), ('body', 1), ('mouth_skip', 0), ('mouth_skip', 0), ('mouth_skip', 0), ('arm', 1), ('arm', 1)] body_inner=12(sphere(r=0.0057, rms=0.01mm)) arm_inner=32 boost=1754 strip=13 post_boundary=329 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 329}
+QC[REST] boundary=329 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=4/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=329 nonmanifold=0 stretch_gt30=135 (arm/shoulder_zone=106) flip_est=4/1500 degen=72
+QC[calm] top_stretch=[(24.52, (-0.019, -0.014, 0.185)), (4.92, (-0.019, -0.014, 0.185)), (4.03, (-0.019, -0.014, 0.185)), (2.85, (0.018, 0.012, 0.139)), (2.52, (0.014, 0.012, 0.142)), (2.3, (0.014, 0.008, 0.154))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=329 nonmanifold=0 stretch_gt30=24 (arm/shoulder_zone=15) flip_est=4/1500 degen=72
+QC[rage] top_stretch=[(10.4, (-0.014, 0.003, 0.186)), (3.03, (-0.014, 0.003, 0.186)), (2.44, (-0.014, 0.003, 0.186)), (1.45, (0.019, 0.009, 0.157)), (1.45, (0.022, 0.004, 0.159)), (1.45, (0.007, 0.009, 0.189))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=329 nonmanifold=0 stretch_gt30=222 (arm/shoulder_zone=163) flip_est=7/1500 degen=72
+QC[divine] top_stretch=[(17.27, (-0.012, 0.01, 0.187)), (3.89, (-0.03, 0.004, 0.132)), (3.41, (0.028, 0.005, 0.135)), (3.3, (-0.029, 0.006, 0.139)), (3.2, (-0.026, -0.006, 0.153)), (3.16, (-0.012, 0.01, 0.187))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=329 nonmanifold=0 stretch_gt30=6 (arm/shoulder_zone=0) flip_est=4/1500 degen=72
+QC[classic] top_stretch=[(27.39, (-0.001, 0.013, 0.188)), (8.84, (-0.001, 0.013, 0.188)), (6.29, (-0.001, 0.013, 0.188)), (1.42, (-0.001, 0.012, 0.19)), (1.32, (0.018, 0.001, 0.186)), (1.32, (0.018, 0.001, 0.186))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY: pre_boundary=318 cut_faces=584 loops=[('body', 237), ('mouth_skip', 33), ('arm', 13), ('mouth_skip', 33), ('mouth_skip', 33), ('arm', 235), ('body', 6), ('arm', 15), ('mouth_skip', 32), ('mouth_skip', 32), ('arm', 7), ('mouth_skip', 33), ('body', 15), ('body', 14), ('arm', 11), ('arm', 7), ('body', 5), ('arm', 6), ('arm', 6), ('body', 7), ('body', 5), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('arm', 5), ('mouth_skip', 33)] body_inner=96(sphere(r=0.0406, rms=0.22mm)) arm_inner=124 boost=1854 strip=20 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=4/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=168 (arm/shoulder_zone=121) flip_est=5/1500 degen=72
+QC[calm] top_stretch=[(4.14, (-0.016, -0.033, 0.15)), (3.22, (-0.015, -0.035, 0.15)), (3.14, (0.023, 0.006, 0.157)), (3.12, (0.023, 0.005, 0.157)), (3.08, (-0.02, -0.032, 0.154)), (3.02, (-0.018, -0.033, 0.154))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=37 (arm/shoulder_zone=28) flip_est=4/1500 degen=72
+QC[rage] top_stretch=[(3.01, (0.022, 0.003, 0.157)), (2.27, (0.021, 0.005, 0.157)), (1.93, (-0.021, -0.023, 0.157)), (1.87, (0.021, 0.004, 0.156)), (1.81, (0.022, 0.003, 0.158)), (1.77, (-0.024, -0.019, 0.156))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=265 (arm/shoulder_zone=203) flip_est=7/1500 degen=72
+QC[divine] top_stretch=[(5.72, (-0.025, -0.005, 0.152)), (4.27, (-0.026, -0.008, 0.153)), (4.01, (0.029, 0.002, 0.155)), (3.98, (-0.031, 0.002, 0.154)), (3.89, (-0.03, 0.004, 0.132)), (3.88, (-0.028, -0.003, 0.155))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=4 (arm/shoulder_zone=0) flip_est=4/1500 degen=72
+QC[classic] top_stretch=[(1.45, (-0.001, 0.013, 0.188)), (1.42, (-0.001, 0.012, 0.19)), (1.32, (0.018, 0.001, 0.186)), (1.32, (0.018, 0.001, 0.186)), (1.3, (0.018, 0.001, 0.188)), (1.29, (-0.001, 0.012, 0.19))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY uv copied loops=94
+SURGERY: pre_boundary=318 cut_faces=584 loops=[('arm', 235), ('arm', 7), ('mouth_skip', 33), ('body', 5), ('body', 237), ('body', 15), ('arm', 13), ('body', 6), ('mouth_skip', 32), ('mouth_skip', 32), ('body', 7), ('body', 5), ('arm', 11), ('body', 14), ('mouth_skip', 33), ('mouth_skip', 33), ('arm', 5), ('mouth_skip', 33), ('arm', 15), ('arm', 6), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('arm', 6), ('mouth_skip', 33), ('arm', 7)] body_inner=96(sphere(r=0.0406, rms=0.22mm)) arm_inner=124 boost=1854 strip=20 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=4/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=168 (arm/shoulder_zone=121) flip_est=5/1500 degen=72
+QC[calm] top_stretch=[(4.14, (-0.016, -0.033, 0.15)), (3.22, (-0.015, -0.035, 0.15)), (3.14, (0.023, 0.006, 0.157)), (3.12, (0.023, 0.005, 0.157)), (3.08, (-0.02, -0.032, 0.154)), (3.02, (-0.018, -0.033, 0.154))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=37 (arm/shoulder_zone=28) flip_est=4/1500 degen=72
+QC[rage] top_stretch=[(3.01, (0.022, 0.003, 0.157)), (2.27, (0.021, 0.005, 0.157)), (1.93, (-0.021, -0.023, 0.157)), (1.87, (0.021, 0.004, 0.156)), (1.81, (0.022, 0.003, 0.158)), (1.77, (-0.024, -0.019, 0.156))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=265 (arm/shoulder_zone=203) flip_est=7/1500 degen=72
+QC[divine] top_stretch=[(5.72, (-0.025, -0.005, 0.152)), (4.27, (-0.026, -0.008, 0.153)), (4.01, (0.029, 0.002, 0.155)), (3.98, (-0.031, 0.002, 0.154)), (3.89, (-0.03, 0.004, 0.132)), (3.88, (-0.028, -0.003, 0.155))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=4 (arm/shoulder_zone=0) flip_est=4/1500 degen=72
+QC[classic] top_stretch=[(1.45, (-0.001, 0.013, 0.188)), (1.42, (-0.001, 0.012, 0.19)), (1.32, (0.018, 0.001, 0.186)), (1.32, (0.018, 0.001, 0.186)), (1.3, (0.018, 0.001, 0.188)), (1.29, (-0.001, 0.012, 0.19))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY uv nearest-body assigned loops=94 skin_slot=0
+SURGERY uv nearest-body assigned loops=94 skin_slot=0
+SURGERY: pre_boundary=318 cut_faces=584 loops=[('body', 237), ('mouth_skip', 33), ('body', 14), ('mouth_skip', 33), ('arm', 235), ('body', 5), ('body', 15), ('arm', 11), ('arm', 15), ('mouth_skip', 33), ('mouth_skip', 33), ('arm', 7), ('arm', 6), ('arm', 13), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 32), ('mouth_skip', 32), ('mouth_skip', 33), ('arm', 7), ('body', 7), ('body', 6), ('body', 5), ('arm', 6), ('arm', 5), ('mouth_skip', 33)] body_inner=96(sphere(r=0.0406, rms=0.22mm)) arm_inner=124 boost=1854 strip=20 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=4/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=168 (arm/shoulder_zone=121) flip_est=5/1500 degen=72
+QC[calm] top_stretch=[(4.14, (-0.016, -0.033, 0.15)), (3.22, (-0.015, -0.035, 0.15)), (3.14, (0.023, 0.006, 0.157)), (3.12, (0.023, 0.005, 0.157)), (3.08, (-0.02, -0.032, 0.154)), (3.02, (-0.018, -0.033, 0.154))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=37 (arm/shoulder_zone=28) flip_est=4/1500 degen=72
+QC[rage] top_stretch=[(3.01, (0.022, 0.003, 0.157)), (2.27, (0.021, 0.005, 0.157)), (1.93, (-0.021, -0.023, 0.157)), (1.87, (0.021, 0.004, 0.156)), (1.81, (0.022, 0.003, 0.158)), (1.77, (-0.024, -0.019, 0.156))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=265 (arm/shoulder_zone=203) flip_est=7/1500 degen=72
+QC[divine] top_stretch=[(5.72, (-0.025, -0.005, 0.152)), (4.27, (-0.026, -0.008, 0.153)), (4.01, (0.029, 0.002, 0.155)), (3.98, (-0.031, 0.002, 0.154)), (3.89, (-0.03, 0.004, 0.132)), (3.88, (-0.028, -0.003, 0.155))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=4 (arm/shoulder_zone=0) flip_est=4/1500 degen=72
+QC[classic] top_stretch=[(1.45, (-0.001, 0.013, 0.188)), (1.42, (-0.001, 0.012, 0.19)), (1.32, (0.018, 0.001, 0.186)), (1.32, (0.018, 0.001, 0.186)), (1.3, (0.018, 0.001, 0.188)), (1.29, (-0.001, 0.012, 0.19))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY uv anchors: belly=(0.25, 0.459) arm=(0.738, 0.75) loops=94 skin_slot=0
+SURGERY: pre_boundary=318 cut_faces=584 loops=[('mouth_skip', 33), ('arm', 235), ('body', 237), ('mouth_skip', 33), ('body', 15), ('arm', 13), ('arm', 15), ('mouth_skip', 32), ('arm', 7), ('body', 6), ('body', 14), ('arm', 7), ('arm', 6), ('mouth_skip', 32), ('arm', 6), ('body', 5), ('body', 7), ('mouth_skip', 33), ('arm', 11), ('mouth_skip', 33), ('mouth_skip', 33), ('body', 5), ('arm', 5), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)] body_inner=96(sphere(r=0.0406, rms=0.22mm)) arm_inner=124 boost=1854 strip=20 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=4/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=168 (arm/shoulder_zone=121) flip_est=5/1500 degen=72
+QC[calm] top_stretch=[(4.14, (-0.016, -0.033, 0.15)), (3.22, (-0.015, -0.035, 0.15)), (3.14, (0.023, 0.006, 0.157)), (3.12, (0.023, 0.005, 0.157)), (3.08, (-0.02, -0.032, 0.154)), (3.02, (-0.018, -0.033, 0.154))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=37 (arm/shoulder_zone=28) flip_est=4/1500 degen=72
+QC[rage] top_stretch=[(3.01, (0.022, 0.003, 0.157)), (2.27, (0.021, 0.005, 0.157)), (1.93, (-0.021, -0.023, 0.157)), (1.87, (0.021, 0.004, 0.156)), (1.81, (0.022, 0.003, 0.158)), (1.77, (-0.024, -0.019, 0.156))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=265 (arm/shoulder_zone=203) flip_est=7/1500 degen=72
+QC[divine] top_stretch=[(5.72, (-0.025, -0.005, 0.152)), (4.27, (-0.026, -0.008, 0.153)), (4.01, (0.029, 0.002, 0.155)), (3.98, (-0.031, 0.002, 0.154)), (3.89, (-0.03, 0.004, 0.132)), (3.88, (-0.028, -0.003, 0.155))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=4 (arm/shoulder_zone=0) flip_est=4/1500 degen=72
+QC[classic] top_stretch=[(1.45, (-0.001, 0.013, 0.188)), (1.42, (-0.001, 0.012, 0.19)), (1.32, (0.018, 0.001, 0.186)), (1.32, (0.018, 0.001, 0.186)), (1.3, (0.018, 0.001, 0.188)), (1.29, (-0.001, 0.012, 0.19))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY uv: belly_anchor=(0.25, 0.459) loops=40 skin_slot=0
+SURGERY: pre_boundary=318 cut_faces=584 loops=[('body', 237), ('mouth_skip', 33), ('mouth_skip', 33), ('body', 6), ('arm', 7), ('arm', 235), ('body', 15), ('arm', 7), ('body', 5), ('arm', 5), ('arm', 11), ('mouth_skip', 32), ('mouth_skip', 33), ('body', 7), ('body', 5), ('arm', 6), ('arm', 13), ('body', 14), ('mouth_skip', 32), ('mouth_skip', 33), ('arm', 15), ('mouth_skip', 33), ('arm', 6), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)] body_inner=96(sphere(r=0.0406, rms=0.22mm)) arm_inner=124 boost=1854 strip=20 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=4/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=168 (arm/shoulder_zone=121) flip_est=5/1500 degen=72
+QC[calm] top_stretch=[(4.14, (-0.016, -0.033, 0.15)), (3.22, (-0.015, -0.035, 0.15)), (3.14, (0.023, 0.006, 0.157)), (3.12, (0.023, 0.005, 0.157)), (3.08, (-0.02, -0.032, 0.154)), (3.02, (-0.018, -0.033, 0.154))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=37 (arm/shoulder_zone=28) flip_est=4/1500 degen=72
+QC[rage] top_stretch=[(3.01, (0.022, 0.003, 0.157)), (2.27, (0.021, 0.005, 0.157)), (1.93, (-0.021, -0.023, 0.157)), (1.87, (0.021, 0.004, 0.156)), (1.81, (0.022, 0.003, 0.158)), (1.77, (-0.024, -0.019, 0.156))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=265 (arm/shoulder_zone=203) flip_est=7/1500 degen=72
+QC[divine] top_stretch=[(5.72, (-0.025, -0.005, 0.152)), (4.27, (-0.026, -0.008, 0.153)), (4.01, (0.029, 0.002, 0.155)), (3.98, (-0.031, 0.002, 0.154)), (3.89, (-0.03, 0.004, 0.132)), (3.88, (-0.028, -0.003, 0.155))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=4 (arm/shoulder_zone=0) flip_est=4/1500 degen=72
+QC[classic] top_stretch=[(1.45, (-0.001, 0.013, 0.188)), (1.42, (-0.001, 0.012, 0.19)), (1.32, (0.018, 0.001, 0.186)), (1.32, (0.018, 0.001, 0.186)), (1.3, (0.018, 0.001, 0.188)), (1.29, (-0.001, 0.012, 0.19))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY fill faces: body=5 arm=8
+SURGERY uv: belly_anchor=(0.25, 0.459) loops=40 skin_slot=0
+SURGERY: pre_boundary=318 cut_faces=584 loops=[('body', 15), ('body', 237), ('body', 14), ('mouth_skip', 33), ('mouth_skip', 33), ('body', 6), ('arm', 235), ('arm', 7), ('arm', 7), ('arm', 13), ('arm', 6), ('arm', 11), ('arm', 6), ('body', 5), ('body', 7), ('mouth_skip', 32), ('body', 5), ('arm', 5), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 32), ('mouth_skip', 33), ('arm', 15), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)] body_inner=96(sphere(r=0.0406, rms=0.22mm)) arm_inner=124 boost=1854 strip=20 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=4/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=168 (arm/shoulder_zone=121) flip_est=5/1500 degen=72
+QC[calm] top_stretch=[(4.14, (-0.016, -0.033, 0.15)), (3.22, (-0.015, -0.035, 0.15)), (3.14, (0.023, 0.006, 0.157)), (3.12, (0.023, 0.005, 0.157)), (3.08, (-0.02, -0.032, 0.154)), (3.02, (-0.018, -0.033, 0.154))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=37 (arm/shoulder_zone=28) flip_est=4/1500 degen=72
+QC[rage] top_stretch=[(3.01, (0.022, 0.003, 0.157)), (2.27, (0.021, 0.005, 0.157)), (1.93, (-0.021, -0.023, 0.157)), (1.87, (0.021, 0.004, 0.156)), (1.81, (0.022, 0.003, 0.158)), (1.77, (-0.024, -0.019, 0.156))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=265 (arm/shoulder_zone=203) flip_est=7/1500 degen=72
+QC[divine] top_stretch=[(5.72, (-0.025, -0.005, 0.152)), (4.27, (-0.026, -0.008, 0.153)), (4.01, (0.029, 0.002, 0.155)), (3.98, (-0.031, 0.002, 0.154)), (3.89, (-0.03, 0.004, 0.132)), (3.88, (-0.028, -0.003, 0.155))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=4 (arm/shoulder_zone=0) flip_est=4/1500 degen=72
+QC[classic] top_stretch=[(1.45, (-0.001, 0.013, 0.188)), (1.42, (-0.001, 0.012, 0.19)), (1.32, (0.018, 0.001, 0.186)), (1.32, (0.018, 0.001, 0.186)), (1.3, (0.018, 0.001, 0.188)), (1.29, (-0.001, 0.012, 0.19))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY fill faces captured: body=5 arm=8
+SURGERY uv: belly_anchor=(0.25, 0.459) loops=94 skin_slot=0
+SURGERY: pre_boundary=318 cut_faces=584 split=64 loops=[('mouth_skip', 33), ('mouth_skip', 33), ('arm', 11), ('body', 237), ('arm', 235), ('mouth_skip', 33), ('body', 6), ('arm', 7), ('arm', 7), ('mouth_skip', 33), ('body', 5), ('arm', 5), ('mouth_skip', 32), ('mouth_skip', 32), ('body', 7), ('body', 5), ('mouth_skip', 33), ('arm', 6), ('arm', 13), ('body', 14), ('arm', 15), ('arm', 6), ('body', 15), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=96(sphere(r=0.0405, rms=0.22mm)) arm_inner=124 boost=1854 strip=20 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=4/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+SURGERY fill faces captured: body=5 arm=8
+SURGERY uv: belly_anchor=(0.25, 0.459) loops=94 skin_slot=0
+SURGERY: pre_boundary=318 cut_faces=584 split=64 loops=[('arm', 235), ('mouth_skip', 33), ('body', 15), ('body', 237), ('mouth_skip', 33), ('mouth_skip', 33), ('arm', 6), ('arm', 13), ('arm', 15), ('arm', 7), ('arm', 6), ('arm', 11), ('body', 5), ('body', 7), ('mouth_skip', 33), ('body', 6), ('arm', 7), ('mouth_skip', 33), ('mouth_skip', 32), ('mouth_skip', 32), ('body', 5), ('body', 14), ('mouth_skip', 33), ('arm', 5), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=96(sphere(r=0.0405, rms=0.22mm)) arm_inner=124 boost=1854 strip=20 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=4/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+DEBUG: green(body-lowweight) faces=12112
+debug render done
+SURGERY fill faces captured: body=5 arm=8
+SURGERY uv: belly_anchor=(0.25, 0.459) loops=94 skin_slot=0
+SURGERY: pre_boundary=318 cut_faces=584 split=64 loops=[('body', 237), ('arm', 6), ('mouth_skip', 32), ('arm', 13), ('arm', 235), ('mouth_skip', 33), ('arm', 15), ('body', 5), ('arm', 7), ('arm', 11), ('body', 5), ('body', 14), ('body', 15), ('arm', 7), ('arm', 6), ('mouth_skip', 33), ('mouth_skip', 32), ('body', 7), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('body', 6), ('mouth_skip', 33), ('mouth_skip', 33), ('arm', 5)]
+SURGERY: body_inner=96(sphere(r=0.0405, rms=0.22mm)) arm_inner=124 boost=1854 strip=20 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=4/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=168 (arm/shoulder_zone=121) flip_est=5/1500 degen=72
+QC[calm] top_stretch=[(4.14, (-0.016, -0.033, 0.15)), (3.22, (-0.015, -0.035, 0.15)), (3.14, (0.023, 0.006, 0.157)), (3.12, (0.023, 0.005, 0.157)), (3.08, (-0.02, -0.032, 0.154)), (3.02, (-0.018, -0.033, 0.154))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=37 (arm/shoulder_zone=28) flip_est=4/1500 degen=72
+QC[rage] top_stretch=[(3.01, (0.022, 0.003, 0.157)), (2.27, (0.021, 0.005, 0.157)), (1.93, (-0.021, -0.023, 0.157)), (1.87, (0.021, 0.004, 0.156)), (1.81, (0.022, 0.003, 0.158)), (1.77, (-0.024, -0.019, 0.156))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=265 (arm/shoulder_zone=203) flip_est=7/1500 degen=72
+QC[divine] top_stretch=[(5.72, (-0.025, -0.005, 0.152)), (4.27, (-0.026, -0.008, 0.153)), (4.01, (0.029, 0.002, 0.155)), (3.98, (-0.031, 0.002, 0.154)), (3.89, (-0.03, 0.004, 0.132)), (3.88, (-0.028, -0.003, 0.155))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=4 (arm/shoulder_zone=0) flip_est=4/1500 degen=72
+QC[classic] top_stretch=[(1.45, (-0.001, 0.013, 0.188)), (1.42, (-0.001, 0.012, 0.19)), (1.32, (0.018, 0.001, 0.186)), (1.32, (0.018, 0.001, 0.186)), (1.3, (0.018, 0.001, 0.188)), (1.29, (-0.001, 0.012, 0.19))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY fill faces captured: body=7 arm=6
+SURGERY uv: belly_anchor=(0.25, 0.459) loops=330 skin_slot=0
+SURGERY: pre_boundary=318 cut_faces=604 split=40 loops=[('arm', 13), ('body', 252), ('arm', 249), ('mouth_skip', 33), ('body', 15), ('arm', 6), ('mouth_skip', 33), ('body', 4), ('mouth_skip', 33), ('body', 14), ('arm', 7), ('arm', 11), ('arm', 6), ('body', 5), ('body', 7), ('body', 6), ('arm', 7), ('mouth_skip', 33), ('mouth_skip', 32), ('mouth_skip', 32), ('mouth_skip', 33), ('mouth_skip', 33), ('body', 5), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=858(sphere(r=0.0475, rms=3.33mm)) arm_inner=88 boost=2166 strip=25 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=6/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=1
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=170 (arm/shoulder_zone=150) flip_est=7/1500 degen=72
+QC[calm] top_stretch=[(7.99, (0.02, 0.012, 0.137)), (5.93, (0.03, -0.008, 0.148)), (4.25, (0.018, 0.013, 0.139)), (3.78, (0.023, -0.002, 0.156)), (3.26, (0.029, -0.007, 0.15)), (3.18, (0.024, -0.004, 0.155))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=45 (arm/shoulder_zone=36) flip_est=6/1500 degen=72
+QC[rage] top_stretch=[(2.47, (0.019, 0.018, 0.142)), (2.24, (0.034, -0.005, 0.144)), (1.9, (0.034, -0.005, 0.142)), (1.83, (0.018, 0.006, 0.154)), (1.74, (0.034, -0.005, 0.141)), (1.73, (0.02, 0.004, 0.155))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=270 (arm/shoulder_zone=196) flip_est=8/1500 degen=72
+QC[divine] top_stretch=[(9.71, (0.03, 0.004, 0.133)), (6.45, (0.025, -0.014, 0.148)), (5.17, (0.029, 0.006, 0.135)), (4.25, (-0.027, 0.007, 0.15)), (4.11, (-0.028, 0.007, 0.148)), (3.95, (-0.03, 0.004, 0.132))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=4 (arm/shoulder_zone=0) flip_est=6/1500 degen=72
+QC[classic] top_stretch=[(1.45, (-0.001, 0.013, 0.188)), (1.42, (-0.001, 0.012, 0.19)), (1.32, (0.018, 0.001, 0.186)), (1.32, (0.018, 0.001, 0.186)), (1.3, (0.018, 0.001, 0.188)), (1.29, (-0.001, 0.012, 0.19))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY fill faces captured: body=7 arm=6
+SURGERY uv: belly_anchor=(0.25, 0.459) loops=330 skin_slot=0
+SURGERY: pre_boundary=318 cut_faces=604 split=40 loops=[('arm', 7), ('arm', 249), ('mouth_skip', 32), ('arm', 13), ('body', 6), ('body', 252), ('body', 15), ('body', 14), ('arm', 7), ('arm', 6), ('mouth_skip', 32), ('arm', 6), ('body', 5), ('body', 7), ('mouth_skip', 33), ('arm', 11), ('mouth_skip', 33), ('mouth_skip', 33), ('body', 5), ('mouth_skip', 33), ('mouth_skip', 33), ('body', 4), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=858(sphere(r=0.0475, rms=3.33mm)) arm_inner=88 boost=2166 strip=25 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=6/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=170 (arm/shoulder_zone=150) flip_est=7/1500 degen=72
+QC[calm] top_stretch=[(7.99, (0.02, 0.012, 0.137)), (5.93, (0.03, -0.008, 0.148)), (4.25, (0.018, 0.013, 0.139)), (3.78, (0.023, -0.002, 0.156)), (3.26, (0.029, -0.007, 0.15)), (3.18, (0.024, -0.004, 0.155))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=45 (arm/shoulder_zone=36) flip_est=6/1500 degen=72
+QC[rage] top_stretch=[(2.47, (0.019, 0.018, 0.142)), (2.24, (0.034, -0.005, 0.144)), (1.9, (0.034, -0.005, 0.142)), (1.83, (0.018, 0.006, 0.154)), (1.74, (0.034, -0.005, 0.141)), (1.73, (0.02, 0.004, 0.155))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=268 (arm/shoulder_zone=194) flip_est=8/1500 degen=72
+QC[divine] top_stretch=[(9.71, (0.03, 0.004, 0.133)), (6.45, (0.025, -0.014, 0.148)), (5.17, (0.029, 0.006, 0.135)), (4.29, (-0.027, 0.007, 0.149)), (4.2, (-0.028, 0.007, 0.148)), (3.95, (-0.03, 0.004, 0.132))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=4 (arm/shoulder_zone=0) flip_est=6/1500 degen=72
+QC[classic] top_stretch=[(1.45, (-0.001, 0.013, 0.188)), (1.42, (-0.001, 0.012, 0.19)), (1.32, (0.018, 0.001, 0.186)), (1.32, (0.018, 0.001, 0.186)), (1.3, (0.018, 0.001, 0.188)), (1.29, (-0.001, 0.012, 0.19))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY fill faces captured: body=7 arm=6
+SURGERY uv: belly_anchor=(0.25, 0.459) loops=330 skin_slot=0
+SURGERY: pre_boundary=318 cut_faces=604 split=40 loops=[('body', 252), ('arm', 249), ('mouth_skip', 33), ('body', 15), ('mouth_skip', 33), ('mouth_skip', 33), ('arm', 13), ('arm', 11), ('mouth_skip', 33), ('mouth_skip', 33), ('body', 7), ('arm', 6), ('body', 5), ('body', 14), ('mouth_skip', 33), ('body', 5), ('body', 6), ('arm', 7), ('body', 4), ('arm', 7), ('mouth_skip', 33), ('mouth_skip', 32), ('mouth_skip', 32), ('mouth_skip', 33), ('arm', 6)]
+SURGERY: body_inner=858(sphere(r=0.0475, rms=3.33mm)) arm_inner=88 boost=2166 strip=25 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=6/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=170 (arm/shoulder_zone=150) flip_est=7/1500 degen=72
+QC[calm] top_stretch=[(7.99, (0.02, 0.012, 0.137)), (5.93, (0.03, -0.008, 0.148)), (4.25, (0.018, 0.013, 0.139)), (3.78, (0.023, -0.002, 0.156)), (3.26, (0.029, -0.007, 0.15)), (3.18, (0.024, -0.004, 0.155))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=45 (arm/shoulder_zone=36) flip_est=7/1500 degen=72
+QC[rage] top_stretch=[(2.47, (0.019, 0.018, 0.142)), (2.24, (0.034, -0.005, 0.144)), (1.9, (0.034, -0.005, 0.142)), (1.83, (0.018, 0.006, 0.154)), (1.74, (0.034, -0.005, 0.141)), (1.73, (0.02, 0.004, 0.155))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=268 (arm/shoulder_zone=194) flip_est=8/1500 degen=72
+QC[divine] top_stretch=[(9.71, (0.03, 0.004, 0.133)), (6.45, (0.025, -0.014, 0.148)), (5.17, (0.029, 0.006, 0.135)), (4.29, (-0.027, 0.007, 0.149)), (4.2, (-0.028, 0.007, 0.148)), (3.95, (-0.03, 0.004, 0.132))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=4 (arm/shoulder_zone=0) flip_est=6/1500 degen=72
+QC[classic] top_stretch=[(1.45, (-0.001, 0.013, 0.188)), (1.42, (-0.001, 0.012, 0.19)), (1.32, (0.018, 0.001, 0.186)), (1.32, (0.018, 0.001, 0.186)), (1.3, (0.018, 0.001, 0.188)), (1.29, (-0.001, 0.012, 0.19))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY fill faces captured: body=7 arm=6
+SURGERY uv: belly_anchor=(0.25, 0.459) loops=330 skin_slot=0
+SURGERY: pre_boundary=318 cut_faces=604 split=40 loops=[('arm', 249), ('mouth_skip', 32), ('body', 252), ('body', 14), ('body', 15), ('arm', 13), ('arm', 6), ('body', 4), ('mouth_skip', 32), ('arm', 11), ('body', 6), ('arm', 7), ('arm', 7), ('body', 5), ('mouth_skip', 33), ('body', 7), ('arm', 6), ('mouth_skip', 33), ('body', 5), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=858(sphere(r=0.0475, rms=3.33mm)) arm_inner=88 boost=2166 strip=25 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=6/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=170 (arm/shoulder_zone=150) flip_est=7/1500 degen=72
+QC[calm] top_stretch=[(7.99, (0.02, 0.012, 0.137)), (5.93, (0.03, -0.008, 0.148)), (4.25, (0.018, 0.013, 0.139)), (3.78, (0.023, -0.002, 0.156)), (3.26, (0.029, -0.007, 0.15)), (3.18, (0.024, -0.004, 0.155))]
+rendered calm res=(1100, 1650) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=45 (arm/shoulder_zone=36) flip_est=7/1500 degen=72
+QC[rage] top_stretch=[(2.47, (0.019, 0.018, 0.142)), (2.24, (0.034, -0.005, 0.144)), (1.9, (0.034, -0.005, 0.142)), (1.83, (0.018, 0.006, 0.154)), (1.74, (0.034, -0.005, 0.141)), (1.73, (0.02, 0.004, 0.155))]
+rendered rage res=(1100, 1650) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=268 (arm/shoulder_zone=194) flip_est=8/1500 degen=72
+QC[divine] top_stretch=[(9.71, (0.03, 0.004, 0.133)), (6.45, (0.025, -0.014, 0.148)), (5.17, (0.029, 0.006, 0.135)), (4.29, (-0.027, 0.007, 0.149)), (4.2, (-0.028, 0.007, 0.148)), (3.95, (-0.03, 0.004, 0.132))]
+rendered divine res=(1100, 1650) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=4 (arm/shoulder_zone=0) flip_est=6/1500 degen=72
+QC[classic] top_stretch=[(1.45, (-0.001, 0.013, 0.188)), (1.42, (-0.001, 0.012, 0.19)), (1.32, (0.018, 0.001, 0.186)), (1.32, (0.018, 0.001, 0.186)), (1.3, (0.018, 0.001, 0.188)), (1.29, (-0.001, 0.012, 0.19))]
+rendered classic res=(1100, 1650) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY fill faces captured: body=7 arm=6
+SURGERY uv: belly_anchor=(0.25, 0.459) loops=330 skin_slot=0
+SURGERY: pre_boundary=318 cut_faces=604 split=40 loops=[('arm', 249), ('mouth_skip', 33), ('mouth_skip', 33), ('body', 252), ('mouth_skip', 33), ('body', 7), ('arm', 6), ('arm', 13), ('body', 5), ('body', 14), ('body', 5), ('arm', 11), ('body', 4), ('mouth_skip', 32), ('body', 15), ('arm', 6), ('mouth_skip', 32), ('body', 6), ('arm', 7), ('arm', 7), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=858(sphere(r=0.0475, rms=3.33mm)) arm_inner=88 boost=2166 strip=25 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=6/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=170 (arm/shoulder_zone=150) flip_est=7/1500 degen=72
+QC[calm] top_stretch=[(7.99, (0.02, 0.012, 0.137)), (5.93, (0.03, -0.008, 0.148)), (4.25, (0.018, 0.013, 0.139)), (3.78, (0.023, -0.002, 0.156)), (3.26, (0.029, -0.007, 0.15)), (3.18, (0.024, -0.004, 0.155))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=45 (arm/shoulder_zone=36) flip_est=7/1500 degen=72
+QC[rage] top_stretch=[(2.47, (0.019, 0.018, 0.142)), (2.24, (0.034, -0.005, 0.144)), (1.9, (0.034, -0.005, 0.142)), (1.83, (0.018, 0.006, 0.154)), (1.74, (0.034, -0.005, 0.141)), (1.73, (0.02, 0.004, 0.155))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=268 (arm/shoulder_zone=194) flip_est=8/1500 degen=72
+QC[divine] top_stretch=[(9.71, (0.03, 0.004, 0.133)), (6.45, (0.025, -0.014, 0.148)), (5.17, (0.029, 0.006, 0.135)), (4.29, (-0.027, 0.007, 0.149)), (4.2, (-0.028, 0.007, 0.148)), (3.95, (-0.03, 0.004, 0.132))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=4 (arm/shoulder_zone=0) flip_est=6/1500 degen=72
+QC[classic] top_stretch=[(1.45, (-0.001, 0.013, 0.188)), (1.42, (-0.001, 0.012, 0.19)), (1.32, (0.018, 0.001, 0.186)), (1.32, (0.018, 0.001, 0.186)), (1.3, (0.018, 0.001, 0.188)), (1.29, (-0.001, 0.012, 0.19))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY fill faces captured: body=7 arm=6
+SURGERY uv: belly_anchor=(0.25, 0.459) loops=330 skin_slot=0
+SURGERY: pre_boundary=318 cut_faces=604 split=40 loops=[('body', 252), ('mouth_skip', 33), ('mouth_skip', 33), ('arm', 249), ('arm', 13), ('body', 14), ('body', 15), ('mouth_skip', 33), ('arm', 7), ('arm', 11), ('body', 6), ('mouth_skip', 32), ('body', 7), ('arm', 6), ('body', 5), ('mouth_skip', 32), ('arm', 7), ('body', 4), ('body', 5), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('arm', 6), ('mouth_skip', 33)]
+SURGERY: body_inner=858(sphere(r=0.0475, rms=3.33mm)) arm_inner=88 boost=2166 strip=25 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=6/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=170 (arm/shoulder_zone=150) flip_est=7/1500 degen=72
+QC[calm] top_stretch=[(7.99, (0.02, 0.012, 0.137)), (5.93, (0.03, -0.008, 0.148)), (4.25, (0.018, 0.013, 0.139)), (3.78, (0.023, -0.002, 0.156)), (3.26, (0.029, -0.007, 0.15)), (3.18, (0.024, -0.004, 0.155))]
+rendered calm res=(1100, 1650) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=45 (arm/shoulder_zone=36) flip_est=7/1500 degen=72
+QC[rage] top_stretch=[(2.47, (0.019, 0.018, 0.142)), (2.24, (0.034, -0.005, 0.144)), (1.9, (0.034, -0.005, 0.142)), (1.83, (0.018, 0.006, 0.154)), (1.74, (0.034, -0.005, 0.141)), (1.73, (0.02, 0.004, 0.155))]
+rendered rage res=(1100, 1650) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=268 (arm/shoulder_zone=194) flip_est=8/1500 degen=72
+QC[divine] top_stretch=[(9.71, (0.03, 0.004, 0.133)), (6.45, (0.025, -0.014, 0.148)), (5.17, (0.029, 0.006, 0.135)), (4.29, (-0.027, 0.007, 0.149)), (4.2, (-0.028, 0.007, 0.148)), (3.95, (-0.03, 0.004, 0.132))]
+rendered divine res=(1100, 1650) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=4 (arm/shoulder_zone=0) flip_est=6/1500 degen=72
+QC[classic] top_stretch=[(1.45, (-0.001, 0.013, 0.188)), (1.42, (-0.001, 0.012, 0.19)), (1.32, (0.018, 0.001, 0.186)), (1.32, (0.018, 0.001, 0.186)), (1.3, (0.018, 0.001, 0.188)), (1.29, (-0.001, 0.012, 0.19))]
+rendered classic res=(1100, 1650) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY body_fill_inner=861 arm_fill_inner=88 methods=['sphere(r=0.0477, rms=3.36mm)', 'sphere(r=0.0477, rms=3.54mm)', 'sphere(r=0.0006, rms=0.00mm)', 'sphere(r=0.0041, rms=0.11mm)', 'none', 'sphere(r=0.0007, rms=0.14mm)', 'sphere(r=0.0029, rms=0.00mm)']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('arm_nofill', 134), ('body_fill', 369, 'sphere(r=0.0477, rms=3.36mm)'), ('mouth_skip', 32), ('mouth_skip', 33), ('arm_nofill', 140), ('arm_fill', 12), ('body_fill', 396, 'sphere(r=0.0477, rms=3.54mm)'), ('body_fill', 15, 'sphere(r=0.0006, rms=0.00mm)'), ('body_fill', 39, 'sphere(r=0.0041, rms=0.11mm)'), ('mouth_skip', 32), ('arm_fill', 12), ('arm_fill', 24), ('body_fill', 12, 'none'), ('arm_fill', 20), ('body_fill', 18, 'sphere(r=0.0007, rms=0.14mm)'), ('body_nofill', 15), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('mouth_skip', 33), ('arm_fill', 10), ('mouth_skip', 33), ('mouth_skip', 33), ('arm_fill', 10), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=861(sphere(r=0.0477, rms=3.36mm)+sphere(r=0.0477, rms=3.54mm)+sphere(r=0.0006, rms=0.00mm)+sphere(r=0.0041, rms=0.11mm)+none+sphere(r=0.0007, rms=0.14mm)+sphere(r=0.0029, rms=0.00mm)) arm_inner=88 boost=1991 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=4/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=83 (arm/shoulder_zone=54) flip_est=3/1500 degen=72
+QC[calm] top_stretch=[(3.83, (0.024, -0.007, 0.154)), (3.53, (0.024, -0.005, 0.155)), (2.97, (0.02, -0.002, 0.156)), (2.81, (-0.015, -0.033, 0.151)), (2.57, (0.022, -0.003, 0.155)), (2.32, (0.021, -0.001, 0.156))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=41 (arm/shoulder_zone=32) flip_est=5/1500 degen=72
+QC[rage] top_stretch=[(7.0, (-0.018, -0.024, 0.153)), (4.7, (0.021, 0.003, 0.156)), (4.58, (0.022, 0.002, 0.155)), (3.27, (0.025, -0.003, 0.154)), (2.71, (-0.018, -0.023, 0.153)), (2.54, (0.025, -0.004, 0.154))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=101 (arm/shoulder_zone=32) flip_est=7/1500 degen=72
+QC[divine] top_stretch=[(1.86, (0.046, -0.067, 0.092)), (1.79, (-0.04, -0.032, 0.099)), (1.77, (0.035, -0.019, 0.109)), (1.73, (-0.04, -0.018, 0.106)), (1.72, (-0.048, -0.067, 0.091)), (1.69, (0.037, -0.028, 0.102))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=4/1500 degen=72
+QC[classic] top_stretch=[(1.83, (0.021, -0.014, 0.154)), (1.59, (-0.023, 0.006, 0.155)), (1.57, (0.016, -0.021, 0.153)), (1.52, (-0.024, 0.004, 0.155)), (1.52, (0.019, -0.016, 0.154)), (1.52, (0.015, -0.022, 0.152))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+clean_weights: belly_stripped=0
+QC[classic_bh] boundary=318 nonmanifold=0 stretch_gt30=100 (arm/shoulder_zone=17) flip_est=3/1500 degen=72
+QC[classic_bh] top_stretch=[(3.21, (0.012, -0.023, 0.153)), (2.48, (0.004, -0.027, 0.152)), (2.41, (0.01, -0.024, 0.153)), (2.33, (0.009, -0.025, 0.153)), (2.21, (0.01, -0.024, 0.153)), (2.17, (-0.017, 0.016, 0.155))]
+rendered classic_bh res=(550, 825) bbox_h=0.201 bbox_w=0.095 aspect=0.473 D=0.616
+SURGERY body_fill_inner=903 arm_fill_inner=632 methods=['sphere(r=0.0469, rms=3.60mm)', 'sphere(r=0.0476, rms=3.36mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0025, rms=0.35mm)', 'sphere(r=0.0007, rms=0.11mm)', 'none']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('body_fill', 396, 'sphere(r=0.0469, rms=3.60mm)'), ('mouth_skip', 33), ('body_fill', 369, 'sphere(r=0.0476, rms=3.36mm)'), ('mouth_skip', 33), ('mouth_skip', 33), ('arm_fill', 278), ('arm_fill', 266), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('mouth_skip', 33), ('arm_fill', 12), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('arm_fill', 24), ('arm_fill', 20), ('mouth_skip', 33), ('body_fill', 42, 'sphere(r=0.0025, rms=0.35mm)'), ('mouth_skip', 33), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('mouth_skip', 32), ('mouth_skip', 32), ('mouth_skip', 33), ('arm_fill', 12), ('arm_fill', 10), ('arm_fill', 10), ('body_fill', 12, 'none'), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0469, rms=3.60mm)+sphere(r=0.0476, rms=3.36mm)+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0025, rms=0.35mm)+sphere(r=0.0007, rms=0.11mm)+none) arm_inner=632 boost=2535 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=7/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=119 (arm/shoulder_zone=83) flip_est=4/1500 degen=72
+QC[calm] top_stretch=[(4.52, (-0.039, -0.029, 0.078)), (3.92, (0.024, -0.006, 0.154)), (3.7, (0.024, -0.005, 0.155)), (3.51, (-0.035, -0.03, 0.092)), (3.28, (-0.037, -0.018, 0.093)), (3.02, (0.02, -0.002, 0.156))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=41 (arm/shoulder_zone=32) flip_est=8/1500 degen=72
+QC[rage] top_stretch=[(7.2, (-0.018, -0.024, 0.153)), (4.79, (0.021, 0.004, 0.156)), (4.62, (0.022, 0.002, 0.155)), (3.44, (0.025, -0.003, 0.154)), (2.76, (-0.018, -0.023, 0.153)), (2.58, (0.025, -0.004, 0.154))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=143 (arm/shoulder_zone=46) flip_est=8/1500 degen=72
+QC[divine] top_stretch=[(4.76, (-0.042, -0.033, 0.109)), (4.74, (-0.045, -0.046, 0.103)), (3.51, (-0.039, -0.029, 0.101)), (2.89, (-0.039, -0.027, 0.102)), (2.83, (0.04, -0.031, 0.111)), (2.33, (0.037, -0.028, 0.102))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=7/1500 degen=72
+QC[classic] top_stretch=[(1.82, (0.021, -0.014, 0.154)), (1.6, (-0.023, 0.006, 0.155)), (1.6, (0.016, -0.021, 0.153)), (1.58, (0.015, -0.022, 0.152)), (1.54, (-0.024, 0.004, 0.155)), (1.53, (0.019, -0.016, 0.154))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+clean_weights: belly_stripped=0
+QC[classic_bh] boundary=318 nonmanifold=0 stretch_gt30=142 (arm/shoulder_zone=31) flip_est=4/1500 degen=72
+QC[classic_bh] top_stretch=[(3.94, (-0.038, -0.02, 0.105)), (3.5, (-0.037, -0.008, 0.112)), (3.18, (0.012, -0.023, 0.153)), (2.83, (-0.025, -0.009, 0.11)), (2.82, (0.031, -0.049, 0.099)), (2.58, (0.02, -0.05, 0.102))]
+rendered classic_bh res=(550, 825) bbox_h=0.201 bbox_w=0.095 aspect=0.473 D=0.616
+SURGERY body_fill_inner=903 arm_fill_inner=632 methods=['sphere(r=0.0007, rms=0.11mm)', 'sphere(r=0.0471, rms=3.58mm)', 'sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0025, rms=0.35mm)', 'sphere(r=0.0019, rms=0.01mm)', 'none', 'sphere(r=0.0059, rms=0.00mm)']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('mouth_skip', 32), ('mouth_skip', 33), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('arm_fill', 266), ('body_fill', 396, 'sphere(r=0.0471, rms=3.58mm)'), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('arm_fill', 278), ('arm_fill', 20), ('arm_fill', 12), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('body_fill', 42, 'sphere(r=0.0025, rms=0.35mm)'), ('mouth_skip', 33), ('mouth_skip', 33), ('arm_fill', 24), ('mouth_skip', 33), ('mouth_skip', 33), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('arm_fill', 10), ('body_fill', 12, 'none'), ('mouth_skip', 33), ('body_fill', 12, 'sphere(r=0.0059, rms=0.00mm)'), ('arm_fill', 12), ('mouth_skip', 33), ('mouth_skip', 32), ('mouth_skip', 33), ('arm_fill', 10)]
+SURGERY: body_inner=903(sphere(r=0.0007, rms=0.11mm)+sphere(r=0.0471, rms=3.58mm)+sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0025, rms=0.35mm)+sphere(r=0.0019, rms=0.01mm)+none+sphere(r=0.0059, rms=0.00mm)) arm_inner=632 boost=2535 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=6/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=142 (arm/shoulder_zone=87) flip_est=3/1500 degen=72
+QC[calm] top_stretch=[(12.19, (0.052, 0.006, 0.06)), (9.12, (0.052, 0.006, 0.06)), (8.29, (-0.05, -0.024, 0.055)), (7.6, (-0.041, -0.021, 0.081)), (6.91, (-0.041, -0.028, 0.078)), (6.42, (-0.028, -0.017, 0.131))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=40 (arm/shoulder_zone=31) flip_est=7/1500 degen=72
+QC[rage] top_stretch=[(7.4, (-0.018, -0.024, 0.153)), (4.84, (0.021, 0.003, 0.156)), (4.69, (0.022, 0.002, 0.155)), (3.41, (0.025, -0.003, 0.154)), (2.83, (-0.018, -0.023, 0.153)), (2.62, (-0.019, -0.022, 0.153))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=171 (arm/shoulder_zone=57) flip_est=7/1500 degen=72
+QC[divine] top_stretch=[(15.86, (0.043, -0.04, 0.107)), (12.65, (0.047, -0.067, 0.091)), (10.65, (-0.043, -0.033, 0.108)), (9.0, (-0.041, -0.029, 0.102)), (8.25, (0.04, -0.03, 0.111)), (7.6, (-0.044, -0.041, 0.097))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=6/1500 degen=72
+QC[classic] top_stretch=[(1.84, (0.021, -0.014, 0.154)), (1.61, (-0.023, 0.006, 0.155)), (1.6, (0.016, -0.021, 0.153)), (1.57, (0.015, -0.022, 0.152)), (1.55, (-0.024, 0.004, 0.154)), (1.54, (0.019, -0.016, 0.154))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+clean_weights: belly_stripped=0
+QC[classic_bh] boundary=318 nonmanifold=0 stretch_gt30=158 (arm/shoulder_zone=38) flip_est=3/1500 degen=72
+QC[classic_bh] top_stretch=[(18.31, (0.023, -0.06, 0.098)), (16.33, (0.031, -0.09, 0.087)), (11.31, (0.029, -0.046, 0.102)), (9.01, (-0.037, -0.019, 0.104)), (8.84, (0.022, -0.05, 0.102)), (6.5, (-0.026, -0.008, 0.109))]
+rendered classic_bh res=(550, 825) bbox_h=0.201 bbox_w=0.095 aspect=0.473 D=0.616
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0471, rms=3.58mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0059, rms=0.00mm)', 'sphere(r=0.0006, rms=0.00mm)', 'sphere(r=0.0025, rms=0.35mm)']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('arm_fill', 417), ('arm_fill', 399), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('arm_fill', 10), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('arm_fill', 10), ('body_fill', 396, 'sphere(r=0.0471, rms=3.58mm)'), ('mouth_skip', 33), ('arm_fill', 12), ('mouth_skip', 33), ('arm_fill', 24), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('arm_fill', 20), ('body_fill', 12, 'sphere(r=0.0059, rms=0.00mm)'), ('mouth_skip', 33), ('mouth_skip', 32), ('mouth_skip', 32), ('body_fill', 15, 'sphere(r=0.0006, rms=0.00mm)'), ('arm_fill', 12), ('body_fill', 42, 'sphere(r=0.0025, rms=0.35mm)'), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0471, rms=3.58mm)+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0059, rms=0.00mm)+sphere(r=0.0006, rms=0.00mm)+sphere(r=0.0025, rms=0.35mm)) arm_inner=904 boost=2807 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=6/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=163 (arm/shoulder_zone=120) flip_est=4/1500 degen=72
+QC[calm] top_stretch=[(3.92, (0.024, -0.006, 0.154)), (3.69, (0.024, -0.005, 0.155)), (3.17, (0.031, 0.005, 0.108)), (3.12, (-0.031, -0.018, 0.111)), (3.03, (0.02, -0.002, 0.156)), (2.98, (0.036, -0.01, 0.12))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=40 (arm/shoulder_zone=31) flip_est=7/1500 degen=72
+QC[rage] top_stretch=[(7.4, (-0.018, -0.024, 0.153)), (4.84, (0.021, 0.003, 0.156)), (4.69, (0.022, 0.002, 0.155)), (3.41, (0.025, -0.003, 0.154)), (2.83, (-0.018, -0.023, 0.153)), (2.62, (-0.019, -0.022, 0.153))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=193 (arm/shoulder_zone=80) flip_est=8/1500 degen=72
+QC[divine] top_stretch=[(6.6, (0.03, -0.024, 0.124)), (5.14, (-0.035, -0.014, 0.112)), (3.47, (0.038, -0.028, 0.114)), (3.34, (-0.042, -0.033, 0.11)), (3.33, (0.034, -0.018, 0.109)), (3.09, (-0.042, -0.033, 0.109))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=6/1500 degen=72
+QC[classic] top_stretch=[(1.84, (0.021, -0.014, 0.154)), (1.61, (-0.023, 0.006, 0.155)), (1.6, (0.016, -0.021, 0.153)), (1.57, (0.015, -0.022, 0.152)), (1.55, (-0.024, 0.004, 0.154)), (1.54, (0.019, -0.016, 0.154))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+clean_weights: belly_stripped=0
+QC[classic_bh] boundary=318 nonmanifold=0 stretch_gt30=204 (arm/shoulder_zone=58) flip_est=4/1500 degen=72
+QC[classic_bh] top_stretch=[(6.5, (0.012, -0.039, 0.108)), (6.1, (0.021, -0.059, 0.098)), (4.27, (0.018, -0.045, 0.104)), (4.13, (0.028, -0.038, 0.106)), (3.53, (0.026, -0.024, 0.132)), (3.22, (0.012, -0.023, 0.153))]
+rendered classic_bh res=(550, 825) bbox_h=0.201 bbox_w=0.095 aspect=0.473 D=0.616
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0471, rms=3.58mm)', 'none', 'sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0006, rms=0.00mm)', 'sphere(r=0.0030, rms=0.26mm)']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('arm_fill', 417), ('body_fill', 396, 'sphere(r=0.0471, rms=3.58mm)'), ('arm_fill', 12), ('mouth_skip', 33), ('body_fill', 12, 'none'), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('arm_fill', 399), ('arm_fill', 24), ('mouth_skip', 32), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('arm_fill', 10), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('arm_fill', 10), ('arm_fill', 12), ('body_fill', 15, 'sphere(r=0.0006, rms=0.00mm)'), ('body_fill', 39, 'sphere(r=0.0030, rms=0.26mm)'), ('mouth_skip', 32), ('arm_fill', 20), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0471, rms=3.58mm)+none+sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0006, rms=0.00mm)+sphere(r=0.0030, rms=0.26mm)) arm_inner=904 boost=2807 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=7/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=164 (arm/shoulder_zone=107) flip_est=3/1500 degen=72
+QC[calm] top_stretch=[(8.38, (-0.03, -0.017, 0.111)), (4.52, (-0.034, -0.029, 0.092)), (4.22, (-0.03, -0.017, 0.111)), (4.07, (-0.045, -0.028, 0.055)), (3.92, (0.024, -0.006, 0.154)), (3.69, (0.024, -0.005, 0.155))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=40 (arm/shoulder_zone=31) flip_est=6/1500 degen=72
+QC[rage] top_stretch=[(7.34, (-0.018, -0.024, 0.153)), (4.84, (0.021, 0.003, 0.156)), (4.69, (0.022, 0.002, 0.155)), (3.41, (0.025, -0.003, 0.154)), (2.82, (-0.018, -0.023, 0.153)), (2.6, (-0.019, -0.022, 0.153))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=202 (arm/shoulder_zone=77) flip_est=7/1500 degen=72
+QC[divine] top_stretch=[(8.24, (-0.033, -0.013, 0.112)), (7.09, (-0.042, -0.033, 0.109)), (6.56, (-0.042, -0.033, 0.109)), (5.42, (0.042, -0.04, 0.108)), (5.25, (-0.047, -0.067, 0.095)), (5.21, (0.03, -0.024, 0.123))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=7/1500 degen=72
+QC[classic] top_stretch=[(1.83, (0.021, -0.014, 0.154)), (1.61, (-0.023, 0.006, 0.155)), (1.6, (0.016, -0.021, 0.153)), (1.57, (0.015, -0.022, 0.152)), (1.55, (-0.024, 0.004, 0.154)), (1.54, (0.019, -0.016, 0.154))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+clean_weights: belly_stripped=0
+QC[classic_bh] boundary=318 nonmanifold=0 stretch_gt30=195 (arm/shoulder_zone=60) flip_est=3/1500 degen=72
+QC[classic_bh] top_stretch=[(5.38, (-0.018, 0.003, 0.121)), (5.05, (0.012, -0.039, 0.108)), (4.9, (0.026, -0.024, 0.131)), (4.8, (-0.039, -0.041, 0.096)), (4.63, (0.022, -0.06, 0.098)), (4.05, (0.022, -0.023, 0.14))]
+rendered classic_bh res=(550, 825) bbox_h=0.201 bbox_w=0.095 aspect=0.473 D=0.616
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0476, rms=3.55mm)', 'sphere(r=0.0041, rms=0.11mm)', 'sphere(r=0.0007, rms=0.14mm)', 'sphere(r=0.0025, rms=0.35mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0006, rms=0.00mm)', 'none']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('arm_fill', 417), ('mouth_skip', 33), ('mouth_skip', 33), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('arm_fill', 399), ('body_fill', 396, 'sphere(r=0.0476, rms=3.55mm)'), ('arm_fill', 10), ('body_fill', 39, 'sphere(r=0.0041, rms=0.11mm)'), ('arm_fill', 20), ('body_fill', 18, 'sphere(r=0.0007, rms=0.14mm)'), ('body_fill', 42, 'sphere(r=0.0025, rms=0.35mm)'), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('arm_fill', 24), ('mouth_skip', 32), ('arm_fill', 12), ('body_fill', 15, 'sphere(r=0.0006, rms=0.00mm)'), ('arm_fill', 12), ('arm_fill', 10), ('mouth_skip', 32), ('body_fill', 12, 'none'), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0476, rms=3.55mm)+sphere(r=0.0041, rms=0.11mm)+sphere(r=0.0007, rms=0.14mm)+sphere(r=0.0025, rms=0.35mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0006, rms=0.00mm)+none) arm_inner=904 boost=2807 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=8/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=164 (arm/shoulder_zone=107) flip_est=3/1500 degen=72
+QC[calm] top_stretch=[(8.38, (-0.03, -0.017, 0.111)), (4.52, (-0.034, -0.029, 0.092)), (4.22, (-0.03, -0.017, 0.111)), (4.07, (-0.045, -0.028, 0.055)), (3.84, (0.024, -0.007, 0.154)), (3.56, (-0.035, -0.029, 0.092))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=207 (arm/shoulder_zone=79) flip_est=7/1500 degen=72
+QC[divine] top_stretch=[(8.38, (-0.035, -0.015, 0.111)), (7.04, (-0.043, -0.035, 0.108)), (6.63, (-0.043, -0.035, 0.108)), (5.46, (0.04, -0.042, 0.109)), (5.28, (0.028, -0.026, 0.124)), (5.2, (-0.049, -0.069, 0.094))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.558 D=0.620
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0471, rms=3.59mm)', 'sphere(r=0.0025, rms=0.35mm)', 'sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0006, rms=0.00mm)', 'sphere(r=0.0030, rms=0.26mm)', 'none', 'sphere(r=0.0007, rms=0.10mm)', 'none']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('arm_skip_big', 134), ('body_fill', 396, 'sphere(r=0.0471, rms=3.59mm)'), ('mouth_skip', 33), ('mouth_skip', 33), ('body_fill', 42, 'sphere(r=0.0025, rms=0.35mm)'), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('arm_skip_big', 140), ('arm_fill', 24), ('mouth_skip', 33), ('mouth_skip', 33), ('arm_fill', 12), ('body_fill', 15, 'sphere(r=0.0006, rms=0.00mm)'), ('body_fill', 39, 'sphere(r=0.0030, rms=0.26mm)'), ('mouth_skip', 33), ('arm_fill', 12), ('arm_fill', 10), ('arm_fill', 10), ('body_fill', 12, 'none'), ('body_fill', 18, 'sphere(r=0.0007, rms=0.10mm)'), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 32), ('mouth_skip', 32), ('arm_fill', 20), ('mouth_skip', 33), ('body_fill', 12, 'none')]
+SURGERY: body_inner=903(sphere(r=0.0471, rms=3.59mm)+sphere(r=0.0025, rms=0.35mm)+sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0006, rms=0.00mm)+sphere(r=0.0030, rms=0.26mm)+none+sphere(r=0.0007, rms=0.10mm)+none) arm_inner=88 boost=1991 strip=75 post_boundary=590 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=590 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=2/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=590 nonmanifold=0 stretch_gt30=85 (arm/shoulder_zone=54) flip_est=4/1500 degen=72
+QC[calm] top_stretch=[(4.07, (-0.045, -0.028, 0.055)), (3.9, (0.024, -0.006, 0.154)), (3.66, (0.024, -0.005, 0.155)), (3.01, (0.02, -0.002, 0.156)), (2.92, (-0.015, -0.033, 0.151)), (2.62, (0.022, -0.003, 0.155))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=590 nonmanifold=0 stretch_gt30=40 (arm/shoulder_zone=31) flip_est=2/1500 degen=72
+QC[rage] top_stretch=[(7.4, (-0.018, -0.024, 0.153)), (4.79, (0.021, 0.003, 0.156)), (4.64, (0.022, 0.002, 0.155)), (3.39, (0.025, -0.003, 0.154)), (2.83, (-0.018, -0.023, 0.153)), (2.62, (-0.019, -0.022, 0.153))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=590 nonmanifold=0 stretch_gt30=102 (arm/shoulder_zone=32) flip_est=4/1500 degen=72
+QC[divine] top_stretch=[(5.25, (-0.047, -0.067, 0.095)), (2.07, (0.045, -0.067, 0.096)), (2.06, (-0.047, -0.067, 0.094)), (1.79, (-0.04, -0.032, 0.099)), (1.77, (0.035, -0.019, 0.109)), (1.74, (-0.047, -0.067, 0.095))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=590 nonmanifold=0 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=2/1500 degen=72
+QC[classic] top_stretch=[(1.83, (0.021, -0.014, 0.154)), (1.61, (-0.023, 0.006, 0.155)), (1.59, (0.016, -0.021, 0.153)), (1.56, (0.015, -0.022, 0.152)), (1.55, (-0.024, 0.004, 0.154)), (1.53, (0.019, -0.016, 0.154))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+clean_weights: belly_stripped=0
+QC[classic_bh] boundary=590 nonmanifold=0 stretch_gt30=100 (arm/shoulder_zone=18) flip_est=2/1500 degen=72
+QC[classic_bh] top_stretch=[(4.8, (-0.039, -0.041, 0.096)), (3.2, (0.012, -0.023, 0.153)), (2.51, (0.004, -0.027, 0.152)), (2.43, (0.01, -0.024, 0.153)), (2.35, (0.009, -0.025, 0.153)), (2.32, (0.026, -0.089, 0.087))]
+rendered classic_bh res=(550, 825) bbox_h=0.201 bbox_w=0.095 aspect=0.473 D=0.616
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0471, rms=3.58mm)', 'sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0006, rms=0.00mm)', 'sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0019, rms=0.01mm)', 'none', 'none', 'sphere(r=0.0031, rms=0.24mm)']
+shoulder bridge faces=0
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('body_fill', 396, 'sphere(r=0.0471, rms=3.58mm)'), ('arm_skip_big', 140), ('arm_skip_big', 134), ('mouth_skip', 33), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('arm_fill', 20), ('mouth_skip', 32), ('arm_fill', 12), ('body_fill', 15, 'sphere(r=0.0006, rms=0.00mm)'), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('arm_fill', 24), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('arm_fill', 10), ('body_fill', 12, 'none'), ('mouth_skip', 32), ('arm_fill', 12), ('body_fill', 12, 'none'), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('mouth_skip', 33), ('mouth_skip', 33), ('arm_fill', 10), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0471, rms=3.58mm)+sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0006, rms=0.00mm)+sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0019, rms=0.01mm)+none+none+sphere(r=0.0031, rms=0.24mm)) arm_inner=88 boost=1991 strip=75 post_boundary=590 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=590 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=2/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=590 nonmanifold=0 stretch_gt30=85 (arm/shoulder_zone=54) flip_est=4/1500 degen=72
+QC[calm] top_stretch=[(4.07, (-0.045, -0.028, 0.055)), (3.92, (0.024, -0.006, 0.154)), (3.69, (0.024, -0.005, 0.155)), (3.03, (0.02, -0.002, 0.156)), (2.92, (-0.015, -0.033, 0.151)), (2.63, (0.022, -0.003, 0.155))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=590 nonmanifold=0 stretch_gt30=40 (arm/shoulder_zone=31) flip_est=2/1500 degen=72
+QC[rage] top_stretch=[(7.4, (-0.018, -0.024, 0.153)), (4.84, (0.021, 0.003, 0.156)), (4.69, (0.022, 0.002, 0.155)), (3.41, (0.025, -0.003, 0.154)), (2.83, (-0.018, -0.023, 0.153)), (2.62, (-0.019, -0.022, 0.153))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=590 nonmanifold=0 stretch_gt30=102 (arm/shoulder_zone=32) flip_est=4/1500 degen=72
+QC[divine] top_stretch=[(5.25, (-0.047, -0.067, 0.095)), (2.07, (0.045, -0.067, 0.096)), (2.06, (-0.047, -0.067, 0.094)), (1.85, (0.045, -0.068, 0.091)), (1.79, (-0.04, -0.032, 0.099)), (1.77, (0.035, -0.019, 0.109))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=590 nonmanifold=0 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=2/1500 degen=72
+QC[classic] top_stretch=[(1.83, (0.021, -0.014, 0.154)), (1.61, (-0.023, 0.006, 0.155)), (1.6, (0.016, -0.021, 0.153)), (1.57, (0.015, -0.022, 0.152)), (1.55, (-0.024, 0.004, 0.154)), (1.54, (0.019, -0.016, 0.154))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+clean_weights: belly_stripped=0
+QC[classic_bh] boundary=590 nonmanifold=0 stretch_gt30=100 (arm/shoulder_zone=18) flip_est=2/1500 degen=72
+QC[classic_bh] top_stretch=[(4.8, (-0.039, -0.041, 0.096)), (3.21, (0.012, -0.023, 0.153)), (2.52, (0.004, -0.027, 0.152)), (2.44, (0.01, -0.024, 0.153)), (2.35, (0.009, -0.025, 0.153)), (2.32, (0.026, -0.089, 0.087))]
+rendered classic_bh res=(550, 825) bbox_h=0.201 bbox_w=0.095 aspect=0.473 D=0.616
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0471, rms=3.58mm)', 'sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0478, rms=3.38mm)', 'none', 'sphere(r=0.0007, rms=0.11mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0030, rms=0.26mm)']
+bridge probe <Vector (0.0280, -0.0020, 0.1430)>: arm_ch=74 body_ch=0
+bridge probe <Vector (-0.0280, -0.0020, 0.1430)>: arm_ch=75 body_ch=0
+shoulder bridge faces=0
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('arm_skip_big', 134), ('mouth_skip', 32), ('arm_skip_big', 140), ('arm_fill', 12), ('body_fill', 396, 'sphere(r=0.0471, rms=3.58mm)'), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('body_fill', 369, 'sphere(r=0.0478, rms=3.38mm)'), ('body_fill', 12, 'none'), ('mouth_skip', 33), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('arm_fill', 12), ('arm_fill', 24), ('body_fill', 39, 'sphere(r=0.0030, rms=0.26mm)'), ('arm_fill', 10), ('mouth_skip', 33), ('mouth_skip', 33), ('arm_fill', 10), ('arm_fill', 20), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 32), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0471, rms=3.58mm)+sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0478, rms=3.38mm)+none+sphere(r=0.0007, rms=0.11mm)+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0030, rms=0.26mm)) arm_inner=88 boost=1991 strip=75 post_boundary=590 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=590 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=3/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=590 nonmanifold=0 stretch_gt30=85 (arm/shoulder_zone=54) flip_est=4/1500 degen=72
+QC[calm] top_stretch=[(4.07, (-0.045, -0.028, 0.055)), (3.92, (0.024, -0.006, 0.154)), (3.69, (0.024, -0.005, 0.155)), (3.03, (0.02, -0.002, 0.156)), (2.93, (-0.015, -0.033, 0.151)), (2.63, (0.022, -0.003, 0.155))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=590 nonmanifold=0 stretch_gt30=40 (arm/shoulder_zone=31) flip_est=3/1500 degen=72
+QC[rage] top_stretch=[(7.41, (-0.018, -0.024, 0.153)), (4.84, (0.021, 0.003, 0.156)), (4.69, (0.022, 0.002, 0.155)), (3.41, (0.025, -0.003, 0.154)), (2.82, (-0.018, -0.023, 0.153)), (2.62, (-0.019, -0.022, 0.153))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=590 nonmanifold=0 stretch_gt30=102 (arm/shoulder_zone=32) flip_est=4/1500 degen=72
+QC[divine] top_stretch=[(5.25, (-0.047, -0.067, 0.095)), (2.07, (0.045, -0.067, 0.096)), (2.06, (-0.047, -0.067, 0.094)), (1.79, (-0.04, -0.032, 0.099)), (1.77, (0.035, -0.019, 0.109)), (1.74, (-0.047, -0.067, 0.095))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=590 nonmanifold=0 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=3/1500 degen=72
+QC[classic] top_stretch=[(1.83, (0.021, -0.014, 0.154)), (1.61, (-0.023, 0.006, 0.155)), (1.6, (0.016, -0.021, 0.153)), (1.57, (0.015, -0.022, 0.152)), (1.55, (-0.024, 0.004, 0.154)), (1.54, (0.019, -0.016, 0.154))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+clean_weights: belly_stripped=0
+QC[classic_bh] boundary=590 nonmanifold=0 stretch_gt30=100 (arm/shoulder_zone=18) flip_est=2/1500 degen=72
+QC[classic_bh] top_stretch=[(4.8, (-0.039, -0.041, 0.096)), (3.21, (0.012, -0.023, 0.153)), (2.52, (0.004, -0.027, 0.152)), (2.44, (0.01, -0.024, 0.153)), (2.35, (0.009, -0.025, 0.153)), (2.32, (0.026, -0.089, 0.087))]
+rendered classic_bh res=(550, 825) bbox_h=0.201 bbox_w=0.095 aspect=0.473 D=0.616
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0474, rms=3.57mm)', 'sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0041, rms=0.11mm)', 'sphere(r=0.0025, rms=0.35mm)', 'sphere(r=0.0007, rms=0.10mm)', 'sphere(r=0.0007, rms=0.11mm)', 'none', 'none']
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0482, rms=3.34mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0471, rms=3.58mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0059, rms=0.00mm)', 'sphere(r=0.0025, rms=0.35mm)', 'sphere(r=0.0006, rms=0.00mm)']
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0059, rms=0.00mm)', 'sphere(r=0.0471, rms=3.58mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0025, rms=0.35mm)', 'sphere(r=0.0007, rms=0.11mm)']
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0469, rms=3.60mm)', 'sphere(r=0.0059, rms=0.00mm)', 'sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0030, rms=0.26mm)', 'sphere(r=0.0007, rms=0.11mm)']
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0468, rms=3.59mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0059, rms=0.00mm)', 'sphere(r=0.0025, rms=0.35mm)', 'sphere(r=0.0006, rms=0.00mm)']
+shoulder web faces=89
+residual fill round 0: new_faces=90
+residual fill round 1: new_faces=1
+residual fill round 2: new_faces=0
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('mouth_skip', 33), ('arm_fill', 20), ('mouth_skip', 33), ('arm_skip_big', 140), ('arm_skip_big', 134), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('mouth_skip', 33), ('body_fill', 396, 'sphere(r=0.0468, rms=3.59mm)'), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('mouth_skip', 33), ('arm_fill', 12), ('arm_fill', 10), ('arm_fill', 24), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('mouth_skip', 33), ('body_fill', 12, 'sphere(r=0.0059, rms=0.00mm)'), ('mouth_skip', 33), ('mouth_skip', 32), ('mouth_skip', 32), ('mouth_skip', 33), ('arm_fill', 10), ('body_fill', 42, 'sphere(r=0.0025, rms=0.35mm)'), ('body_fill', 15, 'sphere(r=0.0006, rms=0.00mm)'), ('arm_fill', 12), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0468, rms=3.59mm)+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0059, rms=0.00mm)+sphere(r=0.0025, rms=0.35mm)+sphere(r=0.0006, rms=0.00mm)) arm_inner=88 boost=1991 strip=75 post_boundary=503 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318, 'arm_opening_kept': 2}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=503 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=10/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=503 nonmanifold=0 stretch_gt30=154 (arm/shoulder_zone=108) flip_est=7/1500 degen=72
+QC[calm] top_stretch=[(5.82, (0.027, 0.008, 0.118)), (4.07, (-0.045, -0.028, 0.055)), (3.85, (0.024, -0.006, 0.154)), (3.6, (0.024, -0.005, 0.155)), (3.59, (0.036, -0.007, 0.128)), (3.54, (0.027, 0.007, 0.118))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=503 nonmanifold=0 stretch_gt30=73 (arm/shoulder_zone=64) flip_est=7/1500 degen=72
+QC[rage] top_stretch=[(7.4, (-0.018, -0.024, 0.153)), (4.54, (0.021, 0.004, 0.156)), (4.4, (0.022, 0.002, 0.155)), (3.36, (0.025, -0.003, 0.154)), (3.19, (0.027, 0.027, 0.129)), (2.89, (0.045, 0.011, 0.131))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=503 nonmanifold=0 stretch_gt30=215 (arm/shoulder_zone=145) flip_est=7/1500 degen=72
+QC[divine] top_stretch=[(6.74, (0.032, -0.009, 0.117)), (5.25, (-0.047, -0.067, 0.095)), (4.26, (0.032, -0.02, 0.13)), (4.06, (-0.033, -0.017, 0.127)), (4.03, (0.031, -0.006, 0.12)), (3.96, (0.032, -0.009, 0.117))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=503 nonmanifold=0 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=10/1500 degen=72
+QC[classic] top_stretch=[(1.78, (0.021, -0.014, 0.154)), (1.61, (-0.023, 0.006, 0.155)), (1.58, (0.016, -0.021, 0.153)), (1.55, (-0.024, 0.004, 0.154)), (1.55, (0.015, -0.022, 0.152)), (1.52, (0.019, -0.016, 0.154))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+clean_weights: belly_stripped=0
+QC[classic_bh] boundary=503 nonmanifold=0 stretch_gt30=188 (arm/shoulder_zone=78) flip_est=5/1500 degen=72
+QC[classic_bh] top_stretch=[(4.8, (-0.039, -0.041, 0.096)), (4.39, (-0.027, 0.015, 0.133)), (3.69, (0.01, -0.041, 0.114)), (3.69, (0.025, -0.033, 0.116)), (3.49, (-0.018, 0.009, 0.121)), (3.44, (-0.018, 0.009, 0.121))]
+rendered classic_bh res=(550, 825) bbox_h=0.201 bbox_w=0.095 aspect=0.473 D=0.616
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0471, rms=3.58mm)', 'sphere(r=0.0480, rms=3.38mm)', 'sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0006, rms=0.00mm)', 'sphere(r=0.0030, rms=0.26mm)', 'none', 'sphere(r=0.0007, rms=0.10mm)', 'sphere(r=0.0029, rms=0.00mm)']
+shoulder web faces=89
+residual fill round 0: new_faces=90
+residual fill round 1: new_faces=1
+residual fill round 2: new_faces=0
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('arm_skip_big', 134), ('arm_skip_big', 140), ('body_fill', 396, 'sphere(r=0.0471, rms=3.58mm)'), ('body_fill', 369, 'sphere(r=0.0480, rms=3.38mm)'), ('mouth_skip', 33), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('mouth_skip', 32), ('arm_fill', 12), ('arm_fill', 24), ('body_fill', 15, 'sphere(r=0.0006, rms=0.00mm)'), ('body_fill', 39, 'sphere(r=0.0030, rms=0.26mm)'), ('arm_fill', 12), ('arm_fill', 10), ('mouth_skip', 33), ('mouth_skip', 33), ('arm_fill', 10), ('body_fill', 12, 'none'), ('body_fill', 18, 'sphere(r=0.0007, rms=0.10mm)'), ('mouth_skip', 33), ('mouth_skip', 33), ('arm_fill', 20), ('mouth_skip', 33), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('mouth_skip', 33), ('mouth_skip', 32), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0471, rms=3.58mm)+sphere(r=0.0480, rms=3.38mm)+sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0006, rms=0.00mm)+sphere(r=0.0030, rms=0.26mm)+none+sphere(r=0.0007, rms=0.10mm)+sphere(r=0.0029, rms=0.00mm)) arm_inner=88 boost=1991 strip=75 post_boundary=503 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318, 'arm_opening_kept': 2}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=503 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=8/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=503 nonmanifold=0 stretch_gt30=153 (arm/shoulder_zone=105) flip_est=6/1500 degen=72
+QC[calm] top_stretch=[(5.88, (0.027, 0.008, 0.118)), (4.07, (-0.045, -0.028, 0.055)), (3.92, (0.024, -0.006, 0.154)), (3.69, (0.024, -0.005, 0.155)), (3.64, (0.036, -0.007, 0.128)), (3.42, (-0.021, -0.032, 0.117))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=503 nonmanifold=0 stretch_gt30=72 (arm/shoulder_zone=63) flip_est=6/1500 degen=72
+QC[rage] top_stretch=[(7.37, (-0.018, -0.024, 0.153)), (4.84, (0.021, 0.003, 0.156)), (4.69, (0.022, 0.002, 0.155)), (3.41, (0.025, -0.003, 0.154)), (3.21, (0.027, 0.027, 0.129)), (2.82, (-0.018, -0.023, 0.153))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=503 nonmanifold=0 stretch_gt30=202 (arm/shoulder_zone=132) flip_est=6/1500 degen=72
+QC[divine] top_stretch=[(6.85, (0.032, -0.009, 0.117)), (5.25, (-0.047, -0.067, 0.095)), (4.41, (-0.033, -0.017, 0.127)), (4.31, (0.032, -0.02, 0.13)), (3.72, (0.031, -0.006, 0.12)), (3.71, (0.032, -0.01, 0.117))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=503 nonmanifold=0 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=8/1500 degen=72
+QC[classic] top_stretch=[(1.83, (0.021, -0.014, 0.154)), (1.61, (-0.023, 0.006, 0.155)), (1.6, (0.016, -0.021, 0.153)), (1.57, (0.015, -0.022, 0.152)), (1.55, (-0.024, 0.004, 0.154)), (1.54, (0.019, -0.016, 0.154))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+clean_weights: belly_stripped=0
+QC[classic_bh] boundary=503 nonmanifold=0 stretch_gt30=177 (arm/shoulder_zone=67) flip_est=5/1500 degen=72
+QC[classic_bh] top_stretch=[(4.8, (-0.039, -0.041, 0.096)), (4.67, (-0.027, 0.015, 0.134)), (3.79, (0.025, -0.033, 0.116)), (3.68, (0.01, -0.041, 0.114)), (3.42, (-0.018, 0.008, 0.12)), (3.36, (-0.03, 0.01, 0.135))]
+rendered classic_bh res=(550, 825) bbox_h=0.201 bbox_w=0.095 aspect=0.473 D=0.616
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0468, rms=3.59mm)', 'sphere(r=0.0019, rms=0.01mm)', 'none', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0059, rms=0.00mm)', 'sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0007, rms=0.11mm)']
+shoulder web faces=89
+residual fill round 0: new_faces=90
+residual fill round 1: new_faces=1
+residual fill round 2: new_faces=0
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('arm_skip_big', 134), ('mouth_skip', 33), ('arm_fill', 20), ('mouth_skip', 33), ('arm_skip_big', 140), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('mouth_skip', 33), ('body_fill', 396, 'sphere(r=0.0468, rms=3.59mm)'), ('mouth_skip', 33), ('arm_fill', 12), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('arm_fill', 10), ('arm_fill', 24), ('body_fill', 12, 'none'), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('mouth_skip', 33), ('body_fill', 12, 'sphere(r=0.0059, rms=0.00mm)'), ('mouth_skip', 33), ('mouth_skip', 32), ('mouth_skip', 32), ('mouth_skip', 33), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('arm_fill', 10), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('arm_fill', 12), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0468, rms=3.59mm)+sphere(r=0.0019, rms=0.01mm)+none+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0059, rms=0.00mm)+sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0007, rms=0.11mm)) arm_inner=88 boost=1991 strip=75 post_boundary=503 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318, 'arm_opening_kept': 2}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=503 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=9/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=503 nonmanifold=0 stretch_gt30=153 (arm/shoulder_zone=105) flip_est=6/1500 degen=72
+QC[calm] top_stretch=[(5.88, (0.027, 0.008, 0.118)), (4.07, (-0.045, -0.028, 0.055)), (3.85, (0.024, -0.006, 0.154)), (3.64, (0.036, -0.007, 0.128)), (3.6, (0.024, -0.005, 0.155)), (3.42, (-0.021, -0.032, 0.117))]
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=503 nonmanifold=0 stretch_gt30=72 (arm/shoulder_zone=63) flip_est=6/1500 degen=72
+QC[rage] top_stretch=[(7.4, (-0.018, -0.024, 0.153)), (4.54, (0.021, 0.004, 0.156)), (4.4, (0.022, 0.002, 0.155)), (3.36, (0.025, -0.003, 0.154)), (3.21, (0.027, 0.027, 0.129)), (2.83, (-0.018, -0.023, 0.153))]
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=503 nonmanifold=0 stretch_gt30=202 (arm/shoulder_zone=132) flip_est=6/1500 degen=72
+QC[divine] top_stretch=[(6.85, (0.032, -0.009, 0.117)), (5.25, (-0.047, -0.067, 0.095)), (4.41, (-0.033, -0.017, 0.127)), (4.31, (0.032, -0.02, 0.13)), (3.72, (0.031, -0.006, 0.12)), (3.71, (0.032, -0.01, 0.117))]
+rendered divine res=(550, 825) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=503 nonmanifold=0 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=9/1500 degen=72
+QC[classic] top_stretch=[(1.78, (0.021, -0.014, 0.154)), (1.61, (-0.023, 0.006, 0.155)), (1.58, (0.016, -0.021, 0.153)), (1.55, (-0.024, 0.004, 0.154)), (1.55, (0.015, -0.022, 0.152)), (1.52, (0.019, -0.016, 0.154))]
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+clean_weights: belly_stripped=0
+QC[classic_bh] boundary=503 nonmanifold=0 stretch_gt30=177 (arm/shoulder_zone=66) flip_est=5/1500 degen=72
+QC[classic_bh] top_stretch=[(4.8, (-0.039, -0.041, 0.096)), (4.67, (-0.027, 0.015, 0.134)), (3.79, (0.025, -0.033, 0.116)), (3.68, (0.01, -0.041, 0.114)), (3.42, (-0.018, 0.008, 0.12)), (3.36, (-0.03, 0.01, 0.135))]
+rendered classic_bh res=(550, 825) bbox_h=0.201 bbox_w=0.095 aspect=0.473 D=0.616
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0471, rms=3.58mm)', 'sphere(r=0.0059, rms=0.00mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0006, rms=0.00mm)']
+shoulder web faces=89
+residual fill round 0: new_faces=90
+residual fill round 1: new_faces=1
+residual fill round 2: new_faces=0
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('mouth_skip', 33), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('mouth_skip', 33), ('arm_skip_big', 140), ('mouth_skip', 33), ('body_fill', 396, 'sphere(r=0.0471, rms=3.58mm)'), ('body_fill', 12, 'sphere(r=0.0059, rms=0.00mm)'), ('arm_fill', 20), ('arm_skip_big', 134), ('mouth_skip', 32), ('mouth_skip', 32), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('arm_fill', 12), ('mouth_skip', 33), ('arm_fill', 10), ('arm_fill', 24), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('mouth_skip', 33), ('body_fill', 15, 'sphere(r=0.0006, rms=0.00mm)'), ('arm_fill', 10), ('arm_fill', 12), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0471, rms=3.58mm)+sphere(r=0.0059, rms=0.00mm)+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0006, rms=0.00mm)) arm_inner=88 boost=1991 strip=75 post_boundary=503 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318, 'arm_opening_kept': 2}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=503 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=9/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=503 nonmanifold=0 stretch_gt30=153 (arm/shoulder_zone=105) flip_est=8/1500 degen=72
+QC[calm] top_stretch=[(5.88, (0.027, 0.008, 0.118)), (4.07, (-0.045, -0.028, 0.055)), (3.92, (0.024, -0.006, 0.154)), (3.69, (0.024, -0.005, 0.155)), (3.64, (0.036, -0.007, 0.128)), (3.42, (-0.021, -0.032, 0.117))]
+rendered calm res=(1100, 1650) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=503 nonmanifold=0 stretch_gt30=72 (arm/shoulder_zone=63) flip_est=7/1500 degen=72
+QC[rage] top_stretch=[(7.34, (-0.018, -0.024, 0.153)), (4.84, (0.021, 0.003, 0.156)), (4.69, (0.022, 0.002, 0.155)), (3.41, (0.025, -0.003, 0.154)), (3.21, (0.027, 0.027, 0.129)), (2.82, (-0.018, -0.023, 0.153))]
+rendered rage res=(1100, 1650) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=503 nonmanifold=0 stretch_gt30=202 (arm/shoulder_zone=132) flip_est=8/1500 degen=72
+QC[divine] top_stretch=[(6.85, (0.032, -0.009, 0.117)), (5.25, (-0.047, -0.067, 0.095)), (4.41, (-0.033, -0.017, 0.127)), (4.31, (0.032, -0.02, 0.13)), (3.72, (0.031, -0.006, 0.12)), (3.71, (0.032, -0.01, 0.117))]
+rendered divine res=(1100, 1650) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=503 nonmanifold=0 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=9/1500 degen=72
+QC[classic] top_stretch=[(1.83, (0.021, -0.014, 0.154)), (1.61, (-0.023, 0.006, 0.155)), (1.6, (0.016, -0.021, 0.153)), (1.57, (0.015, -0.022, 0.152)), (1.55, (-0.024, 0.004, 0.154)), (1.54, (0.019, -0.016, 0.154))]
+rendered classic res=(1100, 1650) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+clean_weights: belly_stripped=0
+QC[classic_bh] boundary=503 nonmanifold=0 stretch_gt30=177 (arm/shoulder_zone=67) flip_est=6/1500 degen=72
+QC[classic_bh] top_stretch=[(4.8, (-0.039, -0.041, 0.096)), (4.67, (-0.027, 0.015, 0.134)), (3.79, (0.025, -0.033, 0.116)), (3.68, (0.01, -0.041, 0.114)), (3.42, (-0.018, 0.008, 0.12)), (3.36, (-0.03, 0.01, 0.135))]
+rendered classic_bh res=(1100, 1650) bbox_h=0.201 bbox_w=0.095 aspect=0.473 D=0.616
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0471, rms=3.58mm)', 'sphere(r=0.0031, rms=0.24mm)', 'none', 'sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0007, rms=0.11mm)']
+shoulder web faces=89
+residual fill round 0: new_faces=90
+residual fill round 1: new_faces=1
+residual fill round 2: new_faces=0
+web faces flipped: 89
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('arm_fill', 12), ('body_fill', 396, 'sphere(r=0.0471, rms=3.58mm)'), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('mouth_skip', 33), ('body_fill', 12, 'none'), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('arm_skip_big', 134), ('arm_skip_big', 140), ('arm_fill', 24), ('mouth_skip', 32), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('arm_fill', 20), ('arm_fill', 12), ('arm_fill', 10), ('mouth_skip', 32), ('mouth_skip', 33), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('arm_fill', 10), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0471, rms=3.58mm)+sphere(r=0.0031, rms=0.24mm)+none+sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0007, rms=0.11mm)) arm_inner=88 boost=1991 strip=75 post_boundary=503 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318, 'arm_opening_kept': 2}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=503 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=9/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=503 nonmanifold=0 stretch_gt30=153 (arm/shoulder_zone=105) flip_est=6/1500 degen=72
+QC[calm] top_stretch=[(5.88, (0.027, 0.008, 0.118)), (4.07, (-0.045, -0.028, 0.055)), (3.92, (0.024, -0.006, 0.154)), (3.69, (0.024, -0.005, 0.155)), (3.64, (0.036, -0.007, 0.128)), (3.42, (-0.021, -0.032, 0.117))]
+rendered calm res=(1100, 1650) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=503 nonmanifold=0 stretch_gt30=72 (arm/shoulder_zone=63) flip_est=7/1500 degen=72
+QC[rage] top_stretch=[(7.34, (-0.018, -0.024, 0.153)), (4.84, (0.021, 0.003, 0.156)), (4.69, (0.022, 0.002, 0.155)), (3.41, (0.025, -0.003, 0.154)), (3.21, (0.027, 0.027, 0.129)), (2.82, (-0.018, -0.023, 0.153))]
+rendered rage res=(1100, 1650) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=503 nonmanifold=0 stretch_gt30=202 (arm/shoulder_zone=132) flip_est=7/1500 degen=72
+QC[divine] top_stretch=[(6.85, (0.032, -0.009, 0.117)), (5.25, (-0.047, -0.067, 0.095)), (4.41, (-0.033, -0.017, 0.127)), (4.31, (0.032, -0.02, 0.13)), (3.72, (0.031, -0.006, 0.12)), (3.71, (0.032, -0.01, 0.117))]
+rendered divine res=(1100, 1650) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=503 nonmanifold=0 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=9/1500 degen=72
+QC[classic] top_stretch=[(1.83, (0.021, -0.014, 0.154)), (1.61, (-0.023, 0.006, 0.155)), (1.6, (0.016, -0.021, 0.153)), (1.57, (0.015, -0.022, 0.152)), (1.55, (-0.024, 0.004, 0.154)), (1.54, (0.019, -0.016, 0.154))]
+rendered classic res=(1100, 1650) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+clean_weights: belly_stripped=0
+QC[classic_bh] boundary=503 nonmanifold=0 stretch_gt30=177 (arm/shoulder_zone=67) flip_est=6/1500 degen=72
+QC[classic_bh] top_stretch=[(4.8, (-0.039, -0.041, 0.096)), (4.67, (-0.027, 0.015, 0.134)), (3.79, (0.025, -0.033, 0.116)), (3.68, (0.01, -0.041, 0.114)), (3.42, (-0.018, 0.008, 0.12)), (3.36, (-0.03, 0.01, 0.135))]
+rendered classic_bh res=(1100, 1650) bbox_h=0.201 bbox_w=0.095 aspect=0.473 D=0.616
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0469, rms=3.60mm)', 'sphere(r=0.0006, rms=0.00mm)', 'sphere(r=0.0030, rms=0.26mm)', 'none', 'sphere(r=0.0007, rms=0.10mm)', 'sphere(r=0.0029, rms=0.00mm)']
+shoulder web faces=55
+residual fill round 0: new_faces=56
+residual fill round 1: new_faces=1
+residual fill round 2: new_faces=0
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('arm_skip_big', 140), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('arm_skip_big', 134), ('mouth_skip', 32), ('body_fill', 396, 'sphere(r=0.0469, rms=3.60mm)'), ('arm_fill', 24), ('mouth_skip', 33), ('arm_fill', 12), ('body_fill', 15, 'sphere(r=0.0006, rms=0.00mm)'), ('body_fill', 39, 'sphere(r=0.0030, rms=0.26mm)'), ('arm_fill', 12), ('arm_fill', 10), ('mouth_skip', 33), ('mouth_skip', 33), ('arm_fill', 10), ('body_fill', 12, 'none'), ('body_fill', 18, 'sphere(r=0.0007, rms=0.10mm)'), ('mouth_skip', 32), ('mouth_skip', 33), ('mouth_skip', 33), ('arm_fill', 20), ('mouth_skip', 33), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0469, rms=3.60mm)+sphere(r=0.0006, rms=0.00mm)+sphere(r=0.0030, rms=0.26mm)+none+sphere(r=0.0007, rms=0.10mm)+sphere(r=0.0029, rms=0.00mm)) arm_inner=88 boost=1991 strip=75 post_boundary=538 post_nonmanifold=1
+SURGERY residual boundary by zone: {'mouth': 318, 'arm_opening_kept': 2}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=538 nonmanifold=1 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=4/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=538 nonmanifold=1 stretch_gt30=129 (arm/shoulder_zone=98) flip_est=5/1500 degen=72
+QC[calm] top_stretch=[(5.59, (0.027, 0.007, 0.118)), (4.07, (-0.045, -0.028, 0.055)), (3.91, (0.024, -0.006, 0.154)), (3.69, (0.024, -0.005, 0.155)), (3.48, (0.018, 0.01, 0.123)), (3.46, (-0.032, -0.018, 0.114))]
+rendered calm res=(1100, 1650) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=538 nonmanifold=1 stretch_gt30=68 (arm/shoulder_zone=59) flip_est=5/1500 degen=72
+QC[rage] top_stretch=[(7.4, (-0.018, -0.024, 0.153)), (4.82, (0.021, 0.003, 0.156)), (4.66, (0.022, 0.002, 0.155)), (3.42, (0.025, -0.003, 0.154)), (3.26, (0.027, 0.027, 0.129)), (2.83, (-0.018, -0.023, 0.153))]
+rendered rage res=(1100, 1650) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=538 nonmanifold=1 stretch_gt30=173 (arm/shoulder_zone=103) flip_est=5/1500 degen=72
+QC[divine] top_stretch=[(6.91, (0.031, -0.009, 0.117)), (5.25, (-0.047, -0.067, 0.095)), (4.65, (-0.034, -0.01, 0.114)), (3.82, (0.027, -0.0, 0.121)), (3.7, (0.032, -0.01, 0.117)), (3.6, (0.031, -0.006, 0.12))]
+rendered divine res=(1100, 1650) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=538 nonmanifold=1 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=4/1500 degen=72
+QC[classic] top_stretch=[(1.83, (0.021, -0.014, 0.154)), (1.61, (-0.023, 0.006, 0.155)), (1.6, (0.016, -0.021, 0.153)), (1.57, (0.015, -0.022, 0.152)), (1.55, (-0.024, 0.004, 0.154)), (1.53, (0.019, -0.016, 0.154))]
+rendered classic res=(1100, 1650) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+clean_weights: belly_stripped=0
+QC[classic_bh] boundary=538 nonmanifold=1 stretch_gt30=156 (arm/shoulder_zone=50) flip_est=4/1500 degen=72
+QC[classic_bh] top_stretch=[(4.8, (-0.039, -0.041, 0.096)), (4.06, (-0.019, 0.009, 0.122)), (3.85, (0.025, -0.033, 0.116)), (3.69, (-0.018, 0.008, 0.121)), (3.2, (0.012, -0.023, 0.153)), (3.15, (0.025, -0.032, 0.117))]
+rendered classic_bh res=(1100, 1650) bbox_h=0.201 bbox_w=0.095 aspect=0.473 D=0.616
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0471, rms=3.58mm)', 'none', 'sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0006, rms=0.00mm)']
+shoulder web faces=89
+residual fill round 0: new_faces=90
+residual fill round 1: new_faces=1
+residual fill round 2: new_faces=0
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('mouth_skip', 32), ('arm_fill', 12), ('body_fill', 396, 'sphere(r=0.0471, rms=3.58mm)'), ('arm_skip_big', 134), ('body_fill', 12, 'none'), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('arm_skip_big', 140), ('arm_fill', 20), ('mouth_skip', 33), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('arm_fill', 12), ('arm_fill', 10), ('mouth_skip', 33), ('arm_fill', 24), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('arm_fill', 10), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 32), ('body_fill', 15, 'sphere(r=0.0006, rms=0.00mm)'), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0471, rms=3.58mm)+none+sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0006, rms=0.00mm)) arm_inner=88 boost=1991 strip=75 post_boundary=503 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318, 'arm_opening_kept': 2}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=503 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=8/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[divine] boundary=503 nonmanifold=0 stretch_gt30=192 (arm/shoulder_zone=131) flip_est=6/1500 degen=72
+QC[divine] top_stretch=[(6.85, (0.033, -0.009, 0.117)), (5.25, (-0.047, -0.067, 0.096)), (4.41, (-0.032, -0.017, 0.127)), (4.34, (0.033, -0.02, 0.129)), (3.73, (0.033, -0.01, 0.117)), (3.72, (0.032, -0.007, 0.119))]
+rendered divine res=(1100, 1650) bbox_h=0.202 bbox_w=0.113 aspect=0.558 D=0.619
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0471, rms=3.58mm)', 'sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0006, rms=0.00mm)', 'sphere(r=0.0030, rms=0.26mm)', 'none', 'sphere(r=0.0007, rms=0.10mm)', 'sphere(r=0.0029, rms=0.00mm)']
+shoulder web faces=89
+residual fill round 0: new_faces=90
+residual fill round 1: new_faces=1
+residual fill round 2: new_faces=0
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('arm_skip_big', 134), ('arm_skip_big', 140), ('mouth_skip', 33), ('body_fill', 396, 'sphere(r=0.0471, rms=3.58mm)'), ('mouth_skip', 33), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('arm_fill', 24), ('mouth_skip', 33), ('mouth_skip', 33), ('arm_fill', 12), ('body_fill', 15, 'sphere(r=0.0006, rms=0.00mm)'), ('body_fill', 39, 'sphere(r=0.0030, rms=0.26mm)'), ('arm_fill', 12), ('arm_fill', 10), ('arm_fill', 10), ('body_fill', 12, 'none'), ('body_fill', 18, 'sphere(r=0.0007, rms=0.10mm)'), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 32), ('mouth_skip', 32), ('arm_fill', 20), ('mouth_skip', 33), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0471, rms=3.58mm)+sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0006, rms=0.00mm)+sphere(r=0.0030, rms=0.26mm)+none+sphere(r=0.0007, rms=0.10mm)+sphere(r=0.0029, rms=0.00mm)) arm_inner=88 boost=1991 strip=75 post_boundary=503 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318, 'arm_opening_kept': 2}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=503 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=8/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=503 nonmanifold=0 stretch_gt30=153 (arm/shoulder_zone=105) flip_est=6/1500 degen=72
+QC[calm] top_stretch=[(5.88, (0.027, 0.008, 0.118)), (4.07, (-0.045, -0.028, 0.055)), (3.92, (0.024, -0.006, 0.154)), (3.69, (0.024, -0.005, 0.155)), (3.64, (0.036, -0.007, 0.128)), (3.42, (-0.021, -0.032, 0.117))]
+rendered calm res=(1100, 1650) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=503 nonmanifold=0 stretch_gt30=72 (arm/shoulder_zone=63) flip_est=7/1500 degen=72
+QC[rage] top_stretch=[(7.4, (-0.018, -0.024, 0.153)), (4.84, (0.021, 0.003, 0.156)), (4.69, (0.022, 0.002, 0.155)), (3.41, (0.025, -0.003, 0.154)), (3.21, (0.027, 0.027, 0.129)), (2.83, (-0.018, -0.023, 0.153))]
+rendered rage res=(1100, 1650) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=503 nonmanifold=0 stretch_gt30=202 (arm/shoulder_zone=132) flip_est=6/1500 degen=72
+QC[divine] top_stretch=[(6.85, (0.032, -0.009, 0.117)), (5.25, (-0.047, -0.067, 0.095)), (4.41, (-0.033, -0.017, 0.127)), (4.31, (0.032, -0.02, 0.13)), (3.72, (0.031, -0.006, 0.12)), (3.71, (0.032, -0.01, 0.117))]
+rendered divine res=(1100, 1650) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=503 nonmanifold=0 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=8/1500 degen=72
+QC[classic] top_stretch=[(1.83, (0.021, -0.014, 0.154)), (1.61, (-0.023, 0.006, 0.155)), (1.6, (0.016, -0.021, 0.153)), (1.57, (0.015, -0.022, 0.152)), (1.55, (-0.024, 0.004, 0.154)), (1.54, (0.019, -0.016, 0.154))]
+rendered classic res=(1100, 1650) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+clean_weights: belly_stripped=0
+QC[classic_bh] boundary=503 nonmanifold=0 stretch_gt30=177 (arm/shoulder_zone=67) flip_est=5/1500 degen=72
+QC[classic_bh] top_stretch=[(4.8, (-0.039, -0.041, 0.096)), (4.67, (-0.027, 0.015, 0.134)), (3.79, (0.025, -0.033, 0.116)), (3.68, (0.01, -0.041, 0.114)), (3.42, (-0.018, 0.008, 0.12)), (3.36, (-0.03, 0.01, 0.135))]
+rendered classic_bh res=(1100, 1650) bbox_h=0.201 bbox_w=0.095 aspect=0.473 D=0.616
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0471, rms=3.59mm)', 'sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0006, rms=0.00mm)', 'sphere(r=0.0019, rms=0.01mm)', 'none', 'none', 'sphere(r=0.0031, rms=0.24mm)']
+shoulder web faces=64
+residual fill round 0: new_faces=64
+residual fill round 1: new_faces=0
+residual fill round 2: new_faces=0
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('mouth_skip', 33), ('body_fill', 396, 'sphere(r=0.0471, rms=3.59mm)'), ('arm_skip_big', 134), ('arm_skip_big', 140), ('mouth_skip', 33), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('arm_fill', 20), ('mouth_skip', 32), ('arm_fill', 12), ('body_fill', 15, 'sphere(r=0.0006, rms=0.00mm)'), ('arm_fill', 24), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('arm_fill', 10), ('body_fill', 12, 'none'), ('mouth_skip', 32), ('arm_fill', 12), ('body_fill', 12, 'none'), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('mouth_skip', 33), ('mouth_skip', 33), ('arm_fill', 10), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0471, rms=3.59mm)+sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0006, rms=0.00mm)+sphere(r=0.0019, rms=0.01mm)+none+none+sphere(r=0.0031, rms=0.24mm)) arm_inner=88 boost=1991 strip=75 post_boundary=596 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318, 'arm_opening_kept': 69}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=596 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=12/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=596 nonmanifold=0 stretch_gt30=127 (arm/shoulder_zone=87) flip_est=16/1500 degen=72
+QC[calm] top_stretch=[(4.07, (-0.045, -0.028, 0.055)), (4.05, (0.034, -0.001, 0.13)), (3.9, (0.024, -0.006, 0.154)), (3.66, (0.024, -0.005, 0.155)), (3.01, (0.02, -0.002, 0.156)), (2.92, (-0.015, -0.033, 0.151))]
+rendered calm res=(1100, 1650) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+clean_weights: belly_stripped=0
+QC[rage] boundary=596 nonmanifold=0 stretch_gt30=51 (arm/shoulder_zone=42) flip_est=13/1500 degen=72
+QC[rage] top_stretch=[(7.4, (-0.018, -0.024, 0.153)), (4.79, (0.021, 0.003, 0.156)), (4.64, (0.022, 0.002, 0.155)), (3.39, (0.025, -0.003, 0.154)), (2.83, (-0.018, -0.023, 0.153)), (2.62, (-0.019, -0.022, 0.153))]
+rendered rage res=(1100, 1650) bbox_h=0.202 bbox_w=0.114 aspect=0.563 D=0.620
+clean_weights: belly_stripped=0
+QC[divine] boundary=596 nonmanifold=0 stretch_gt30=160 (arm/shoulder_zone=90) flip_est=18/1500 degen=72
+QC[divine] top_stretch=[(6.02, (-0.027, -0.004, 0.149)), (5.25, (-0.047, -0.067, 0.095)), (3.55, (0.033, -0.013, 0.129)), (2.81, (0.025, -0.006, 0.148)), (2.62, (0.032, -0.012, 0.13)), (2.54, (0.028, -0.018, 0.126))]
+rendered divine res=(1100, 1650) bbox_h=0.202 bbox_w=0.113 aspect=0.559 D=0.619
+clean_weights: belly_stripped=0
+QC[classic] boundary=596 nonmanifold=0 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=12/1500 degen=72
+QC[classic] top_stretch=[(1.83, (0.021, -0.014, 0.154)), (1.61, (-0.023, 0.006, 0.155)), (1.59, (0.016, -0.021, 0.153)), (1.56, (0.015, -0.022, 0.152)), (1.55, (-0.024, 0.004, 0.154)), (1.53, (0.019, -0.016, 0.154))]
+rendered classic res=(1100, 1650) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+clean_weights: belly_stripped=0
+QC[classic_bh] boundary=596 nonmanifold=0 stretch_gt30=159 (arm/shoulder_zone=66) flip_est=13/1500 degen=72
+QC[classic_bh] top_stretch=[(4.8, (-0.039, -0.041, 0.096)), (3.2, (0.012, -0.023, 0.153)), (3.14, (0.014, -0.036, 0.118)), (2.85, (-0.015, 0.015, 0.123)), (2.75, (-0.006, 0.024, 0.133)), (2.72, (-0.018, 0.005, 0.12))]
+rendered classic_bh res=(1100, 1650) bbox_h=0.201 bbox_w=0.095 aspect=0.473 D=0.616
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0471, rms=3.58mm)', 'none', 'sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0007, rms=0.11mm)']
+shoulder web faces=55
+residual fill round 0: new_faces=56
+residual fill round 1: new_faces=1
+residual fill round 2: new_faces=1
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('arm_skip_big', 140), ('arm_fill', 12), ('mouth_skip', 33), ('body_fill', 396, 'sphere(r=0.0471, rms=3.58mm)'), ('mouth_skip', 33), ('body_fill', 12, 'none'), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('arm_fill', 20), ('arm_skip_big', 134), ('mouth_skip', 33), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('mouth_skip', 33), ('arm_fill', 12), ('arm_fill', 10), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('arm_fill', 24), ('mouth_skip', 33), ('mouth_skip', 33), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('mouth_skip', 32), ('mouth_skip', 32), ('mouth_skip', 33), ('arm_fill', 10), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0471, rms=3.58mm)+none+sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0007, rms=0.11mm)) arm_inner=88 boost=1991 strip=75 post_boundary=537 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318, 'arm_opening_kept': 2}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=537 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=4/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[classic] boundary=537 nonmanifold=0 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=4/1500 degen=72
+QC[classic] top_stretch=[(1.83, (0.021, -0.014, 0.154)), (1.61, (-0.023, 0.006, 0.155)), (1.6, (0.016, -0.021, 0.153)), (1.57, (0.015, -0.022, 0.152)), (1.55, (-0.024, 0.004, 0.154)), (1.54, (0.019, -0.016, 0.154))]
+rendered classic res=(1100, 1650) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0025, rms=0.35mm)', 'sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0471, rms=3.58mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0006, rms=0.00mm)', 'none', 'sphere(r=0.0007, rms=0.10mm)']
+shoulder web faces=89
+residual fill round 0: new_faces=90
+residual fill round 1: new_faces=1
+residual fill round 2: new_faces=0
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('body_fill', 42, 'sphere(r=0.0025, rms=0.35mm)'), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('arm_skip_big', 134), ('arm_skip_big', 140), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('body_fill', 396, 'sphere(r=0.0471, rms=3.58mm)'), ('mouth_skip', 33), ('mouth_skip', 33), ('arm_fill', 24), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('arm_fill', 20), ('mouth_skip', 33), ('mouth_skip', 33), ('arm_fill', 12), ('body_fill', 15, 'sphere(r=0.0006, rms=0.00mm)'), ('arm_fill', 12), ('arm_fill', 10), ('arm_fill', 10), ('body_fill', 12, 'none'), ('body_fill', 18, 'sphere(r=0.0007, rms=0.10mm)'), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 32), ('mouth_skip', 32), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0025, rms=0.35mm)+sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0471, rms=3.58mm)+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0006, rms=0.00mm)+none+sphere(r=0.0007, rms=0.10mm)) arm_inner=88 boost=1991 strip=75 post_boundary=503 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318, 'arm_opening_kept': 2}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=503 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=8/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[classic] boundary=503 nonmanifold=0 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=8/1500 degen=72
+QC[classic] top_stretch=[(1.83, (0.021, -0.014, 0.154)), (1.61, (-0.023, 0.006, 0.155)), (1.6, (0.016, -0.021, 0.153)), (1.57, (0.015, -0.022, 0.152)), (1.55, (-0.024, 0.004, 0.154)), (1.54, (0.019, -0.016, 0.154))]
+rendered classic res=(1100, 1650) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0479, rms=3.38mm)', 'sphere(r=0.0007, rms=0.11mm)', 'sphere(r=0.0471, rms=3.58mm)', 'sphere(r=0.0025, rms=0.33mm)', 'none', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0030, rms=0.26mm)']
+shoulder web faces=89
+residual fill round 0: new_faces=90
+residual fill round 1: new_faces=1
+residual fill round 2: new_faces=0
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('arm_skip_big', 134), ('mouth_skip', 33), ('arm_skip_big', 140), ('mouth_skip', 33), ('body_fill', 369, 'sphere(r=0.0479, rms=3.38mm)'), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('arm_fill', 12), ('arm_fill', 12), ('body_fill', 396, 'sphere(r=0.0471, rms=3.58mm)'), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('body_fill', 12, 'none'), ('mouth_skip', 32), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('arm_fill', 24), ('body_fill', 39, 'sphere(r=0.0030, rms=0.26mm)'), ('arm_fill', 10), ('mouth_skip', 32), ('arm_fill', 10), ('mouth_skip', 33), ('arm_fill', 20), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0479, rms=3.38mm)+sphere(r=0.0007, rms=0.11mm)+sphere(r=0.0471, rms=3.58mm)+sphere(r=0.0025, rms=0.33mm)+none+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0030, rms=0.26mm)) arm_inner=88 boost=1991 strip=75 post_boundary=503 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318, 'arm_opening_kept': 2}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=503 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=8/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=503 nonmanifold=0 stretch_gt30=159 (arm/shoulder_zone=110) flip_est=8/1500 degen=72
+QC[calm] top_stretch=[(7.23, (0.026, 0.014, 0.124)), (4.6, (0.025, 0.012, 0.126)), (4.39, (0.027, 0.007, 0.118)), (4.07, (-0.045, -0.028, 0.055)), (3.97, (0.026, 0.01, 0.121)), (3.97, (0.032, -0.001, 0.127))]
+rendered calm res=(1100, 1650) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0471, rms=3.59mm)', 'sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0007, rms=0.11mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0019, rms=0.01mm)', 'none', 'sphere(r=0.0059, rms=0.00mm)']
+shoulder web faces=54
+residual fill round 0: new_faces=54
+residual fill round 1: new_faces=0
+residual fill round 2: new_faces=0
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('arm_skip_big', 134), ('mouth_skip', 33), ('mouth_skip', 33), ('body_fill', 396, 'sphere(r=0.0471, rms=3.59mm)'), ('mouth_skip', 33), ('arm_fill', 12), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('arm_skip_big', 140), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('mouth_skip', 33), ('arm_fill', 20), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('mouth_skip', 32), ('mouth_skip', 32), ('arm_fill', 12), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('mouth_skip', 33), ('arm_fill', 24), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('arm_fill', 10), ('body_fill', 12, 'none'), ('body_fill', 12, 'sphere(r=0.0059, rms=0.00mm)'), ('mouth_skip', 33), ('arm_fill', 10), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0471, rms=3.59mm)+sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0007, rms=0.11mm)+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0019, rms=0.01mm)+none+sphere(r=0.0059, rms=0.00mm)) arm_inner=88 boost=1991 strip=75 post_boundary=596 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318, 'arm_opening_kept': 59}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=596 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=8/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[rage] boundary=596 nonmanifold=0 stretch_gt30=51 (arm/shoulder_zone=42) flip_est=8/1500 degen=72
+QC[rage] top_stretch=[(6.91, (-0.025, -0.011, 0.154)), (5.07, (0.023, -0.012, 0.154)), (4.5, (0.023, -0.01, 0.155)), (3.3, (0.022, -0.018, 0.153)), (2.93, (-0.024, -0.009, 0.154)), (2.56, (0.022, -0.018, 0.153))]
+rendered rage res=(1100, 1650) bbox_h=0.201 bbox_w=0.122 aspect=0.605 D=0.617
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0007, rms=0.11mm)', 'sphere(r=0.0471, rms=3.58mm)', 'sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0480, rms=3.37mm)', 'none', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0031, rms=0.24mm)']
+shoulder web faces=46
+residual fill round 0: new_faces=46
+residual fill round 1: new_faces=0
+residual fill round 2: new_faces=0
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('mouth_skip', 33), ('mouth_skip', 33), ('arm_skip_big', 134), ('mouth_skip', 33), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('arm_fill', 12), ('arm_fill', 12), ('body_fill', 396, 'sphere(r=0.0471, rms=3.58mm)'), ('arm_skip_big', 140), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('arm_fill', 20), ('mouth_skip', 33), ('body_fill', 12, 'none'), ('arm_fill', 24), ('mouth_skip', 32), ('mouth_skip', 32), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('mouth_skip', 33), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('arm_fill', 10), ('arm_fill', 10), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0007, rms=0.11mm)+sphere(r=0.0471, rms=3.58mm)+sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0480, rms=3.37mm)+none+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0031, rms=0.24mm)) arm_inner=88 boost=1991 strip=75 post_boundary=596 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318, 'arm_opening_kept': 51}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=596 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=10/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[divine] boundary=596 nonmanifold=0 stretch_gt30=135 (arm/shoulder_zone=74) flip_est=11/1500 degen=72
+QC[divine] top_stretch=[(6.02, (-0.026, -0.004, 0.149)), (5.25, (-0.047, -0.067, 0.096)), (3.22, (0.026, -0.018, 0.131)), (2.54, (-0.034, -0.013, 0.112)), (2.41, (-0.031, -0.013, 0.134)), (2.27, (-0.035, -0.005, 0.119))]
+rendered divine res=(1100, 1650) bbox_h=0.202 bbox_w=0.113 aspect=0.558 D=0.619
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0471, rms=3.59mm)', 'sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0059, rms=0.00mm)', 'sphere(r=0.0006, rms=0.00mm)']
+shoulder web faces=64
+residual fill round 0: new_faces=64
+residual fill round 1: new_faces=0
+residual fill round 2: new_faces=0
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('mouth_skip', 33), ('mouth_skip', 33), ('body_fill', 396, 'sphere(r=0.0471, rms=3.59mm)'), ('arm_skip_big', 134), ('mouth_skip', 33), ('arm_skip_big', 140), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('mouth_skip', 33), ('arm_fill', 20), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('mouth_skip', 32), ('mouth_skip', 32), ('arm_fill', 12), ('mouth_skip', 33), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('arm_fill', 10), ('arm_fill', 24), ('body_fill', 12, 'sphere(r=0.0059, rms=0.00mm)'), ('body_fill', 15, 'sphere(r=0.0006, rms=0.00mm)'), ('arm_fill', 10), ('arm_fill', 12), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0471, rms=3.59mm)+sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0059, rms=0.00mm)+sphere(r=0.0006, rms=0.00mm)) arm_inner=88 boost=1991 strip=75 post_boundary=596 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318, 'arm_opening_kept': 69}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=596 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=12/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[classic] boundary=596 nonmanifold=0 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=12/1500 degen=72
+QC[classic] top_stretch=[(1.83, (0.021, -0.014, 0.154)), (1.61, (-0.023, 0.006, 0.155)), (1.59, (0.016, -0.021, 0.153)), (1.56, (0.015, -0.022, 0.152)), (1.55, (-0.024, 0.004, 0.154)), (1.53, (0.019, -0.016, 0.154))]
+rendered classic res=(1100, 1650) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY body_fill_inner=903 arm_fill_inner=88 methods=['sphere(r=0.0059, rms=0.00mm)', 'sphere(r=0.0471, rms=3.59mm)', 'sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0006, rms=0.00mm)', 'sphere(r=0.0007, rms=0.10mm)', 'none']
+shoulder web faces=54
+residual fill round 0: new_faces=54
+residual fill round 1: new_faces=0
+residual fill round 2: new_faces=0
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('arm_skip_big', 134), ('mouth_skip', 32), ('body_fill', 12, 'sphere(r=0.0059, rms=0.00mm)'), ('body_fill', 396, 'sphere(r=0.0471, rms=3.59mm)'), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('arm_skip_big', 140), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('arm_fill', 20), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('arm_fill', 24), ('mouth_skip', 33), ('arm_fill', 12), ('mouth_skip', 33), ('arm_fill', 10), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('body_fill', 15, 'sphere(r=0.0006, rms=0.00mm)'), ('arm_fill', 12), ('arm_fill', 10), ('body_fill', 18, 'sphere(r=0.0007, rms=0.10mm)'), ('mouth_skip', 33), ('body_fill', 12, 'none'), ('mouth_skip', 33), ('mouth_skip', 32), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0059, rms=0.00mm)+sphere(r=0.0471, rms=3.59mm)+sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0006, rms=0.00mm)+sphere(r=0.0007, rms=0.10mm)+none) arm_inner=88 boost=1991 strip=75 post_boundary=596 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318, 'arm_opening_kept': 59}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=596 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=9/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[classic_bh] boundary=596 nonmanifold=0 stretch_gt30=167 (arm/shoulder_zone=96) flip_est=11/1500 degen=72
+QC[classic_bh] top_stretch=[(5.58, (-0.047, -0.053, 0.097)), (4.66, (0.033, -0.016, 0.116)), (3.67, (-0.021, 0.018, 0.132)), (3.41, (0.036, -0.022, 0.114)), (3.0, (0.036, -0.019, 0.118)), (2.68, (-0.02, 0.016, 0.13))]
+rendered classic_bh res=(1100, 1650) bbox_h=0.201 bbox_w=0.105 aspect=0.520 D=0.618
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0476, rms=3.36mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0471, rms=3.58mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0059, rms=0.00mm)', 'sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0006, rms=0.00mm)']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('mouth_skip', 33), ('body_fill', 369, 'sphere(r=0.0476, rms=3.36mm)'), ('mouth_skip', 33), ('arm_fill', 399), ('arm_fill', 417), ('mouth_skip', 32), ('mouth_skip', 32), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('body_fill', 396, 'sphere(r=0.0471, rms=3.58mm)'), ('arm_fill', 12), ('mouth_skip', 33), ('arm_fill', 10), ('arm_fill', 24), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('body_fill', 12, 'sphere(r=0.0059, rms=0.00mm)'), ('arm_fill', 20), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('body_fill', 15, 'sphere(r=0.0006, rms=0.00mm)'), ('arm_fill', 10), ('arm_fill', 12), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0476, rms=3.36mm)+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0471, rms=3.58mm)+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0059, rms=0.00mm)+sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0006, rms=0.00mm)) arm_inner=904 boost=2807 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=8/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=163 (arm/shoulder_zone=107) flip_est=3/1500 degen=72
+QC[calm] top_stretch=[(8.38, (-0.03, -0.017, 0.111)), (4.52, (-0.034, -0.029, 0.092)), (4.22, (-0.03, -0.017, 0.111)), (4.07, (-0.045, -0.028, 0.055)), (3.92, (0.024, -0.006, 0.154)), (3.69, (0.024, -0.005, 0.155))]
+rendered calm res=(1100, 1650) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0468, rms=3.59mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0025, rms=0.35mm)', 'sphere(r=0.0019, rms=0.01mm)', 'none', 'sphere(r=0.0007, rms=0.11mm)', 'none']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('arm_fill', 399), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('mouth_skip', 33), ('body_fill', 396, 'sphere(r=0.0468, rms=3.59mm)'), ('arm_fill', 417), ('mouth_skip', 32), ('arm_fill', 20), ('arm_fill', 12), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('body_fill', 42, 'sphere(r=0.0025, rms=0.35mm)'), ('arm_fill', 10), ('mouth_skip', 32), ('arm_fill', 24), ('mouth_skip', 33), ('arm_fill', 12), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('arm_fill', 10), ('mouth_skip', 33), ('body_fill', 12, 'none'), ('mouth_skip', 33), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('body_fill', 12, 'none'), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0468, rms=3.59mm)+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0025, rms=0.35mm)+sphere(r=0.0019, rms=0.01mm)+none+sphere(r=0.0007, rms=0.11mm)+none) arm_inner=904 boost=2807 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=7/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=43 (arm/shoulder_zone=34) flip_est=5/1500 degen=72
+QC[rage] top_stretch=[(6.91, (-0.025, -0.011, 0.154)), (4.82, (0.023, -0.012, 0.154)), (4.25, (0.023, -0.01, 0.155)), (3.26, (0.023, -0.018, 0.153)), (2.93, (-0.024, -0.009, 0.154)), (2.56, (0.022, -0.018, 0.153))]
+rendered rage res=(1100, 1650) bbox_h=0.201 bbox_w=0.122 aspect=0.605 D=0.617
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0476, rms=3.40mm)', 'sphere(r=0.0468, rms=3.59mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0007, rms=0.11mm)', 'none', 'sphere(r=0.0019, rms=0.01mm)', 'none']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('mouth_skip', 33), ('arm_fill', 399), ('mouth_skip', 32), ('body_fill', 369, 'sphere(r=0.0476, rms=3.40mm)'), ('body_fill', 396, 'sphere(r=0.0468, rms=3.59mm)'), ('arm_fill', 417), ('arm_fill', 20), ('arm_fill', 12), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('arm_fill', 24), ('mouth_skip', 33), ('arm_fill', 10), ('mouth_skip', 33), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('arm_fill', 12), ('body_fill', 12, 'none'), ('mouth_skip', 33), ('mouth_skip', 33), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('arm_fill', 10), ('body_fill', 12, 'none'), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 32), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0476, rms=3.40mm)+sphere(r=0.0468, rms=3.59mm)+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0007, rms=0.11mm)+none+sphere(r=0.0019, rms=0.01mm)+none) arm_inner=904 boost=2807 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=7/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=194 (arm/shoulder_zone=77) flip_est=7/1500 degen=72
+QC[divine] top_stretch=[(8.24, (-0.032, -0.014, 0.112)), (7.09, (-0.041, -0.033, 0.11)), (6.57, (-0.041, -0.033, 0.11)), (5.43, (0.043, -0.04, 0.107)), (5.25, (-0.047, -0.067, 0.096)), (5.23, (0.03, -0.024, 0.123))]
+rendered divine res=(1100, 1650) bbox_h=0.202 bbox_w=0.113 aspect=0.558 D=0.619
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0471, rms=3.58mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0019, rms=0.01mm)', 'none', 'sphere(r=0.0059, rms=0.00mm)', 'sphere(r=0.0007, rms=0.11mm)']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('arm_fill', 399), ('mouth_skip', 33), ('mouth_skip', 33), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('body_fill', 396, 'sphere(r=0.0471, rms=3.58mm)'), ('arm_fill', 417), ('mouth_skip', 32), ('mouth_skip', 32), ('arm_fill', 20), ('arm_fill', 12), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('mouth_skip', 33), ('arm_fill', 24), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('arm_fill', 10), ('body_fill', 12, 'none'), ('body_fill', 12, 'sphere(r=0.0059, rms=0.00mm)'), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('arm_fill', 12), ('mouth_skip', 33), ('arm_fill', 10), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0471, rms=3.58mm)+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0019, rms=0.01mm)+none+sphere(r=0.0059, rms=0.00mm)+sphere(r=0.0007, rms=0.11mm)) arm_inner=904 boost=2807 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=7/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=7/1500 degen=72
+QC[classic] top_stretch=[(1.83, (0.021, -0.014, 0.154)), (1.61, (-0.023, 0.006, 0.155)), (1.6, (0.016, -0.021, 0.153)), (1.57, (0.015, -0.022, 0.152)), (1.55, (-0.024, 0.004, 0.154)), (1.54, (0.019, -0.016, 0.154))]
+rendered classic res=(1100, 1650) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0471, rms=3.58mm)', 'sphere(r=0.0476, rms=3.40mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0007, rms=0.11mm)', 'none', 'sphere(r=0.0019, rms=0.01mm)', 'none']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('mouth_skip', 33), ('arm_fill', 399), ('body_fill', 396, 'sphere(r=0.0471, rms=3.58mm)'), ('mouth_skip', 32), ('body_fill', 369, 'sphere(r=0.0476, rms=3.40mm)'), ('arm_fill', 417), ('arm_fill', 20), ('arm_fill', 12), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('arm_fill', 24), ('mouth_skip', 33), ('mouth_skip', 33), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('arm_fill', 12), ('body_fill', 12, 'none'), ('mouth_skip', 33), ('mouth_skip', 33), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('arm_fill', 10), ('body_fill', 12, 'none'), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 32), ('mouth_skip', 33), ('arm_fill', 10)]
+SURGERY: body_inner=903(sphere(r=0.0471, rms=3.58mm)+sphere(r=0.0476, rms=3.40mm)+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0007, rms=0.11mm)+none+sphere(r=0.0019, rms=0.01mm)+none) arm_inner=904 boost=2807 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=7/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[classic_bh] boundary=318 nonmanifold=0 stretch_gt30=202 (arm/shoulder_zone=75) flip_est=4/1500 degen=72
+QC[classic_bh] top_stretch=[(6.82, (-0.043, -0.02, 0.112)), (6.24, (-0.027, -0.003, 0.116)), (6.15, (0.022, -0.034, 0.115)), (5.98, (0.034, -0.053, 0.103)), (5.58, (-0.047, -0.053, 0.097)), (4.86, (-0.042, -0.019, 0.112))]
+rendered classic_bh res=(1100, 1650) bbox_h=0.201 bbox_w=0.105 aspect=0.520 D=0.618
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0468, rms=3.61mm)', 'sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0006, rms=0.00mm)', 'sphere(r=0.0030, rms=0.26mm)', 'none', 'sphere(r=0.0025, rms=0.33mm)']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('body_fill', 396, 'sphere(r=0.0468, rms=3.61mm)'), ('arm_fill', 399), ('mouth_skip', 33), ('mouth_skip', 32), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('mouth_skip', 32), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('arm_fill', 417), ('arm_fill', 12), ('arm_fill', 24), ('body_fill', 15, 'sphere(r=0.0006, rms=0.00mm)'), ('body_fill', 39, 'sphere(r=0.0030, rms=0.26mm)'), ('arm_fill', 12), ('arm_fill', 10), ('arm_fill', 10), ('body_fill', 12, 'none'), ('arm_fill', 20), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0468, rms=3.61mm)+sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0006, rms=0.00mm)+sphere(r=0.0030, rms=0.26mm)+none+sphere(r=0.0025, rms=0.33mm)) arm_inner=904 boost=2807 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=7/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=164 (arm/shoulder_zone=107) flip_est=3/1500 degen=72
+QC[calm] top_stretch=[(8.38, (-0.03, -0.017, 0.111)), (4.52, (-0.034, -0.029, 0.092)), (4.22, (-0.03, -0.017, 0.111)), (4.07, (-0.045, -0.028, 0.055)), (3.92, (0.024, -0.006, 0.154)), (3.7, (0.024, -0.005, 0.155))]
+rendered calm res=(1100, 1650) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0468, rms=3.61mm)', 'sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0006, rms=0.00mm)', 'sphere(r=0.0030, rms=0.26mm)', 'none', 'sphere(r=0.0025, rms=0.33mm)']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('body_fill', 396, 'sphere(r=0.0468, rms=3.61mm)'), ('arm_fill', 399), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 32), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('mouth_skip', 32), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('arm_fill', 10), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('arm_fill', 10), ('arm_fill', 417), ('arm_fill', 12), ('arm_fill', 24), ('body_fill', 15, 'sphere(r=0.0006, rms=0.00mm)'), ('body_fill', 39, 'sphere(r=0.0030, rms=0.26mm)'), ('mouth_skip', 33), ('arm_fill', 12), ('arm_fill', 20), ('body_fill', 12, 'none'), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0468, rms=3.61mm)+sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0006, rms=0.00mm)+sphere(r=0.0030, rms=0.26mm)+none+sphere(r=0.0025, rms=0.33mm)) arm_inner=904 boost=2807 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=7/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=43 (arm/shoulder_zone=34) flip_est=5/1500 degen=72
+QC[rage] top_stretch=[(6.91, (-0.025, -0.011, 0.154)), (5.05, (0.023, -0.012, 0.154)), (4.48, (0.023, -0.01, 0.155)), (3.34, (0.022, -0.018, 0.153)), (2.93, (-0.024, -0.009, 0.154)), (2.57, (0.022, -0.018, 0.153))]
+rendered rage res=(1100, 1650) bbox_h=0.201 bbox_w=0.122 aspect=0.605 D=0.617
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0468, rms=3.61mm)', 'sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0028, rms=0.25mm)', 'sphere(r=0.0030, rms=0.26mm)', 'sphere(r=0.0007, rms=0.10mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0007, rms=0.11mm)', 'sphere(r=0.0059, rms=0.00mm)']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('arm_fill', 399), ('body_fill', 396, 'sphere(r=0.0468, rms=3.61mm)'), ('mouth_skip', 33), ('mouth_skip', 32), ('arm_fill', 417), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('mouth_skip', 32), ('arm_fill', 12), ('arm_fill', 24), ('body_fill', 42, 'sphere(r=0.0028, rms=0.25mm)'), ('body_fill', 39, 'sphere(r=0.0030, rms=0.26mm)'), ('arm_fill', 12), ('arm_fill', 10), ('mouth_skip', 33), ('arm_fill', 10), ('body_fill', 18, 'sphere(r=0.0007, rms=0.10mm)'), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('arm_fill', 20), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('body_fill', 12, 'sphere(r=0.0059, rms=0.00mm)'), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0468, rms=3.61mm)+sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0028, rms=0.25mm)+sphere(r=0.0030, rms=0.26mm)+sphere(r=0.0007, rms=0.10mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0007, rms=0.11mm)+sphere(r=0.0059, rms=0.00mm)) arm_inner=904 boost=2807 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=8/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=182 (arm/shoulder_zone=90) flip_est=4/1500 degen=72
+QC[divine] top_stretch=[(7.94, (-0.033, -0.01, 0.112)), (7.2, (-0.042, -0.029, 0.106)), (6.41, (-0.042, -0.028, 0.107)), (5.5, (-0.049, -0.06, 0.087)), (5.23, (0.044, -0.035, 0.103)), (4.98, (0.042, -0.028, 0.107))]
+rendered divine res=(1100, 1650) bbox_h=0.202 bbox_w=0.115 aspect=0.570 D=0.619
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0471, rms=3.58mm)', 'sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0025, rms=0.35mm)', 'sphere(r=0.0059, rms=0.00mm)', 'sphere(r=0.0007, rms=0.11mm)']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('mouth_skip', 33), ('body_fill', 396, 'sphere(r=0.0471, rms=3.58mm)'), ('mouth_skip', 32), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('arm_fill', 399), ('arm_fill', 417), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('arm_fill', 20), ('arm_fill', 12), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('body_fill', 42, 'sphere(r=0.0025, rms=0.35mm)'), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('arm_fill', 10), ('arm_fill', 24), ('mouth_skip', 33), ('body_fill', 12, 'sphere(r=0.0059, rms=0.00mm)'), ('mouth_skip', 33), ('mouth_skip', 32), ('mouth_skip', 33), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('arm_fill', 10), ('arm_fill', 12)]
+SURGERY: body_inner=903(sphere(r=0.0471, rms=3.58mm)+sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0025, rms=0.35mm)+sphere(r=0.0059, rms=0.00mm)+sphere(r=0.0007, rms=0.11mm)) arm_inner=904 boost=2807 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=7/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=7/1500 degen=72
+QC[classic] top_stretch=[(1.83, (0.021, -0.014, 0.154)), (1.61, (-0.023, 0.006, 0.155)), (1.6, (0.016, -0.021, 0.153)), (1.57, (0.015, -0.022, 0.152)), (1.55, (-0.024, 0.004, 0.154)), (1.54, (0.019, -0.016, 0.154))]
+rendered classic res=(1100, 1650) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0471, rms=3.58mm)', 'sphere(r=0.0476, rms=3.40mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0007, rms=0.11mm)', 'none', 'sphere(r=0.0019, rms=0.01mm)', 'none']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('arm_fill', 399), ('mouth_skip', 33), ('body_fill', 396, 'sphere(r=0.0471, rms=3.58mm)'), ('mouth_skip', 33), ('body_fill', 369, 'sphere(r=0.0476, rms=3.40mm)'), ('mouth_skip', 33), ('arm_fill', 417), ('mouth_skip', 33), ('arm_fill', 20), ('arm_fill', 12), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('arm_fill', 24), ('mouth_skip', 33), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('arm_fill', 12), ('mouth_skip', 33), ('body_fill', 12, 'none'), ('mouth_skip', 32), ('mouth_skip', 32), ('mouth_skip', 33), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('arm_fill', 10), ('body_fill', 12, 'none'), ('mouth_skip', 33), ('arm_fill', 10)]
+SURGERY: body_inner=903(sphere(r=0.0471, rms=3.58mm)+sphere(r=0.0476, rms=3.40mm)+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0007, rms=0.11mm)+none+sphere(r=0.0019, rms=0.01mm)+none) arm_inner=904 boost=2807 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=7/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[classic_bh] boundary=318 nonmanifold=0 stretch_gt30=194 (arm/shoulder_zone=92) flip_est=5/1500 degen=73
+QC[classic_bh] top_stretch=[(6.17, (-0.028, 0.0, 0.115)), (6.12, (0.023, -0.031, 0.114)), (5.95, (0.036, -0.047, 0.1)), (5.62, (-0.049, -0.045, 0.088)), (4.85, (-0.044, -0.015, 0.108)), (4.76, (-0.044, -0.015, 0.108))]
+rendered classic_bh res=(1100, 1650) bbox_h=0.201 bbox_w=0.107 aspect=0.532 D=0.618
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0471, rms=3.58mm)', 'sphere(r=0.0476, rms=3.40mm)', 'sphere(r=0.0006, rms=0.00mm)', 'sphere(r=0.0030, rms=0.26mm)', 'sphere(r=0.0025, rms=0.33mm)', 'none', 'sphere(r=0.0007, rms=0.10mm)', 'sphere(r=0.0029, rms=0.00mm)']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('mouth_skip', 33), ('body_fill', 396, 'sphere(r=0.0471, rms=3.58mm)'), ('mouth_skip', 33), ('body_fill', 369, 'sphere(r=0.0476, rms=3.40mm)'), ('arm_fill', 399), ('mouth_skip', 33), ('arm_fill', 417), ('mouth_skip', 33), ('arm_fill', 12), ('arm_fill', 24), ('body_fill', 15, 'sphere(r=0.0006, rms=0.00mm)'), ('body_fill', 39, 'sphere(r=0.0030, rms=0.26mm)'), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('arm_fill', 12), ('arm_fill', 10), ('arm_fill', 10), ('mouth_skip', 33), ('body_fill', 12, 'none'), ('body_fill', 18, 'sphere(r=0.0007, rms=0.10mm)'), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 32), ('mouth_skip', 32), ('arm_fill', 20), ('mouth_skip', 33), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)')]
+SURGERY: body_inner=903(sphere(r=0.0471, rms=3.58mm)+sphere(r=0.0476, rms=3.40mm)+sphere(r=0.0006, rms=0.00mm)+sphere(r=0.0030, rms=0.26mm)+sphere(r=0.0025, rms=0.33mm)+none+sphere(r=0.0007, rms=0.10mm)+sphere(r=0.0029, rms=0.00mm)) arm_inner=904 boost=2807 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=8/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=182 (arm/shoulder_zone=90) flip_est=4/1500 degen=72
+QC[divine] top_stretch=[(7.94, (-0.033, -0.01, 0.112)), (7.2, (-0.042, -0.029, 0.106)), (6.41, (-0.042, -0.028, 0.107)), (5.5, (-0.049, -0.06, 0.087)), (5.23, (0.044, -0.035, 0.103)), (4.98, (0.042, -0.028, 0.107))]
+rendered divine res=(1100, 1650) bbox_h=0.202 bbox_w=0.115 aspect=0.570 D=0.619
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0476, rms=3.40mm)', 'sphere(r=0.0468, rms=3.59mm)', 'sphere(r=0.0028, rms=0.25mm)', 'sphere(r=0.0007, rms=0.11mm)', 'none', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0007, rms=0.10mm)', 'sphere(r=0.0029, rms=0.00mm)']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('mouth_skip', 33), ('mouth_skip', 33), ('body_fill', 369, 'sphere(r=0.0476, rms=3.40mm)'), ('body_fill', 396, 'sphere(r=0.0468, rms=3.59mm)'), ('arm_fill', 399), ('mouth_skip', 32), ('arm_fill', 417), ('mouth_skip', 32), ('arm_fill', 12), ('arm_fill', 24), ('body_fill', 42, 'sphere(r=0.0028, rms=0.25mm)'), ('mouth_skip', 33), ('arm_fill', 12), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('body_fill', 12, 'none'), ('arm_fill', 20), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('arm_fill', 10), ('arm_fill', 10), ('body_fill', 18, 'sphere(r=0.0007, rms=0.10mm)'), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0476, rms=3.40mm)+sphere(r=0.0468, rms=3.59mm)+sphere(r=0.0028, rms=0.25mm)+sphere(r=0.0007, rms=0.11mm)+none+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0007, rms=0.10mm)+sphere(r=0.0029, rms=0.00mm)) arm_inner=904 boost=2807 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=8/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=8/1500 degen=72
+QC[classic] top_stretch=[(1.78, (0.021, -0.014, 0.154)), (1.62, (-0.023, 0.006, 0.155)), (1.58, (0.016, -0.021, 0.153)), (1.56, (-0.024, 0.004, 0.154)), (1.55, (0.015, -0.022, 0.152)), (1.52, (0.019, -0.016, 0.154))]
+rendered classic res=(1100, 1650) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0468, rms=3.59mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0025, rms=0.35mm)', 'none', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0059, rms=0.00mm)', 'sphere(r=0.0007, rms=0.11mm)']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('mouth_skip', 33), ('arm_fill', 24), ('mouth_skip', 33), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('arm_fill', 399), ('body_fill', 396, 'sphere(r=0.0468, rms=3.59mm)'), ('arm_fill', 417), ('mouth_skip', 32), ('mouth_skip', 32), ('arm_fill', 12), ('mouth_skip', 33), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('arm_fill', 10), ('body_fill', 42, 'sphere(r=0.0025, rms=0.35mm)'), ('body_fill', 12, 'none'), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('body_fill', 12, 'sphere(r=0.0059, rms=0.00mm)'), ('arm_fill', 20), ('arm_fill', 10), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('arm_fill', 12), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0468, rms=3.59mm)+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0025, rms=0.35mm)+none+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0059, rms=0.00mm)+sphere(r=0.0007, rms=0.11mm)) arm_inner=904 boost=2807 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=8/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=183 (arm/shoulder_zone=91) flip_est=4/1500 degen=72
+QC[divine] top_stretch=[(7.94, (-0.033, -0.01, 0.112)), (7.11, (-0.042, -0.029, 0.106)), (6.43, (-0.042, -0.028, 0.107)), (5.5, (-0.049, -0.06, 0.087)), (5.23, (0.044, -0.035, 0.103)), (4.98, (0.042, -0.028, 0.107))]
+rendered divine res=(1100, 1650) bbox_h=0.202 bbox_w=0.115 aspect=0.570 D=0.619
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0469, rms=3.60mm)', 'sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0007, rms=0.11mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0031, rms=0.24mm)', 'none', 'sphere(r=0.0025, rms=0.33mm)']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('body_fill', 396, 'sphere(r=0.0469, rms=3.60mm)'), ('mouth_skip', 33), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('arm_fill', 399), ('arm_fill', 417), ('mouth_skip', 32), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('arm_fill', 20), ('arm_fill', 12), ('arm_fill', 24), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('arm_fill', 10), ('mouth_skip', 32), ('arm_fill', 12), ('arm_fill', 10), ('body_fill', 12, 'none'), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0469, rms=3.60mm)+sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0007, rms=0.11mm)+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0031, rms=0.24mm)+none+sphere(r=0.0025, rms=0.33mm)) arm_inner=904 boost=2504 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=7/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=613 (arm/shoulder_zone=521) flip_est=5/1500 degen=72
+QC[divine] top_stretch=[(197.84, (-0.033, 0.006, 0.12)), (187.72, (0.032, 0.007, 0.122)), (63.28, (0.026, 0.007, 0.139)), (51.01, (0.027, 0.008, 0.139)), (49.42, (-0.034, -0.013, 0.126)), (40.44, (-0.026, 0.007, 0.136))]
+rendered divine res=(1100, 1650) bbox_h=0.202 bbox_w=0.115 aspect=0.570 D=0.619
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0480, rms=3.37mm)', 'sphere(r=0.0468, rms=3.59mm)', 'sphere(r=0.0019, rms=0.01mm)', 'none', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0059, rms=0.00mm)', 'sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0007, rms=0.11mm)']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('mouth_skip', 33), ('mouth_skip', 33), ('body_fill', 369, 'sphere(r=0.0480, rms=3.37mm)'), ('arm_fill', 399), ('body_fill', 396, 'sphere(r=0.0468, rms=3.59mm)'), ('arm_fill', 417), ('mouth_skip', 32), ('mouth_skip', 32), ('arm_fill', 12), ('mouth_skip', 33), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('arm_fill', 10), ('arm_fill', 24), ('body_fill', 12, 'none'), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('body_fill', 12, 'sphere(r=0.0059, rms=0.00mm)'), ('arm_fill', 20), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('arm_fill', 10), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('arm_fill', 12), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0480, rms=3.37mm)+sphere(r=0.0468, rms=3.59mm)+sphere(r=0.0019, rms=0.01mm)+none+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0059, rms=0.00mm)+sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0007, rms=0.11mm)) arm_inner=904 boost=2807 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=7/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=171 (arm/shoulder_zone=91) flip_est=3/1500 degen=72
+QC[divine] top_stretch=[(8.06, (-0.032, -0.004, 0.111)), (7.24, (-0.051, -0.043, 0.073)), (6.49, (-0.043, -0.02, 0.101)), (5.87, (-0.043, -0.02, 0.101)), (4.43, (0.043, -0.02, 0.101)), (4.3, (0.046, -0.025, 0.095))]
+rendered divine res=(1100, 1650) bbox_h=0.202 bbox_w=0.116 aspect=0.577 D=0.619
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0482, rms=3.34mm)', 'sphere(r=0.0468, rms=3.61mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0028, rms=0.25mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0007, rms=0.11mm)', 'none']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('body_fill', 369, 'sphere(r=0.0482, rms=3.34mm)'), ('mouth_skip', 33), ('arm_fill', 399), ('arm_fill', 417), ('mouth_skip', 33), ('body_fill', 396, 'sphere(r=0.0468, rms=3.61mm)'), ('mouth_skip', 32), ('mouth_skip', 32), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('arm_fill', 12), ('arm_fill', 24), ('body_fill', 42, 'sphere(r=0.0028, rms=0.25mm)'), ('mouth_skip', 33), ('arm_fill', 12), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('arm_fill', 20), ('mouth_skip', 33), ('arm_fill', 10), ('arm_fill', 10), ('mouth_skip', 33), ('mouth_skip', 33), ('body_fill', 12, 'none'), ('mouth_skip', 33), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0482, rms=3.34mm)+sphere(r=0.0468, rms=3.61mm)+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0028, rms=0.25mm)+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0007, rms=0.11mm)+none) arm_inner=904 boost=2807 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=8/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[calm] boundary=318 nonmanifold=0 stretch_gt30=164 (arm/shoulder_zone=107) flip_est=3/1500 degen=72
+QC[calm] top_stretch=[(8.38, (-0.03, -0.017, 0.111)), (4.52, (-0.034, -0.029, 0.092)), (4.22, (-0.03, -0.017, 0.111)), (4.07, (-0.045, -0.028, 0.055)), (3.92, (0.024, -0.006, 0.154)), (3.7, (0.024, -0.005, 0.155))]
+rendered calm res=(1100, 1650) bbox_h=0.202 bbox_w=0.111 aspect=0.552 D=0.619
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0482, rms=3.34mm)', 'sphere(r=0.0471, rms=3.58mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0007, rms=0.11mm)', 'sphere(r=0.0025, rms=0.35mm)', 'sphere(r=0.0059, rms=0.00mm)']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('body_fill', 369, 'sphere(r=0.0482, rms=3.34mm)'), ('arm_fill', 417), ('mouth_skip', 33), ('mouth_skip', 33), ('body_fill', 396, 'sphere(r=0.0471, rms=3.58mm)'), ('mouth_skip', 33), ('arm_fill', 399), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('mouth_skip', 33), ('arm_fill', 20), ('arm_fill', 12), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('body_fill', 42, 'sphere(r=0.0025, rms=0.35mm)'), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 32), ('mouth_skip', 32), ('mouth_skip', 33), ('arm_fill', 10), ('arm_fill', 24), ('body_fill', 12, 'sphere(r=0.0059, rms=0.00mm)'), ('arm_fill', 10), ('mouth_skip', 33), ('arm_fill', 12)]
+SURGERY: body_inner=903(sphere(r=0.0482, rms=3.34mm)+sphere(r=0.0471, rms=3.58mm)+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0007, rms=0.11mm)+sphere(r=0.0025, rms=0.35mm)+sphere(r=0.0059, rms=0.00mm)) arm_inner=904 boost=2807 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=7/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=44 (arm/shoulder_zone=35) flip_est=5/1500 degen=72
+QC[rage] top_stretch=[(6.68, (-0.025, -0.011, 0.154)), (5.12, (0.023, -0.012, 0.154)), (4.55, (0.023, -0.01, 0.155)), (3.32, (0.022, -0.018, 0.153)), (2.88, (-0.024, -0.009, 0.154)), (2.57, (0.022, -0.018, 0.153))]
+rendered rage res=(1100, 1650) bbox_h=0.201 bbox_w=0.122 aspect=0.605 D=0.617
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0482, rms=3.34mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0471, rms=3.58mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0059, rms=0.00mm)', 'sphere(r=0.0025, rms=0.33mm)', 'sphere(r=0.0007, rms=0.11mm)']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('body_fill', 369, 'sphere(r=0.0482, rms=3.34mm)'), ('arm_fill', 417), ('mouth_skip', 33), ('mouth_skip', 33), ('arm_fill', 399), ('mouth_skip', 33), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('body_fill', 396, 'sphere(r=0.0471, rms=3.58mm)'), ('mouth_skip', 33), ('arm_fill', 12), ('arm_fill', 10), ('arm_fill', 24), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('mouth_skip', 33), ('body_fill', 12, 'sphere(r=0.0059, rms=0.00mm)'), ('arm_fill', 20), ('mouth_skip', 33), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('mouth_skip', 32), ('mouth_skip', 32), ('mouth_skip', 33), ('body_fill', 15, 'sphere(r=0.0007, rms=0.11mm)'), ('arm_fill', 10), ('arm_fill', 12), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0482, rms=3.34mm)+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0471, rms=3.58mm)+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0059, rms=0.00mm)+sphere(r=0.0025, rms=0.33mm)+sphere(r=0.0007, rms=0.11mm)) arm_inner=904 boost=2807 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=8/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[classic] boundary=318 nonmanifold=0 stretch_gt30=16 (arm/shoulder_zone=12) flip_est=8/1500 degen=72
+QC[classic] top_stretch=[(1.83, (0.021, -0.014, 0.154)), (1.6, (-0.023, 0.006, 0.155)), (1.6, (0.016, -0.021, 0.153)), (1.57, (0.015, -0.022, 0.152)), (1.54, (-0.024, 0.004, 0.155)), (1.54, (0.019, -0.016, 0.154))]
+rendered classic res=(1100, 1650) bbox_h=0.201 bbox_w=0.110 aspect=0.544 D=0.618
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0468, rms=3.61mm)', 'sphere(r=0.0476, rms=3.36mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0006, rms=0.00mm)', 'sphere(r=0.0030, rms=0.26mm)', 'none', 'sphere(r=0.0025, rms=0.33mm)']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('arm_fill', 399), ('arm_fill', 417), ('mouth_skip', 32), ('mouth_skip', 33), ('body_fill', 396, 'sphere(r=0.0468, rms=3.61mm)'), ('body_fill', 369, 'sphere(r=0.0476, rms=3.36mm)'), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('arm_fill', 12), ('arm_fill', 24), ('body_fill', 15, 'sphere(r=0.0006, rms=0.00mm)'), ('body_fill', 39, 'sphere(r=0.0030, rms=0.26mm)'), ('arm_fill', 12), ('arm_fill', 10), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('arm_fill', 10), ('body_fill', 12, 'none'), ('body_fill', 42, 'sphere(r=0.0025, rms=0.33mm)'), ('arm_fill', 20), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 32), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0468, rms=3.61mm)+sphere(r=0.0476, rms=3.36mm)+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0006, rms=0.00mm)+sphere(r=0.0030, rms=0.26mm)+none+sphere(r=0.0025, rms=0.33mm)) arm_inner=904 boost=2807 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=7/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[rage] boundary=318 nonmanifold=0 stretch_gt30=44 (arm/shoulder_zone=35) flip_est=6/1500 degen=72
+QC[rage] top_stretch=[(6.73, (-0.025, -0.011, 0.154)), (5.05, (0.023, -0.012, 0.154)), (4.48, (0.023, -0.01, 0.155)), (3.34, (0.022, -0.018, 0.153)), (2.86, (-0.024, -0.009, 0.154)), (2.57, (0.022, -0.018, 0.153))]
+rendered rage res=(1100, 1650) bbox_h=0.201 bbox_w=0.122 aspect=0.605 D=0.617
+SURGERY body_fill_inner=903 arm_fill_inner=904 methods=['sphere(r=0.0469, rms=3.60mm)', 'sphere(r=0.0476, rms=3.36mm)', 'sphere(r=0.0019, rms=0.01mm)', 'sphere(r=0.0029, rms=0.00mm)', 'sphere(r=0.0031, rms=0.24mm)', 'sphere(r=0.0025, rms=0.35mm)', 'sphere(r=0.0006, rms=0.00mm)', 'none']
+SURGERY: pre_boundary=318 cut_faces=643 split=0 loops=[('arm_fill', 417), ('mouth_skip', 32), ('mouth_skip', 33), ('body_fill', 396, 'sphere(r=0.0469, rms=3.60mm)'), ('body_fill', 369, 'sphere(r=0.0476, rms=3.36mm)'), ('arm_fill', 399), ('body_fill', 18, 'sphere(r=0.0019, rms=0.01mm)'), ('body_fill', 12, 'sphere(r=0.0029, rms=0.00mm)'), ('arm_fill', 12), ('mouth_skip', 33), ('body_fill', 39, 'sphere(r=0.0031, rms=0.24mm)'), ('arm_fill', 10), ('mouth_skip', 33), ('arm_fill', 20), ('body_fill', 42, 'sphere(r=0.0025, rms=0.35mm)'), ('arm_fill', 24), ('mouth_skip', 33), ('mouth_skip', 33), ('body_fill', 15, 'sphere(r=0.0006, rms=0.00mm)'), ('arm_fill', 12), ('arm_fill', 10), ('body_fill', 12, 'none'), ('mouth_skip', 33), ('mouth_skip', 33), ('mouth_skip', 32), ('mouth_skip', 33)]
+SURGERY: body_inner=903(sphere(r=0.0469, rms=3.60mm)+sphere(r=0.0476, rms=3.36mm)+sphere(r=0.0019, rms=0.01mm)+sphere(r=0.0029, rms=0.00mm)+sphere(r=0.0031, rms=0.24mm)+sphere(r=0.0025, rms=0.35mm)+sphere(r=0.0006, rms=0.00mm)+none) arm_inner=904 boost=2807 strip=75 post_boundary=318 post_nonmanifold=0
+SURGERY residual boundary by zone: {'mouth': 318}
+saved post-surgery mesh: work/pet01_surgery.blend
+QC[REST] boundary=318 nonmanifold=0 stretch_gt30=0 (arm/shoulder_zone=0) flip_est=7/1500 degen=72
+QC[REST] top_stretch=[(1.0, (-0.046, -0.011, 0.083)), (1.0, (-0.045, -0.014, 0.082)), (1.0, (-0.046, -0.005, 0.081)), (1.0, (-0.045, -0.003, 0.076)), (1.0, (-0.047, -0.005, 0.084)), (1.0, (-0.038, -0.03, 0.083))]
+clean_weights: belly_stripped=0
+QC[divine] boundary=318 nonmanifold=0 stretch_gt30=390 (arm/shoulder_zone=240) flip_est=5/1500 degen=72
+QC[divine] top_stretch=[(29.75, (-0.047, -0.022, 0.094)), (23.75, (0.048, -0.025, 0.089)), (22.08, (-0.026, -0.015, 0.132)), (20.63, (-0.045, -0.018, 0.1)), (18.38, (0.049, -0.025, 0.088)), (18.1, (0.046, -0.018, 0.1))]
+rendered divine res=(1100, 1650) bbox_h=0.202 bbox_w=0.116 aspect=0.577 D=0.619

@@ -5,8 +5,18 @@ using UnityEngine;
 namespace Vuforia
 {
     public enum Status { NO_POSE, LIMITED, TRACKED, EXTENDED_TRACKED }
-    public struct TargetStatus { public Status Status; }
+    public struct TargetStatus
+    {
+        public Status Status;
+        public string StatusInfo;
+    }
     public class ObserverBehaviour : Behaviour { public TargetStatus TargetStatus; }
+    public class ImageTargetBehaviour : ObserverBehaviour { }
+    public sealed class VuforiaConfiguration : ScriptableObject
+    {
+        public sealed class VuforiaSettings { public int MaxSimultaneousImageTargets = 1; }
+        public VuforiaSettings Vuforia = new();
+    }
     public sealed class VuforiaApplication
     {
         public static VuforiaApplication Instance { get; } = new();

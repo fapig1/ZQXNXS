@@ -1,0 +1,20 @@
+{
+  "source_sha256": "35c5625db06f13de88510edab883ab87293bbfee9f4464404ba871a21f12b13d",
+  "frozen_data_fingerprint": "8474e2e832785e3412c92d7a666f36fcf47ed39a60f89e5ef459fbd20f2edb22",
+  "source": "ArtSource/Characters/Pet01/pet01.blend",
+  "gassho_pose": [
+    23.88,
+    48.8,
+    -9.41,
+    8.1,
+    -52.26,
+    22.66,
+    -77.74
+  ],
+  "nods_deg": [
+    8,
+    6,
+    4
+  ],
+  "note": "Only calm_zen re-authored (palms together + closed eyes + three decreasing nods). Geometry, UV, weights, rest bones and the other 9 Actions unchanged."
+}

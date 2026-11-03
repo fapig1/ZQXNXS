@@ -1,0 +1,11 @@
+[calm] edge_density=11.4  title_edge=17.9  ring_std=42.1  min_block_std=4.8  char_gray=173.3  bg_gray=215.0  char_bg_diff=41.7  boundary_contrast=73.0
+[rage] edge_density=9.2  title_edge=14.6  ring_std=25.9  min_block_std=2.5  char_gray=194.6  bg_gray=138.7  char_bg_diff=56.0  boundary_contrast=128.7
+[divine] edge_density=8.8  title_edge=17.1  ring_std=31.6  min_block_std=6.2  char_gray=199.3  bg_gray=36.8  char_bg_diff=162.6  boundary_contrast=170.7
+[classic] edge_density=9.4  title_edge=17.6  ring_std=28.2  min_block_std=2.7  char_gray=223.7  bg_gray=93.9  char_bg_diff=129.9  boundary_contrast=172.4
+
+pair calm-rage: mean_abs_diff=65.8  corr=0.386
+pair calm-divine: mean_abs_diff=130.6  corr=-0.231
+pair calm-classic: mean_abs_diff=96.6  corr=-0.184
+pair rage-divine: mean_abs_diff=81.3  corr=0.384
+pair rage-classic: mean_abs_diff=50.3  corr=0.399
+pair divine-classic: mean_abs_diff=58.2  corr=0.747

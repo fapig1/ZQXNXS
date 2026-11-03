@@ -1,0 +1,315 @@
+{
+  "schema_version": 2,
+  "asset_id": "Pet01",
+  "date": "2026-10-27",
+  "revision": "2026-10-27 rework: eyes atlas 2048 (cell 1024x384), mouth cell re-aligned to the measured Oral surface and lip slit",
+  "generator": "Tools/Art/make_pet01_face_atlas.py",
+  "note": "Two decal patches (Pet01_FaceEyes / Pet01_FaceMouth) sample exactly one cell each; a patch UV is 0..1 so Unity picks a cell with _MainTex_ST = [scaleX, scaleY, offsetX, offsetY]. Cells are laid out left to right, top to bottom; UV v grows upwards, so offsetY = (atlasHeight - y - cellHeight) / atlasHeight.",
+  "line_color_hex": "#3a2418",
+  "line_color_rgb255": [
+    58,
+    36,
+    24
+  ],
+  "transparent_pixel_rgb": "line colour (avoids white fringes under bilinear filtering)",
+  "cell_margin_px": 6,
+  "supersampling": {
+    "eyes": 3,
+    "mouth": 4
+  },
+  "atlases": {
+    "eyes": {
+      "png": "ARPet/Assets/_Project/Art/Characters/Pet01/Textures/Pet01_FaceEyes.png",
+      "size_px": [
+        2048,
+        2048
+      ],
+      "cell_px": [
+        1024,
+        384
+      ],
+      "design_px": [
+        512,
+        192
+      ],
+      "grid": [
+        2,
+        5
+      ],
+      "world_mm_per_cell": [
+        48.0,
+        18.0
+      ],
+      "patch_uv_aspect": 2.6667,
+      "cell_centres_uv": {
+        "u": [
+          0.227,
+          0.773
+        ],
+        "v": 0.394,
+        "radius_design_px": 59,
+        "radius_output_px": 118.0
+      },
+      "cells": [
+        {
+          "index": 0,
+          "name": "squint",
+          "atlas": "eyes",
+          "png": "ARPet/Assets/_Project/Art/Characters/Pet01/Textures/Pet01_FaceEyes.png",
+          "rect_px": [
+            0,
+            0,
+            1024,
+            384
+          ],
+          "main_texture_st": [
+            0.5,
+            0.1875,
+            0.0,
+            0.8125
+          ]
+        },
+        {
+          "index": 1,
+          "name": "closed",
+          "atlas": "eyes",
+          "png": "ARPet/Assets/_Project/Art/Characters/Pet01/Textures/Pet01_FaceEyes.png",
+          "rect_px": [
+            1024,
+            0,
+            1024,
+            384
+          ],
+          "main_texture_st": [
+            0.5,
+            0.1875,
+            0.5,
+            0.8125
+          ]
+        },
+        {
+          "index": 2,
+          "name": "divine",
+          "atlas": "eyes",
+          "png": "ARPet/Assets/_Project/Art/Characters/Pet01/Textures/Pet01_FaceEyes.png",
+          "rect_px": [
+            0,
+            384,
+            1024,
+            384
+          ],
+          "main_texture_st": [
+            0.5,
+            0.1875,
+            0.0,
+            0.625
+          ]
+        },
+        {
+          "index": 3,
+          "name": "rage",
+          "atlas": "eyes",
+          "png": "ARPet/Assets/_Project/Art/Characters/Pet01/Textures/Pet01_FaceEyes.png",
+          "rect_px": [
+            1024,
+            384,
+            1024,
+            384
+          ],
+          "main_texture_st": [
+            0.5,
+            0.1875,
+            0.5,
+            0.625
+          ]
+        }
+      ]
+    },
+    "mouth": {
+      "png": "ARPet/Assets/_Project/Art/Characters/Pet01/Textures/Pet01_FaceMouth.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "cell_px": [
+        256,
+        128
+      ],
+      "design_px": [
+        256,
+        128
+      ],
+      "grid": [
+        2,
+        4
+      ],
+      "world_mm_per_cell": [
+        34.4,
+        17.2
+      ],
+      "patch_uv_aspect": 2.0,
+      "oral_v_range_expected": [
+        0.6105,
+        0.8401
+      ],
+      "oral_v_centre_expected": 0.7253,
+      "lip_slit_uv_expected": {
+        "v": [
+          0.7665,
+          0.8087
+        ],
+        "u": [
+          0.1995,
+          0.8005
+        ]
+      },
+      "measured_from": "Pet01_Mesh (material Pet01_Oral faces + frontmost-hit scan), re-verified by Tools/Blender/build_pet01_face_overlay.py",
+      "cells": [
+        {
+          "index": 0,
+          "name": "smile",
+          "atlas": "mouth",
+          "png": "ARPet/Assets/_Project/Art/Characters/Pet01/Textures/Pet01_FaceMouth.png",
+          "rect_px": [
+            0,
+            0,
+            256,
+            128
+          ],
+          "main_texture_st": [
+            0.5,
+            0.25,
+            0.0,
+            0.75
+          ]
+        },
+        {
+          "index": 1,
+          "name": "laugh",
+          "atlas": "mouth",
+          "png": "ARPet/Assets/_Project/Art/Characters/Pet01/Textures/Pet01_FaceMouth.png",
+          "rect_px": [
+            256,
+            0,
+            256,
+            128
+          ],
+          "main_texture_st": [
+            0.5,
+            0.25,
+            0.5,
+            0.75
+          ]
+        },
+        {
+          "index": 2,
+          "name": "roar",
+          "atlas": "mouth",
+          "png": "ARPet/Assets/_Project/Art/Characters/Pet01/Textures/Pet01_FaceMouth.png",
+          "rect_px": [
+            0,
+            128,
+            256,
+            128
+          ],
+          "main_texture_st": [
+            0.5,
+            0.25,
+            0.0,
+            0.5
+          ]
+        },
+        {
+          "index": 3,
+          "name": "o",
+          "atlas": "mouth",
+          "png": "ARPet/Assets/_Project/Art/Characters/Pet01/Textures/Pet01_FaceMouth.png",
+          "rect_px": [
+            256,
+            128,
+            256,
+            128
+          ],
+          "main_texture_st": [
+            0.5,
+            0.25,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "index": 4,
+          "name": "serene",
+          "atlas": "mouth",
+          "png": "ARPet/Assets/_Project/Art/Characters/Pet01/Textures/Pet01_FaceMouth.png",
+          "rect_px": [
+            0,
+            256,
+            256,
+            128
+          ],
+          "main_texture_st": [
+            0.5,
+            0.25,
+            0.0,
+            0.25
+          ]
+        },
+        {
+          "index": 5,
+          "name": "flat",
+          "atlas": "mouth",
+          "png": "ARPet/Assets/_Project/Art/Characters/Pet01/Textures/Pet01_FaceMouth.png",
+          "rect_px": [
+            256,
+            256,
+            256,
+            128
+          ],
+          "main_texture_st": [
+            0.5,
+            0.25,
+            0.5,
+            0.25
+          ]
+        }
+      ],
+      "oral_range_measured": {
+        "oral_v_range": [
+          0.6105,
+          0.8401
+        ],
+        "oral_v_centre": 0.7253,
+        "oral_u_range": [
+          0.1995,
+          0.8005
+        ],
+        "lip_slit_z_m": [
+          0.1775,
+          0.1787
+        ],
+        "lip_slit_v_range": [
+          0.6977,
+          0.7674
+        ],
+        "lip_slit_x_m": [
+          -0.0102,
+          0.0102
+        ],
+        "lip_slit_u_range": [
+          0.2035,
+          0.7965
+        ],
+        "cells_z_m": [
+          0.1655,
+          0.1827
+        ],
+        "cells_x_m": [
+          -0.0172,
+          0.0172
+        ]
+      },
+      "oral_range_verified": true
+    }
+  }
+}

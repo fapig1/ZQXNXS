@@ -1,0 +1,45 @@
+{
+  "note": "开发者自录配音（2026-10-29 确认来源）。源文件不改动；Unity 用 16-bit 单声道副本，首尾各 10ms 淡入淡出。",
+  "clips": [
+    {
+      "id": "andi",
+      "phrase": "安迪",
+      "source": "ArtSource/00_全部音效_按顺序合集/安迪.wav",
+      "source_sha256": "e3c2a0f44358e3478b3774a916b121242c25e87127826410a38f1566b99413d9",
+      "unity": "ARPet/Assets/_Project/Audio/Resources/Audio/andi.wav",
+      "seconds": 1.15,
+      "sample_rate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "gaga",
+      "phrase": "嘎嘎爹拉筛",
+      "source": "ArtSource/00_全部音效_按顺序合集/嘎嘎爹拉筛.wav",
+      "source_sha256": "bb4a779a948cc59d564542fbd34ee99230a8b29e5bd29c222930f9a59eb31ae8",
+      "unity": "ARPet/Assets/_Project/Audio/Resources/Audio/gaga.wav",
+      "seconds": 1.74,
+      "sample_rate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "leiting",
+      "phrase": "雷霆大笑",
+      "source": "ArtSource/00_全部音效_按顺序合集/雷霆大笑.wav",
+      "source_sha256": "05033b0d29ded9877c92411e204c6d3a946ba2a0a9b10195a8627cf7e7e12bc7",
+      "unity": "ARPet/Assets/_Project/Audio/Resources/Audio/leiting.wav",
+      "seconds": 2.36,
+      "sample_rate": 44100,
+      "channels": 1
+    },
+    {
+      "id": "oula",
+      "phrase": "欧拉",
+      "source": "ArtSource/00_全部音效_按顺序合集/欧拉.wav",
+      "source_sha256": "11d161803e533b14cb3f95eb6312b4fc2fb17b06b28e88184335e29eb83a50c0",
+      "unity": "ARPet/Assets/_Project/Audio/Resources/Audio/oula.wav",
+      "seconds": 0.87,
+      "sample_rate": 44100,
+      "channels": 1
+    }
+  ]
+}

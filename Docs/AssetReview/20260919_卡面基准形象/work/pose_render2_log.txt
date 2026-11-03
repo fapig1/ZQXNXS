@@ -1,0 +1,140 @@
+engine = BLENDER_EEVEE
+denoise attr: 'SceneEEVEE' object has no attribute 'use_denoising'
+clean_weights: belly_stripped=677 far_stripped=0
+rendered calm res=(550, 825) bbox_h=0.201 bbox_w=0.105 aspect=0.526 minz=0.0000 D=0.616 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_calm.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered rage res=(550, 825) bbox_h=0.200 bbox_w=0.111 aspect=0.554 minz=0.0000 D=0.614 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_rage.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered divine res=(550, 825) bbox_h=0.200 bbox_w=0.147 aspect=0.735 minz=0.0000 D=0.718 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_divine.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered classic res=(550, 825) bbox_h=0.202 bbox_w=0.150 aspect=0.745 minz=0.0000 D=0.735 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_classic.png
+engine = BLENDER_EEVEE
+denoise attr: 'SceneEEVEE' object has no attribute 'use_denoising'
+clean_weights: belly_stripped=677 far_stripped=0
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.133 aspect=0.659 minz=0.0000 D=0.650 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_calm.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered rage res=(550, 825) bbox_h=0.201 bbox_w=0.142 aspect=0.705 minz=0.0000 D=0.692 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_rage.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered divine res=(550, 825) bbox_h=0.200 bbox_w=0.135 aspect=0.676 minz=0.0000 D=0.659 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_divine.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.112 aspect=0.557 minz=0.0000 D=0.618 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_classic.png
+engine = BLENDER_EEVEE
+denoise attr: 'SceneEEVEE' object has no attribute 'use_denoising'
+clean_weights: belly_stripped=5 far_stripped=0
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.117 aspect=0.579 minz=0.0000 D=0.619 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_calm.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered rage res=(550, 825) bbox_h=0.201 bbox_w=0.171 aspect=0.849 minz=0.0000 D=0.834 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_rage.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered divine res=(550, 825) bbox_h=0.200 bbox_w=0.126 aspect=0.632 minz=0.0000 D=0.616 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_divine.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.112 aspect=0.557 minz=0.0000 D=0.618 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_classic.png
+engine = BLENDER_EEVEE
+denoise attr: 'SceneEEVEE' object has no attribute 'use_denoising'
+clean_weights: belly_stripped=5 far_stripped=0
+smooth_arm_field: iters=14 changed=1019
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.116 aspect=0.577 minz=0.0000 D=0.619 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_calm.png
+clean_weights: belly_stripped=0 far_stripped=0
+smooth_arm_field: iters=14 changed=1315
+rendered rage res=(550, 825) bbox_h=0.201 bbox_w=0.145 aspect=0.721 minz=0.0000 D=0.708 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_rage.png
+clean_weights: belly_stripped=0 far_stripped=0
+smooth_arm_field: iters=14 changed=1520
+rendered divine res=(550, 825) bbox_h=0.200 bbox_w=0.126 aspect=0.632 minz=0.0000 D=0.617 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_divine.png
+clean_weights: belly_stripped=0 far_stripped=0
+smooth_arm_field: iters=14 changed=1678
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.113 aspect=0.561 minz=0.0000 D=0.618 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_classic.png
+engine = BLENDER_EEVEE
+denoise attr: 'SceneEEVEE' object has no attribute 'use_denoising'
+clean_weights: belly_stripped=5 far_stripped=0
+remove_fingers: deleting 858 verts
+remove_fingers: boundary edges(near hand)=170
+remove_fingers: done
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.116 aspect=0.576 minz=0.0000 D=0.619 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_calm.png
+clean_weights: belly_stripped=7 far_stripped=0
+remove_fingers: deleting 0 verts
+remove_fingers: boundary edges(near hand)=6
+remove_fingers: done
+rendered rage res=(550, 825) bbox_h=0.201 bbox_w=0.128 aspect=0.636 minz=0.0000 D=0.624 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_rage.png
+clean_weights: belly_stripped=0 far_stripped=0
+remove_fingers: deleting 0 verts
+remove_fingers: boundary edges(near hand)=6
+remove_fingers: done
+rendered divine res=(550, 825) bbox_h=0.200 bbox_w=0.127 aspect=0.636 minz=0.0000 D=0.620 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_divine.png
+clean_weights: belly_stripped=0 far_stripped=0
+remove_fingers: deleting 0 verts
+remove_fingers: boundary edges(near hand)=6
+remove_fingers: done
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.112 aspect=0.555 minz=0.0000 D=0.618 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_classic.png
+engine = BLENDER_EEVEE
+denoise attr: 'SceneEEVEE' object has no attribute 'use_denoising'
+clean_weights: belly_stripped=5 far_stripped=0
+cut_hand_bridges: cut 207 bridge faces
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.117 aspect=0.579 minz=0.0000 D=0.619 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_calm.png
+clean_weights: belly_stripped=0 far_stripped=0
+cut_hand_bridges: cut 0 bridge faces
+rendered rage res=(550, 825) bbox_h=0.201 bbox_w=0.144 aspect=0.718 minz=0.0000 D=0.705 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_rage.png
+clean_weights: belly_stripped=0 far_stripped=0
+cut_hand_bridges: cut 0 bridge faces
+rendered divine res=(550, 825) bbox_h=0.200 bbox_w=0.127 aspect=0.638 minz=0.0000 D=0.622 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_divine.png
+clean_weights: belly_stripped=0 far_stripped=0
+cut_hand_bridges: cut 0 bridge faces
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.112 aspect=0.557 minz=0.0000 D=0.618 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_classic.png
+engine = BLENDER_EEVEE
+denoise attr: 'SceneEEVEE' object has no attribute 'use_denoising'
+clean_weights: belly_stripped=5 far_stripped=0
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.117 aspect=0.579 minz=0.0000 D=0.619 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_calm.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.119 aspect=0.591 minz=0.0000 D=0.620 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_rage.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered divine res=(550, 825) bbox_h=0.200 bbox_w=0.125 aspect=0.628 minz=0.0000 D=0.613 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_divine.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.120 aspect=0.598 minz=0.0000 D=0.618 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_classic.png
+engine = BLENDER_EEVEE
+denoise attr: 'SceneEEVEE' object has no attribute 'use_denoising'
+clean_weights: belly_stripped=5 far_stripped=0
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.117 aspect=0.579 minz=0.0000 D=0.619 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_calm.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.117 aspect=0.580 minz=0.0000 D=0.620 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_rage.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered divine res=(550, 825) bbox_h=0.200 bbox_w=0.125 aspect=0.628 minz=0.0000 D=0.613 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_divine.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.123 aspect=0.608 minz=0.0000 D=0.618 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_classic.png
+engine = BLENDER_EEVEE
+denoise attr: 'SceneEEVEE' object has no attribute 'use_denoising'
+clean_weights: belly_stripped=5 far_stripped=0
+rendered calm res=(550, 825) bbox_h=0.202 bbox_w=0.117 aspect=0.579 minz=0.0000 D=0.619 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_calm.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered rage res=(550, 825) bbox_h=0.202 bbox_w=0.116 aspect=0.574 minz=0.0000 D=0.620 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_rage.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered divine res=(550, 825) bbox_h=0.200 bbox_w=0.125 aspect=0.628 minz=0.0000 D=0.613 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_divine.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered classic res=(550, 825) bbox_h=0.201 bbox_w=0.110 aspect=0.544 minz=0.0000 D=0.618 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_classic.png
+engine = BLENDER_EEVEE
+denoise attr: 'SceneEEVEE' object has no attribute 'use_denoising'
+clean_weights: belly_stripped=5 far_stripped=0
+rendered calm res=(1100, 1650) bbox_h=0.202 bbox_w=0.117 aspect=0.579 minz=0.0000 D=0.619 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\role_calm.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered rage res=(1100, 1650) bbox_h=0.202 bbox_w=0.114 aspect=0.563 minz=0.0000 D=0.620 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\role_rage.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered divine res=(1100, 1650) bbox_h=0.200 bbox_w=0.125 aspect=0.628 minz=0.0000 D=0.613 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\role_divine.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered classic res=(1100, 1650) bbox_h=0.201 bbox_w=0.110 aspect=0.544 minz=0.0000 D=0.618 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\role_classic.png
+engine = BLENDER_EEVEE
+denoise attr: 'SceneEEVEE' object has no attribute 'use_denoising'
+clean_weights: belly_stripped=5 far_stripped=0
+rendered calm res=(1100, 1650) bbox_h=0.202 bbox_w=0.117 aspect=0.579 minz=0.0000 D=0.619 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\role_calm.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered rage res=(1100, 1650) bbox_h=0.202 bbox_w=0.114 aspect=0.563 minz=0.0000 D=0.620 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\role_rage.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered divine res=(1100, 1650) bbox_h=0.200 bbox_w=0.125 aspect=0.628 minz=0.0000 D=0.613 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\role_divine.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered classic res=(1100, 1650) bbox_h=0.201 bbox_w=0.110 aspect=0.544 minz=0.0000 D=0.618 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\role_classic.png
+engine = BLENDER_EEVEE
+denoise attr: 'SceneEEVEE' object has no attribute 'use_denoising'
+clean_weights: belly_stripped=5 far_stripped=0
+rendered calm res=(1100, 1650) bbox_h=0.202 bbox_w=0.117 aspect=0.579 minz=0.0000 D=0.619 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\role_calm.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered rage res=(1100, 1650) bbox_h=0.202 bbox_w=0.114 aspect=0.563 minz=0.0000 D=0.620 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\role_rage.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered divine res=(1100, 1650) bbox_h=0.200 bbox_w=0.125 aspect=0.628 minz=0.0000 D=0.613 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\role_divine.png
+clean_weights: belly_stripped=0 far_stripped=0
+rendered classic res=(1100, 1650) bbox_h=0.201 bbox_w=0.110 aspect=0.544 minz=0.0000 D=0.618 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\role_classic.png

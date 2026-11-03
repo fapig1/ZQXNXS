@@ -1,0 +1,8 @@
+{
+  "source_sha256": "a73d547d1bb60b8d79864dd6b8e39fff8e5f3f4db7ae95e6cca78013d049b6e6",
+  "frozen_data_fingerprint": "ed75769d5f30dd2a912c58cf38186a1bf9f94065ef36ad0e8987d28c6d33d11c",
+  "source": "ArtSource\\Characters\\Pet01\\pet01.blend",
+  "note": "User-authorized weight revision; geometry, UV, rest bones and old Action curves preserved. Up to 8 influences.",
+  "pre_revision_fingerprint": "baa9cd69fb5c917e80298a08617b254d1dfe7f4ef510eec20a5f3146cbf31b18",
+  "shape_revision": "20260922_arm_belly_weight_transition"
+}

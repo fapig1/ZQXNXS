@@ -1,0 +1,51 @@
+engine = BLENDER_EEVEE
+engine = BLENDER_EEVEE
+engine = BLENDER_EEVEE
+rendered calm res=(440, 660) bbox_h=0.200 bbox_w=0.105 minz=-0.0000 D=0.624 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_calm.png
+rendered rage res=(440, 660) bbox_h=0.201 bbox_w=0.106 minz=-0.0008 D=0.627 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_rage.png
+rendered divine res=(440, 660) bbox_h=0.199 bbox_w=0.113 minz=-0.0000 D=0.620 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_divine.png
+rendered classic res=(440, 660) bbox_h=0.199 bbox_w=0.117 minz=-0.0000 D=0.621 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_classic.png
+engine = BLENDER_EEVEE
+rendered calm res=(440, 660) bbox_h=0.200 bbox_w=0.105 minz=-0.0000 D=0.624 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_calm.png
+rendered rage res=(440, 660) bbox_h=0.201 bbox_w=0.106 minz=-0.0008 D=0.627 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_rage.png
+rendered divine res=(440, 660) bbox_h=0.199 bbox_w=0.113 minz=-0.0000 D=0.620 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_divine.png
+rendered classic res=(440, 660) bbox_h=0.199 bbox_w=0.117 minz=-0.0000 D=0.621 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_classic.png
+engine = BLENDER_EEVEE
+rendered calm res=(440, 660) bbox_h=0.200 bbox_w=0.112 minz=-0.0000 D=0.624 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_calm.png
+rendered rage res=(440, 660) bbox_h=0.201 bbox_w=0.106 minz=-0.0008 D=0.627 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_rage.png
+rendered divine res=(440, 660) bbox_h=0.199 bbox_w=0.107 minz=-0.0000 D=0.620 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_divine.png
+rendered classic res=(440, 660) bbox_h=0.199 bbox_w=0.116 minz=-0.0000 D=0.621 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_classic.png
+engine = BLENDER_EEVEE
+rendered calm res=(440, 660) bbox_h=0.200 bbox_w=0.110 minz=-0.0000 D=0.624 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_calm.png
+rendered rage res=(440, 660) bbox_h=0.201 bbox_w=0.106 minz=-0.0008 D=0.627 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_rage.png
+rendered divine res=(440, 660) bbox_h=0.199 bbox_w=0.113 minz=-0.0000 D=0.620 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_divine.png
+rendered classic res=(440, 660) bbox_h=0.199 bbox_w=0.118 minz=-0.0000 D=0.621 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_classic.png
+engine = BLENDER_EEVEE
+rendered calm res=(440, 660) bbox_h=0.200 bbox_w=0.110 minz=-0.0000 D=0.624 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_calm.png
+rendered rage res=(440, 660) bbox_h=0.201 bbox_w=0.104 minz=-0.0009 D=0.626 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_rage.png
+rendered divine res=(440, 660) bbox_h=0.200 bbox_w=0.110 minz=-0.0000 D=0.622 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_divine.png
+rendered classic res=(440, 660) bbox_h=0.200 bbox_w=0.116 minz=-0.0000 D=0.623 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_classic.png
+engine = BLENDER_EEVEE
+rendered calm res=(440, 660) bbox_h=0.200 bbox_w=0.123 minz=-0.0000 D=0.633 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_calm.png
+rendered rage res=(440, 660) bbox_h=0.201 bbox_w=0.111 minz=-0.0009 D=0.626 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_rage.png
+rendered divine res=(440, 660) bbox_h=0.200 bbox_w=0.141 minz=-0.0000 D=0.726 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_divine.png
+rendered classic res=(440, 660) bbox_h=0.200 bbox_w=0.155 minz=-0.0000 D=0.797 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_classic.png
+engine = BLENDER_EEVEE
+engine = BLENDER_EEVEE
+clean_arm_weights: 155 vertices fixed (threshold=0.025)
+rendered calm res=(440, 660) bbox_h=0.200 bbox_w=0.124 minz=-0.0000 D=0.636 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_calm.png
+clean_arm_weights: 0 vertices fixed (threshold=0.025)
+rendered rage res=(440, 660) bbox_h=0.201 bbox_w=0.111 minz=-0.0009 D=0.626 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_rage.png
+clean_arm_weights: 0 vertices fixed (threshold=0.025)
+rendered divine res=(440, 660) bbox_h=0.200 bbox_w=0.141 minz=-0.0000 D=0.726 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_divine.png
+clean_arm_weights: 0 vertices fixed (threshold=0.025)
+rendered classic res=(440, 660) bbox_h=0.200 bbox_w=0.155 minz=-0.0000 D=0.797 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_classic.png
+engine = BLENDER_EEVEE
+clean_arm_weights: 155 vertices fixed (threshold=0.025)
+rendered calm res=(440, 660) bbox_h=0.200 bbox_w=0.124 minz=-0.0000 D=0.635 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_calm.png
+clean_arm_weights: 0 vertices fixed (threshold=0.025)
+rendered rage res=(440, 660) bbox_h=0.201 bbox_w=0.112 minz=-0.0009 D=0.626 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_rage.png
+clean_arm_weights: 0 vertices fixed (threshold=0.025)
+rendered divine res=(440, 660) bbox_h=0.200 bbox_w=0.141 minz=-0.0000 D=0.726 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_divine.png
+clean_arm_weights: 0 vertices fixed (threshold=0.025)
+rendered classic res=(440, 660) bbox_h=0.200 bbox_w=0.155 minz=-0.0000 D=0.797 -> D:\ZengQiangXianShi\Docs\AssetReview\20260919_卡面基准形象\work\preview_classic.png

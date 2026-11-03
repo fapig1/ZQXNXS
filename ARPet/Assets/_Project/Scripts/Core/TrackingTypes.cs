@@ -4,19 +4,6 @@ using UnityEngine;
 namespace ZQXNXS.ARPet.Core
 {
     /// <summary>
-    /// 标记卡槽位。项目固定使用两张卡：小窝卡建立角色所在局部坐标系，食物卡作为投喂交互的输入道具。
-    /// 槽位是稳定标识，存档与配置里都用它索引，不使用场景里的对象名或文件路径。
-    /// </summary>
-    public enum MarkerSlot
-    {
-        /// <summary>小窝卡：定义宠物、食物判定与追球区域所在的局部坐标系。</summary>
-        Den = 0,
-
-        /// <summary>食物卡：实体投喂道具，需与小窝卡同时有效才参与判定。</summary>
-        Food = 1,
-    }
-
-    /// <summary>
     /// 图像跟踪目标的可用性状态。
     /// 跟踪层只输出这个状态，不直接修改宠物数值；业务层依据它决定是否暂停新的空间交互。
     /// </summary>
@@ -34,7 +21,7 @@ namespace ZQXNXS.ARPet.Core
         /// <summary>目标正常跟踪，位姿可用于结算。</summary>
         Tracked = 3,
 
-        /// <summary>目标已丢失。位姿进入过期状态，不能再用于计时或投喂。</summary>
+        /// <summary>目标已丢失。位姿进入过期状态，不能再用于计时或空间交互结算。</summary>
         Lost = 4,
 
         /// <summary>跟踪被业务层主动暂停（如切后台、权限被拒、用户关闭 AR）。与 Lost 区分。</summary>
@@ -45,13 +32,17 @@ namespace ZQXNXS.ARPet.Core
     }
 
     /// <summary>
-    /// 一次跟踪采样。位姿是世界坐标下的米制结果，交互层通过注册表换算到小窝局部坐标。
+    /// 一次跟踪采样。位姿是世界坐标下的米制结果，所有目标共用同一世界坐标系，
+    /// 后续接近/组互动判定直接使用世界位姿，不再换算到某张卡的局部坐标。
+    /// <see cref="TargetId"/> 是稳定字符串标识（如 <c>card_classic</c>），不用场景对象名索引。
     /// <see cref="SampleTime"/> 由跟踪源打点，业务层只用它判断新鲜度，不使用 Unity 的帧计数。
     /// </summary>
     [Serializable]
     public struct PoseSample
     {
-        public MarkerSlot Marker;
+        /// <summary>目标稳定 ID：对应身份目录里的目标名，也是配置与存档索引键。</summary>
+        public string TargetId;
+
         public TrackingStatus Status;
         public Vector3 Position;
 
@@ -64,9 +55,9 @@ namespace ZQXNXS.ARPet.Core
         public bool IsUsable =>
             Status == TrackingStatus.Tracked;
 
-        public static PoseSample Unavailable(MarkerSlot marker, TrackingStatus status, float sampleTime) => new PoseSample
+        public static PoseSample Unavailable(string targetId, TrackingStatus status, float sampleTime) => new PoseSample
         {
-            Marker = marker,
+            TargetId = targetId,
             Status = status,
             Position = Vector3.zero,
             Rotation = Quaternion.identity,
@@ -74,7 +65,7 @@ namespace ZQXNXS.ARPet.Core
         };
 
         public override string ToString() =>
-            $"{Marker}:{Status} pos=({Position.x:F3},{Position.y:F3},{Position.z:F3}) t={SampleTime:F3}";
+            $"{TargetId}:{Status} pos=({Position.x:F3},{Position.y:F3},{Position.z:F3}) t={SampleTime:F3}";
     }
 
     /// <summary>

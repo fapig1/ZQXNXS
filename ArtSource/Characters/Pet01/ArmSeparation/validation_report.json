@@ -1,0 +1,1589 @@
+{
+  "schema_version": 1,
+  "asset_id": "Pet01",
+  "date": "2026-09-28",
+  "shape_revision": "20260928_arm_separation",
+  "extra_actions": {
+    "Idle": {
+      "fps": 30,
+      "frames": [
+        1,
+        91
+      ],
+      "duration_seconds": 3.0,
+      "loop": true,
+      "endpoint_max_error_m": 1.1337391759379496e-19,
+      "minimum_z_m": -2.0859032556774793e-10,
+      "max_consecutive_frame_motion_m": 0.002636539091315993,
+      "root_matrix_max_error": 0.0,
+      "largest_step": {
+        "frame": 40,
+        "vertex": 8747
+      },
+      "design_markers": [
+        {
+          "name": "Start",
+          "frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "name": "Loop",
+          "frame": 91,
+          "time_seconds": 3.0
+        }
+      ],
+      "max_edge_stretch_ratio": 1.0217217572819466,
+      "min_edge_compress_ratio": 0.978590757593627
+    },
+    "Eat": {
+      "fps": 30,
+      "frames": [
+        1,
+        97
+      ],
+      "duration_seconds": 3.2,
+      "loop": false,
+      "endpoint_max_error_m": 0.0,
+      "minimum_z_m": -2.0859032556774793e-10,
+      "max_consecutive_frame_motion_m": 0.0034477606284665442,
+      "root_matrix_max_error": 0.0,
+      "largest_step": {
+        "frame": 86,
+        "vertex": 9914
+      },
+      "design_markers": [
+        {
+          "name": "Start",
+          "frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "name": "Complete",
+          "frame": 97,
+          "time_seconds": 3.2
+        },
+        {
+          "name": "Bite01",
+          "frame": 29,
+          "time_seconds": 0.9333333333333333
+        },
+        {
+          "name": "Bite02",
+          "frame": 44,
+          "time_seconds": 1.4333333333333333
+        },
+        {
+          "name": "Bite03",
+          "frame": 59,
+          "time_seconds": 1.9333333333333333
+        },
+        {
+          "name": "Consume",
+          "frame": 73,
+          "time_seconds": 2.4
+        }
+      ],
+      "max_edge_stretch_ratio": 1.9583449325155362,
+      "min_edge_compress_ratio": 0.6152539735994299
+    },
+    "TouchReact": {
+      "fps": 30,
+      "frames": [
+        1,
+        22
+      ],
+      "duration_seconds": 0.7,
+      "loop": false,
+      "endpoint_max_error_m": 2.488269917966436e-19,
+      "minimum_z_m": -2.0859032556774793e-10,
+      "max_consecutive_frame_motion_m": 0.003289926655069838,
+      "root_matrix_max_error": 0.0,
+      "largest_step": {
+        "frame": 22,
+        "vertex": 6989
+      },
+      "design_markers": [
+        {
+          "name": "Start",
+          "frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "name": "Complete",
+          "frame": 22,
+          "time_seconds": 0.7
+        }
+      ],
+      "max_edge_stretch_ratio": 1.172693548422693,
+      "min_edge_compress_ratio": 0.7887709241177617
+    },
+    "DozeLoop": {
+      "fps": 30,
+      "frames": [
+        1,
+        121
+      ],
+      "duration_seconds": 4.0,
+      "loop": true,
+      "endpoint_max_error_m": 6.754645729713212e-20,
+      "minimum_z_m": -2.0859032556774793e-10,
+      "max_consecutive_frame_motion_m": 8.711452856243822e-05,
+      "root_matrix_max_error": 0.0,
+      "largest_step": {
+        "frame": 2,
+        "vertex": 10742
+      },
+      "design_markers": [
+        {
+          "name": "Start",
+          "frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "name": "Loop",
+          "frame": 121,
+          "time_seconds": 4.0
+        }
+      ],
+      "max_edge_stretch_ratio": 1.1568853809237973,
+      "min_edge_compress_ratio": 0.8364074548032062
+    },
+    "WalkLoop": {
+      "fps": 30,
+      "frames": [
+        1,
+        31
+      ],
+      "duration_seconds": 1.0,
+      "loop": true,
+      "endpoint_max_error_m": 3.725290298461914e-09,
+      "minimum_z_m": -0.0008280021138489246,
+      "max_consecutive_frame_motion_m": 0.007093735937914758,
+      "root_matrix_max_error": 0.0,
+      "largest_step": {
+        "frame": 2,
+        "vertex": 3552
+      },
+      "design_markers": [
+        {
+          "name": "Start",
+          "frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "name": "Loop",
+          "frame": 31,
+          "time_seconds": 1.0
+        }
+      ],
+      "max_edge_stretch_ratio": 1.437277111095357,
+      "min_edge_compress_ratio": 0.3540281781105334
+    },
+    "classic_proud": {
+      "fps": 30,
+      "frames": [
+        1,
+        61
+      ],
+      "duration_seconds": 2.0,
+      "loop": false,
+      "endpoint_max_error_m": 0.0,
+      "minimum_z_m": -2.0859032556774793e-10,
+      "max_consecutive_frame_motion_m": 0.019479418434906352,
+      "root_matrix_max_error": 0.0,
+      "largest_step": {
+        "frame": 53,
+        "vertex": 10606
+      },
+      "design_markers": [
+        {
+          "name": "Start",
+          "frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "name": "Complete",
+          "frame": 61,
+          "time_seconds": 2.0
+        }
+      ],
+      "max_edge_stretch_ratio": 1.666407359151015,
+      "min_edge_compress_ratio": 0.25777962449212866
+    },
+    "calm_zen": {
+      "fps": 30,
+      "frames": [
+        1,
+        76
+      ],
+      "duration_seconds": 2.5,
+      "loop": false,
+      "endpoint_max_error_m": 0.0,
+      "minimum_z_m": -2.0859032556774793e-10,
+      "max_consecutive_frame_motion_m": 0.002506665168545972,
+      "root_matrix_max_error": 0.0,
+      "largest_step": {
+        "frame": 22,
+        "vertex": 6861
+      },
+      "design_markers": [
+        {
+          "name": "Start",
+          "frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "name": "Complete",
+          "frame": 76,
+          "time_seconds": 2.5
+        }
+      ],
+      "max_edge_stretch_ratio": 1.1262953270386897,
+      "min_edge_compress_ratio": 0.8534993033362857
+    },
+    "rage_roar": {
+      "fps": 30,
+      "frames": [
+        1,
+        61
+      ],
+      "duration_seconds": 2.0,
+      "loop": false,
+      "endpoint_max_error_m": 0.0,
+      "minimum_z_m": -2.0859032556774793e-10,
+      "max_consecutive_frame_motion_m": 0.006839954102900655,
+      "root_matrix_max_error": 0.0,
+      "largest_step": {
+        "frame": 14,
+        "vertex": 6925
+      },
+      "design_markers": [
+        {
+          "name": "Start",
+          "frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "name": "Complete",
+          "frame": 61,
+          "time_seconds": 2.0
+        }
+      ],
+      "max_edge_stretch_ratio": 1.2424640452054285,
+      "min_edge_compress_ratio": 0.796085410122519
+    },
+    "divine_awaken": {
+      "fps": 30,
+      "frames": [
+        1,
+        76
+      ],
+      "duration_seconds": 2.5,
+      "loop": false,
+      "endpoint_max_error_m": 0.0,
+      "minimum_z_m": -2.0859032556774793e-10,
+      "max_consecutive_frame_motion_m": 0.01601382215012063,
+      "root_matrix_max_error": 0.0,
+      "largest_step": {
+        "frame": 72,
+        "vertex": 11705
+      },
+      "design_markers": [
+        {
+          "name": "Start",
+          "frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "name": "Complete",
+          "frame": 76,
+          "time_seconds": 2.5
+        }
+      ],
+      "max_edge_stretch_ratio": 1.8903850575248342,
+      "min_edge_compress_ratio": 0.27569010184191306
+    },
+    "social_laugh": {
+      "fps": 30,
+      "frames": [
+        1,
+        73
+      ],
+      "duration_seconds": 2.4,
+      "loop": false,
+      "endpoint_max_error_m": 0.0,
+      "minimum_z_m": -2.0859032556774793e-10,
+      "max_consecutive_frame_motion_m": 0.02611260746138533,
+      "root_matrix_max_error": 0.0,
+      "largest_step": {
+        "frame": 51,
+        "vertex": 6797
+      },
+      "design_markers": [
+        {
+          "name": "Start",
+          "frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "name": "Complete",
+          "frame": 73,
+          "time_seconds": 2.4
+        }
+      ],
+      "max_edge_stretch_ratio": 2.1252836779799904,
+      "min_edge_compress_ratio": 0.25852607346701045
+    }
+  },
+  "checks": [
+    {
+      "name": "Idle_endpoints",
+      "passed": true,
+      "evidence": {
+        "max_error_m": 1.1337391759379496e-19
+      }
+    },
+    {
+      "name": "Idle_root_bone_fixed",
+      "passed": true,
+      "evidence": {
+        "root_matrix_error": 0.0
+      }
+    },
+    {
+      "name": "Idle_above_ground",
+      "passed": true,
+      "evidence": {
+        "minimum_z_m": -2.0859032556774793e-10
+      }
+    },
+    {
+      "name": "Idle_planted_feet",
+      "passed": true,
+      "evidence": {
+        "foot_drift_m": 0.0
+      }
+    },
+    {
+      "name": "Idle_smooth_motion",
+      "passed": true,
+      "evidence": {
+        "max_step_m": 0.002636539091315993,
+        "largest_step": {
+          "frame": 40,
+          "vertex": 8747
+        }
+      }
+    },
+    {
+      "name": "Eat_endpoints",
+      "passed": true,
+      "evidence": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "Eat_root_bone_fixed",
+      "passed": true,
+      "evidence": {
+        "root_matrix_error": 0.0
+      }
+    },
+    {
+      "name": "Eat_above_ground",
+      "passed": true,
+      "evidence": {
+        "minimum_z_m": -2.0859032556774793e-10
+      }
+    },
+    {
+      "name": "Eat_planted_feet",
+      "passed": true,
+      "evidence": {
+        "foot_drift_m": 0.0
+      }
+    },
+    {
+      "name": "Eat_smooth_motion",
+      "passed": true,
+      "evidence": {
+        "max_step_m": 0.0034477606284665442,
+        "largest_step": {
+          "frame": 86,
+          "vertex": 9914
+        }
+      }
+    },
+    {
+      "name": "TouchReact_endpoints",
+      "passed": true,
+      "evidence": {
+        "max_error_m": 2.488269917966436e-19
+      }
+    },
+    {
+      "name": "TouchReact_root_bone_fixed",
+      "passed": true,
+      "evidence": {
+        "root_matrix_error": 0.0
+      }
+    },
+    {
+      "name": "TouchReact_above_ground",
+      "passed": true,
+      "evidence": {
+        "minimum_z_m": -2.0859032556774793e-10
+      }
+    },
+    {
+      "name": "TouchReact_planted_feet",
+      "passed": true,
+      "evidence": {
+        "foot_drift_m": 0.0
+      }
+    },
+    {
+      "name": "TouchReact_smooth_motion",
+      "passed": true,
+      "evidence": {
+        "max_step_m": 0.003289926655069838,
+        "largest_step": {
+          "frame": 22,
+          "vertex": 6989
+        }
+      }
+    },
+    {
+      "name": "DozeLoop_endpoints",
+      "passed": true,
+      "evidence": {
+        "max_error_m": 6.754645729713212e-20
+      }
+    },
+    {
+      "name": "DozeLoop_root_bone_fixed",
+      "passed": true,
+      "evidence": {
+        "root_matrix_error": 0.0
+      }
+    },
+    {
+      "name": "DozeLoop_above_ground",
+      "passed": true,
+      "evidence": {
+        "minimum_z_m": -2.0859032556774793e-10
+      }
+    },
+    {
+      "name": "DozeLoop_planted_feet",
+      "passed": true,
+      "evidence": {
+        "foot_drift_m": 0.0
+      }
+    },
+    {
+      "name": "DozeLoop_smooth_motion",
+      "passed": true,
+      "evidence": {
+        "max_step_m": 8.711452856243822e-05,
+        "largest_step": {
+          "frame": 2,
+          "vertex": 10742
+        }
+      }
+    },
+    {
+      "name": "WalkLoop_endpoints",
+      "passed": true,
+      "evidence": {
+        "max_error_m": 3.725290298461914e-09
+      }
+    },
+    {
+      "name": "WalkLoop_root_bone_fixed",
+      "passed": true,
+      "evidence": {
+        "root_matrix_error": 0.0
+      }
+    },
+    {
+      "name": "WalkLoop_above_ground",
+      "passed": false,
+      "evidence": {
+        "minimum_z_m": -0.0008280021138489246
+      }
+    },
+    {
+      "name": "WalkLoop_smooth_motion",
+      "passed": true,
+      "evidence": {
+        "max_step_m": 0.007093735937914758,
+        "largest_step": {
+          "frame": 2,
+          "vertex": 3552
+        }
+      }
+    },
+    {
+      "name": "classic_proud_endpoints",
+      "passed": true,
+      "evidence": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "classic_proud_root_bone_fixed",
+      "passed": true,
+      "evidence": {
+        "root_matrix_error": 0.0
+      }
+    },
+    {
+      "name": "classic_proud_above_ground",
+      "passed": true,
+      "evidence": {
+        "minimum_z_m": -2.0859032556774793e-10
+      }
+    },
+    {
+      "name": "classic_proud_planted_feet",
+      "passed": true,
+      "evidence": {
+        "foot_drift_m": 0.0
+      }
+    },
+    {
+      "name": "classic_proud_smooth_motion",
+      "passed": true,
+      "evidence": {
+        "max_step_m": 0.019479418434906352,
+        "largest_step": {
+          "frame": 53,
+          "vertex": 10606
+        },
+        "limit_m": 0.02
+      }
+    },
+    {
+      "name": "calm_zen_endpoints",
+      "passed": true,
+      "evidence": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "calm_zen_root_bone_fixed",
+      "passed": true,
+      "evidence": {
+        "root_matrix_error": 0.0
+      }
+    },
+    {
+      "name": "calm_zen_above_ground",
+      "passed": true,
+      "evidence": {
+        "minimum_z_m": -2.0859032556774793e-10
+      }
+    },
+    {
+      "name": "calm_zen_planted_feet",
+      "passed": true,
+      "evidence": {
+        "foot_drift_m": 0.0
+      }
+    },
+    {
+      "name": "calm_zen_smooth_motion",
+      "passed": true,
+      "evidence": {
+        "max_step_m": 0.002506665168545972,
+        "largest_step": {
+          "frame": 22,
+          "vertex": 6861
+        }
+      }
+    },
+    {
+      "name": "rage_roar_endpoints",
+      "passed": true,
+      "evidence": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "rage_roar_root_bone_fixed",
+      "passed": true,
+      "evidence": {
+        "root_matrix_error": 0.0
+      }
+    },
+    {
+      "name": "rage_roar_above_ground",
+      "passed": true,
+      "evidence": {
+        "minimum_z_m": -2.0859032556774793e-10
+      }
+    },
+    {
+      "name": "rage_roar_planted_feet",
+      "passed": true,
+      "evidence": {
+        "foot_drift_m": 0.0
+      }
+    },
+    {
+      "name": "rage_roar_smooth_motion",
+      "passed": true,
+      "evidence": {
+        "max_step_m": 0.006839954102900655,
+        "largest_step": {
+          "frame": 14,
+          "vertex": 6925
+        }
+      }
+    },
+    {
+      "name": "divine_awaken_endpoints",
+      "passed": true,
+      "evidence": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "divine_awaken_root_bone_fixed",
+      "passed": true,
+      "evidence": {
+        "root_matrix_error": 0.0
+      }
+    },
+    {
+      "name": "divine_awaken_above_ground",
+      "passed": true,
+      "evidence": {
+        "minimum_z_m": -2.0859032556774793e-10
+      }
+    },
+    {
+      "name": "divine_awaken_planted_feet",
+      "passed": true,
+      "evidence": {
+        "foot_drift_m": 0.0
+      }
+    },
+    {
+      "name": "divine_awaken_smooth_motion",
+      "passed": true,
+      "evidence": {
+        "max_step_m": 0.01601382215012063,
+        "largest_step": {
+          "frame": 72,
+          "vertex": 11705
+        },
+        "limit_m": 0.02
+      }
+    },
+    {
+      "name": "social_laugh_endpoints",
+      "passed": true,
+      "evidence": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "social_laugh_root_bone_fixed",
+      "passed": true,
+      "evidence": {
+        "root_matrix_error": 0.0
+      }
+    },
+    {
+      "name": "social_laugh_above_ground",
+      "passed": true,
+      "evidence": {
+        "minimum_z_m": -2.0859032556774793e-10
+      }
+    },
+    {
+      "name": "social_laugh_planted_feet",
+      "passed": true,
+      "evidence": {
+        "foot_drift_m": 0.0
+      }
+    },
+    {
+      "name": "social_laugh_smooth_motion",
+      "passed": true,
+      "evidence": {
+        "max_step_m": 0.02611260746138533,
+        "largest_step": {
+          "frame": 51,
+          "vertex": 6797
+        },
+        "limit_m": 0.035
+      }
+    },
+    {
+      "name": "kept_action_curves_unchanged",
+      "passed": true,
+      "evidence": {
+        "actions": [
+          "Idle",
+          "Eat",
+          "TouchReact",
+          "DozeLoop",
+          "WalkLoop",
+          "calm_zen",
+          "rage_roar",
+          "social_laugh"
+        ]
+      }
+    },
+    {
+      "name": "closed_torso_and_arm_shells",
+      "passed": true,
+      "evidence": {
+        "islands": 17,
+        "largest_three": [
+          7322,
+          1002,
+          1001
+        ],
+        "nonmanifold_edges": 0,
+        "non_contiguous_edges": 0
+      }
+    },
+    {
+      "name": "normalized_skin_weights_max8",
+      "passed": true,
+      "evidence": {
+        "max_influences": 8
+      }
+    },
+    {
+      "name": "arms_detached_from_torso_weights",
+      "passed": true,
+      "evidence": {
+        "mixed_vertices": 0
+      }
+    },
+    {
+      "name": "Idle_bounded_edge_stretch",
+      "passed": true,
+      "evidence": {
+        "max_ratio": 1.0217217572819466,
+        "frame": 23,
+        "limit": 2.0
+      }
+    },
+    {
+      "name": "Idle_bounded_edge_compress",
+      "passed": true,
+      "evidence": {
+        "min_ratio": 0.978590757593627,
+        "frame": 68,
+        "limit": 0.25
+      }
+    },
+    {
+      "name": "Eat_bounded_edge_stretch",
+      "passed": true,
+      "evidence": {
+        "max_ratio": 1.9583449325155362,
+        "frame": 29,
+        "limit": 2.0
+      }
+    },
+    {
+      "name": "Eat_bounded_edge_compress",
+      "passed": true,
+      "evidence": {
+        "min_ratio": 0.6152539735994299,
+        "frame": 29,
+        "limit": 0.25
+      }
+    },
+    {
+      "name": "TouchReact_bounded_edge_stretch",
+      "passed": true,
+      "evidence": {
+        "max_ratio": 1.172693548422693,
+        "frame": 13,
+        "limit": 2.0
+      }
+    },
+    {
+      "name": "TouchReact_bounded_edge_compress",
+      "passed": true,
+      "evidence": {
+        "min_ratio": 0.7887709241177617,
+        "frame": 11,
+        "limit": 0.25
+      }
+    },
+    {
+      "name": "DozeLoop_bounded_edge_stretch",
+      "passed": true,
+      "evidence": {
+        "max_ratio": 1.1568853809237973,
+        "frame": 31,
+        "limit": 2.0
+      }
+    },
+    {
+      "name": "DozeLoop_bounded_edge_compress",
+      "passed": true,
+      "evidence": {
+        "min_ratio": 0.8364074548032062,
+        "frame": 31,
+        "limit": 0.25
+      }
+    },
+    {
+      "name": "WalkLoop_bounded_edge_stretch",
+      "passed": true,
+      "evidence": {
+        "max_ratio": 1.437277111095357,
+        "frame": 9,
+        "limit": 2.0
+      }
+    },
+    {
+      "name": "WalkLoop_bounded_edge_compress",
+      "passed": true,
+      "evidence": {
+        "min_ratio": 0.3540281781105334,
+        "frame": 23,
+        "limit": 0.25
+      }
+    },
+    {
+      "name": "classic_proud_bounded_edge_stretch",
+      "passed": true,
+      "evidence": {
+        "max_ratio": 1.666407359151015,
+        "frame": 13,
+        "limit": 2.0
+      }
+    },
+    {
+      "name": "classic_proud_bounded_edge_compress",
+      "passed": true,
+      "evidence": {
+        "min_ratio": 0.25777962449212866,
+        "frame": 19,
+        "limit": 0.25
+      }
+    },
+    {
+      "name": "calm_zen_bounded_edge_stretch",
+      "passed": true,
+      "evidence": {
+        "max_ratio": 1.1262953270386897,
+        "frame": 17,
+        "limit": 2.0
+      }
+    },
+    {
+      "name": "calm_zen_bounded_edge_compress",
+      "passed": true,
+      "evidence": {
+        "min_ratio": 0.8534993033362857,
+        "frame": 17,
+        "limit": 0.25
+      }
+    },
+    {
+      "name": "rage_roar_bounded_edge_stretch",
+      "passed": true,
+      "evidence": {
+        "max_ratio": 1.2424640452054285,
+        "frame": 40,
+        "limit": 2.0
+      }
+    },
+    {
+      "name": "rage_roar_bounded_edge_compress",
+      "passed": true,
+      "evidence": {
+        "min_ratio": 0.796085410122519,
+        "frame": 10,
+        "limit": 0.25
+      }
+    },
+    {
+      "name": "divine_awaken_bounded_edge_stretch",
+      "passed": true,
+      "evidence": {
+        "max_ratio": 1.8903850575248342,
+        "frame": 25,
+        "limit": 2.0
+      }
+    },
+    {
+      "name": "divine_awaken_bounded_edge_compress",
+      "passed": true,
+      "evidence": {
+        "min_ratio": 0.27569010184191306,
+        "frame": 44,
+        "limit": 0.25
+      }
+    },
+    {
+      "name": "social_laugh_bounded_edge_stretch",
+      "passed": true,
+      "evidence": {
+        "max_ratio": 2.1252836779799904,
+        "frame": 57,
+        "limit": 2.25
+      }
+    },
+    {
+      "name": "social_laugh_bounded_edge_compress",
+      "passed": true,
+      "evidence": {
+        "min_ratio": 0.25852607346701045,
+        "frame": 57,
+        "limit": 0.25
+      }
+    },
+    {
+      "name": "Idle_fbx_object_scope",
+      "passed": true,
+      "evidence": {
+        "meshes": 1,
+        "armatures": 1
+      }
+    },
+    {
+      "name": "Idle_fbx_bones",
+      "passed": true,
+      "evidence": {
+        "bones": 26
+      }
+    },
+    {
+      "name": "Idle_fbx_take",
+      "passed": true,
+      "evidence": {
+        "take": "Pet01Rig|Idle"
+      }
+    },
+    {
+      "name": "Idle_fbx_pose_preservation",
+      "passed": true,
+      "evidence": {
+        "maximum_error_m": 1.1953262912811624e-07,
+        "sample_frames": 6
+      }
+    },
+    {
+      "name": "Eat_fbx_object_scope",
+      "passed": true,
+      "evidence": {
+        "meshes": 1,
+        "armatures": 1
+      }
+    },
+    {
+      "name": "Eat_fbx_bones",
+      "passed": true,
+      "evidence": {
+        "bones": 26
+      }
+    },
+    {
+      "name": "Eat_fbx_take",
+      "passed": true,
+      "evidence": {
+        "take": "Pet01Rig|Eat"
+      }
+    },
+    {
+      "name": "Eat_fbx_pose_preservation",
+      "passed": true,
+      "evidence": {
+        "maximum_error_m": 7.715938465935324e-08,
+        "sample_frames": 6
+      }
+    },
+    {
+      "name": "TouchReact_fbx_object_scope",
+      "passed": true,
+      "evidence": {
+        "meshes": 1,
+        "armatures": 1
+      }
+    },
+    {
+      "name": "TouchReact_fbx_bones",
+      "passed": true,
+      "evidence": {
+        "bones": 26
+      }
+    },
+    {
+      "name": "TouchReact_fbx_take",
+      "passed": true,
+      "evidence": {
+        "take": "Pet01Rig|TouchReact"
+      }
+    },
+    {
+      "name": "TouchReact_fbx_pose_preservation",
+      "passed": true,
+      "evidence": {
+        "maximum_error_m": 8.043953414471616e-08,
+        "sample_frames": 5
+      }
+    },
+    {
+      "name": "DozeLoop_fbx_object_scope",
+      "passed": true,
+      "evidence": {
+        "meshes": 1,
+        "armatures": 1
+      }
+    },
+    {
+      "name": "DozeLoop_fbx_bones",
+      "passed": true,
+      "evidence": {
+        "bones": 26
+      }
+    },
+    {
+      "name": "DozeLoop_fbx_take",
+      "passed": true,
+      "evidence": {
+        "take": "Pet01Rig|DozeLoop"
+      }
+    },
+    {
+      "name": "DozeLoop_fbx_pose_preservation",
+      "passed": true,
+      "evidence": {
+        "maximum_error_m": 7.814234948000376e-08,
+        "sample_frames": 6
+      }
+    },
+    {
+      "name": "WalkLoop_fbx_object_scope",
+      "passed": true,
+      "evidence": {
+        "meshes": 1,
+        "armatures": 1
+      }
+    },
+    {
+      "name": "WalkLoop_fbx_bones",
+      "passed": true,
+      "evidence": {
+        "bones": 26
+      }
+    },
+    {
+      "name": "WalkLoop_fbx_take",
+      "passed": true,
+      "evidence": {
+        "take": "Pet01Rig|WalkLoop"
+      }
+    },
+    {
+      "name": "WalkLoop_fbx_pose_preservation",
+      "passed": true,
+      "evidence": {
+        "maximum_error_m": 4.298474891584192e-07,
+        "sample_frames": 6
+      }
+    },
+    {
+      "name": "classic_proud_fbx_object_scope",
+      "passed": true,
+      "evidence": {
+        "meshes": 1,
+        "armatures": 1
+      }
+    },
+    {
+      "name": "classic_proud_fbx_bones",
+      "passed": true,
+      "evidence": {
+        "bones": 26
+      }
+    },
+    {
+      "name": "classic_proud_fbx_take",
+      "passed": true,
+      "evidence": {
+        "take": "Pet01Rig|classic_proud"
+      }
+    },
+    {
+      "name": "classic_proud_fbx_pose_preservation",
+      "passed": true,
+      "evidence": {
+        "maximum_error_m": 9.210521056957077e-08,
+        "sample_frames": 6
+      }
+    },
+    {
+      "name": "calm_zen_fbx_object_scope",
+      "passed": true,
+      "evidence": {
+        "meshes": 1,
+        "armatures": 1
+      }
+    },
+    {
+      "name": "calm_zen_fbx_bones",
+      "passed": true,
+      "evidence": {
+        "bones": 26
+      }
+    },
+    {
+      "name": "calm_zen_fbx_take",
+      "passed": true,
+      "evidence": {
+        "take": "Pet01Rig|calm_zen"
+      }
+    },
+    {
+      "name": "calm_zen_fbx_pose_preservation",
+      "passed": true,
+      "evidence": {
+        "maximum_error_m": 7.51087227968128e-08,
+        "sample_frames": 6
+      }
+    },
+    {
+      "name": "rage_roar_fbx_object_scope",
+      "passed": true,
+      "evidence": {
+        "meshes": 1,
+        "armatures": 1
+      }
+    },
+    {
+      "name": "rage_roar_fbx_bones",
+      "passed": true,
+      "evidence": {
+        "bones": 26
+      }
+    },
+    {
+      "name": "rage_roar_fbx_take",
+      "passed": true,
+      "evidence": {
+        "take": "Pet01Rig|rage_roar"
+      }
+    },
+    {
+      "name": "rage_roar_fbx_pose_preservation",
+      "passed": true,
+      "evidence": {
+        "maximum_error_m": 9.042945237069944e-08,
+        "sample_frames": 6
+      }
+    },
+    {
+      "name": "divine_awaken_fbx_object_scope",
+      "passed": true,
+      "evidence": {
+        "meshes": 1,
+        "armatures": 1
+      }
+    },
+    {
+      "name": "divine_awaken_fbx_bones",
+      "passed": true,
+      "evidence": {
+        "bones": 26
+      }
+    },
+    {
+      "name": "divine_awaken_fbx_take",
+      "passed": true,
+      "evidence": {
+        "take": "Pet01Rig|divine_awaken"
+      }
+    },
+    {
+      "name": "divine_awaken_fbx_pose_preservation",
+      "passed": true,
+      "evidence": {
+        "maximum_error_m": 9.253429311684158e-08,
+        "sample_frames": 6
+      }
+    },
+    {
+      "name": "social_laugh_fbx_object_scope",
+      "passed": true,
+      "evidence": {
+        "meshes": 1,
+        "armatures": 1
+      }
+    },
+    {
+      "name": "social_laugh_fbx_bones",
+      "passed": true,
+      "evidence": {
+        "bones": 26
+      }
+    },
+    {
+      "name": "social_laugh_fbx_take",
+      "passed": true,
+      "evidence": {
+        "take": "Pet01Rig|social_laugh"
+      }
+    },
+    {
+      "name": "social_laugh_fbx_pose_preservation",
+      "passed": true,
+      "evidence": {
+        "maximum_error_m": 9.799708777791238e-08,
+        "sample_frames": 6
+      }
+    }
+  ],
+  "roundtrip": {
+    "Idle": {
+      "file": "ArtSource/Characters/Pet01/ArmSeparation/Exports/Pet01_Idle.fbx",
+      "bytes": 1086332,
+      "sha256": "7d0931a1b0b2ee848940535aad99f34a73e7e1f2dc639b3b30f218f123230862",
+      "pose_errors": [
+        {
+          "source_frame": 1,
+          "max_surface_distance_m": 4.857184165985018e-08
+        },
+        {
+          "source_frame": 22,
+          "max_surface_distance_m": 8.456080990981718e-08
+        },
+        {
+          "source_frame": 45,
+          "max_surface_distance_m": 8.991001720914937e-08
+        },
+        {
+          "source_frame": 68,
+          "max_surface_distance_m": 1.1953262912811624e-07
+        },
+        {
+          "source_frame": 91,
+          "max_surface_distance_m": 4.857184165985018e-08
+        },
+        {
+          "source_frame": 40,
+          "max_surface_distance_m": 9.18002527328099e-08
+        }
+      ],
+      "take": "Pet01Rig|Idle"
+    },
+    "Eat": {
+      "file": "ArtSource/Characters/Pet01/ArmSeparation/Exports/Pet01_Eat.fbx",
+      "bytes": 1089004,
+      "sha256": "52f77609c52f2bec908a7dbc8ff6feb36f21b21b5c03155050e4c3855e5551f0",
+      "pose_errors": [
+        {
+          "source_frame": 1,
+          "max_surface_distance_m": 4.857184165985018e-08
+        },
+        {
+          "source_frame": 24,
+          "max_surface_distance_m": 7.715938465935324e-08
+        },
+        {
+          "source_frame": 48,
+          "max_surface_distance_m": 6.188916756855178e-08
+        },
+        {
+          "source_frame": 72,
+          "max_surface_distance_m": 6.155189424816854e-08
+        },
+        {
+          "source_frame": 97,
+          "max_surface_distance_m": 4.857184165985018e-08
+        },
+        {
+          "source_frame": 86,
+          "max_surface_distance_m": 7.53393365471311e-08
+        }
+      ],
+      "take": "Pet01Rig|Eat"
+    },
+    "TouchReact": {
+      "file": "ArtSource/Characters/Pet01/ArmSeparation/Exports/Pet01_TouchReact.fbx",
+      "bytes": 992364,
+      "sha256": "df86101b74d75b5ab31864798b2caa4c1c5f993d3781d4344dabcfe32cbe6318",
+      "pose_errors": [
+        {
+          "source_frame": 1,
+          "max_surface_distance_m": 4.857184165985018e-08
+        },
+        {
+          "source_frame": 5,
+          "max_surface_distance_m": 7.893748943388346e-08
+        },
+        {
+          "source_frame": 11,
+          "max_surface_distance_m": 8.043953414471616e-08
+        },
+        {
+          "source_frame": 16,
+          "max_surface_distance_m": 6.009737063550347e-08
+        },
+        {
+          "source_frame": 22,
+          "max_surface_distance_m": 4.857184165985018e-08
+        }
+      ],
+      "take": "Pet01Rig|TouchReact"
+    },
+    "DozeLoop": {
+      "file": "ArtSource/Characters/Pet01/ArmSeparation/Exports/Pet01_DozeLoop.fbx",
+      "bytes": 1131004,
+      "sha256": "272dddec124d116e8bbbc79bdea39180843168cf69070364d84400bdc99316b1",
+      "pose_errors": [
+        {
+          "source_frame": 1,
+          "max_surface_distance_m": 6.34394083931511e-08
+        },
+        {
+          "source_frame": 30,
+          "max_surface_distance_m": 6.376669858809692e-08
+        },
+        {
+          "source_frame": 60,
+          "max_surface_distance_m": 7.736146301340341e-08
+        },
+        {
+          "source_frame": 90,
+          "max_surface_distance_m": 6.838723720647977e-08
+        },
+        {
+          "source_frame": 121,
+          "max_surface_distance_m": 6.34394083931511e-08
+        },
+        {
+          "source_frame": 2,
+          "max_surface_distance_m": 7.814234948000376e-08
+        }
+      ],
+      "take": "Pet01Rig|DozeLoop"
+    },
+    "WalkLoop": {
+      "file": "ArtSource/Characters/Pet01/ArmSeparation/Exports/Pet01_WalkLoop.fbx",
+      "bytes": 1014956,
+      "sha256": "6d575a70a86b4bcf5937730c2ccb80bd450240384e204f9d6233f04fe2f07e28",
+      "pose_errors": [
+        {
+          "source_frame": 1,
+          "max_surface_distance_m": 6.032785648812933e-08
+        },
+        {
+          "source_frame": 7,
+          "max_surface_distance_m": 3.976300320118753e-07
+        },
+        {
+          "source_frame": 15,
+          "max_surface_distance_m": 1.107304967717937e-07
+        },
+        {
+          "source_frame": 23,
+          "max_surface_distance_m": 4.298474891584192e-07
+        },
+        {
+          "source_frame": 31,
+          "max_surface_distance_m": 6.032785648812933e-08
+        },
+        {
+          "source_frame": 2,
+          "max_surface_distance_m": 1.107304967717937e-07
+        }
+      ],
+      "take": "Pet01Rig|WalkLoop"
+    },
+    "classic_proud": {
+      "file": "ArtSource/Characters/Pet01/ArmSeparation/Exports/Pet01_classic_proud.fbx",
+      "bytes": 1039740,
+      "sha256": "f9a6ba2940cb06af21a8d4bcc463c102252d3aae89cf8cc115e1bd77c9051fe3",
+      "pose_errors": [
+        {
+          "source_frame": 1,
+          "max_surface_distance_m": 4.7743341724526545e-08
+        },
+        {
+          "source_frame": 15,
+          "max_surface_distance_m": 8.048476018984729e-08
+        },
+        {
+          "source_frame": 30,
+          "max_surface_distance_m": 8.989071886844613e-08
+        },
+        {
+          "source_frame": 45,
+          "max_surface_distance_m": 9.210521056957077e-08
+        },
+        {
+          "source_frame": 61,
+          "max_surface_distance_m": 4.7743341724526545e-08
+        },
+        {
+          "source_frame": 53,
+          "max_surface_distance_m": 7.78754980501617e-08
+        }
+      ],
+      "take": "Pet01Rig|classic_proud"
+    },
+    "calm_zen": {
+      "file": "ArtSource/Characters/Pet01/ArmSeparation/Exports/Pet01_calm_zen.fbx",
+      "bytes": 1059500,
+      "sha256": "33a1f2e8200995edfd7f2251888109d1a30748070ff81ed5876ed346b5139105",
+      "pose_errors": [
+        {
+          "source_frame": 1,
+          "max_surface_distance_m": 4.857184165985018e-08
+        },
+        {
+          "source_frame": 19,
+          "max_surface_distance_m": 7.001663249184276e-08
+        },
+        {
+          "source_frame": 38,
+          "max_surface_distance_m": 7.51087227968128e-08
+        },
+        {
+          "source_frame": 57,
+          "max_surface_distance_m": 5.2749374646055e-08
+        },
+        {
+          "source_frame": 76,
+          "max_surface_distance_m": 4.857184165985018e-08
+        },
+        {
+          "source_frame": 22,
+          "max_surface_distance_m": 6.635305993540896e-08
+        }
+      ],
+      "take": "Pet01Rig|calm_zen"
+    },
+    "rage_roar": {
+      "file": "ArtSource/Characters/Pet01/ArmSeparation/Exports/Pet01_rage_roar.fbx",
+      "bytes": 1039628,
+      "sha256": "3f33f3fac7dab8b8739f18347f00242df71ccf16fd0d5afdfa85cb1ab86168d3",
+      "pose_errors": [
+        {
+          "source_frame": 1,
+          "max_surface_distance_m": 4.857184165985018e-08
+        },
+        {
+          "source_frame": 15,
+          "max_surface_distance_m": 9.042945237069944e-08
+        },
+        {
+          "source_frame": 30,
+          "max_surface_distance_m": 8.379833360550037e-08
+        },
+        {
+          "source_frame": 45,
+          "max_surface_distance_m": 6.039801547785828e-08
+        },
+        {
+          "source_frame": 61,
+          "max_surface_distance_m": 4.857184165985018e-08
+        },
+        {
+          "source_frame": 14,
+          "max_surface_distance_m": 6.07576495781359e-08
+        }
+      ],
+      "take": "Pet01Rig|rage_roar"
+    },
+    "divine_awaken": {
+      "file": "ArtSource/Characters/Pet01/ArmSeparation/Exports/Pet01_divine_awaken.fbx",
+      "bytes": 1066220,
+      "sha256": "b434113cc95880cb44c24f4a77d04029c9949ae8b85f4e7ed7019de4ccd0ae19",
+      "pose_errors": [
+        {
+          "source_frame": 1,
+          "max_surface_distance_m": 5.385589574302685e-08
+        },
+        {
+          "source_frame": 19,
+          "max_surface_distance_m": 9.253429311684158e-08
+        },
+        {
+          "source_frame": 38,
+          "max_surface_distance_m": 7.78754980501617e-08
+        },
+        {
+          "source_frame": 57,
+          "max_surface_distance_m": 7.634573506720699e-08
+        },
+        {
+          "source_frame": 76,
+          "max_surface_distance_m": 5.385589574302685e-08
+        },
+        {
+          "source_frame": 72,
+          "max_surface_distance_m": 6.018390763529169e-08
+        }
+      ],
+      "take": "Pet01Rig|divine_awaken"
+    },
+    "social_laugh": {
+      "file": "ArtSource/Characters/Pet01/ArmSeparation/Exports/Pet01_social_laugh.fbx",
+      "bytes": 1065852,
+      "sha256": "9a315729a8ccea03199d5caa84ecf77c628360cb385c8c881063b5bbbdefd5c3",
+      "pose_errors": [
+        {
+          "source_frame": 1,
+          "max_surface_distance_m": 4.857184165985018e-08
+        },
+        {
+          "source_frame": 18,
+          "max_surface_distance_m": 9.799708777791238e-08
+        },
+        {
+          "source_frame": 36,
+          "max_surface_distance_m": 7.700185022940786e-08
+        },
+        {
+          "source_frame": 54,
+          "max_surface_distance_m": 8.179218013992795e-08
+        },
+        {
+          "source_frame": 73,
+          "max_surface_distance_m": 4.857184165985018e-08
+        },
+        {
+          "source_frame": 51,
+          "max_surface_distance_m": 6.511936589959078e-08
+        }
+      ],
+      "take": "Pet01Rig|social_laugh"
+    }
+  },
+  "failures": [
+    "WalkLoop_above_ground"
+  ],
+  "known_baseline_failures": [
+    "WalkLoop_above_ground"
+  ],
+  "passed": true,
+  "staged_sha256": "35c5625db06f13de88510edab883ab87293bbfee9f4464404ba871a21f12b13d",
+  "exports_sha256": {
+    "Pet01.fbx": "9cdb839b854e5af4276bbe5d44497f2643dfbf949340a00285bb85f53cb09777",
+    "Pet01_calm_zen.fbx": "33a1f2e8200995edfd7f2251888109d1a30748070ff81ed5876ed346b5139105",
+    "Pet01_classic_proud.fbx": "f9a6ba2940cb06af21a8d4bcc463c102252d3aae89cf8cc115e1bd77c9051fe3",
+    "Pet01_divine_awaken.fbx": "b434113cc95880cb44c24f4a77d04029c9949ae8b85f4e7ed7019de4ccd0ae19",
+    "Pet01_DozeLoop.fbx": "272dddec124d116e8bbbc79bdea39180843168cf69070364d84400bdc99316b1",
+    "Pet01_Eat.fbx": "52f77609c52f2bec908a7dbc8ff6feb36f21b21b5c03155050e4c3855e5551f0",
+    "Pet01_Idle.fbx": "7d0931a1b0b2ee848940535aad99f34a73e7e1f2dc639b3b30f218f123230862",
+    "Pet01_rage_roar.fbx": "3f33f3fac7dab8b8739f18347f00242df71ccf16fd0d5afdfa85cb1ab86168d3",
+    "Pet01_social_laugh.fbx": "9a315729a8ccea03199d5caa84ecf77c628360cb385c8c881063b5bbbdefd5c3",
+    "Pet01_TouchReact.fbx": "df86101b74d75b5ab31864798b2caa4c1c5f993d3781d4344dabcfe32cbe6318",
+    "Pet01_WalkLoop.fbx": "6d575a70a86b4bcf5937730c2ccb80bd450240384e204f9d6233f04fe2f07e28"
+  }
+}

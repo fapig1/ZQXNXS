@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "verified_date": "2026-09-22",
+  "purpose": "Documentation inventory only; not a Unity runtime config",
+  "paths_relative_to": "repository_root",
+  "card_directory": "Docs/AssetReview/20260920_卡面2D/picked",
+  "texture_directory": "Docs/AssetReview/20260919_卡面基准形象/work/tex_variant",
+  "print_size_mm": [66, 94],
+  "bleed_mm": 0,
+  "database": "ZQXS",
+  "database_imported": true,
+  "database_path": "ARPet/Assets/StreamingAssets/Vuforia/ZQXS.xml",
+  "target_size_m": [0.066, 0.093923],
+  "legacy_targets_retained": true,
+  "tracking_limit": 4,
+  "four_target_device_verified": false,
+  "unity_preview_scene": "ARPet/Assets/_Project/Scenes/03_ExclusiveAnimationPreview.unity",
+  "variants": [
+    {
+      "id": "classic", "color": "暖黄", "pet_id": "pet_classic", "target_id": "card_classic",
+      "png": {"file": "classic.png", "size": [1049,1499], "bytes": 3186225, "sha256": "9da0f7ececd9dc52fd29eadc599a68b60edd10857dbcb2b1bf40a937b6af0257"},
+      "jpg": {"file": "classic_vuforia.jpg", "size": [780,1110], "bytes": 517554, "sha256": "4194536ad7bdd2c4d39e25d3ad9bfe607adb9c5a44d7dfdffd9a4759f61cfbfd"},
+      "texture": {"file": "Pet01_BaseColor_classic.png", "size": [2048,2048], "sha256": "40e8fea9d0ef5501e8739795c69d0aef2951c79405b5c3a6a6f7e3e609bc21fb"},
+      "historical_rating": 4, "rating_date": "2026-09-20", "unity_variant_wired": false, "unity_development_preview_wired": true, "exclusive_state": "classic_proud"
+    },
+    {
+      "id": "calm", "color": "湖蓝", "pet_id": "pet_calm", "target_id": "card_calm",
+      "png": {"file": "calm.png", "size": [1049,1500], "bytes": 3209987, "sha256": "d043fb8e2ba7f90b84a6d70fe3c00139eb042b342b291781deaac5fc3c77b4c6"},
+      "jpg": {"file": "calm_vuforia.jpg", "size": [780,1110], "bytes": 527849, "sha256": "ab840c6263e8136764f64591505a84be17d06b0449c309099deedc13dcbe8f81"},
+      "texture": {"file": "Pet01_BaseColor_calm.png", "size": [2048,2048], "sha256": "2616bc6bb7b77443046f74d01922623412daa624a0a0e1f8803777dc518a0857"},
+      "historical_rating": null, "unity_variant_wired": false, "unity_development_preview_wired": true, "exclusive_state": "calm_zen"
+    },
+    {
+      "id": "rage", "color": "朱红", "pet_id": "pet_rage", "target_id": "card_rage",
+      "png": {"file": "rage.png", "size": [1049,1499], "bytes": 3114638, "sha256": "4a677e77a99bd1d44ebad82923517f6310b63365318da6bbd0f653ac52acc3cf"},
+      "jpg": {"file": "rage_vuforia.jpg", "size": [780,1110], "bytes": 531947, "sha256": "b76bd11a16a471fd1bd3473849fee0a548a43859d1d6524f20a3433903fdbeec"},
+      "texture": {"file": "Pet01_BaseColor_rage.png", "size": [2048,2048], "sha256": "1e778f0cc1e0b45a3d225410d610a03044bce347908909634d42940838b2b092"},
+      "historical_rating": null, "unity_variant_wired": false, "unity_development_preview_wired": true, "exclusive_state": "rage_roar"
+    },
+    {
+      "id": "divine", "color": "紫", "pet_id": "pet_divine", "target_id": "card_divine",
+      "png": {"file": "divine.png", "size": [1049,1500], "bytes": 3133597, "sha256": "358926deba6b004b3f7eefff2c4c29da2cd7e57c67e52afd8adb47b5667ccbde"},
+      "jpg": {"file": "divine_vuforia.jpg", "size": [780,1110], "bytes": 503983, "sha256": "20e5471743c9353807f0b3a1ba225b779b2ac2952ba32d5ef5f955111de0cf5e"},
+      "texture": {"file": "Pet01_BaseColor_divine.png", "size": [2048,2048], "sha256": "39813fc36107998f148d0b05b70fa7faccb724b04637062227f45925a451c944"},
+      "historical_rating": null, "unity_variant_wired": false, "unity_development_preview_wired": true, "exclusive_state": "divine_awaken"
+    }
+  ]
+}

@@ -37,7 +37,7 @@ CLIPS = {
     "DozeLoop": (121, True),     # (121-1)/30 = 4.0s slow breathing loop
     "WalkLoop": (31, True),      # (31-1)/30 = 1.0s in-place step cycle
 }
-EXPECTED_VERTICES = 10434
+EXPECTED_VERTICES = 12452  # 20260928_arm_separation (was 10434 before the doll-joint arms)
 EXPECTED_BONES = 26
 FORCE_REBUILD = False
 

@@ -2,22 +2,28 @@
   "schema_version": 1,
   "asset_id": "Pet01",
   "created": "2026-09-09",
-  "updated": "2026-09-11",
+  "updated": "2026-10-26",
   "character": "Naiwa-style pet rebuilt to the user-selected Meshy candidate proportions",
   "reference": "ArtSource/Characters/Pet01/Candidates/Meshy_AI_Golden_Guardian_0910135714_generate.glb",
   "reference_frames": [
     "ArtSource/References/20260908_naiwa_assets/video_frames/mfstream_t1.png",
     "ArtSource/References/20260908_naiwa_assets/video_frames/mfstream_t6.png"
   ],
-  "shape_revision": "20260911_meshy_proportions",
+  "shape_revision": "20260928_arm_separation",
+  "asset_stage": "exclusive_skeletal_development_preview",
+  "status_label": "Geometry baseline confirmed 20260911; authorized weight revision 20260922; exclusive full performances pending",
+  "finalized_date": "2026-09-11",
+  "frozen": true,
+  "final_manifest": "ARPet/Assets/_Project/Art/Characters/Pet01/final_manifest.json",
+  "final_doc": "Docs/奶蛙最终版资产说明.md",
   "image_reference": "Docs/AssetReview/20260908_naiwa/expression_frames.jpg",
   "reference_sha256": "121f8b5d3afd33833e58c616c898de5baf334c2bec35a7e0eb4b596d767b0072",
   "shape_note": "2026-09-10 to 2026-09-11: narrow torso and shoulders to the Meshy silhouette, bend arms across the belly, taper thighs into inward ankles and outward feet, and raise the mouth and eyes. Authored topology and skeletal facial controls retained.",
   "software": "Blender 5.1.1",
   "source_file": "ArtSource/Characters/Pet01/pet01.blend",
   "geometry": {
-    "vertices": 10434,
-    "triangles": 20528,
+    "vertices": 12452,
+    "triangles": 24536,
     "materials": [
       "Pet01_Skin",
       "Pet01_Oral",
@@ -25,11 +31,11 @@
     ],
     "bones": 26,
     "rest_height_m": 0.20000000298023224,
-    "rest_width_m": 0.11121256649494171,
-    "rest_depth_m": 0.10253442823886871,
+    "rest_width_m": 0.11134443432092667,
+    "rest_depth_m": 0.10260229557752609,
     "source_forward": "+Y",
     "source_up": "+Z",
-    "maximum_skin_influences": 3
+    "maximum_skin_influences": 8
   },
   "abdomen_design_profile": {
     "height_m": 0.091,
@@ -88,16 +94,46 @@
       ]
     }
   ],
-  "animation_event_note": "Markers are design metadata; add Unity events only when a receiver exists. Consume is a single gameplay settlement point.",
+  "extra_clips": [
+    {
+      "name": "TouchReact",
+      "fps": 30,
+      "duration_seconds": 0.7,
+      "loop": false,
+      "source_validation": "passed_20260917",
+      "animator_wired": false
+    },
+    {
+      "name": "DozeLoop",
+      "fps": 30,
+      "duration_seconds": 4.0,
+      "loop": true,
+      "source_validation": "passed_20260917",
+      "animator_wired": false
+    },
+    {
+      "name": "WalkLoop",
+      "fps": 30,
+      "duration_seconds": 1.0,
+      "loop": true,
+      "source_validation": "failed_ground_penetration",
+      "animator_wired": false
+    }
+  ],
+  "animation_event_note": "Consume at 2.4s is design metadata; old Unity gameplay settles at 3.2s by behavior clock. Food gameplay is removed from the new scope, not yet removed from code.",
+  "variant_inventory": "Docs/四色奶蛙资产元数据.json",
+  "extra_validation_report": "ArtSource/Characters/Pet01/validation_report_extra_actions.json",
   "texture": "Textures/Pet01_BaseColor.png",
   "status": {
     "blend_created": true,
     "fbx_exported": true,
-    "blender_fbx_roundtrip": true,
-    "unity_import_tested": false,
-    "android_device_tested": false,
-    "blender_source_validated": true,
-    "previews_generated": true
+    "blender_fbx_roundtrip": false,
+    "unity_import_tested": true,
+    "android_device_tested": true,
+    "verification_scope": "20260929 shape_revision 20260928_arm_separation (doll-joint arms; classic_proud greeting and divine_awaken horizontal wings rebuilt; other 8 Action curves unchanged) validated in Blender with FBX roundtrip, EditMode rerun recorded in Docs/手臂分离修订记录_20260929.md; Android evidence remains historical 20260918 single-pet baseline. Full performances and four-target interactions pending.",
+    "blender_source_validated": false,
+    "previews_generated": true,
+    "user_confirmed_final": true
   },
   "export_settings": {
     "forward": "-Z",
@@ -113,10 +149,49 @@
   "export_files": [
     "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01.fbx",
     "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_Eat.fbx",
-    "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_Idle.fbx"
+    "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_Idle.fbx",
+    "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_TouchReact.fbx",
+    "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_DozeLoop.fbx",
+    "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_WalkLoop.fbx",
+    "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_social_laugh.fbx",
+    "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_classic_proud.fbx",
+    "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_calm_zen.fbx",
+    "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_rage_roar.fbx",
+    "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_divine_awaken.fbx"
   ],
   "validation_report": "ArtSource/Characters/Pet01/validation_report.json",
-  "source_sha256": "fad23c5c0b4d8b50d106c4bdb943b7d6f4eebba433b15b83c6e42db559acb89f",
+  "source_sha256": "a289a8db83d91452284537fb55afbee4a2a6fb42c0c51a6027b564511a5c3c9b",
+  "source_note": "2026-10-26: Action-only update on shape_revision 20260928_arm_separation; calm_zen re-authored as gassho + closed eyes + three decreasing nods. Mesh, weights, rest bones and the other 9 Actions unchanged.",
+  "previous_source_sha256": "35c5625db06f13de88510edab883ab87293bbfee9f4464404ba871a21f12b13d",
+  "previous_source_local_archive": "ArtSource/Characters/Pet01/Archive/20261026_before_calm_gassho/pet01.blend",
+  "calm_gassho_validation": "ArtSource/Characters/Pet01/CalmGassho/validation_report.json",
+  "calm_gassho_visual_acceptance": "ArtSource/Characters/Pet01/CalmGassho/visual_acceptance.json",
+  "arm_separation_validation": "ArtSource/Characters/Pet01/ArmSeparation/validation_report.json",
+  "arm_separation_visual_acceptance": "ArtSource/Characters/Pet01/ArmSeparation/visual_acceptance.json",
+  "exclusive_actions": [
+    "classic_proud",
+    "calm_zen",
+    "rage_roar",
+    "divine_awaken"
+  ],
+  "shared_actions": [
+    {
+      "name": "social_laugh",
+      "fps": 30,
+      "duration_seconds": 2.4,
+      "loop": false,
+      "file": "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_social_laugh.fbx",
+      "validation": "ArtSource/Characters/Pet01/SocialLaugh/validation_report.json",
+      "visual_review": "ArtSource/Characters/Pet01/SocialLaugh/visual_review.md",
+      "animator_wired": true,
+      "business_trigger_wired": false
+    }
+  ],
+  "exclusive_validation": "ArtSource/Characters/Pet01/ExclusiveActions/validation_report.json",
+  "exclusive_full_performance_accepted": false,
+  "weight_revision_report": "ArtSource/Characters/Pet01/ExclusiveActions/weight_revision.json",
+  "frozen_baseline_sha256": "fad23c5c0b4d8b50d106c4bdb943b7d6f4eebba433b15b83c6e42db559acb89f",
+  "frozen_baseline_local_archive": "ArtSource/Characters/Pet01/Archive/20260917_before_extra_actions/pet01.blend",
   "review_page": "ArtSource/Characters/Pet01/review.html",
   "previews": [
     "Pet01_Turnaround.png",

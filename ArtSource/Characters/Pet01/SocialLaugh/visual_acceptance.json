@@ -1,0 +1,7 @@
+{
+  "staged_sha256": "9ecd9dddaf42a899fa356cb058335d75822ffc3614150ccd0f63a48e7f2e0cee",
+  "deformation_passed": true,
+  "date": "2026-09-28",
+  "review": "visual_review.md",
+  "scope": "28 sampled frames x4 views; semantic gaps (frontal face hidden at deepest bend, mouth/eye 2D textures) remain open"
+}

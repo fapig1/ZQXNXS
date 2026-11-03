@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "asset_id": "Pet01",
+  "date": "2026-09-28",
+  "extra_actions": {
+    "social_laugh": {
+      "fps": 30,
+      "frames": [
+        1,
+        73
+      ],
+      "duration_seconds": 2.4,
+      "loop": false,
+      "endpoint_max_error_m": 0.0,
+      "minimum_z_m": -2.2071554306446473e-10,
+      "max_consecutive_frame_motion_m": 0.02611260746138533,
+      "root_matrix_max_error": 0.0,
+      "largest_step": {
+        "frame": 51,
+        "vertex": 6782
+      },
+      "design_markers": [
+        {
+          "name": "Start",
+          "frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "name": "Complete",
+          "frame": 73,
+          "time_seconds": 2.4
+        }
+      ],
+      "max_edge_stretch_ratio": 1.9626140699189227,
+      "min_edge_compress_ratio": 0.32071170045467084
+    }
+  },
+  "checks": [
+    {
+      "name": "social_laugh_endpoints",
+      "passed": true,
+      "evidence": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "social_laugh_root_bone_fixed",
+      "passed": true,
+      "evidence": {
+        "root_matrix_error": 0.0
+      }
+    },
+    {
+      "name": "social_laugh_above_ground",
+      "passed": true,
+      "evidence": {
+        "minimum_z_m": -2.2071554306446473e-10
+      }
+    },
+    {
+      "name": "social_laugh_planted_feet",
+      "passed": true,
+      "evidence": {
+        "foot_drift_m": 0.0
+      }
+    },
+    {
+      "name": "social_laugh_smooth_motion",
+      "passed": true,
+      "evidence": {
+        "max_step_m": 0.02611260746138533,
+        "largest_step": {
+          "frame": 51,
+          "vertex": 6782
+        },
+        "limit_m": 0.035,
+        "note": "exaggerated laugh; generic 10mm heuristic replaced, roundtrip still sampled"
+      }
+    },
+    {
+      "name": "frozen_data_unchanged",
+      "passed": true,
+      "evidence": {}
+    },
+    {
+      "name": "existing_actions_present",
+      "passed": true,
+      "evidence": {
+        "actions": [
+          "DozeLoop",
+          "Eat",
+          "Idle",
+          "TouchReact",
+          "WalkLoop",
+          "calm_zen",
+          "classic_proud",
+          "divine_awaken",
+          "rage_roar",
+          "social_laugh"
+        ]
+      }
+    },
+    {
+      "name": "social_laugh_bounded_edge_stretch",
+      "passed": true,
+      "evidence": {
+        "max_ratio": 1.9626140699189227,
+        "frame": 56,
+        "limit": 2.0
+      }
+    },
+    {
+      "name": "social_laugh_bounded_edge_compress",
+      "passed": true,
+      "evidence": {
+        "min_ratio": 0.32071170045467084,
+        "frame": 57,
+        "limit": 0.25
+      }
+    },
+    {
+      "name": "social_laugh_fbx_object_scope",
+      "passed": true,
+      "evidence": {
+        "meshes": 1,
+        "armatures": 1
+      }
+    },
+    {
+      "name": "social_laugh_fbx_bones",
+      "passed": true,
+      "evidence": {
+        "bones": 26
+      }
+    },
+    {
+      "name": "social_laugh_fbx_take",
+      "passed": true,
+      "evidence": {
+        "take": "Pet01Rig|social_laugh"
+      }
+    },
+    {
+      "name": "social_laugh_fbx_pose_preservation",
+      "passed": true,
+      "evidence": {
+        "maximum_error_m": 8.179218013992795e-08,
+        "sample_frames": 8
+      }
+    }
+  ],
+  "roundtrip": {
+    "social_laugh": {
+      "file": "ArtSource/Characters/Pet01/SocialLaugh/Exports/Pet01_social_laugh.fbx",
+      "bytes": 1053036,
+      "sha256": "029adf4e96cdf0d4b3e2721d5f8a2a403919f4cb34a1739d6371b4cf46870cb7",
+      "pose_errors": [
+        {
+          "source_frame": 1,
+          "max_surface_distance_m": 4.626714655842079e-08
+        },
+        {
+          "source_frame": 18,
+          "max_surface_distance_m": 6.700508237145186e-08
+        },
+        {
+          "source_frame": 36,
+          "max_surface_distance_m": 7.700185022940786e-08
+        },
+        {
+          "source_frame": 54,
+          "max_surface_distance_m": 8.179218013992795e-08
+        },
+        {
+          "source_frame": 73,
+          "max_surface_distance_m": 4.626714655842079e-08
+        },
+        {
+          "source_frame": 19,
+          "max_surface_distance_m": 7.45581729688638e-08
+        },
+        {
+          "source_frame": 56,
+          "max_surface_distance_m": 6.909384353548376e-08
+        },
+        {
+          "source_frame": 61,
+          "max_surface_distance_m": 7.893748943388346e-08
+        }
+      ],
+      "take": "Pet01Rig|social_laugh"
+    }
+  },
+  "passed": true,
+  "staged_sha256": "9ecd9dddaf42a899fa356cb058335d75822ffc3614150ccd0f63a48e7f2e0cee",
+  "exports_sha256": {
+    "Pet01_social_laugh.fbx": "029adf4e96cdf0d4b3e2721d5f8a2a403919f4cb34a1739d6371b4cf46870cb7"
+  }
+}

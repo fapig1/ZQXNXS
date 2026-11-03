@@ -11,7 +11,8 @@
         "ZQXNXS.ARPet.AR",
         "ZQXNXS.ARPet.Presentation",
         "ZQXNXS.ARPet.App",
-        "ZQXNXS.ARPet.UI"
+        "ZQXNXS.ARPet.UI",
+        "ZQXNXS.ARPet.Platform"
     ],
     "includePlatforms": [
         "Editor"

@@ -1,0 +1,564 @@
+{
+  "schema_version": 1,
+  "asset_id": "Pet01",
+  "date": "2026-09-22",
+  "extra_actions": {
+    "classic_proud": {
+      "fps": 30,
+      "frames": [
+        1,
+        61
+      ],
+      "duration_seconds": 2.0,
+      "loop": false,
+      "endpoint_max_error_m": 0.0,
+      "minimum_z_m": -2.2071554306446473e-10,
+      "max_consecutive_frame_motion_m": 0.005016328770302879,
+      "root_matrix_max_error": 0.0,
+      "largest_step": {
+        "frame": 26,
+        "vertex": 7038
+      },
+      "design_markers": [
+        {
+          "name": "Start",
+          "frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "name": "Complete",
+          "frame": 61,
+          "time_seconds": 2.0
+        }
+      ],
+      "max_edge_stretch_ratio": 1.6000788246673074
+    },
+    "calm_zen": {
+      "fps": 30,
+      "frames": [
+        1,
+        76
+      ],
+      "duration_seconds": 2.5,
+      "loop": false,
+      "endpoint_max_error_m": 0.0,
+      "minimum_z_m": -2.2071554306446473e-10,
+      "max_consecutive_frame_motion_m": 0.002506665168545972,
+      "root_matrix_max_error": 0.0,
+      "largest_step": {
+        "frame": 22,
+        "vertex": 6846
+      },
+      "design_markers": [
+        {
+          "name": "Start",
+          "frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "name": "Complete",
+          "frame": 76,
+          "time_seconds": 2.5
+        }
+      ],
+      "max_edge_stretch_ratio": 1.0786580571794406
+    },
+    "rage_roar": {
+      "fps": 30,
+      "frames": [
+        1,
+        61
+      ],
+      "duration_seconds": 2.0,
+      "loop": false,
+      "endpoint_max_error_m": 0.0,
+      "minimum_z_m": -2.2071554306446473e-10,
+      "max_consecutive_frame_motion_m": 0.006839954102900655,
+      "root_matrix_max_error": 0.0,
+      "largest_step": {
+        "frame": 14,
+        "vertex": 6910
+      },
+      "design_markers": [
+        {
+          "name": "Start",
+          "frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "name": "Complete",
+          "frame": 61,
+          "time_seconds": 2.0
+        }
+      ],
+      "max_edge_stretch_ratio": 1.9910138817439538
+    },
+    "divine_awaken": {
+      "fps": 30,
+      "frames": [
+        1,
+        76
+      ],
+      "duration_seconds": 2.5,
+      "loop": false,
+      "endpoint_max_error_m": 0.0,
+      "minimum_z_m": -2.2071554306446473e-10,
+      "max_consecutive_frame_motion_m": 0.0019794911346353067,
+      "root_matrix_max_error": 0.0,
+      "largest_step": {
+        "frame": 69,
+        "vertex": 2115
+      },
+      "design_markers": [
+        {
+          "name": "Start",
+          "frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "name": "Complete",
+          "frame": 76,
+          "time_seconds": 2.5
+        }
+      ],
+      "max_edge_stretch_ratio": 1.9887857870376817
+    }
+  },
+  "checks": [
+    {
+      "name": "classic_proud_endpoints",
+      "passed": true,
+      "evidence": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "classic_proud_root_bone_fixed",
+      "passed": true,
+      "evidence": {
+        "root_matrix_error": 0.0
+      }
+    },
+    {
+      "name": "classic_proud_above_ground",
+      "passed": true,
+      "evidence": {
+        "minimum_z_m": -2.2071554306446473e-10
+      }
+    },
+    {
+      "name": "classic_proud_planted_feet",
+      "passed": true,
+      "evidence": {
+        "foot_drift_m": 0.0
+      }
+    },
+    {
+      "name": "classic_proud_smooth_motion",
+      "passed": true,
+      "evidence": {
+        "max_step_m": 0.005016328770302879,
+        "largest_step": {
+          "frame": 26,
+          "vertex": 7038
+        }
+      }
+    },
+    {
+      "name": "calm_zen_endpoints",
+      "passed": true,
+      "evidence": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "calm_zen_root_bone_fixed",
+      "passed": true,
+      "evidence": {
+        "root_matrix_error": 0.0
+      }
+    },
+    {
+      "name": "calm_zen_above_ground",
+      "passed": true,
+      "evidence": {
+        "minimum_z_m": -2.2071554306446473e-10
+      }
+    },
+    {
+      "name": "calm_zen_planted_feet",
+      "passed": true,
+      "evidence": {
+        "foot_drift_m": 0.0
+      }
+    },
+    {
+      "name": "calm_zen_smooth_motion",
+      "passed": true,
+      "evidence": {
+        "max_step_m": 0.002506665168545972,
+        "largest_step": {
+          "frame": 22,
+          "vertex": 6846
+        }
+      }
+    },
+    {
+      "name": "rage_roar_endpoints",
+      "passed": true,
+      "evidence": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "rage_roar_root_bone_fixed",
+      "passed": true,
+      "evidence": {
+        "root_matrix_error": 0.0
+      }
+    },
+    {
+      "name": "rage_roar_above_ground",
+      "passed": true,
+      "evidence": {
+        "minimum_z_m": -2.2071554306446473e-10
+      }
+    },
+    {
+      "name": "rage_roar_planted_feet",
+      "passed": true,
+      "evidence": {
+        "foot_drift_m": 0.0
+      }
+    },
+    {
+      "name": "rage_roar_smooth_motion",
+      "passed": true,
+      "evidence": {
+        "max_step_m": 0.006839954102900655,
+        "largest_step": {
+          "frame": 14,
+          "vertex": 6910
+        }
+      }
+    },
+    {
+      "name": "divine_awaken_endpoints",
+      "passed": true,
+      "evidence": {
+        "max_error_m": 0.0
+      }
+    },
+    {
+      "name": "divine_awaken_root_bone_fixed",
+      "passed": true,
+      "evidence": {
+        "root_matrix_error": 0.0
+      }
+    },
+    {
+      "name": "divine_awaken_above_ground",
+      "passed": true,
+      "evidence": {
+        "minimum_z_m": -2.2071554306446473e-10
+      }
+    },
+    {
+      "name": "divine_awaken_planted_feet",
+      "passed": true,
+      "evidence": {
+        "foot_drift_m": 0.0
+      }
+    },
+    {
+      "name": "divine_awaken_smooth_motion",
+      "passed": true,
+      "evidence": {
+        "max_step_m": 0.0019794911346353067,
+        "largest_step": {
+          "frame": 69,
+          "vertex": 2115
+        }
+      }
+    },
+    {
+      "name": "frozen_data_unchanged",
+      "passed": true,
+      "evidence": {}
+    },
+    {
+      "name": "classic_proud_bounded_edge_stretch",
+      "passed": true,
+      "evidence": {
+        "max_ratio": 1.6000788246673074,
+        "limit": 2.0
+      }
+    },
+    {
+      "name": "calm_zen_bounded_edge_stretch",
+      "passed": true,
+      "evidence": {
+        "max_ratio": 1.0786580571794406,
+        "limit": 2.0
+      }
+    },
+    {
+      "name": "rage_roar_bounded_edge_stretch",
+      "passed": true,
+      "evidence": {
+        "max_ratio": 1.9910138817439538,
+        "limit": 2.0
+      }
+    },
+    {
+      "name": "divine_awaken_bounded_edge_stretch",
+      "passed": true,
+      "evidence": {
+        "max_ratio": 1.9887857870376817,
+        "limit": 2.0
+      }
+    },
+    {
+      "name": "classic_proud_fbx_object_scope",
+      "passed": true,
+      "evidence": {
+        "meshes": 1,
+        "armatures": 1
+      }
+    },
+    {
+      "name": "classic_proud_fbx_bones",
+      "passed": true,
+      "evidence": {
+        "bones": 26
+      }
+    },
+    {
+      "name": "classic_proud_fbx_take",
+      "passed": true,
+      "evidence": {
+        "take": "Pet01Rig|classic_proud"
+      }
+    },
+    {
+      "name": "classic_proud_fbx_pose_preservation",
+      "passed": true,
+      "evidence": {
+        "maximum_error_m": 7.645925848009938e-08,
+        "sample_frames": 5
+      }
+    },
+    {
+      "name": "calm_zen_fbx_object_scope",
+      "passed": true,
+      "evidence": {
+        "meshes": 1,
+        "armatures": 1
+      }
+    },
+    {
+      "name": "calm_zen_fbx_bones",
+      "passed": true,
+      "evidence": {
+        "bones": 26
+      }
+    },
+    {
+      "name": "calm_zen_fbx_take",
+      "passed": true,
+      "evidence": {
+        "take": "Pet01Rig|calm_zen"
+      }
+    },
+    {
+      "name": "calm_zen_fbx_pose_preservation",
+      "passed": true,
+      "evidence": {
+        "maximum_error_m": 7.51087227968128e-08,
+        "sample_frames": 5
+      }
+    },
+    {
+      "name": "rage_roar_fbx_object_scope",
+      "passed": true,
+      "evidence": {
+        "meshes": 1,
+        "armatures": 1
+      }
+    },
+    {
+      "name": "rage_roar_fbx_bones",
+      "passed": true,
+      "evidence": {
+        "bones": 26
+      }
+    },
+    {
+      "name": "rage_roar_fbx_take",
+      "passed": true,
+      "evidence": {
+        "take": "Pet01Rig|rage_roar"
+      }
+    },
+    {
+      "name": "rage_roar_fbx_pose_preservation",
+      "passed": true,
+      "evidence": {
+        "maximum_error_m": 9.042945237069944e-08,
+        "sample_frames": 5
+      }
+    },
+    {
+      "name": "divine_awaken_fbx_object_scope",
+      "passed": true,
+      "evidence": {
+        "meshes": 1,
+        "armatures": 1
+      }
+    },
+    {
+      "name": "divine_awaken_fbx_bones",
+      "passed": true,
+      "evidence": {
+        "bones": 26
+      }
+    },
+    {
+      "name": "divine_awaken_fbx_take",
+      "passed": true,
+      "evidence": {
+        "take": "Pet01Rig|divine_awaken"
+      }
+    },
+    {
+      "name": "divine_awaken_fbx_pose_preservation",
+      "passed": true,
+      "evidence": {
+        "maximum_error_m": 9.042945237069944e-08,
+        "sample_frames": 5
+      }
+    }
+  ],
+  "roundtrip": {
+    "classic_proud": {
+      "file": "ArtSource/Characters/Pet01/ExclusiveActions/Exports/Pet01_classic_proud.fbx",
+      "bytes": 1027324,
+      "sha256": "4939cea2d8a2f29266b48a1d0a20be16ea96cbd6f2e73111beb7bc851676e4e6",
+      "pose_errors": [
+        {
+          "source_frame": 1,
+          "max_surface_distance_m": 4.626714655842079e-08
+        },
+        {
+          "source_frame": 15,
+          "max_surface_distance_m": 7.645925848009938e-08
+        },
+        {
+          "source_frame": 30,
+          "max_surface_distance_m": 6.172076183474928e-08
+        },
+        {
+          "source_frame": 45,
+          "max_surface_distance_m": 6.218278514324993e-08
+        },
+        {
+          "source_frame": 61,
+          "max_surface_distance_m": 4.626714655842079e-08
+        }
+      ],
+      "take": "Pet01Rig|classic_proud"
+    },
+    "calm_zen": {
+      "file": "ArtSource/Characters/Pet01/ExclusiveActions/Exports/Pet01_calm_zen.fbx",
+      "bytes": 1046668,
+      "sha256": "62a25c44041f803920a2fa578746b94c70f3a0b77e83ded1b4cff24f6f040cbf",
+      "pose_errors": [
+        {
+          "source_frame": 1,
+          "max_surface_distance_m": 4.626714655842079e-08
+        },
+        {
+          "source_frame": 19,
+          "max_surface_distance_m": 4.782502216471585e-08
+        },
+        {
+          "source_frame": 38,
+          "max_surface_distance_m": 7.51087227968128e-08
+        },
+        {
+          "source_frame": 57,
+          "max_surface_distance_m": 4.51529409417617e-08
+        },
+        {
+          "source_frame": 76,
+          "max_surface_distance_m": 4.626714655842079e-08
+        }
+      ],
+      "take": "Pet01Rig|calm_zen"
+    },
+    "rage_roar": {
+      "file": "ArtSource/Characters/Pet01/ExclusiveActions/Exports/Pet01_rage_roar.fbx",
+      "bytes": 1026812,
+      "sha256": "84da76cfec2d005218ef7104802c4569c5330d991a9e4c038cc6a34bb7730da2",
+      "pose_errors": [
+        {
+          "source_frame": 1,
+          "max_surface_distance_m": 4.626714655842079e-08
+        },
+        {
+          "source_frame": 15,
+          "max_surface_distance_m": 9.042945237069944e-08
+        },
+        {
+          "source_frame": 30,
+          "max_surface_distance_m": 6.112768602406504e-08
+        },
+        {
+          "source_frame": 45,
+          "max_surface_distance_m": 6.039801547785828e-08
+        },
+        {
+          "source_frame": 61,
+          "max_surface_distance_m": 4.626714655842079e-08
+        }
+      ],
+      "take": "Pet01Rig|rage_roar"
+    },
+    "divine_awaken": {
+      "file": "ArtSource/Characters/Pet01/ExclusiveActions/Exports/Pet01_divine_awaken.fbx",
+      "bytes": 1047052,
+      "sha256": "896b5893a7fc1979c4afa61bf67782307f861fcaae9c7b9448ac54e6a033b3d6",
+      "pose_errors": [
+        {
+          "source_frame": 1,
+          "max_surface_distance_m": 4.626714655842079e-08
+        },
+        {
+          "source_frame": 19,
+          "max_surface_distance_m": 4.842877388000488e-08
+        },
+        {
+          "source_frame": 38,
+          "max_surface_distance_m": 9.042945237069944e-08
+        },
+        {
+          "source_frame": 57,
+          "max_surface_distance_m": 7.46511830129748e-08
+        },
+        {
+          "source_frame": 76,
+          "max_surface_distance_m": 4.626714655842079e-08
+        }
+      ],
+      "take": "Pet01Rig|divine_awaken"
+    }
+  },
+  "passed": true,
+  "staged_sha256": "308d2060266688a070da6c47131b20b0e71fc624af288cb0826078ebca5968a5",
+  "exports_sha256": {
+    "Pet01_classic_proud.fbx": "4939cea2d8a2f29266b48a1d0a20be16ea96cbd6f2e73111beb7bc851676e4e6",
+    "Pet01_calm_zen.fbx": "62a25c44041f803920a2fa578746b94c70f3a0b77e83ded1b4cff24f6f040cbf",
+    "Pet01_rage_roar.fbx": "84da76cfec2d005218ef7104802c4569c5330d991a9e4c038cc6a34bb7730da2",
+    "Pet01_divine_awaken.fbx": "896b5893a7fc1979c4afa61bf67782307f861fcaae9c7b9448ac54e6a033b3d6"
+  }
+}

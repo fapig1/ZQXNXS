@@ -1,7 +1,7 @@
 {
   "Scope": "Offline Roslyn C# 9 compilation with API stubs and reflection-run rule tests. Not Unity/NUnit/IL2CPP or device validation.",
-  "Timestamp": "2026-09-16T09:48:27.8531122+08:00",
-  "CompilerHost": "7.6.5",
+  "Timestamp": "2026-10-29T13:39:18.1135705+08:00",
+  "CompilerHost": "7.6.9",
   "Assemblies": [
     {
       "Assembly": "ARPet.Validation.UnityApiStubs",
@@ -30,107 +30,107 @@
     },
     {
       "Assembly": "ZQXNXS.ARPet.Core",
-      "Sources": 5,
+      "Sources": 7,
       "Errors": []
     },
     {
       "Assembly": "ZQXNXS.ARPet.Pet",
-      "Sources": 4,
+      "Sources": 7,
       "Errors": []
     },
     {
       "Assembly": "ZQXNXS.ARPet.Interaction",
-      "Sources": 3,
-      "Errors": []
-    },
-    {
-      "Assembly": "ZQXNXS.ARPet.AR",
-      "Sources": 4,
-      "Errors": []
-    },
-    {
-      "Assembly": "ZQXNXS.ARPet.Presentation",
-      "Sources": 1,
-      "Errors": []
-    },
-    {
-      "Assembly": "ZQXNXS.ARPet.Platform",
-      "Sources": 1,
-      "Errors": []
-    },
-    {
-      "Assembly": "ZQXNXS.ARPet.UI",
-      "Sources": 1,
-      "Errors": []
-    },
-    {
-      "Assembly": "ZQXNXS.ARPet.Persistence",
-      "Sources": 3,
-      "Errors": []
-    },
-    {
-      "Assembly": "ZQXNXS.ARPet.App",
-      "Sources": 1,
-      "Errors": []
-    },
-    {
-      "Assembly": "ZQXNXS.ARPet.EditorTools",
-      "Sources": 1,
-      "Errors": []
-    },
-    {
-      "Assembly": "ZQXNXS.ARPet.Tests.EditMode",
-      "Sources": 4,
-      "Errors": []
-    },
-    {
-      "Assembly": "ZQXNXS.ARPet.Core.DeviceCheck",
       "Sources": 5,
       "Errors": []
     },
     {
-      "Assembly": "ZQXNXS.ARPet.Pet.DeviceCheck",
+      "Assembly": "ZQXNXS.ARPet.AR",
+      "Sources": 5,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.Presentation",
       "Sources": 4,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.Platform",
+      "Sources": 6,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.UI",
+      "Sources": 3,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.Persistence",
+      "Sources": 4,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.App",
+      "Sources": 4,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.EditorTools",
+      "Sources": 8,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.Tests.EditMode",
+      "Sources": 20,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.Core.DeviceCheck",
+      "Sources": 7,
+      "Errors": []
+    },
+    {
+      "Assembly": "ZQXNXS.ARPet.Pet.DeviceCheck",
+      "Sources": 7,
       "Errors": []
     },
     {
       "Assembly": "ZQXNXS.ARPet.Interaction.DeviceCheck",
-      "Sources": 3,
+      "Sources": 5,
       "Errors": []
     },
     {
       "Assembly": "ZQXNXS.ARPet.AR.DeviceCheck",
-      "Sources": 4,
+      "Sources": 5,
       "Errors": []
     },
     {
       "Assembly": "ZQXNXS.ARPet.Presentation.DeviceCheck",
-      "Sources": 1,
+      "Sources": 4,
       "Errors": []
     },
     {
       "Assembly": "ZQXNXS.ARPet.Platform.DeviceCheck",
-      "Sources": 1,
+      "Sources": 6,
       "Errors": []
     },
     {
       "Assembly": "ZQXNXS.ARPet.UI.DeviceCheck",
-      "Sources": 1,
-      "Errors": []
-    },
-    {
-      "Assembly": "ZQXNXS.ARPet.Persistence.DeviceCheck",
       "Sources": 3,
       "Errors": []
     },
     {
+      "Assembly": "ZQXNXS.ARPet.Persistence.DeviceCheck",
+      "Sources": 4,
+      "Errors": []
+    },
+    {
       "Assembly": "ZQXNXS.ARPet.App.DeviceCheck",
-      "Sources": 1,
+      "Sources": 4,
       "Errors": []
     },
     {
       "Assembly": "ZQXNXS.ARPet.EditorTools.DeviceCheck",
-      "Sources": 1,
+      "Sources": 8,
       "Errors": []
     },
     {
@@ -144,10 +144,10 @@
       "Errors": []
     }
   ],
-  "RuleTestCount": 83,
-  "IntegrationCheckCount": 23,
-  "Passed": 106,
-  "Failed": 0,
+  "RuleTestCount": 254,
+  "IntegrationCheckCount": 19,
+  "Passed": 248,
+  "Failed": 25,
   "Results": [
     {
       "Name": "BehaviorStateMachineTests.ConfiguredDefault_CannotBypassInteractionOrAnimationReadiness(Eating)",
@@ -160,47 +160,7 @@
       "Error": null
     },
     {
-      "Name": "BehaviorStateMachineTests.Eating_IsNotInterruptedByAnotherFeed()",
-      "Passed": true,
-      "Error": null
-    },
-    {
-      "Name": "BehaviorStateMachineTests.Eating_SettlesHungerOnce_ThenReturnsToIdle()",
-      "Passed": true,
-      "Error": null
-    },
-    {
-      "Name": "BehaviorStateMachineTests.EventIds_AreScopedToKindAndSource()",
-      "Passed": true,
-      "Error": null
-    },
-    {
-      "Name": "BehaviorStateMachineTests.Feed_IsAccepted_AndEntersEating()",
-      "Passed": true,
-      "Error": null
-    },
-    {
-      "Name": "BehaviorStateMachineTests.Interrupt_DoesNotApplySettledDelta()",
-      "Passed": true,
-      "Error": null
-    },
-    {
-      "Name": "BehaviorStateMachineTests.InvalidOneShotDuration_CannotStartAnUnfinishableEat(0)",
-      "Passed": true,
-      "Error": null
-    },
-    {
-      "Name": "BehaviorStateMachineTests.InvalidOneShotDuration_CannotStartAnUnfinishableEat(-1)",
-      "Passed": true,
-      "Error": null
-    },
-    {
-      "Name": "BehaviorStateMachineTests.InvalidOneShotDuration_CannotStartAnUnfinishableEat(∞)",
-      "Passed": true,
-      "Error": null
-    },
-    {
-      "Name": "BehaviorStateMachineTests.OneShotPerSecondEffects_StopAtCompletionEvenWithLargeDelta()",
+      "Name": "BehaviorStateMachineTests.OnlyBehaviorsInAnimatorStates_AreSelectable()",
       "Passed": true,
       "Error": null
     },
@@ -210,42 +170,22 @@
       "Error": null
     },
     {
-      "Name": "BehaviorStateMachineTests.PetEvent_IsRefused_WhenAnimationIsMissing()",
+      "Name": "BehaviorStateMachineTests.PetEvent_IsAccepted_AndScoresOnceAccordingToGesture()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "BehaviorStateMachineTests.Presenter_ReceivesEatAnimationName()",
+      "Name": "BehaviorStateMachineTests.RepeatedOrStaleEventIds_AreNeverAcceptedTwice()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "BehaviorStateMachineTests.Presenter_ReceivesResolvedConfigAnimationName(CustomEat,CustomEat)",
+      "Name": "BehaviorStateMachineTests.RepeatedStart_DoesNotDiscardRunningBehavior()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "BehaviorStateMachineTests.Presenter_ReceivesResolvedConfigAnimationName(,Eating)",
-      "Passed": true,
-      "Error": null
-    },
-    {
-      "Name": "BehaviorStateMachineTests.RejectedTouch_DoesNotBlockSubsequentFeedSequence()",
-      "Passed": true,
-      "Error": null
-    },
-    {
-      "Name": "BehaviorStateMachineTests.RepeatedStart_DoesNotDiscardRunningEat()",
-      "Passed": true,
-      "Error": null
-    },
-    {
-      "Name": "BehaviorStateMachineTests.SameEventId_IsRejected_SoOneApproachSettlesOnce()",
-      "Passed": true,
-      "Error": null
-    },
-    {
-      "Name": "BehaviorStateMachineTests.StaleEventId_IsRejected()",
+      "Name": "BehaviorStateMachineTests.SameEventId_FromDifferentPets_AreTrackedAsSeparateStreams()",
       "Passed": true,
       "Error": null
     },
@@ -255,92 +195,167 @@
       "Error": null
     },
     {
-      "Name": "BehaviorStateMachineTests.UnanimatedBehaviors_AreNotSelectable()",
+      "Name": "ExclusiveAnimationTests.RealModel_PlaysExclusiveThenReturnsToIdle(Classic,classic_proud,2)",
+      "Passed": false,
+      "Error": "System.Exception:  Expected not null, got \r\n   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message)\r\n   at ZQXNXS.ARPet.Tests.ExclusiveAnimationTests.RealModel_PlaysExclusiveThenReturnsToIdle(PetVariantId variant, String state, Single duration)\r\n   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)\r\n   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)"
+    },
+    {
+      "Name": "ExclusiveAnimationTests.RealModel_PlaysExclusiveThenReturnsToIdle(Calm,calm_zen,2.5)",
+      "Passed": false,
+      "Error": "System.Exception:  Expected not null, got \r\n   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message)\r\n   at ZQXNXS.ARPet.Tests.ExclusiveAnimationTests.RealModel_PlaysExclusiveThenReturnsToIdle(PetVariantId variant, String state, Single duration)\r\n   at InvokeStub_ExclusiveAnimationTests.RealModel_PlaysExclusiveThenReturnsToIdle(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)"
+    },
+    {
+      "Name": "ExclusiveAnimationTests.RealModel_PlaysExclusiveThenReturnsToIdle(Rage,rage_roar,2)",
+      "Passed": false,
+      "Error": "System.Exception:  Expected not null, got \r\n   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message)\r\n   at ZQXNXS.ARPet.Tests.ExclusiveAnimationTests.RealModel_PlaysExclusiveThenReturnsToIdle(PetVariantId variant, String state, Single duration)\r\n   at InvokeStub_ExclusiveAnimationTests.RealModel_PlaysExclusiveThenReturnsToIdle(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)"
+    },
+    {
+      "Name": "ExclusiveAnimationTests.RealModel_PlaysExclusiveThenReturnsToIdle(Divine,divine_awaken,2.5)",
+      "Passed": false,
+      "Error": "System.Exception:  Expected not null, got \r\n   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message)\r\n   at ZQXNXS.ARPet.Tests.ExclusiveAnimationTests.RealModel_PlaysExclusiveThenReturnsToIdle(PetVariantId variant, String state, Single duration)\r\n   at InvokeStub_ExclusiveAnimationTests.RealModel_PlaysExclusiveThenReturnsToIdle(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)"
+    },
+    {
+      "Name": "ExclusiveAnimationTests.RevisedMesh_PreservesMoreThanFourInfluences()",
+      "Passed": false,
+      "Error": "System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at ZQXNXS.ARPet.Tests.ExclusiveAnimationTests.RevisedMesh_PreservesMoreThanFourInfluences()\r\n   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+    },
+    {
+      "Name": "ExclusiveAnimationTests.SharedLaugh_DrivesSpineAndHeadThenReturnsToIdle()",
+      "Passed": false,
+      "Error": "System.InvalidOperationException: Sequence contains no matching element\r\n   at System.Linq.ThrowHelper.ThrowNoMatchException()\r\n   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)\r\n   at ZQXNXS.ARPet.Tests.ExclusiveAnimationTests.SharedLaugh_DrivesSpineAndHeadThenReturnsToIdle()\r\n   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+    },
+    {
+      "Name": "FourCardTrackingSceneTests.EachTarget_CarriesItsOwnVariantPet_HiddenUntilTracked()",
+      "Passed": false,
+      "Error": "System.Exception: 缺少 04_FourCardTracking，运行菜单 8 生成\r\n   at NUnit.Framework.Assert.IsTrue(Boolean value, String message)\r\n   at ZQXNXS.ARPet.Tests.FourCardTrackingSceneTests.OpenScene()\r\n   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+    },
+    {
+      "Name": "FourCardTrackingSceneTests.EveryCatalogTarget_IsARootImageTargetWithDatabaseSize()",
+      "Passed": false,
+      "Error": "System.Exception: 缺少 04_FourCardTracking，运行菜单 8 生成\r\n   at NUnit.Framework.Assert.IsTrue(Boolean value, String message)\r\n   at ZQXNXS.ARPet.Tests.FourCardTrackingSceneTests.OpenScene()\r\n   at InvokeStub_FourCardTrackingSceneTests.OpenScene(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+    },
+    {
+      "Name": "FourCardTrackingSceneTests.MainScene_IsStillTheDefaultBuildScene()",
+      "Passed": false,
+      "Error": "System.Exception: 缺少 04_FourCardTracking，运行菜单 8 生成\r\n   at NUnit.Framework.Assert.IsTrue(Boolean value, String message)\r\n   at ZQXNXS.ARPet.Tests.FourCardTrackingSceneTests.OpenScene()\r\n   at InvokeStub_FourCardTrackingSceneTests.OpenScene(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+    },
+    {
+      "Name": "FourCardTrackingSceneTests.VuforiaConfig_AllowsFourSimultaneousImageTargets()",
+      "Passed": false,
+      "Error": "System.Exception: 缺少 04_FourCardTracking，运行菜单 8 生成\r\n   at NUnit.Framework.Assert.IsTrue(Boolean value, String message)\r\n   at ZQXNXS.ARPet.Tests.FourCardTrackingSceneTests.OpenScene()\r\n   at InvokeStub_FourCardTrackingSceneTests.OpenScene(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+    },
+    {
+      "Name": "FrameStatsTests.FramesSlowerThanTarget_AreCountedAsSlow()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "FeedingRuleTests.DenCardLost_RequiresFullDwellAgain()",
+      "Name": "FrameStatsTests.LongGap_FromPause_IsDiscardedNotCountedAsStutter()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "FeedingRuleTests.ExactDistanceAndHeightLimits_AreAccepted()",
+      "Name": "FrameStatsTests.SteadySixtyFps_ReportsSixty_AndNoSlowFrames()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "FeedingRuleTests.ExactRearmDistance_DoesNotUnlockUntilExceeded()",
+      "Name": "HappyCycleTests.ConfirmWhileCooldownRuns_OnlyPlaysTouchReact_AndWaits()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "FeedingRuleTests.FoodCardLost_ResetsDwellTimer()",
+      "Name": "HappyCycleTests.CooldownFreezesWhenBehaviorClockIsNotTicked()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "FeedingRuleTests.InRange_ForRequiredDwell_ProducesExactlyOneEvent()",
+      "Name": "HappyCycleTests.FullDuringCooldown_PendsOneAutoStart_ThenStartsOnceWhenCooldownEnds()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "FeedingRuleTests.LeavingAndReturning_ProducesSecondEvent()",
+      "Name": "HappyCycleTests.HappinessDoesNotDecay_OnlineOrOffline()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "FeedingRuleTests.LostCard_DoesNotRearmSettledPlacement(Den)",
+      "Name": "HappyCycleTests.InterruptedExclusive_ConsumesEligibility_ButDoesNotCountAsWatched()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "FeedingRuleTests.LostCard_DoesNotRearmSettledPlacement(Food)",
+      "Name": "HappyCycleTests.LoadAtFullValue_DoesNotAutoStart_FirstTapConfirms()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "FeedingRuleTests.NonDirectTracking_NeitherCompletesDwellNorRearms(ExtendedTracked)",
+      "Name": "HappyCycleTests.MissingExclusiveState_DisablesOnlyExclusive()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "FeedingRuleTests.NonDirectTracking_NeitherCompletesDwellNorRearms(Limited)",
+      "Name": "HappyCycleTests.MissingTouchReact_DisablesOnlyPetted()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "FeedingRuleTests.NonDirectTracking_NeitherCompletesDwellNorRearms(Paused)",
+      "Name": "HappyCycleTests.ReachingFullValue_StartsExclusiveAtomically_ThenCompletes(Classic,pet_classic,0.7,8,classic_proud,2)",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "FeedingRuleTests.StaleFarPose_DoesNotProveExit()",
+      "Name": "HappyCycleTests.ReachingFullValue_StartsExclusiveAtomically_ThenCompletes(Calm,pet_calm,0.75,8,calm_zen,2.5)",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "FeedingRuleTests.StalePose_BlocksSettlement()",
+      "Name": "HappyCycleTests.ReachingFullValue_StartsExclusiveAtomically_ThenCompletes(Rage,pet_rage,0.65,6,rage_roar,2)",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "FeedingRuleTests.StayingInZone_DoesNotProduceSecondEvent_EvenAfterCooldown()",
+      "Name": "HappyCycleTests.ReachingFullValue_StartsExclusiveAtomically_ThenCompletes(Divine,pet_divine,0.65,12,divine_awaken,2.5)",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "FeedingRuleTests.SuspendDwell_PreservesExitLock()",
+      "Name": "HappyCycleTests.RestoreClampsCooldownAndRejectsUnknownCycleState()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "FeedingRuleTests.TooFarHorizontally_ProducesNothing()",
+      "Name": "HappyCycleTests.TapGains_MatchVariantTuning_AndDoubleTapNeverAddsSingle(Classic,pet_classic,0.06,0.1)",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "FeedingRuleTests.TooHigh_ProducesNothing()",
+      "Name": "HappyCycleTests.TapGains_MatchVariantTuning_AndDoubleTapNeverAddsSingle(Calm,pet_calm,0.04,0.07)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "HappyCycleTests.TapGains_MatchVariantTuning_AndDoubleTapNeverAddsSingle(Rage,pet_rage,0.08,0.12)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "HappyCycleTests.TapGains_MatchVariantTuning_AndDoubleTapNeverAddsSingle(Divine,pet_divine,0.06,0.1)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "HappyCycleTests.TappingOnePet_DoesNotChangeTheOther()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "HappyCycleTests.TapsAtFullValue_NeverScoreAgainOrStartASecondExclusive()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "HappyCycleTests.UnknownVariant_FallsBackToClassicTuning()",
       "Passed": true,
       "Error": null
     },
@@ -351,6 +366,41 @@
     },
     {
       "Name": "InteractionPipeTests.EventsPassThroughWhenArAvailable()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "MainSceneWiringTests.AppRoot_UsesRealTrackingAndWiredPresentation()",
+      "Passed": false,
+      "Error": "System.Exception: Expected non-null\r\n   at NUnit.Framework.Assert.IsTrue(Boolean value, String message)\r\n   at NUnit.Framework.Assert.IsNotNull(Object value, String message)\r\n   at ZQXNXS.ARPet.Tests.MainSceneWiringTests.AppRoot_UsesRealTrackingAndWiredPresentation()\r\n   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+    },
+    {
+      "Name": "MainSceneWiringTests.DiagnosticUi_HasSafeAreaEventSystemAndReadOnlyStateSource()",
+      "Passed": false,
+      "Error": "System.Exception: Expected non-null\r\n   at NUnit.Framework.Assert.IsTrue(Boolean value, String message)\r\n   at NUnit.Framework.Assert.IsNotNull(Object value, String message)\r\n   at ZQXNXS.ARPet.Tests.MainSceneWiringTests.DiagnosticUi_HasSafeAreaEventSystemAndReadOnlyStateSource()\r\n   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+    },
+    {
+      "Name": "MainSceneWiringTests.EveryCatalogTarget_IsRootImageTargetWithDatabaseSize()",
+      "Passed": false,
+      "Error": "System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\\ZengQiangXianShi\\Assets\\StreamingAssets\\Vuforia\\ZQXS.xml'.\r\n   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)\r\n   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)\r\n   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)\r\n   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)\r\n   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy)\r\n   at System.Xml.XmlTextReaderImpl.OpenUrl()\r\n   at System.Xml.XmlTextReaderImpl.Read()\r\n   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)\r\n   at System.Xml.XmlDocument.Load(XmlReader reader)\r\n   at System.Xml.XmlDocument.Load(String filename)\r\n   at ZQXNXS.ARPet.Tests.MainSceneWiringTests.LoadXmlSizes()\r\n   at ZQXNXS.ARPet.Tests.MainSceneWiringTests.EveryCatalogTarget_IsRootImageTargetWithDatabaseSize()\r\n   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+    },
+    {
+      "Name": "MainSceneWiringTests.MainScene_IsTheEnabledBuildScene()",
+      "Passed": false,
+      "Error": "System.Exception:  Expected 1, got 0\r\n   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message)\r\n   at ZQXNXS.ARPet.Tests.MainSceneWiringTests.MainScene_IsTheEnabledBuildScene()\r\n   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+    },
+    {
+      "Name": "MainSceneWiringTests.Pets_AreAnchoredToOwnCards_WithExportCoordinateOrientation()",
+      "Passed": false,
+      "Error": "System.Exception: 02_Main 缺少 Target_card_classic\r\n   at NUnit.Framework.Assert.IsTrue(Boolean value, String message)\r\n   at NUnit.Framework.Assert.IsNotNull(Object value, String message)\r\n   at ZQXNXS.ARPet.Tests.MainSceneWiringTests.Pets_AreAnchoredToOwnCards_WithExportCoordinateOrientation()\r\n   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+    },
+    {
+      "Name": "MainSceneWiringTests.Scene_HasNoLegacyDenFoodTargetsOrObserverHandlers()",
+      "Passed": false,
+      "Error": "System.Exception: 02_Main 尚未接四色多宠，先运行菜单 5\r\n   at NUnit.Framework.Assert.IsTrue(Boolean value, String message)\r\n   at NUnit.Framework.Assert.IsNotNull(Object value, String message)\r\n   at ZQXNXS.ARPet.Tests.MainSceneWiringTests.Scene_HasNoLegacyDenFoodTargetsOrObserverHandlers()\r\n   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+    },
+    {
+      "Name": "PersistenceTests.BothVersionsPresent_V2WinsAndLegacyIsIgnored()",
       "Passed": true,
       "Error": null
     },
@@ -370,6 +420,16 @@
       "Error": null
     },
     {
+      "Name": "PersistenceTests.CycleFields_RoundTripThroughSaveFile()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PersistenceTests.DuplicateAndIllegalPetIds_AreDroppedOnLoad()",
+      "Passed": true,
+      "Error": null
+    },
+    {
       "Name": "PersistenceTests.ExplicitDeletion_RemovesAllRecoveryCandidates()",
       "Passed": true,
       "Error": null
@@ -381,6 +441,31 @@
     },
     {
       "Name": "PersistenceTests.FailedWrite_PreservesOldFileAndLastSuccessfulTimestamp()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PersistenceTests.FutureSchemaSave_IsReadOnlyAndNeverOverwritten()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PersistenceTests.LegacyFullHappiness_IsMigratedAsPendingConfirm()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PersistenceTests.LegacyOnlySave_IsMigratedToV2_AndV1FileIsUntouched()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PersistenceTests.LegacyValues_AreSanitisedAndLegacyFieldsAreNotCarriedIntoV2()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PersistenceTests.MissingPetInSave_GetsConfigDefaults_AndIsAppendedOnWrite()",
       "Passed": true,
       "Error": null
     },
@@ -400,7 +485,7 @@
       "Error": null
     },
     {
-      "Name": "PersistenceTests.SaveRestoreAndNextSession_PreserveCountsUnlocksAndTotalTime()",
+      "Name": "PersistenceTests.SaveRestoreAndNextSession_PreserveValues()",
       "Passed": true,
       "Error": null
     },
@@ -410,17 +495,52 @@
       "Error": null
     },
     {
+      "Name": "PersistenceTests.TwoDirtyPets_WriteOnceWithinThrottle_WithBothEntries()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PersistenceTests.UnknownPetEntry_IsPreservedOnWriteBack()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PersistenceTests.V2EntryWithoutCycleFields_LoadsAsArmed()",
+      "Passed": true,
+      "Error": null
+    },
+    {
       "Name": "PersistenceTests.ValidPrimary_WinsOverUncommittedTemporaryFile()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "PetNeedsTests.Apply_ClampsToUnitRange()",
+      "Name": "PetIdentityTests.DefaultCatalog_HasFourUniqueStableBindings()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "PetNeedsTests.DefaultPetConfig_CanFeedWithDwellAndCooldown()",
+      "Name": "PetIdentityTests.InvalidCharacters_AreRejectedFromStableIds()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetIdentityTests.SortedCopy_IsDeterministicAndDoesNotMutateSource()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetIdentityTests.Validation_RejectsDuplicatePetOrTargetIds()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetNeedsTests.Apply_ClampsHappinessToUnitRange()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetNeedsTests.Apply_IgnoresLegacyHungerAndEnergy()",
       "Passed": true,
       "Error": null
     },
@@ -430,17 +550,12 @@
       "Error": null
     },
     {
-      "Name": "PetNeedsTests.MinuteOfSmallFrameDeltas_AccumulatesInAllNeeds(30)",
+      "Name": "PetNeedsTests.MinuteOfSmallFrameDeltas_AccumulatesHappiness(30)",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "PetNeedsTests.MinuteOfSmallFrameDeltas_AccumulatesInAllNeeds(60)",
-      "Passed": true,
-      "Error": null
-    },
-    {
-      "Name": "PetNeedsTests.OfflineDecay_HasCorrectDirectionsAndRemainsDirty()",
+      "Name": "PetNeedsTests.MinuteOfSmallFrameDeltas_AccumulatesHappiness(60)",
       "Passed": true,
       "Error": null
     },
@@ -450,12 +565,17 @@
       "Error": null
     },
     {
+      "Name": "PetNeedsTests.OfflineDecay_KeepsDirectionAndRemainsDirty()",
+      "Passed": true,
+      "Error": null
+    },
+    {
       "Name": "PetNeedsTests.RestoreAndUpdate_PreservesAllInteractionCounts()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "PetNeedsTests.RestoreFrom_SanitisesNanAndOutOfRangeValues()",
+      "Name": "PetNeedsTests.RestoreFrom_SanitisesNanAndOutOfRangeHappiness()",
       "Passed": true,
       "Error": null
     },
@@ -465,12 +585,642 @@
       "Error": null
     },
     {
+      "Name": "PetPresenterAnimatorTests.Controller_HasIdleAndEatStates_WithCorrectLoopFlagsAndDurations()",
+      "Passed": false,
+      "Error": "System.Exception: 未找到 Assets/_Project/Animations/Pet01Controller.controller，请先运行菜单“桌上有龙 / 3. 接入角色材质与 Animator”。 Assumption failed: expected not null, got \r\n   at NUnit.Framework.Assume.That(Object actual, Constraint constraint, String message)\r\n   at ZQXNXS.ARPet.Tests.PetPresenterAnimatorTests.SetUp()\r\n   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+    },
+    {
+      "Name": "PetPresenterAnimatorTests.PlayBehavior_EatThenIdle_DrivesRealStateTransitions()",
+      "Passed": false,
+      "Error": "System.Exception: 未找到 Assets/_Project/Animations/Pet01Controller.controller，请先运行菜单“桌上有龙 / 3. 接入角色材质与 Animator”。 Assumption failed: expected not null, got \r\n   at NUnit.Framework.Assume.That(Object actual, Constraint constraint, String message)\r\n   at ZQXNXS.ARPet.Tests.PetPresenterAnimatorTests.SetUp()\r\n   at InvokeStub_PetPresenterAnimatorTests.SetUp(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+    },
+    {
+      "Name": "PetPresenterAnimatorTests.PlayBehavior_Idle_ActuallyEntersIdleState()",
+      "Passed": false,
+      "Error": "System.Exception: 未找到 Assets/_Project/Animations/Pet01Controller.controller，请先运行菜单“桌上有龙 / 3. 接入角色材质与 Animator”。 Assumption failed: expected not null, got \r\n   at NUnit.Framework.Assume.That(Object actual, Constraint constraint, String message)\r\n   at ZQXNXS.ARPet.Tests.PetPresenterAnimatorTests.SetUp()\r\n   at InvokeStub_PetPresenterAnimatorTests.SetUp(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+    },
+    {
+      "Name": "PetPresenterAnimatorTests.PlayBehavior_UnknownStateName_LogsWarning_AndDoesNotThrow()",
+      "Passed": false,
+      "Error": "System.Exception: 未找到 Assets/_Project/Animations/Pet01Controller.controller，请先运行菜单“桌上有龙 / 3. 接入角色材质与 Animator”。 Assumption failed: expected not null, got \r\n   at NUnit.Framework.Assume.That(Object actual, Constraint constraint, String message)\r\n   at ZQXNXS.ARPet.Tests.PetPresenterAnimatorTests.SetUp()\r\n   at InvokeStub_PetPresenterAnimatorTests.SetUp(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+    },
+    {
+      "Name": "PetPresenterExpressionTests.BehaviorMapping_ExclusiveUsesSignature_SocialUsesVeryHappy()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetPresenterExpressionTests.CoverMaterials_SwapInOnlyWhileTheirPatchIsShown()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetPresenterExpressionTests.FourPets_SharingOneMaterial_KeepTheirOwnExpression()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetPresenterExpressionTests.MissingLayout_IsSafe_AndShowsNothing()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetPresenterExpressionTests.SetExpression_SelectsCellViaPropertyBlock_AndShowsOnlyUsedPatches()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetPresenterExpressionTests.Table_SharedExpressions_AreTheSameForEveryVariant()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetPresenterExpressionTests.Table_SignatureFollowsVariant_AndRoarNeverUsesSmile()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetPresenterExpressionTests.TrackingHidden_KeepsPatchesOff_AndRecoveryRestoresOnlyActiveOnes()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetPresenterVisibilityTests.SetInteractable_TogglesCollidersInSubtree()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetPresenterVisibilityTests.SetTrackingVisibility_TogglesRenderers_WithoutDeactivatingTheObject()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetSessionTests.DuplicateIdentities_AreRejectedAtConstruction()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetSessionTests.EventForLostPet_IsRejectedBeforeReachingBehavior()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetSessionTests.Events_AreRoutedToOwningPetOnly()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetSessionTests.GlobalTrackingStop_MakesEveryPetNonInteractable()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetSessionTests.LimitedTracking_KeepsPetVisible_ButBlocksInteraction()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetSessionTests.LostPet_FreezesBehaviorClock_ButKeepsDecayingHappiness()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetSessionTests.OnePetLost_DoesNotAffectTheOther_AndKeepsRuntimeInstance()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetSessionTests.PauseAll_InterruptsAndHidesEveryPet_WithoutRebuildingRuntime()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetSessionTests.PetWithUnregisteredTarget_IsSkipped_OthersStillRun()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetSessionTests.RecoveredPet_ReturnsToTracking_WithSameRuntimeAndVisibility()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetSessionTests.Select_ChangesUiFocusWithoutScoring()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetSessionTests.TwoPets_AreAssembledWithIndependentTracking()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetSessionTests.UnknownPetId_IsRejectedWithoutTouchingAnyPet()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetStatusPanelFormattingTests.FormatBehavior_DistinguishesBusyHappyAndPendingConfirm()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetStatusPanelFormattingTests.Percent_FormatsWithPercentSign()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetStatusPanelFormattingTests.PercentValue_FloorsToWholePercent(0.999,99)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetStatusPanelFormattingTests.PercentValue_FloorsToWholePercent(1,100)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetStatusPanelFormattingTests.PercentValue_FloorsToWholePercent(0.06,6)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetStatusPanelFormattingTests.PercentValue_FloorsToWholePercent(0,0)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetStatusPanelFormattingTests.PercentValue_FloorsToWholePercent(-0.5,0)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "PetStatusPanelFormattingTests.PercentValue_FloorsToWholePercent(NaN,0)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.EnterDwell_BelowThreshold_IsNotQualified()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.EnterDwell_LeavingEnterZone_RestartsAccumulation()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.EnterDwell_ReachesThreshold_IsQualified()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.EnterTimer_IsClearedByHysteresisBandToo()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.ExitDwell_HeldLongEnough_SeparatesAndUnlocks()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.ExitDwell_ShortOfThreshold_DoesNotUnlock()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.FourPets_ProduceSixPairsInStableOrder()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.HysteresisBand_ClearsBothTimers_AndIsNotSeparated()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.InvalidDeltaTime_DoesNotAdvanceDwell()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.LockGroup_IgnoresDegenerateInput()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.LockGroup_LocksEveryPairInsideGroup()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.Measure_DetectsExitZoneOnlyBeyondExitDistance()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.Measure_FlatCardsFifteenCentimetersApart_AreInEnterZone()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.Measure_RaisedCard_ExceedsHeightTolerance()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.Measure_SameTiltedPlane_StillEnters()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.Measure_UprightCard_ExceedsNormalAngle()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.NoInput_ClearsQualificationWithoutThrowing()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.ResetDwell_RequiresAnotherFullDwell()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.ResetTransient_ClearsTimersButKeepsLock()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.SinglePet_ProducesNoPairs()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.StartupAlreadyTouching_LocksUntilSeparatedAndReapproached()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.StartupAlreadyTouching_OnlyJudgedOncePerPair()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.TryGetMeasure_ReportsLastGeometryForDebugging()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "ProximityRuleTests.UnusablePet_ClearsFlagsButKeepsLock()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.AfterABC_NewPartnerOnlyFormsGroupWithFirstMergedPair()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.AutoStartRequest_DoesNotInterruptSocial_ButRunsAfterwards()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.BusyMember_BlocksWholeGroup_ThenStartsWhenItReturnsIdle()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.BusyMemberBeyondCandidateHold_IsDroppedWithoutStarting()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.CancelAll_CancelsSessionsWithoutCountingWatched()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.CancelAll_ClearsWaitingCandidate()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.ChainOfPairs_FormsOneThreePetSession()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.CooldownExpiredButPairStillLocked_DoesNotReplay()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.EachPair_StartsOneTwoPetSessionInTheSameFrame(pet_calm,pet_classic)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.EachPair_StartsOneTwoPetSessionInTheSameFrame(pet_calm,pet_divine)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.EachPair_StartsOneTwoPetSessionInTheSameFrame(pet_calm,pet_rage)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.EachPair_StartsOneTwoPetSessionInTheSameFrame(pet_classic,pet_divine)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.EachPair_StartsOneTwoPetSessionInTheSameFrame(pet_classic,pet_rage)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.EachPair_StartsOneTwoPetSessionInTheSameFrame(pet_divine,pet_rage)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.ExternalInterruptOfOneMember_CancelsWholeSession()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.FullyConnectedPets_FormOneFourPetSession()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.MemberLost_CancelsWholeSession_WithoutCountingWatched()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.MemberSeparated_CancelsWholeSession()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.MissingSocialLaugh_ExcludesOnlyThatPet()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.NaturalCompletion_CountsWatchedExactlyOncePerMember()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.NegativeSocialWatchedCount_IsSanitisedOnRestore()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.NewPartnerWithinCooldown_WaitsThenStartsAfterFiveSeconds()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.PendingAutoRequest_OutranksSocial()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.PetPair_OrdersMembersByOrdinalAndComparesByValue()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.PetPair_RejectsEmptyAndIdenticalIds()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.ReadingFullValuePendingConfirm_DoesNotBlockSocial()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.SaveRoundTrip_KeepsSocialWatchedCount()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.SocialTuning_FallsBackToDefaultsAndKeepsHysteresis()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.TapDuringSocial_IsRefusedWithoutScoring()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.TwoDisjointGroups_StartTwoSeparateSessions()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialCoordinatorTests.V2EntryWithoutSocialWatchedCount_LoadsAsZero()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialSessionTests.AlreadyTouchingAtStartup_DoesNotStart_UntilSeparatedAndReapproached()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialSessionTests.ApproachAndHold_StartsOneSession_CountsOnce_AndDoesNotReplayWhileLocked()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialSessionTests.ChainOfThreePets_FormsOneThreePetSession()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialSessionTests.MemberLost_CancelsWholeSession_WithoutCounting_AndRecoveryDoesNotReplay()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialSessionTests.PauseAll_CancelsSocial_AndDoesNotRestartAfterResume()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialSessionTests.SinglePet_HasSocialComponentsButNoPairs()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "SocialSessionTests.TapDuringSocial_IsRefusedWithoutScoring()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "StubTrackingSourceTests.DuplicateTargetId_KeepsFirstEntryAndReportsError()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "StubTrackingSourceTests.GlobalSimulatedStatus_OverridesEveryTarget()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "StubTrackingSourceTests.PerTargetSimulatedStatus_IsIndependentAndPoseComesFromOwnProxy()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "StubTrackingSourceTests.UnregisteredTargetId_IsAnsweredAsLostWithoutThrowing()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TapGestureRecognizerTests.Cancel_DropsPendingSingle_WithoutReplay()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TapGestureRecognizerTests.CancelAll_DropsEveryPendingSingle()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TapGestureRecognizerTests.CancelUnavailable_DropsOnlyThePetsThatCannotBeTouched()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TapGestureRecognizerTests.EventIds_IncreaseStrictlyPerPet_AcrossSinglesAndDoubles()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TapGestureRecognizerTests.GapJustUnderWindow_IsDouble_GapJustOver_IsTwoSingles()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TapGestureRecognizerTests.NonFiniteClock_DoesNotOpenAWindow()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TapGestureRecognizerTests.SecondTapInsideWindow_EmitsOneDoubleTap_AndNoSingleTap()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TapGestureRecognizerTests.SingleTap_IsEmittedOnlyAfterWindowExpires()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TapGestureRecognizerTests.TapsOnDifferentPets_NeverBecomeDoubleTap()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TapGestureRecognizerTests.ThirdTap_OpensNewWindow_WithoutSecondDoubleTap()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TapGestureRecognizerTests.Tick_WhenPetBecameUnavailable_DropsPendingSingle()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TapGestureSessionTests.Backgrounding_DropsPendingTapInsteadOfReplayingIt()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TapGestureSessionTests.DoubleTap_AddsOnlyTheDoubleGainOnce()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TapGestureSessionTests.PetLostDuringWindow_ScoresNothing()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TapGestureSessionTests.TapDuringTouchReact_IsRefusedByBehaviorLayer_WithoutScoring()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TapGestureSessionTests.TappingClassic_DoesNotChangeCalm()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TouchInputBridgeTests.ColliderPresent_TakesPriorityOverRadiusApproximation()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TouchInputBridgeTests.DisabledHitTarget_IsSkipped()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TouchInputBridgeTests.NearestHitTarget_Wins()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TouchInputBridgeTests.NoCameraAssigned_AndNoMainCamera_ReturnsFalseWithoutThrowing()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TouchInputBridgeTests.NoHitTarget_NeverHits()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TouchInputBridgeTests.RadiusApproximation_MissesWhenOriginBehindCamera()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TouchInputBridgeTests.RadiusApproximation_MissesWhenPointerFarFromOrigin()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TouchInputBridgeTests.RadiusApproximation_ReturnsMatchingPetId()",
+      "Passed": true,
+      "Error": null
+    },
+    {
       "Name": "TouchPokeRuleTests.CancelledPointer_IsNotReplayedAfterTrackingRecovers()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "TouchPokeRuleTests.LongPress_DoesNotProduceEvent()",
+      "Name": "TouchPokeRuleTests.LongPress_DoesNotQualify()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TouchPokeRuleTests.LowDpi_KeepsPixelFloor()",
       "Passed": true,
       "Error": null
     },
@@ -480,27 +1230,37 @@
       "Error": null
     },
     {
-      "Name": "TouchPokeRuleTests.SecondTapWithinCooldown_IsIgnored()",
+      "Name": "TouchPokeRuleTests.Swipe_DoesNotQualify()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "TouchPokeRuleTests.Swipe_DoesNotProduceEvent()",
+      "Name": "TouchPokeRuleTests.TapOnPet_IsQualified()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "TouchPokeRuleTests.TapOnPet_ProducesEvent()",
+      "Name": "TouchPokeRuleTests.TapWhenPetInvisible_IsNotQualified()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "TouchPokeRuleTests.TapWhenPetInvisible_IsIgnored()",
+      "Name": "TouchPokeRuleTests.TravelThreshold_UsesDpiWhenItIsHigher()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TouchPokeRuleTests.TwoRapidTaps_AreBothQualified()",
       "Passed": true,
       "Error": null
     },
     {
       "Name": "TrackingStateMachineTests.BeforeFirstDetection_RemainsSearching()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "TrackingStateMachineTests.CanShow_IsWiderThanCanInteract_OnlyForFreshLimited()",
       "Passed": true,
       "Error": null
     },
@@ -563,24 +1323,104 @@
       "Name": "TrackingStateMachineTests.StaleSample_IsNotSettleable()",
       "Passed": true,
       "Error": null
+    },
+    {
+      "Name": "VoiceAssetsTests.EveryCommandSfx_LoadsFromResources()",
+      "Passed": false,
+      "Error": "System.Exception: Expected non-null\r\n   at NUnit.Framework.Assert.IsTrue(Boolean value, String message)\r\n   at NUnit.Framework.Assert.IsNotNull(Object value, String message)\r\n   at ZQXNXS.ARPet.Tests.VoiceAssetsTests.EveryCommandSfx_LoadsFromResources()\r\n   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+    },
+    {
+      "Name": "VoiceAssetsTests.KeywordModel_IsComplete_AndCoversEveryCommand()",
+      "Passed": false,
+      "Error": "System.Exception: 缺少语音模型文件 D:\\ZengQiangXianShi\\Assets\\StreamingAssets\\Voice/kws\\encoder.int8.onnx\r\n   at NUnit.Framework.Assert.IsTrue(Boolean value, String message)\r\n   at ZQXNXS.ARPet.Tests.VoiceAssetsTests.KeywordModel_IsComplete_AndCoversEveryCommand()\r\n   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+    },
+    {
+      "Name": "VoiceAssetsTests.NativeLibraries_ArePresentForAndroidAndEditor()",
+      "Passed": false,
+      "Error": "System.Exception: 缺少原生库 Assets/Plugins/Android/sherpa-onnx/arm64-v8a/libsherpa-onnx-c-api.so\r\n   at NUnit.Framework.Assert.IsTrue(Boolean value, String message)\r\n   at ZQXNXS.ARPet.Tests.VoiceAssetsTests.NativeLibraries_ArePresentForAndroidAndEditor()\r\n   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+    },
+    {
+      "Name": "VoiceAssetsTests.NativeSpotter_RecognisesCommand_AndIgnoresUnrelatedSpeech()",
+      "Passed": false,
+      "Error": "System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\\ZengQiangXianShi\\Assets\\_Project\\Scripts\\Tests\\EditMode\\Fixtures\\voice_leiting_tts.wav'.\r\n   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)\r\n   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)\r\n   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)\r\n   at System.IO.File.ReadAllBytes(String path)\r\n   at ZQXNXS.ARPet.Tests.VoiceAssetsTests.ReadWav(String name)\r\n   at ZQXNXS.ARPet.Tests.VoiceAssetsTests.NativeSpotter_RecognisesCommand_AndIgnoresUnrelatedSpeech()\r\n   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+    },
+    {
+      "Name": "VoiceCommandTests.CommandWithMissingAnimation_IsRefused_OthersStillWork()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "VoiceCommandTests.DefaultCommands_CoverTheFourRecordings_AndAreReady()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "VoiceCommandTests.ExclusiveSfx_FollowsConfig_PerVariant()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "VoiceCommandTests.Rule_BuildsOneEventPerPresentPet_WithIndependentIds()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "VoiceCommandTests.Session_OnlyPetsOnCameraRespond()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "VoiceCommandTests.SocialLaugh_PlaysSfxOnceForTheWholeGroup()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "VoiceCommandTests.UnknownCommand_IsRefused_WithoutScoring()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "VoiceCommandTests.Voice_AddsOneSingleTapGain_AndPlaysTheCommandResponse(Classic,pet_classic,0.06)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "VoiceCommandTests.Voice_AddsOneSingleTapGain_AndPlaysTheCommandResponse(Calm,pet_calm,0.04)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "VoiceCommandTests.Voice_AddsOneSingleTapGain_AndPlaysTheCommandResponse(Rage,pet_rage,0.08)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "VoiceCommandTests.Voice_AddsOneSingleTapGain_AndPlaysTheCommandResponse(Divine,pet_divine,0.06)",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "VoiceCommandTests.Voice_CrossingFullValue_StartsExclusiveInsteadOfReply()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "VoiceCommandTests.Voice_DoesNotShareIdStreamWithTaps()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "VoiceCommandTests.Voice_DuplicateEventId_IsSettledOnce()",
+      "Passed": true,
+      "Error": null
+    },
+    {
+      "Name": "VoiceCommandTests.Voice_DuringBusyOrCooldown_IsRefused_AndScoresNothing()",
+      "Passed": true,
+      "Error": null
     }
   ],
   "IntegrationResults": [
-    {
-      "Name": "IntegrationChecks.App_DenLossClearsPartialDwell()",
-      "Passed": true,
-      "Error": null
-    },
-    {
-      "Name": "IntegrationChecks.App_NewlyAcceptedFeedDoesNotConsumePreviousFrameTime()",
-      "Passed": true,
-      "Error": null
-    },
-    {
-      "Name": "IntegrationChecks.App_PauseWithoutInterveningUpdate_PreservesExitLock()",
-      "Passed": true,
-      "Error": null
-    },
     {
       "Name": "IntegrationChecks.App_UiDebounceDoesNotPermitTouchOnInvalidPose()",
       "Passed": true,
@@ -592,12 +1432,12 @@
       "Error": null
     },
     {
-      "Name": "IntegrationChecks.FreshApp_PreservesConfiguredInitialNeeds()",
+      "Name": "IntegrationChecks.FreshApp_PreservesConfiguredInitialHappiness()",
       "Passed": true,
       "Error": null
     },
     {
-      "Name": "IntegrationChecks.GeneratedSmokeScene_AssignsBothTrackingProxies()",
+      "Name": "IntegrationChecks.GeneratedSmokeScene_AssignsSingleCharacterCardTarget()",
       "Passed": true,
       "Error": null
     },
@@ -608,13 +1448,8 @@
     },
     {
       "Name": "IntegrationChecks.Regeneration_PreservesBothExistingSceneFiles()",
-      "Passed": true,
-      "Error": null
-    },
-    {
-      "Name": "IntegrationChecks.SleepyApp_OnlySlowsIdleAndAllowsFullEatDuration()",
-      "Passed": true,
-      "Error": null
+      "Passed": false,
+      "Error": "System.Exception:  Expected 1, got 3\r\n   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message)\r\n   at ARPet.Validation.IntegrationChecks.Regeneration_PreservesBothExistingSceneFiles()\r\n   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
     },
     {
       "Name": "IntegrationChecks.AndroidPermission_ConcurrentRequestsShareOnePrompt()",

@@ -1,24 +1,19 @@
 # Prefabs — 预制体
 
-**当前目录为空。** 预制体属于编辑器序列化资产，需要 Unity 生成。
+2026-09-21 文件核查：本目录没有 `.prefab`；现有 Pet01 直接接在场景中。新版要求最终四色四只同屏，不能沿用“场景只放一只主模型”的全局限制。现役范围见 [v0.3](../../../../Docs/交互与皮肤扩展设计.md)，资产见 [四色映射](../../../../Docs/四色奶蛙资产映射.md)。
 
-## 计划中的预制体
+## 拟用预制体（尚未生成）
 
-| 预制体 | 内容 | 依赖 |
+| 预制体 | 职责 | 接入条件 |
 | --- | --- | --- |
-| `PetRoot.prefab` | `Pet01` 模型实例 + `Animator` + `PetPresenter` | 角色 FBX、材质、Animator Controller |
-| `Ball.prefab` | 追球用的小球（轻量网格 + 材质） | 追球玩法实现后 |
-| `HudCanvas.prefab` | 状态面板、跟踪提示、反应图鉴入口 | 界面设计稿 |
+| 共用 PetRoot 与四色外观配置 | 每个 PetId 独立角色根、Animator、PetPresenter、材质/表情状态；共用冻结 FBX 与骨架资源 | 多宠 Runtime、四色贴图/材质接入 |
+| Ball | 追球的小球 | 追球未取消；实施顺序以现役范围及后续决定为准 |
+| HudCanvas | 全局状态面板与当前选中宠物 | 逐宠 UI 契约与界面设计 |
 
-## 挂点约定
+命名和结构是迁移建议，不能当成仓库已有 Prefab。
 
-```
-DenCard (ImageTarget)
-└── PetRoot            ← 角色实际跟随的锚点，不要把小窝卡本身当角色父节点
-    └── Pet01          ← FBX 实例（约 0.2 m 高，局部 +Z 朝前）
-```
+## 实例与挂点约束
 
-场景里**只放一只主模型**。`Pet01_Idle.fbx` / `Pet01_Eat.fbx` 只用来取 `AnimationClip`，
-不要把它们的网格也实例化出来，否则会出现两只角色。
+旧场景的 Pet01 挂在 `DenCardTarget` 下；新版应由目标身份映射到各自的角色根。每宠只实例化一份主模型；`Pet01_Idle/Eat/TouchReact/DozeLoop/WalkLoop.fbx` 用来取 AnimationClip，不额外实例化其中的网格。
 
-跟踪层与交互层通过小窝卡的局部坐标结算，预制体不需要知道世界位置。
+相机、输入采集、AppRoot 和存档写入保持全局各一份。跟踪丢失只隐藏对应角色子树，不关闭 Vuforia Observer；社交判定使用新鲜且在同一坐标系下的目标位姿。旧 ToDenLocal 契约仍待泛化。

@@ -13,21 +13,95 @@ MonoBehaviour:
   m_Name: PetBehaviorConfig
   m_EditorClassIdentifier: 
   NeedSeeds:
-  - Need: 0
-    Initial: 0.3
-    DecayPerSecond: 0.0035
-    Max: 1
   - Need: 1
     Initial: 0.6
-    DecayPerSecond: -0.0015
-    Max: 1
-  - Need: 2
-    Initial: 0.85
-    DecayPerSecond: -0.001
+    DecayPerSecond: 0
     Max: 1
   MaxOfflineSeconds: 43200
-  HungryThreshold: 0.65
-  SleepyThreshold: 0.25
+  VariantTunings:
+  - Variant: 0
+    SingleTapGain: 0.06
+    DoubleTapGain: 0.1
+    FallbackHappiness: 0.7
+    RearmThreshold: 0.8
+    ExclusiveCooldownSeconds: 8
+    ExclusiveStateName: classic_proud
+    ExclusiveDurationSeconds: 2
+  - Variant: 1
+    SingleTapGain: 0.04
+    DoubleTapGain: 0.07
+    FallbackHappiness: 0.75
+    RearmThreshold: 0.8
+    ExclusiveCooldownSeconds: 8
+    ExclusiveStateName: calm_zen
+    ExclusiveDurationSeconds: 2.5
+  - Variant: 2
+    SingleTapGain: 0.08
+    DoubleTapGain: 0.12
+    FallbackHappiness: 0.65
+    RearmThreshold: 0.85
+    ExclusiveCooldownSeconds: 6
+    ExclusiveStateName: rage_roar
+    ExclusiveDurationSeconds: 2
+  - Variant: 3
+    SingleTapGain: 0.06
+    DoubleTapGain: 0.1
+    FallbackHappiness: 0.65
+    RearmThreshold: 0.75
+    ExclusiveCooldownSeconds: 12
+    ExclusiveStateName: divine_awaken
+    ExclusiveDurationSeconds: 2.5
+  Social:
+    EnterDistance: 0.18
+    ExitDistance: 0.23
+    MaxHeightDelta: 0.035
+    MaxNormalAngleDegrees: 20
+    EnterDwellSeconds: 0.6
+    ExitDwellSeconds: 0.3
+    LostSeparationSeconds: 2
+    RelocationDistance: 0.03
+    CandidateHoldSeconds: 2
+    MemberCooldownSeconds: 5
+  VoiceCommands:
+  - CommandId: andi
+    Phrase: "\u5B89\u8FEA"
+    AnimationName: classic_proud
+    DurationSeconds: 2
+    Expression: 1
+    SfxId: andi
+  - CommandId: gaga
+    Phrase: "\u560E\u560E\u7239\u62C9\u7B5B"
+    AnimationName: TouchReact
+    DurationSeconds: 0.7
+    Expression: 5
+    SfxId: gaga
+  - CommandId: leiting
+    Phrase: "\u96F7\u9706\u5927\u7B11"
+    AnimationName: social_laugh
+    DurationSeconds: 2.4
+    Expression: 2
+    SfxId: leiting
+  - CommandId: oula
+    Phrase: "\u6B27\u62C9"
+    AnimationName: rage_roar
+    DurationSeconds: 2
+    Expression: 8
+    SfxId: oula
+  VoiceCooldownSeconds: 3
+  SocialSfxId: leiting
+  ExclusiveSfxIds:
+  - andi
+  - ''
+  - oula
+  - ''
+  AnimatorStates:
+  - Idle
+  - TouchReact
+  - classic_proud
+  - calm_zen
+  - rage_roar
+  - divine_awaken
+  - social_laugh
   Behaviors:
   - Behavior: 1
     AnimationName: Idle
@@ -37,28 +111,27 @@ MonoBehaviour:
     PerSecond: []
     OnExitSettled: []
     OnInterrupted: []
-  - Behavior: 2
-    AnimationName: Eat
-    Loop: 0
-    DurationSeconds: 3.2
-    OnEnter:
-    - Need: 1
-      PerSecond: 0
-      OnEnter: 0.02
-    PerSecond: []
-    OnExitSettled:
-    - Need: 0
-      PerSecond: 0
-      OnEnter: -0.45
-    OnInterrupted: []
   - Behavior: 3
     AnimationName: TouchReact
     Loop: 0
     DurationSeconds: 0.7
-    OnEnter:
-    - Need: 1
-      PerSecond: 0
-      OnEnter: 0.06
+    OnEnter: []
+    PerSecond: []
+    OnExitSettled: []
+    OnInterrupted: []
+  - Behavior: 6
+    AnimationName: ''
+    Loop: 0
+    DurationSeconds: 0
+    OnEnter: []
+    PerSecond: []
+    OnExitSettled: []
+    OnInterrupted: []
+  - Behavior: 7
+    AnimationName: social_laugh
+    Loop: 0
+    DurationSeconds: 2.4
+    OnEnter: []
     PerSecond: []
     OnExitSettled: []
     OnInterrupted: []
@@ -67,10 +140,7 @@ MonoBehaviour:
     Loop: 1
     DurationSeconds: 0
     OnEnter: []
-    PerSecond:
-    - Need: 2
-      PerSecond: 0.02
-      OnEnter: 0
+    PerSecond: []
     OnExitSettled: []
     OnInterrupted: []
   - Behavior: 5
@@ -78,17 +148,8 @@ MonoBehaviour:
     Loop: 1
     DurationSeconds: 0
     OnEnter: []
-    PerSecond:
-    - Need: 2
-      PerSecond: -0.01
-      OnEnter: 0
+    PerSecond: []
     OnExitSettled: []
     OnInterrupted: []
   DefaultCrossFadeSeconds: 0.15
-  Eat:
-    MaxHorizontalDistance: 0.1
-    MaxHeightDelta: 0.06
-    RequiredDwellSeconds: 0.6
-    CooldownSeconds: 4
-    ReArmDistance: 0.16
   DefaultBehavior: 1

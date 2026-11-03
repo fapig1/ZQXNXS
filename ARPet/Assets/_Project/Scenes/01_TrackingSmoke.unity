@@ -165,11 +165,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 403d52fd81a044243a4c17fcdc8dcaa7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  denTargetSize: {x: 0.08, y: 0, z: 0.08}
-  foodTargetSize: {x: 0.05, y: 0, z: 0.05}
   staleSeconds: 0.35
-  denProxy: {fileID: 2122257808}
-  foodProxy: {fileID: 307538575}
+  targets:
+  - targetId: card_classic
+    proxy: {fileID: 2122257808}
+    size: {x: 0.08, y: 0, z: 0.08}
+    simulatedStatus: 3
   running: 1
   simulatedStatus: 3
   pauseReason: 
@@ -235,10 +236,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   config: {fileID: 11400000, guid: d44353abad4ae8b408c35d6ce217b554, type: 2}
+  pets:
+  - petId: pet_classic
+    presenter: {fileID: 587979937}
   trackingSourceBehaviour: {fileID: 154314687}
   markerRegistryBehaviour: {fileID: 154314687}
-  presenter: {fileID: 587979937}
-  anchoredPetRoot: {fileID: 587979936}
+  voiceSourceBehaviour: {fileID: 0}
   logInteractions: 1
   autoCreateStubSource: 0
 --- !u!4 &448136385
@@ -270,9 +273,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   appRoot: {fileID: 448136384}
   raycastCamera: {fileID: 1040547024}
-  petHitCollider: {fileID: 0}
-  hitRadiusOrigin: {fileID: 587979936}
-  hitRadiusMeters: 0.12
+  hitTargets: []
+  hitTargetRefreshSeconds: 1
   maxRayDistance: 5
 --- !u!1 &587979935
 GameObject:
@@ -284,6 +286,7 @@ GameObject:
   m_Component:
   - component: {fileID: 587979936}
   - component: {fileID: 587979937}
+  - component: {fileID: 587979938}
   m_Layer: 0
   m_Name: PetRoot (AnchoredToDen)
   m_TagString: Untagged
@@ -322,10 +325,34 @@ MonoBehaviour:
   animator: {fileID: 2060775347}
   behaviorParameter: Behavior
   useAnimatorParameter: 0
-  expressionRenderer: {fileID: 0}
-  expressionProperty: _BaseColor
+  variant: 0
+  eyesDecal: {fileID: 0}
+  mouthDecal: {fileID: 0}
+  bodyRenderer: {fileID: 0}
+  bodyMaterials: []
+  eyesCoverMaterial: {fileID: 0}
+  mouthCoverMaterial: {fileID: 0}
+  faceLayout: {fileID: 0}
+  oralSlot: 1
+  eyesSlot: 2
   sfxSource: {fileID: 0}
   audioResourcesPrefix: Audio/
+  visualRoot: {fileID: 0}
+--- !u!114 &587979938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587979935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d855e14d74b4eb740bb2040764a867e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  petId: pet_classic
+  hitCollider: {fileID: 0}
+  hitRadiusMeters: 0.08
 --- !u!1 &944817645
 GameObject:
   m_ObjectHideFlags: 0

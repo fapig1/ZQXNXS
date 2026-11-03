@@ -87,9 +87,9 @@ namespace ZQXNXS.ARPet.UI
     {
         public static string For(TrackingUiState state) => state switch
         {
-            TrackingUiState.Searching => "Point camera at the den card",
-            TrackingUiState.Tracking => "Den card tracked",
-            TrackingUiState.Lost => "Tracking lost - find the den card",
+            TrackingUiState.Searching => "Point camera at a character card",
+            TrackingUiState.Tracking => "Character card tracked",
+            TrackingUiState.Lost => "Tracking lost - find the character card",
             TrackingUiState.Recovered => "Tracking recovered",
             _ => string.Empty,
         };

@@ -1,0 +1,1595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="236" result="Passed" total="236" passed="236" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-27 12:20:29Z" end-time="2026-10-27 12:20:34Z" duration="5.7218341">
+  <test-suite type="TestSuite" id="1000" name="ARPet" fullname="ARPet" runstate="Runnable" testcasecount="236" result="Passed" start-time="2026-10-27 12:20:29Z" end-time="2026-10-27 12:20:34Z" duration="5.721834" total="236" passed="236" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1270" name="ZQXNXS.ARPet.Tests.EditMode.dll" fullname="D:/ZengQiangXianShi/ARPet/Library/ScriptAssemblies/ZQXNXS.ARPet.Tests.EditMode.dll" runstate="Runnable" testcasecount="236" result="Passed" start-time="2026-10-27 12:20:29Z" end-time="2026-10-27 12:20:34Z" duration="5.679551" total="236" passed="236" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="47036" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1271" name="ZQXNXS" fullname="ZQXNXS" runstate="Runnable" testcasecount="236" result="Passed" start-time="2026-10-27 12:20:29Z" end-time="2026-10-27 12:20:34Z" duration="5.679107" total="236" passed="236" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1272" name="ARPet" fullname="ZQXNXS.ARPet" runstate="Runnable" testcasecount="236" result="Passed" start-time="2026-10-27 12:20:29Z" end-time="2026-10-27 12:20:34Z" duration="5.678761" total="236" passed="236" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1273" name="Tests" fullname="ZQXNXS.ARPet.Tests" runstate="Runnable" testcasecount="236" result="Passed" start-time="2026-10-27 12:20:29Z" end-time="2026-10-27 12:20:34Z" duration="5.678141" total="236" passed="236" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1002" name="BehaviorStateMachineTests" fullname="ZQXNXS.ARPet.Tests.BehaviorStateMachineTests" classname="ZQXNXS.ARPet.Tests.BehaviorStateMachineTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-27 12:20:25Z" end-time="2026-10-27 12:20:25Z" duration="0.038490" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-suite type="ParameterizedMethod" id="1009" name="ConfiguredDefault_CannotBypassInteractionOrAnimationReadiness" fullname="ZQXNXS.ARPet.Tests.BehaviorStateMachineTests.ConfiguredDefault_CannotBypassInteractionOrAnimationReadiness" classname="ZQXNXS.ARPet.Tests.BehaviorStateMachineTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-27 12:20:25Z" end-time="2026-10-27 12:20:25Z" duration="0.024622" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1007" name="ConfiguredDefault_CannotBypassInteractionOrAnimationReadiness(Eating)" fullname="ZQXNXS.ARPet.Tests.BehaviorStateMachineTests.ConfiguredDefault_CannotBypassInteractionOrAnimationReadiness(Eating)" methodname="ConfiguredDefault_CannotBypassInteractionOrAnimationReadiness" classname="ZQXNXS.ARPet.Tests.BehaviorStateMachineTests" runstate="Runnable" seed="1138346288" result="Passed" start-time="2026-10-27 12:20:25Z" end-time="2026-10-27 12:20:25Z" duration="0.020040" asserts="0">
+                  <properties />
+                  <output><![CDATA[[BehaviorStateMachine] 默认行为 Eating 不可用，回落到 Idle。
+]]></output>
+                </test-case>
+                <test-case id="1008" name="ConfiguredDefault_CannotBypassInteractionOrAnimationReadiness(Resting)" fullname="ZQXNXS.ARPet.Tests.BehaviorStateMachineTests.ConfiguredDefault_CannotBypassInteractionOrAnimationReadiness(Resting)" methodname="ConfiguredDefault_CannotBypassInteractionOrAnimationReadiness" classname="ZQXNXS.ARPet.Tests.BehaviorStateMachineTests" runstate="Runnable" seed="454058495" result="Passed" start-time="2026-10-27 12:20:25Z" end-time="2026-10-27 12:20:25Z" duration="0.000595" asserts="0">
+                  <properties />
+                  <output><![CDATA[[BehaviorStateMachine] 默认行为 Resting 不可用，回落到 Idle。
+]]></output>
+                </test-case>
+              </test-suite>
+              <test-case id="1004" name="OnlyBehaviorsInAnimatorStates_AreSelectable" fullname="ZQXNXS.ARPet.Tests.BehaviorStateMachineTests.OnlyBehaviorsInAnimatorStates_AreSelectable" methodname="OnlyBehaviorsInAnimatorStates_AreSelectable" classname="ZQXNXS.ARPet.Tests.BehaviorStateMachineTests" runstate="Runnable" seed="2032771359" result="Passed" start-time="2026-10-27 12:20:25Z" end-time="2026-10-27 12:20:25Z" duration="0.002043" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1012" name="PerSecondTable_DoesNotRepeatOneTimeAdjustments" fullname="ZQXNXS.ARPet.Tests.BehaviorStateMachineTests.PerSecondTable_DoesNotRepeatOneTimeAdjustments" methodname="PerSecondTable_DoesNotRepeatOneTimeAdjustments" classname="ZQXNXS.ARPet.Tests.BehaviorStateMachineTests" runstate="Runnable" seed="154053730" result="Passed" start-time="2026-10-27 12:20:25Z" end-time="2026-10-27 12:20:25Z" duration="0.000538" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1005" name="PetEvent_IsAccepted_AndScoresOnceAccordingToGesture" fullname="ZQXNXS.ARPet.Tests.BehaviorStateMachineTests.PetEvent_IsAccepted_AndScoresOnceAccordingToGesture" methodname="PetEvent_IsAccepted_AndScoresOnceAccordingToGesture" classname="ZQXNXS.ARPet.Tests.BehaviorStateMachineTests" runstate="Runnable" seed="929519832" result="Passed" start-time="2026-10-27 12:20:25Z" end-time="2026-10-27 12:20:25Z" duration="0.002135" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1006" name="RepeatedOrStaleEventIds_AreNeverAcceptedTwice" fullname="ZQXNXS.ARPet.Tests.BehaviorStateMachineTests.RepeatedOrStaleEventIds_AreNeverAcceptedTwice" methodname="RepeatedOrStaleEventIds_AreNeverAcceptedTwice" classname="ZQXNXS.ARPet.Tests.BehaviorStateMachineTests" runstate="Runnable" seed="465700381" result="Passed" start-time="2026-10-27 12:20:25Z" end-time="2026-10-27 12:20:25Z" duration="0.000892" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1010" name="RepeatedStart_DoesNotDiscardRunningBehavior" fullname="ZQXNXS.ARPet.Tests.BehaviorStateMachineTests.RepeatedStart_DoesNotDiscardRunningBehavior" methodname="RepeatedStart_DoesNotDiscardRunningBehavior" classname="ZQXNXS.ARPet.Tests.BehaviorStateMachineTests" runstate="Runnable" seed="325435308" result="Passed" start-time="2026-10-27 12:20:25Z" end-time="2026-10-27 12:20:25Z" duration="0.000176" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1011" name="SameEventId_FromDifferentPets_AreTrackedAsSeparateStreams" fullname="ZQXNXS.ARPet.Tests.BehaviorStateMachineTests.SameEventId_FromDifferentPets_AreTrackedAsSeparateStreams" methodname="SameEventId_FromDifferentPets_AreTrackedAsSeparateStreams" classname="ZQXNXS.ARPet.Tests.BehaviorStateMachineTests" runstate="Runnable" seed="1925785930" result="Passed" start-time="2026-10-27 12:20:25Z" end-time="2026-10-27 12:20:25Z" duration="0.000575" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1003" name="Start_EntersDefaultBehavior" fullname="ZQXNXS.ARPet.Tests.BehaviorStateMachineTests.Start_EntersDefaultBehavior" methodname="Start_EntersDefaultBehavior" classname="ZQXNXS.ARPet.Tests.BehaviorStateMachineTests" runstate="Runnable" seed="2008982806" result="Passed" start-time="2026-10-27 12:20:25Z" end-time="2026-10-27 12:20:25Z" duration="0.000183" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1025" name="ExclusiveAnimationTests" fullname="ZQXNXS.ARPet.Tests.ExclusiveAnimationTests" classname="ZQXNXS.ARPet.Tests.ExclusiveAnimationTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-27 12:20:29Z" end-time="2026-10-27 12:20:34Z" duration="4.807774" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1033" name="PreviewScene_ButtonsPlayAndAutomaticallyReturnToIdle" fullname="ZQXNXS.ARPet.Tests.ExclusiveAnimationTests.PreviewScene_ButtonsPlayAndAutomaticallyReturnToIdle" methodname="PreviewScene_ButtonsPlayAndAutomaticallyReturnToIdle" classname="ZQXNXS.ARPet.Tests.ExclusiveAnimationTests" runstate="Runnable" seed="1691505000" result="Passed" start-time="2026-10-27 12:20:25Z" end-time="2026-10-27 12:20:33Z" duration="8.195238" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Vuforia Deinitialized
+]]></output>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1030" name="RealModel_PlaysExclusiveThenReturnsToIdle" fullname="ZQXNXS.ARPet.Tests.ExclusiveAnimationTests.RealModel_PlaysExclusiveThenReturnsToIdle" classname="ZQXNXS.ARPet.Tests.ExclusiveAnimationTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-27 12:20:33Z" end-time="2026-10-27 12:20:33Z" duration="0.019938" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1026" name="RealModel_PlaysExclusiveThenReturnsToIdle(Classic,&quot;classic_proud&quot;,2.0f)" fullname="ZQXNXS.ARPet.Tests.ExclusiveAnimationTests.RealModel_PlaysExclusiveThenReturnsToIdle(Classic,&quot;classic_proud&quot;,2.0f)" methodname="RealModel_PlaysExclusiveThenReturnsToIdle" classname="ZQXNXS.ARPet.Tests.ExclusiveAnimationTests" runstate="Runnable" seed="1642133663" result="Passed" start-time="2026-10-27 12:20:33Z" end-time="2026-10-27 12:20:33Z" duration="0.011428" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1027" name="RealModel_PlaysExclusiveThenReturnsToIdle(Calm,&quot;calm_zen&quot;,2.5f)" fullname="ZQXNXS.ARPet.Tests.ExclusiveAnimationTests.RealModel_PlaysExclusiveThenReturnsToIdle(Calm,&quot;calm_zen&quot;,2.5f)" methodname="RealModel_PlaysExclusiveThenReturnsToIdle" classname="ZQXNXS.ARPet.Tests.ExclusiveAnimationTests" runstate="Runnable" seed="1994187270" result="Passed" start-time="2026-10-27 12:20:33Z" end-time="2026-10-27 12:20:33Z" duration="0.001100" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1028" name="RealModel_PlaysExclusiveThenReturnsToIdle(Rage,&quot;rage_roar&quot;,2.0f)" fullname="ZQXNXS.ARPet.Tests.ExclusiveAnimationTests.RealModel_PlaysExclusiveThenReturnsToIdle(Rage,&quot;rage_roar&quot;,2.0f)" methodname="RealModel_PlaysExclusiveThenReturnsToIdle" classname="ZQXNXS.ARPet.Tests.ExclusiveAnimationTests" runstate="Runnable" seed="1334934255" result="Passed" start-time="2026-10-27 12:20:33Z" end-time="2026-10-27 12:20:33Z" duration="0.003019" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1029" name="RealModel_PlaysExclusiveThenReturnsToIdle(Divine,&quot;divine_awaken&quot;,2.5f)" fullname="ZQXNXS.ARPet.Tests.ExclusiveAnimationTests.RealModel_PlaysExclusiveThenReturnsToIdle(Divine,&quot;divine_awaken&quot;,2.5f)" methodname="RealModel_PlaysExclusiveThenReturnsToIdle" classname="ZQXNXS.ARPet.Tests.ExclusiveAnimationTests" runstate="Runnable" seed="780423164" result="Passed" start-time="2026-10-27 12:20:33Z" end-time="2026-10-27 12:20:33Z" duration="0.001035" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1032" name="RevisedMesh_PreservesMoreThanFourInfluences" fullname="ZQXNXS.ARPet.Tests.ExclusiveAnimationTests.RevisedMesh_PreservesMoreThanFourInfluences" methodname="RevisedMesh_PreservesMoreThanFourInfluences" classname="ZQXNXS.ARPet.Tests.ExclusiveAnimationTests" runstate="Runnable" seed="103124313" result="Passed" start-time="2026-10-27 12:20:33Z" end-time="2026-10-27 12:20:34Z" duration="0.010842" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1031" name="SharedLaugh_DrivesSpineAndHeadThenReturnsToIdle" fullname="ZQXNXS.ARPet.Tests.ExclusiveAnimationTests.SharedLaugh_DrivesSpineAndHeadThenReturnsToIdle" methodname="SharedLaugh_DrivesSpineAndHeadThenReturnsToIdle" classname="ZQXNXS.ARPet.Tests.ExclusiveAnimationTests" runstate="Runnable" seed="1333886008" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.008141" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1034" name="FourCardTrackingSceneTests" fullname="ZQXNXS.ARPet.Tests.FourCardTrackingSceneTests" classname="ZQXNXS.ARPet.Tests.FourCardTrackingSceneTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.131512" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1036" name="EachTarget_CarriesItsOwnVariantPet_HiddenUntilTracked" fullname="ZQXNXS.ARPet.Tests.FourCardTrackingSceneTests.EachTarget_CarriesItsOwnVariantPet_HiddenUntilTracked" methodname="EachTarget_CarriesItsOwnVariantPet_HiddenUntilTracked" classname="ZQXNXS.ARPet.Tests.FourCardTrackingSceneTests" runstate="Runnable" seed="1012946728" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.037233" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1035" name="EveryCatalogTarget_IsARootImageTargetWithDatabaseSize" fullname="ZQXNXS.ARPet.Tests.FourCardTrackingSceneTests.EveryCatalogTarget_IsARootImageTargetWithDatabaseSize" methodname="EveryCatalogTarget_IsARootImageTargetWithDatabaseSize" classname="ZQXNXS.ARPet.Tests.FourCardTrackingSceneTests" runstate="Runnable" seed="1295423476" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.044469" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1038" name="MainScene_IsStillTheDefaultBuildScene" fullname="ZQXNXS.ARPet.Tests.FourCardTrackingSceneTests.MainScene_IsStillTheDefaultBuildScene" methodname="MainScene_IsStillTheDefaultBuildScene" classname="ZQXNXS.ARPet.Tests.FourCardTrackingSceneTests" runstate="Runnable" seed="1752103356" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.024090" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1037" name="VuforiaConfig_AllowsFourSimultaneousImageTargets" fullname="ZQXNXS.ARPet.Tests.FourCardTrackingSceneTests.VuforiaConfig_AllowsFourSimultaneousImageTargets" methodname="VuforiaConfig_AllowsFourSimultaneousImageTargets" classname="ZQXNXS.ARPet.Tests.FourCardTrackingSceneTests" runstate="Runnable" seed="367023810" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.024462" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1039" name="FrameStatsTests" fullname="ZQXNXS.ARPet.Tests.FrameStatsTests" classname="ZQXNXS.ARPet.Tests.FrameStatsTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.003335" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1041" name="FramesSlowerThanTarget_AreCountedAsSlow" fullname="ZQXNXS.ARPet.Tests.FrameStatsTests.FramesSlowerThanTarget_AreCountedAsSlow" methodname="FramesSlowerThanTarget_AreCountedAsSlow" classname="ZQXNXS.ARPet.Tests.FrameStatsTests" runstate="Runnable" seed="1586191048" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000808" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1042" name="LongGap_FromPause_IsDiscardedNotCountedAsStutter" fullname="ZQXNXS.ARPet.Tests.FrameStatsTests.LongGap_FromPause_IsDiscardedNotCountedAsStutter" methodname="LongGap_FromPause_IsDiscardedNotCountedAsStutter" classname="ZQXNXS.ARPet.Tests.FrameStatsTests" runstate="Runnable" seed="406491996" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000288" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1040" name="SteadySixtyFps_ReportsSixty_AndNoSlowFrames" fullname="ZQXNXS.ARPet.Tests.FrameStatsTests.SteadySixtyFps_ReportsSixty_AndNoSlowFrames" methodname="SteadySixtyFps_ReportsSixty_AndNoSlowFrames" classname="ZQXNXS.ARPet.Tests.FrameStatsTests" runstate="Runnable" seed="1693204914" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000182" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1043" name="HappyCycleTests" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" testcasecount="20" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.021158" total="20" passed="20" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1059" name="ConfirmWhileCooldownRuns_OnlyPlaysTouchReact_AndWaits" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests.ConfirmWhileCooldownRuns_OnlyPlaysTouchReact_AndWaits" methodname="ConfirmWhileCooldownRuns_OnlyPlaysTouchReact_AndWaits" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" seed="906578628" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.009057" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1056" name="CooldownFreezesWhenBehaviorClockIsNotTicked" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests.CooldownFreezesWhenBehaviorClockIsNotTicked" methodname="CooldownFreezesWhenBehaviorClockIsNotTicked" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" seed="928384571" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000386" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1055" name="FullDuringCooldown_PendsOneAutoStart_ThenStartsOnceWhenCooldownEnds" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests.FullDuringCooldown_PendsOneAutoStart_ThenStartsOnceWhenCooldownEnds" methodname="FullDuringCooldown_PendsOneAutoStart_ThenStartsOnceWhenCooldownEnds" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" seed="234257975" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000510" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1065" name="HappinessDoesNotDecay_OnlineOrOffline" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests.HappinessDoesNotDecay_OnlineOrOffline" methodname="HappinessDoesNotDecay_OnlineOrOffline" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" seed="1202451273" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000293" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1060" name="InterruptedExclusive_ConsumesEligibility_ButDoesNotCountAsWatched" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests.InterruptedExclusive_ConsumesEligibility_ButDoesNotCountAsWatched" methodname="InterruptedExclusive_ConsumesEligibility_ButDoesNotCountAsWatched" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" seed="416490236" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001385" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[BehaviorStateMachine] 行为 Exclusive 被打断：应用切到后台
+]]></output>
+              </test-case>
+              <test-case id="1058" name="LoadAtFullValue_DoesNotAutoStart_FirstTapConfirms" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests.LoadAtFullValue_DoesNotAutoStart_FirstTapConfirms" methodname="LoadAtFullValue_DoesNotAutoStart_FirstTapConfirms" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" seed="119591045" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000433" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1062" name="MissingExclusiveState_DisablesOnlyExclusive" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests.MissingExclusiveState_DisablesOnlyExclusive" methodname="MissingExclusiveState_DisablesOnlyExclusive" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" seed="1166692107" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001344" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1063" name="MissingTouchReact_DisablesOnlyPetted" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests.MissingTouchReact_DisablesOnlyPetted" methodname="MissingTouchReact_DisablesOnlyPetted" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" seed="1559430495" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000361" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1054" name="ReachingFullValue_StartsExclusiveAtomically_ThenCompletes" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests.ReachingFullValue_StartsExclusiveAtomically_ThenCompletes" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001937" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1050" name="ReachingFullValue_StartsExclusiveAtomically_ThenCompletes(Classic,&quot;pet_classic&quot;,0.7f,8.0f,&quot;classic_proud&quot;,2.0f)" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests.ReachingFullValue_StartsExclusiveAtomically_ThenCompletes(Classic,&quot;pet_classic&quot;,0.7f,8.0f,&quot;classic_proud&quot;,2.0f)" methodname="ReachingFullValue_StartsExclusiveAtomically_ThenCompletes" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" seed="439059985" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000736" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1051" name="ReachingFullValue_StartsExclusiveAtomically_ThenCompletes(Calm,&quot;pet_calm&quot;,0.75f,8.0f,&quot;calm_zen&quot;,2.5f)" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests.ReachingFullValue_StartsExclusiveAtomically_ThenCompletes(Calm,&quot;pet_calm&quot;,0.75f,8.0f,&quot;calm_zen&quot;,2.5f)" methodname="ReachingFullValue_StartsExclusiveAtomically_ThenCompletes" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" seed="513992353" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000153" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1052" name="ReachingFullValue_StartsExclusiveAtomically_ThenCompletes(Rage,&quot;pet_rage&quot;,0.65f,6.0f,&quot;rage_roar&quot;,2.0f)" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests.ReachingFullValue_StartsExclusiveAtomically_ThenCompletes(Rage,&quot;pet_rage&quot;,0.65f,6.0f,&quot;rage_roar&quot;,2.0f)" methodname="ReachingFullValue_StartsExclusiveAtomically_ThenCompletes" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" seed="1683184910" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000147" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1053" name="ReachingFullValue_StartsExclusiveAtomically_ThenCompletes(Divine,&quot;pet_divine&quot;,0.65f,12.0f,&quot;divine_awaken&quot;,2.5f)" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests.ReachingFullValue_StartsExclusiveAtomically_ThenCompletes(Divine,&quot;pet_divine&quot;,0.65f,12.0f,&quot;divine_awaken&quot;,2.5f)" methodname="ReachingFullValue_StartsExclusiveAtomically_ThenCompletes" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" seed="1131997247" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000133" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1061" name="RestoreClampsCooldownAndRejectsUnknownCycleState" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests.RestoreClampsCooldownAndRejectsUnknownCycleState" methodname="RestoreClampsCooldownAndRejectsUnknownCycleState" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" seed="1347190123" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000284" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1048" name="TapGains_MatchVariantTuning_AndDoubleTapNeverAddsSingle" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests.TapGains_MatchVariantTuning_AndDoubleTapNeverAddsSingle" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001324" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1044" name="TapGains_MatchVariantTuning_AndDoubleTapNeverAddsSingle(Classic,&quot;pet_classic&quot;,0.06f,0.1f)" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests.TapGains_MatchVariantTuning_AndDoubleTapNeverAddsSingle(Classic,&quot;pet_classic&quot;,0.06f,0.1f)" methodname="TapGains_MatchVariantTuning_AndDoubleTapNeverAddsSingle" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" seed="1551369418" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000403" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1045" name="TapGains_MatchVariantTuning_AndDoubleTapNeverAddsSingle(Calm,&quot;pet_calm&quot;,0.04f,0.07f)" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests.TapGains_MatchVariantTuning_AndDoubleTapNeverAddsSingle(Calm,&quot;pet_calm&quot;,0.04f,0.07f)" methodname="TapGains_MatchVariantTuning_AndDoubleTapNeverAddsSingle" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" seed="500927859" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000112" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1046" name="TapGains_MatchVariantTuning_AndDoubleTapNeverAddsSingle(Rage,&quot;pet_rage&quot;,0.08f,0.12f)" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests.TapGains_MatchVariantTuning_AndDoubleTapNeverAddsSingle(Rage,&quot;pet_rage&quot;,0.08f,0.12f)" methodname="TapGains_MatchVariantTuning_AndDoubleTapNeverAddsSingle" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" seed="1400779044" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000102" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1047" name="TapGains_MatchVariantTuning_AndDoubleTapNeverAddsSingle(Divine,&quot;pet_divine&quot;,0.06f,0.1f)" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests.TapGains_MatchVariantTuning_AndDoubleTapNeverAddsSingle(Divine,&quot;pet_divine&quot;,0.06f,0.1f)" methodname="TapGains_MatchVariantTuning_AndDoubleTapNeverAddsSingle" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" seed="110727956" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000098" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1049" name="TappingOnePet_DoesNotChangeTheOther" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests.TappingOnePet_DoesNotChangeTheOther" methodname="TappingOnePet_DoesNotChangeTheOther" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" seed="1437906637" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000340" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1057" name="TapsAtFullValue_NeverScoreAgainOrStartASecondExclusive" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests.TapsAtFullValue_NeverScoreAgainOrStartASecondExclusive" methodname="TapsAtFullValue_NeverScoreAgainOrStartASecondExclusive" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" seed="666007376" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000420" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1064" name="UnknownVariant_FallsBackToClassicTuning" fullname="ZQXNXS.ARPet.Tests.HappyCycleTests.UnknownVariant_FallsBackToClassicTuning" methodname="UnknownVariant_FallsBackToClassicTuning" classname="ZQXNXS.ARPet.Tests.HappyCycleTests" runstate="Runnable" seed="1572804485" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001046" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[PetConfig] 变体调参表缺少该变体（Calm），已回退到 classic 的调参数值。
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1262" name="InteractionPipeTests" fullname="ZQXNXS.ARPet.Tests.InteractionPipeTests" classname="ZQXNXS.ARPet.Tests.InteractionPipeTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001763" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1263" name="EventsAreDroppedWhileArUnavailable" fullname="ZQXNXS.ARPet.Tests.InteractionPipeTests.EventsAreDroppedWhileArUnavailable" methodname="EventsAreDroppedWhileArUnavailable" classname="ZQXNXS.ARPet.Tests.InteractionPipeTests" runstate="Runnable" seed="1179678343" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000510" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1264" name="EventsPassThroughWhenArAvailable" fullname="ZQXNXS.ARPet.Tests.InteractionPipeTests.EventsPassThroughWhenArAvailable" methodname="EventsPassThroughWhenArAvailable" classname="ZQXNXS.ARPet.Tests.InteractionPipeTests" runstate="Runnable" seed="1302138522" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000372" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1066" name="MainSceneWiringTests" fullname="ZQXNXS.ARPet.Tests.MainSceneWiringTests" classname="ZQXNXS.ARPet.Tests.MainSceneWiringTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.278250" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1069" name="AppRoot_UsesRealTrackingAndWiredPresentation" fullname="ZQXNXS.ARPet.Tests.MainSceneWiringTests.AppRoot_UsesRealTrackingAndWiredPresentation" methodname="AppRoot_UsesRealTrackingAndWiredPresentation" classname="ZQXNXS.ARPet.Tests.MainSceneWiringTests" runstate="Runnable" seed="1526424403" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.066043" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1071" name="DiagnosticUi_HasSafeAreaEventSystemAndReadOnlyStateSource" fullname="ZQXNXS.ARPet.Tests.MainSceneWiringTests.DiagnosticUi_HasSafeAreaEventSystemAndReadOnlyStateSource" methodname="DiagnosticUi_HasSafeAreaEventSystemAndReadOnlyStateSource" classname="ZQXNXS.ARPet.Tests.MainSceneWiringTests" runstate="Runnable" seed="1655990872" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.035470" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1067" name="EveryCatalogTarget_IsRootImageTargetWithDatabaseSize" fullname="ZQXNXS.ARPet.Tests.MainSceneWiringTests.EveryCatalogTarget_IsRootImageTargetWithDatabaseSize" methodname="EveryCatalogTarget_IsRootImageTargetWithDatabaseSize" classname="ZQXNXS.ARPet.Tests.MainSceneWiringTests" runstate="Runnable" seed="564382598" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.031736" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1072" name="MainScene_IsTheEnabledBuildScene" fullname="ZQXNXS.ARPet.Tests.MainSceneWiringTests.MainScene_IsTheEnabledBuildScene" methodname="MainScene_IsTheEnabledBuildScene" classname="ZQXNXS.ARPet.Tests.MainSceneWiringTests" runstate="Runnable" seed="779480980" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.035619" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1070" name="Pets_AreAnchoredToOwnCards_WithExportCoordinateOrientation" fullname="ZQXNXS.ARPet.Tests.MainSceneWiringTests.Pets_AreAnchoredToOwnCards_WithExportCoordinateOrientation" methodname="Pets_AreAnchoredToOwnCards_WithExportCoordinateOrientation" classname="ZQXNXS.ARPet.Tests.MainSceneWiringTests" runstate="Runnable" seed="645573019" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.076532" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1068" name="Scene_HasNoLegacyDenFoodTargetsOrObserverHandlers" fullname="ZQXNXS.ARPet.Tests.MainSceneWiringTests.Scene_HasNoLegacyDenFoodTargetsOrObserverHandlers" methodname="Scene_HasNoLegacyDenFoodTargetsOrObserverHandlers" classname="ZQXNXS.ARPet.Tests.MainSceneWiringTests" runstate="Runnable" seed="398654490" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.031643" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1073" name="PersistenceTests" fullname="ZQXNXS.ARPet.Tests.PersistenceTests" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" testcasecount="23" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.220500" total="23" passed="23" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1088" name="BothVersionsPresent_V2WinsAndLegacyIsIgnored" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.BothVersionsPresent_V2WinsAndLegacyIsIgnored" methodname="BothVersionsPresent_V2WinsAndLegacyIsIgnored" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="2112954659" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.023729" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1080" name="BrokenPrimaryAndTemporaryFile_RecoverBackup" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.BrokenPrimaryAndTemporaryFile_RecoverBackup" methodname="BrokenPrimaryAndTemporaryFile_RecoverBackup" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="518416994" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.030461" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[SaveService] zqxnxs_save_v2.json：；zqxnxs_save_v2.json.tmp：；已从 zqxnxs_save_v2.json.bak 恢复存档
+]]></output>
+              </test-case>
+              <test-case id="1085" name="ClockRollback_DoesNotApplyNegativeOfflineTime" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.ClockRollback_DoesNotApplyNegativeOfflineTime" methodname="ClockRollback_DoesNotApplyNegativeOfflineTime" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="1449133294" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000952" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1075" name="CorruptSaveWithoutRecovery_IsReportedAsNewAndArchived" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.CorruptSaveWithoutRecovery_IsReportedAsNewAndArchived" methodname="CorruptSaveWithoutRecovery_IsReportedAsNewAndArchived" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="952314081" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.004133" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[SaveService] 没有可恢复的存档，已创建新档：zqxnxs_save_v2.json：
+]]></output>
+              </test-case>
+              <test-case id="1096" name="CycleFields_RoundTripThroughSaveFile" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.CycleFields_RoundTripThroughSaveFile" methodname="CycleFields_RoundTripThroughSaveFile" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="902704850" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.010918" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1089" name="DuplicateAndIllegalPetIds_AreDroppedOnLoad" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.DuplicateAndIllegalPetIds_AreDroppedOnLoad" methodname="DuplicateAndIllegalPetIds_AreDroppedOnLoad" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="1086890280" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.009935" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[SaveService] PetId “pet_classic” 重复，保留第一条，丢弃后续；第 2 条宠物记录的 PetId “” 非法，已丢弃；第 3 条宠物记录的 PetId “pet calm!” 非法，已丢弃
+]]></output>
+              </test-case>
+              <test-case id="1082" name="ExplicitDeletion_RemovesAllRecoveryCandidates" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.ExplicitDeletion_RemovesAllRecoveryCandidates" methodname="ExplicitDeletion_RemovesAllRecoveryCandidates" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="855713809" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.008237" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1083" name="FailedAutomaticSaves_AreThrottledAndRetriedWithoutClearingDirty" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.FailedAutomaticSaves_AreThrottledAndRetriedWithoutClearingDirty" methodname="FailedAutomaticSaves_AreThrottledAndRetriedWithoutClearingDirty" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="443938717" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001480" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1081" name="FailedWrite_PreservesOldFileAndLastSuccessfulTimestamp" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.FailedWrite_PreservesOldFileAndLastSuccessfulTimestamp" methodname="FailedWrite_PreservesOldFileAndLastSuccessfulTimestamp" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="1184207370" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.005976" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[SaveService] 写入失败：UnauthorizedAccessException Access to the path 'D:\Cache\Temp\ARPetSaveTests\c5596dabcbae41ff96b2427530ece6e5\zqxnxs_save_v2.json.tmp' is denied.
+]]></output>
+              </test-case>
+              <test-case id="1092" name="FutureSchemaSave_IsReadOnlyAndNeverOverwritten" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.FutureSchemaSave_IsReadOnlyAndNeverOverwritten" methodname="FutureSchemaSave_IsReadOnlyAndNeverOverwritten" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="437780432" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.003669" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[SaveService] zqxnxs_save_v2.json 是 schema 99 的存档，高于当前支持的 2；已按只读处理并阻止写盘，避免覆盖新版本数据
+]]></output>
+              </test-case>
+              <test-case id="1094" name="LegacyFullHappiness_IsMigratedAsPendingConfirm" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.LegacyFullHappiness_IsMigratedAsPendingConfirm" methodname="LegacyFullHappiness_IsMigratedAsPendingConfirm" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="644730225" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.009711" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[SaveService] 已从旧版 zqxnxs_save_v1.json 迁移到 v2（v1 原文件保留）
+]]></output>
+              </test-case>
+              <test-case id="1086" name="LegacyOnlySave_IsMigratedToV2_AndV1FileIsUntouched" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.LegacyOnlySave_IsMigratedToV2_AndV1FileIsUntouched" methodname="LegacyOnlySave_IsMigratedToV2_AndV1FileIsUntouched" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="1011932717" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.018173" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[SaveService] 已从旧版 zqxnxs_save_v1.json 迁移到 v2（v1 原文件保留）
+]]></output>
+              </test-case>
+              <test-case id="1087" name="LegacyValues_AreSanitisedAndLegacyFieldsAreNotCarriedIntoV2" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.LegacyValues_AreSanitisedAndLegacyFieldsAreNotCarriedIntoV2" methodname="LegacyValues_AreSanitisedAndLegacyFieldsAreNotCarriedIntoV2" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="18741357" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.016016" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[SaveService] 已从旧版 zqxnxs_save_v1.json 迁移到 v2（v1 原文件保留）
+]]></output>
+              </test-case>
+              <test-case id="1090" name="MissingPetInSave_GetsConfigDefaults_AndIsAppendedOnWrite" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.MissingPetInSave_GetsConfigDefaults_AndIsAppendedOnWrite" methodname="MissingPetInSave_GetsConfigDefaults_AndIsAppendedOnWrite" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="1621478237" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.012694" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1078" name="MissingPrimary_RecoversCompleteTemporaryFileBeforeBackup" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.MissingPrimary_RecoversCompleteTemporaryFileBeforeBackup" methodname="MissingPrimary_RecoversCompleteTemporaryFileBeforeBackup" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="1133775471" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.014068" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[SaveService] 已从 zqxnxs_save_v2.json.tmp 恢复存档
+]]></output>
+              </test-case>
+              <test-case id="1074" name="MissingSave_IsExplicitlyReportedAsNew" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.MissingSave_IsExplicitlyReportedAsNew" methodname="MissingSave_IsExplicitlyReportedAsNew" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="333041094" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000869" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1084" name="PlayTimeChange_IsSavedEvenWhenNeedsDoNotChange" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.PlayTimeChange_IsSavedEvenWhenNeedsDoNotChange" methodname="PlayTimeChange_IsSavedEvenWhenNeedsDoNotChange" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="105204366" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000667" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1076" name="SaveRestoreAndNextSession_PreserveValues" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.SaveRestoreAndNextSession_PreserveValues" methodname="SaveRestoreAndNextSession_PreserveValues" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="1590771014" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.011564" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1077" name="SecondSave_KeepsPreviousCommittedFileAsBackup" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.SecondSave_KeepsPreviousCommittedFileAsBackup" methodname="SecondSave_KeepsPreviousCommittedFileAsBackup" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="555476673" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.006882" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1093" name="TwoDirtyPets_WriteOnceWithinThrottle_WithBothEntries" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.TwoDirtyPets_WriteOnceWithinThrottle_WithBothEntries" methodname="TwoDirtyPets_WriteOnceWithinThrottle_WithBothEntries" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="1896272564" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001067" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1091" name="UnknownPetEntry_IsPreservedOnWriteBack" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.UnknownPetEntry_IsPreservedOnWriteBack" methodname="UnknownPetEntry_IsPreservedOnWriteBack" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="1730071955" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.016989" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1095" name="V2EntryWithoutCycleFields_LoadsAsArmed" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.V2EntryWithoutCycleFields_LoadsAsArmed" methodname="V2EntryWithoutCycleFields_LoadsAsArmed" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="969194858" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.002382" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1079" name="ValidPrimary_WinsOverUncommittedTemporaryFile" fullname="ZQXNXS.ARPet.Tests.PersistenceTests.ValidPrimary_WinsOverUncommittedTemporaryFile" methodname="ValidPrimary_WinsOverUncommittedTemporaryFile" classname="ZQXNXS.ARPet.Tests.PersistenceTests" runstate="Runnable" seed="694621142" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.003363" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1097" name="PetIdentityTests" fullname="ZQXNXS.ARPet.Tests.PetIdentityTests" classname="ZQXNXS.ARPet.Tests.PetIdentityTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.003329" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1098" name="DefaultCatalog_HasFourUniqueStableBindings" fullname="ZQXNXS.ARPet.Tests.PetIdentityTests.DefaultCatalog_HasFourUniqueStableBindings" methodname="DefaultCatalog_HasFourUniqueStableBindings" classname="ZQXNXS.ARPet.Tests.PetIdentityTests" runstate="Runnable" seed="1522539155" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000371" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1101" name="InvalidCharacters_AreRejectedFromStableIds" fullname="ZQXNXS.ARPet.Tests.PetIdentityTests.InvalidCharacters_AreRejectedFromStableIds" methodname="InvalidCharacters_AreRejectedFromStableIds" classname="ZQXNXS.ARPet.Tests.PetIdentityTests" runstate="Runnable" seed="804045537" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000174" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1100" name="SortedCopy_IsDeterministicAndDoesNotMutateSource" fullname="ZQXNXS.ARPet.Tests.PetIdentityTests.SortedCopy_IsDeterministicAndDoesNotMutateSource" methodname="SortedCopy_IsDeterministicAndDoesNotMutateSource" classname="ZQXNXS.ARPet.Tests.PetIdentityTests" runstate="Runnable" seed="1498715491" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001224" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1099" name="Validation_RejectsDuplicatePetOrTargetIds" fullname="ZQXNXS.ARPet.Tests.PetIdentityTests.Validation_RejectsDuplicatePetOrTargetIds" methodname="Validation_RejectsDuplicatePetOrTargetIds" classname="ZQXNXS.ARPet.Tests.PetIdentityTests" runstate="Runnable" seed="202077439" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000326" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1013" name="PetNeedsTests" fullname="ZQXNXS.ARPet.Tests.PetNeedsTests" classname="ZQXNXS.ARPet.Tests.PetNeedsTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.004909" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1014" name="Apply_ClampsHappinessToUnitRange" fullname="ZQXNXS.ARPet.Tests.PetNeedsTests.Apply_ClampsHappinessToUnitRange" methodname="Apply_ClampsHappinessToUnitRange" classname="ZQXNXS.ARPet.Tests.PetNeedsTests" runstate="Runnable" seed="1043166556" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000341" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1015" name="Apply_IgnoresLegacyHungerAndEnergy" fullname="ZQXNXS.ARPet.Tests.PetNeedsTests.Apply_IgnoresLegacyHungerAndEnergy" methodname="Apply_IgnoresLegacyHungerAndEnergy" classname="ZQXNXS.ARPet.Tests.PetNeedsTests" runstate="Runnable" seed="1244951851" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000267" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1018" name="DirtyFlag_IsClearedAfterFlush" fullname="ZQXNXS.ARPet.Tests.PetNeedsTests.DirtyFlag_IsClearedAfterFlush" methodname="DirtyFlag_IsClearedAfterFlush" classname="ZQXNXS.ARPet.Tests.PetNeedsTests" runstate="Runnable" seed="191421959" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000171" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1021" name="MinuteOfSmallFrameDeltas_AccumulatesHappiness" fullname="ZQXNXS.ARPet.Tests.PetNeedsTests.MinuteOfSmallFrameDeltas_AccumulatesHappiness" classname="ZQXNXS.ARPet.Tests.PetNeedsTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001402" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1019" name="MinuteOfSmallFrameDeltas_AccumulatesHappiness(30)" fullname="ZQXNXS.ARPet.Tests.PetNeedsTests.MinuteOfSmallFrameDeltas_AccumulatesHappiness(30)" methodname="MinuteOfSmallFrameDeltas_AccumulatesHappiness" classname="ZQXNXS.ARPet.Tests.PetNeedsTests" runstate="Runnable" seed="1977548361" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000463" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1020" name="MinuteOfSmallFrameDeltas_AccumulatesHappiness(60)" fullname="ZQXNXS.ARPet.Tests.PetNeedsTests.MinuteOfSmallFrameDeltas_AccumulatesHappiness(60)" methodname="MinuteOfSmallFrameDeltas_AccumulatesHappiness" classname="ZQXNXS.ARPet.Tests.PetNeedsTests" runstate="Runnable" seed="309091908" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000509" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1017" name="OfflineDecay_IsCappedByConfig" fullname="ZQXNXS.ARPet.Tests.PetNeedsTests.OfflineDecay_IsCappedByConfig" methodname="OfflineDecay_IsCappedByConfig" classname="ZQXNXS.ARPet.Tests.PetNeedsTests" runstate="Runnable" seed="766098831" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000275" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1023" name="OfflineDecay_KeepsDirectionAndRemainsDirty" fullname="ZQXNXS.ARPet.Tests.PetNeedsTests.OfflineDecay_KeepsDirectionAndRemainsDirty" methodname="OfflineDecay_KeepsDirectionAndRemainsDirty" classname="ZQXNXS.ARPet.Tests.PetNeedsTests" runstate="Runnable" seed="1713354728" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000242" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1024" name="RestoreAndUpdate_PreservesAllInteractionCounts" fullname="ZQXNXS.ARPet.Tests.PetNeedsTests.RestoreAndUpdate_PreservesAllInteractionCounts" methodname="RestoreAndUpdate_PreservesAllInteractionCounts" classname="ZQXNXS.ARPet.Tests.PetNeedsTests" runstate="Runnable" seed="1851470772" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000286" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1016" name="RestoreFrom_SanitisesNanAndOutOfRangeHappiness" fullname="ZQXNXS.ARPet.Tests.PetNeedsTests.RestoreFrom_SanitisesNanAndOutOfRangeHappiness" methodname="RestoreFrom_SanitisesNanAndOutOfRangeHappiness" classname="ZQXNXS.ARPet.Tests.PetNeedsTests" runstate="Runnable" seed="317396812" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000401" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1022" name="TinyDelta_IsRetainedAndMarksDirty" fullname="ZQXNXS.ARPet.Tests.PetNeedsTests.TinyDelta_IsRetainedAndMarksDirty" methodname="TinyDelta_IsRetainedAndMarksDirty" classname="ZQXNXS.ARPet.Tests.PetNeedsTests" runstate="Runnable" seed="239097498" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000209" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1102" name="PetPresenterAnimatorTests" fullname="ZQXNXS.ARPet.Tests.PetPresenterAnimatorTests" classname="ZQXNXS.ARPet.Tests.PetPresenterAnimatorTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.010654" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1103" name="Controller_HasIdleAndEatStates_WithCorrectLoopFlagsAndDurations" fullname="ZQXNXS.ARPet.Tests.PetPresenterAnimatorTests.Controller_HasIdleAndEatStates_WithCorrectLoopFlagsAndDurations" methodname="Controller_HasIdleAndEatStates_WithCorrectLoopFlagsAndDurations" classname="ZQXNXS.ARPet.Tests.PetPresenterAnimatorTests" runstate="Runnable" seed="979159046" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.006927" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1105" name="PlayBehavior_EatThenIdle_DrivesRealStateTransitions" fullname="ZQXNXS.ARPet.Tests.PetPresenterAnimatorTests.PlayBehavior_EatThenIdle_DrivesRealStateTransitions" methodname="PlayBehavior_EatThenIdle_DrivesRealStateTransitions" classname="ZQXNXS.ARPet.Tests.PetPresenterAnimatorTests" runstate="Runnable" seed="32135206" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001060" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1104" name="PlayBehavior_Idle_ActuallyEntersIdleState" fullname="ZQXNXS.ARPet.Tests.PetPresenterAnimatorTests.PlayBehavior_Idle_ActuallyEntersIdleState" methodname="PlayBehavior_Idle_ActuallyEntersIdleState" classname="ZQXNXS.ARPet.Tests.PetPresenterAnimatorTests" runstate="Runnable" seed="659512153" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000422" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1106" name="PlayBehavior_UnknownStateName_LogsWarning_AndDoesNotThrow" fullname="ZQXNXS.ARPet.Tests.PetPresenterAnimatorTests.PlayBehavior_UnknownStateName_LogsWarning_AndDoesNotThrow" methodname="PlayBehavior_UnknownStateName_LogsWarning_AndDoesNotThrow" classname="ZQXNXS.ARPet.Tests.PetPresenterAnimatorTests" runstate="Runnable" seed="225601339" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001451" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[PetPresenter] Animator 第 0 层没有状态 “__missing_state__”。请确认 Pet01 的 AnimationClip 已导入并命名一致（Idle / Eat）。
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1107" name="PetPresenterExpressionTests" fullname="ZQXNXS.ARPet.Tests.PetPresenterExpressionTests" classname="ZQXNXS.ARPet.Tests.PetPresenterExpressionTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.019160" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1110" name="BehaviorMapping_ExclusiveUsesSignature_SocialUsesVeryHappy" fullname="ZQXNXS.ARPet.Tests.PetPresenterExpressionTests.BehaviorMapping_ExclusiveUsesSignature_SocialUsesVeryHappy" methodname="BehaviorMapping_ExclusiveUsesSignature_SocialUsesVeryHappy" classname="ZQXNXS.ARPet.Tests.PetPresenterExpressionTests" runstate="Runnable" seed="1960571493" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001877" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1113" name="CoverMaterials_SwapInOnlyWhileTheirPatchIsShown" fullname="ZQXNXS.ARPet.Tests.PetPresenterExpressionTests.CoverMaterials_SwapInOnlyWhileTheirPatchIsShown" methodname="CoverMaterials_SwapInOnlyWhileTheirPatchIsShown" classname="ZQXNXS.ARPet.Tests.PetPresenterExpressionTests" runstate="Runnable" seed="1012251168" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.007025" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1112" name="FourPets_SharingOneMaterial_KeepTheirOwnExpression" fullname="ZQXNXS.ARPet.Tests.PetPresenterExpressionTests.FourPets_SharingOneMaterial_KeepTheirOwnExpression" methodname="FourPets_SharingOneMaterial_KeepTheirOwnExpression" classname="ZQXNXS.ARPet.Tests.PetPresenterExpressionTests" runstate="Runnable" seed="737404898" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.003051" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1115" name="MissingLayout_IsSafe_AndShowsNothing" fullname="ZQXNXS.ARPet.Tests.PetPresenterExpressionTests.MissingLayout_IsSafe_AndShowsNothing" methodname="MissingLayout_IsSafe_AndShowsNothing" classname="ZQXNXS.ARPet.Tests.PetPresenterExpressionTests" runstate="Runnable" seed="1502058449" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000788" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1111" name="SetExpression_SelectsCellViaPropertyBlock_AndShowsOnlyUsedPatches" fullname="ZQXNXS.ARPet.Tests.PetPresenterExpressionTests.SetExpression_SelectsCellViaPropertyBlock_AndShowsOnlyUsedPatches" methodname="SetExpression_SelectsCellViaPropertyBlock_AndShowsOnlyUsedPatches" classname="ZQXNXS.ARPet.Tests.PetPresenterExpressionTests" runstate="Runnable" seed="87978456" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001051" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1109" name="Table_SharedExpressions_AreTheSameForEveryVariant" fullname="ZQXNXS.ARPet.Tests.PetPresenterExpressionTests.Table_SharedExpressions_AreTheSameForEveryVariant" methodname="Table_SharedExpressions_AreTheSameForEveryVariant" classname="ZQXNXS.ARPet.Tests.PetPresenterExpressionTests" runstate="Runnable" seed="1301077826" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000560" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1108" name="Table_SignatureFollowsVariant_AndRoarNeverUsesSmile" fullname="ZQXNXS.ARPet.Tests.PetPresenterExpressionTests.Table_SignatureFollowsVariant_AndRoarNeverUsesSmile" methodname="Table_SignatureFollowsVariant_AndRoarNeverUsesSmile" classname="ZQXNXS.ARPet.Tests.PetPresenterExpressionTests" runstate="Runnable" seed="617924603" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000361" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1114" name="TrackingHidden_KeepsPatchesOff_AndRecoveryRestoresOnlyActiveOnes" fullname="ZQXNXS.ARPet.Tests.PetPresenterExpressionTests.TrackingHidden_KeepsPatchesOff_AndRecoveryRestoresOnlyActiveOnes" methodname="TrackingHidden_KeepsPatchesOff_AndRecoveryRestoresOnlyActiveOnes" classname="ZQXNXS.ARPet.Tests.PetPresenterExpressionTests" runstate="Runnable" seed="2117506444" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000943" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1116" name="PetPresenterVisibilityTests" fullname="ZQXNXS.ARPet.Tests.PetPresenterVisibilityTests" classname="ZQXNXS.ARPet.Tests.PetPresenterVisibilityTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.008730" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1118" name="SetInteractable_TogglesCollidersInSubtree" fullname="ZQXNXS.ARPet.Tests.PetPresenterVisibilityTests.SetInteractable_TogglesCollidersInSubtree" methodname="SetInteractable_TogglesCollidersInSubtree" classname="ZQXNXS.ARPet.Tests.PetPresenterVisibilityTests" runstate="Runnable" seed="1188869799" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.006944" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1117" name="SetTrackingVisibility_TogglesRenderers_WithoutDeactivatingTheObject" fullname="ZQXNXS.ARPet.Tests.PetPresenterVisibilityTests.SetTrackingVisibility_TogglesRenderers_WithoutDeactivatingTheObject" methodname="SetTrackingVisibility_TogglesRenderers_WithoutDeactivatingTheObject" classname="ZQXNXS.ARPet.Tests.PetPresenterVisibilityTests" runstate="Runnable" seed="201085781" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000988" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1119" name="PetSessionTests" fullname="ZQXNXS.ARPet.Tests.PetSessionTests" classname="ZQXNXS.ARPet.Tests.PetSessionTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.016546" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1121" name="DuplicateIdentities_AreRejectedAtConstruction" fullname="ZQXNXS.ARPet.Tests.PetSessionTests.DuplicateIdentities_AreRejectedAtConstruction" methodname="DuplicateIdentities_AreRejectedAtConstruction" classname="ZQXNXS.ARPet.Tests.PetSessionTests" runstate="Runnable" seed="1358447169" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.003310" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[PetSession] 宠物身份目录不可用：重复 PetId：pet_classic
+]]></output>
+              </test-case>
+              <test-case id="1129" name="EventForLostPet_IsRejectedBeforeReachingBehavior" fullname="ZQXNXS.ARPet.Tests.PetSessionTests.EventForLostPet_IsRejectedBeforeReachingBehavior" methodname="EventForLostPet_IsRejectedBeforeReachingBehavior" classname="ZQXNXS.ARPet.Tests.PetSessionTests" runstate="Runnable" seed="1072770888" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.004069" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1127" name="Events_AreRoutedToOwningPetOnly" fullname="ZQXNXS.ARPet.Tests.PetSessionTests.Events_AreRoutedToOwningPetOnly" methodname="Events_AreRoutedToOwningPetOnly" classname="ZQXNXS.ARPet.Tests.PetSessionTests" runstate="Runnable" seed="956401590" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000603" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1130" name="GlobalTrackingStop_MakesEveryPetNonInteractable" fullname="ZQXNXS.ARPet.Tests.PetSessionTests.GlobalTrackingStop_MakesEveryPetNonInteractable" methodname="GlobalTrackingStop_MakesEveryPetNonInteractable" classname="ZQXNXS.ARPet.Tests.PetSessionTests" runstate="Runnable" seed="303534878" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000567" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1124" name="LimitedTracking_KeepsPetVisible_ButBlocksInteraction" fullname="ZQXNXS.ARPet.Tests.PetSessionTests.LimitedTracking_KeepsPetVisible_ButBlocksInteraction" methodname="LimitedTracking_KeepsPetVisible_ButBlocksInteraction" classname="ZQXNXS.ARPet.Tests.PetSessionTests" runstate="Runnable" seed="1792131242" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000394" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1125" name="LostPet_FreezesBehaviorClock_ButKeepsDecayingHappiness" fullname="ZQXNXS.ARPet.Tests.PetSessionTests.LostPet_FreezesBehaviorClock_ButKeepsDecayingHappiness" methodname="LostPet_FreezesBehaviorClock_ButKeepsDecayingHappiness" classname="ZQXNXS.ARPet.Tests.PetSessionTests" runstate="Runnable" seed="574770070" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000388" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1123" name="OnePetLost_DoesNotAffectTheOther_AndKeepsRuntimeInstance" fullname="ZQXNXS.ARPet.Tests.PetSessionTests.OnePetLost_DoesNotAffectTheOther_AndKeepsRuntimeInstance" methodname="OnePetLost_DoesNotAffectTheOther_AndKeepsRuntimeInstance" classname="ZQXNXS.ARPet.Tests.PetSessionTests" runstate="Runnable" seed="161267957" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000442" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1131" name="PauseAll_InterruptsAndHidesEveryPet_WithoutRebuildingRuntime" fullname="ZQXNXS.ARPet.Tests.PetSessionTests.PauseAll_InterruptsAndHidesEveryPet_WithoutRebuildingRuntime" methodname="PauseAll_InterruptsAndHidesEveryPet_WithoutRebuildingRuntime" classname="ZQXNXS.ARPet.Tests.PetSessionTests" runstate="Runnable" seed="2022959720" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001054" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1122" name="PetWithUnregisteredTarget_IsSkipped_OthersStillRun" fullname="ZQXNXS.ARPet.Tests.PetSessionTests.PetWithUnregisteredTarget_IsSkipped_OthersStillRun" methodname="PetWithUnregisteredTarget_IsSkipped_OthersStillRun" classname="ZQXNXS.ARPet.Tests.PetSessionTests" runstate="Runnable" seed="1522599751" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000840" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[PetSession] 宠物 “pet_divine” 的目标卡 “card_divine” 未在跟踪源中注册，已跳过该宠物（其余宠物继续运行）。
+]]></output>
+              </test-case>
+              <test-case id="1126" name="RecoveredPet_ReturnsToTracking_WithSameRuntimeAndVisibility" fullname="ZQXNXS.ARPet.Tests.PetSessionTests.RecoveredPet_ReturnsToTracking_WithSameRuntimeAndVisibility" methodname="RecoveredPet_ReturnsToTracking_WithSameRuntimeAndVisibility" classname="ZQXNXS.ARPet.Tests.PetSessionTests" runstate="Runnable" seed="887519268" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000546" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1132" name="Select_ChangesUiFocusWithoutScoring" fullname="ZQXNXS.ARPet.Tests.PetSessionTests.Select_ChangesUiFocusWithoutScoring" methodname="Select_ChangesUiFocusWithoutScoring" classname="ZQXNXS.ARPet.Tests.PetSessionTests" runstate="Runnable" seed="1690203109" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000470" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1120" name="TwoPets_AreAssembledWithIndependentTracking" fullname="ZQXNXS.ARPet.Tests.PetSessionTests.TwoPets_AreAssembledWithIndependentTracking" methodname="TwoPets_AreAssembledWithIndependentTracking" classname="ZQXNXS.ARPet.Tests.PetSessionTests" runstate="Runnable" seed="1239840623" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000575" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1128" name="UnknownPetId_IsRejectedWithoutTouchingAnyPet" fullname="ZQXNXS.ARPet.Tests.PetSessionTests.UnknownPetId_IsRejectedWithoutTouchingAnyPet" methodname="UnknownPetId_IsRejectedWithoutTouchingAnyPet" classname="ZQXNXS.ARPet.Tests.PetSessionTests" runstate="Runnable" seed="241018239" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000378" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1217" name="PetStatusPanelFormattingTests" fullname="ZQXNXS.ARPet.Tests.PetStatusPanelFormattingTests" classname="ZQXNXS.ARPet.Tests.PetStatusPanelFormattingTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.005185" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1226" name="FormatBehavior_DistinguishesBusyHappyAndPendingConfirm" fullname="ZQXNXS.ARPet.Tests.PetStatusPanelFormattingTests.FormatBehavior_DistinguishesBusyHappyAndPendingConfirm" methodname="FormatBehavior_DistinguishesBusyHappyAndPendingConfirm" classname="ZQXNXS.ARPet.Tests.PetStatusPanelFormattingTests" runstate="Runnable" seed="1999392071" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000268" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1225" name="Percent_FormatsWithPercentSign" fullname="ZQXNXS.ARPet.Tests.PetStatusPanelFormattingTests.Percent_FormatsWithPercentSign" methodname="Percent_FormatsWithPercentSign" classname="ZQXNXS.ARPet.Tests.PetStatusPanelFormattingTests" runstate="Runnable" seed="819407577" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000329" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1224" name="PercentValue_FloorsToWholePercent" fullname="ZQXNXS.ARPet.Tests.PetStatusPanelFormattingTests.PercentValue_FloorsToWholePercent" classname="ZQXNXS.ARPet.Tests.PetStatusPanelFormattingTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.003331" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1218" name="PercentValue_FloorsToWholePercent(0.999f,99)" fullname="ZQXNXS.ARPet.Tests.PetStatusPanelFormattingTests.PercentValue_FloorsToWholePercent(0.999f,99)" methodname="PercentValue_FloorsToWholePercent" classname="ZQXNXS.ARPet.Tests.PetStatusPanelFormattingTests" runstate="Runnable" seed="455802253" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000209" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1219" name="PercentValue_FloorsToWholePercent(1.0f,100)" fullname="ZQXNXS.ARPet.Tests.PetStatusPanelFormattingTests.PercentValue_FloorsToWholePercent(1.0f,100)" methodname="PercentValue_FloorsToWholePercent" classname="ZQXNXS.ARPet.Tests.PetStatusPanelFormattingTests" runstate="Runnable" seed="1883831792" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000036" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1220" name="PercentValue_FloorsToWholePercent(0.06f,6)" fullname="ZQXNXS.ARPet.Tests.PetStatusPanelFormattingTests.PercentValue_FloorsToWholePercent(0.06f,6)" methodname="PercentValue_FloorsToWholePercent" classname="ZQXNXS.ARPet.Tests.PetStatusPanelFormattingTests" runstate="Runnable" seed="1140798604" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000028" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1221" name="PercentValue_FloorsToWholePercent(0.0f,0)" fullname="ZQXNXS.ARPet.Tests.PetStatusPanelFormattingTests.PercentValue_FloorsToWholePercent(0.0f,0)" methodname="PercentValue_FloorsToWholePercent" classname="ZQXNXS.ARPet.Tests.PetStatusPanelFormattingTests" runstate="Runnable" seed="608271278" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000025" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1222" name="PercentValue_FloorsToWholePercent(-0.5f,0)" fullname="ZQXNXS.ARPet.Tests.PetStatusPanelFormattingTests.PercentValue_FloorsToWholePercent(-0.5f,0)" methodname="PercentValue_FloorsToWholePercent" classname="ZQXNXS.ARPet.Tests.PetStatusPanelFormattingTests" runstate="Runnable" seed="1684256506" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000035" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1223" name="PercentValue_FloorsToWholePercent(float.NaN,0)" fullname="ZQXNXS.ARPet.Tests.PetStatusPanelFormattingTests.PercentValue_FloorsToWholePercent(float.NaN,0)" methodname="PercentValue_FloorsToWholePercent" classname="ZQXNXS.ARPet.Tests.PetStatusPanelFormattingTests" runstate="Runnable" seed="1879153176" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000055" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+            <test-suite type="TestFixture" id="1133" name="ProximityRuleTests" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" testcasecount="24" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.015165" total="24" passed="24" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1139" name="EnterDwell_BelowThreshold_IsNotQualified" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.EnterDwell_BelowThreshold_IsNotQualified" methodname="EnterDwell_BelowThreshold_IsNotQualified" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="940584336" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.003938" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1141" name="EnterDwell_LeavingEnterZone_RestartsAccumulation" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.EnterDwell_LeavingEnterZone_RestartsAccumulation" methodname="EnterDwell_LeavingEnterZone_RestartsAccumulation" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="693202183" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000829" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1140" name="EnterDwell_ReachesThreshold_IsQualified" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.EnterDwell_ReachesThreshold_IsQualified" methodname="EnterDwell_ReachesThreshold_IsQualified" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="363801048" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000521" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1143" name="EnterTimer_IsClearedByHysteresisBandToo" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.EnterTimer_IsClearedByHysteresisBandToo" methodname="EnterTimer_IsClearedByHysteresisBandToo" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="587785550" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000279" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1145" name="ExitDwell_HeldLongEnough_SeparatesAndUnlocks" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.ExitDwell_HeldLongEnough_SeparatesAndUnlocks" methodname="ExitDwell_HeldLongEnough_SeparatesAndUnlocks" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="1655361463" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000448" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1144" name="ExitDwell_ShortOfThreshold_DoesNotUnlock" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.ExitDwell_ShortOfThreshold_DoesNotUnlock" methodname="ExitDwell_ShortOfThreshold_DoesNotUnlock" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="1886630293" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000169" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1153" name="FourPets_ProduceSixPairsInStableOrder" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.FourPets_ProduceSixPairsInStableOrder" methodname="FourPets_ProduceSixPairsInStableOrder" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="1548748575" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001135" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1142" name="HysteresisBand_ClearsBothTimers_AndIsNotSeparated" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.HysteresisBand_ClearsBothTimers_AndIsNotSeparated" methodname="HysteresisBand_ClearsBothTimers_AndIsNotSeparated" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="1276594897" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000332" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1156" name="InvalidDeltaTime_DoesNotAdvanceDwell" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.InvalidDeltaTime_DoesNotAdvanceDwell" methodname="InvalidDeltaTime_DoesNotAdvanceDwell" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="1415223803" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000127" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1151" name="LockGroup_IgnoresDegenerateInput" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.LockGroup_IgnoresDegenerateInput" methodname="LockGroup_IgnoresDegenerateInput" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="795610416" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000136" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1150" name="LockGroup_LocksEveryPairInsideGroup" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.LockGroup_LocksEveryPairInsideGroup" methodname="LockGroup_LocksEveryPairInsideGroup" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="1339467203" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000181" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1138" name="Measure_DetectsExitZoneOnlyBeyondExitDistance" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.Measure_DetectsExitZoneOnlyBeyondExitDistance" methodname="Measure_DetectsExitZoneOnlyBeyondExitDistance" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="1753564071" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000302" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1134" name="Measure_FlatCardsFifteenCentimetersApart_AreInEnterZone" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.Measure_FlatCardsFifteenCentimetersApart_AreInEnterZone" methodname="Measure_FlatCardsFifteenCentimetersApart_AreInEnterZone" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="854977612" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000199" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1135" name="Measure_RaisedCard_ExceedsHeightTolerance" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.Measure_RaisedCard_ExceedsHeightTolerance" methodname="Measure_RaisedCard_ExceedsHeightTolerance" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="1609143163" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000180" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1137" name="Measure_SameTiltedPlane_StillEnters" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.Measure_SameTiltedPlane_StillEnters" methodname="Measure_SameTiltedPlane_StillEnters" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="1100495016" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000433" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1136" name="Measure_UprightCard_ExceedsNormalAngle" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.Measure_UprightCard_ExceedsNormalAngle" methodname="Measure_UprightCard_ExceedsNormalAngle" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="404162884" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000216" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1155" name="NoInput_ClearsQualificationWithoutThrowing" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.NoInput_ClearsQualificationWithoutThrowing" methodname="NoInput_ClearsQualificationWithoutThrowing" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="344010317" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000303" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1152" name="ResetDwell_RequiresAnotherFullDwell" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.ResetDwell_RequiresAnotherFullDwell" methodname="ResetDwell_RequiresAnotherFullDwell" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="1928598151" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000667" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1147" name="ResetTransient_ClearsTimersButKeepsLock" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.ResetTransient_ClearsTimersButKeepsLock" methodname="ResetTransient_ClearsTimersButKeepsLock" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="1256507579" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000323" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1154" name="SinglePet_ProducesNoPairs" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.SinglePet_ProducesNoPairs" methodname="SinglePet_ProducesNoPairs" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="1578945639" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000267" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1148" name="StartupAlreadyTouching_LocksUntilSeparatedAndReapproached" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.StartupAlreadyTouching_LocksUntilSeparatedAndReapproached" methodname="StartupAlreadyTouching_LocksUntilSeparatedAndReapproached" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="12307991" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000406" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1149" name="StartupAlreadyTouching_OnlyJudgedOncePerPair" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.StartupAlreadyTouching_OnlyJudgedOncePerPair" methodname="StartupAlreadyTouching_OnlyJudgedOncePerPair" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="110486220" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000366" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1157" name="TryGetMeasure_ReportsLastGeometryForDebugging" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.TryGetMeasure_ReportsLastGeometryForDebugging" methodname="TryGetMeasure_ReportsLastGeometryForDebugging" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="1974614988" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000182" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1146" name="UnusablePet_ClearsFlagsButKeepsLock" fullname="ZQXNXS.ARPet.Tests.ProximityRuleTests.UnusablePet_ClearsFlagsButKeepsLock" methodname="UnusablePet_ClearsFlagsButKeepsLock" classname="ZQXNXS.ARPet.Tests.ProximityRuleTests" runstate="Runnable" seed="111505934" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000360" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1158" name="SocialCoordinatorTests" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" testcasecount="31" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.066212" total="31" passed="31" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1180" name="AfterABC_NewPartnerOnlyFormsGroupWithFirstMergedPair" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.AfterABC_NewPartnerOnlyFormsGroupWithFirstMergedPair" methodname="AfterABC_NewPartnerOnlyFormsGroupWithFirstMergedPair" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="1025848059" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.013243" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[SocialCoordinator] 会话 1 正常完成：pet_calm, pet_classic, pet_divine
+]]></output>
+              </test-case>
+              <test-case id="1174" name="AutoStartRequest_DoesNotInterruptSocial_ButRunsAfterwards" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.AutoStartRequest_DoesNotInterruptSocial_ButRunsAfterwards" methodname="AutoStartRequest_DoesNotInterruptSocial_ButRunsAfterwards" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="425919537" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001594" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[SocialCoordinator] 会话 1 正常完成：pet_calm, pet_classic
+]]></output>
+              </test-case>
+              <test-case id="1169" name="BusyMember_BlocksWholeGroup_ThenStartsWhenItReturnsIdle" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.BusyMember_BlocksWholeGroup_ThenStartsWhenItReturnsIdle" methodname="BusyMember_BlocksWholeGroup_ThenStartsWhenItReturnsIdle" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="88437695" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000897" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1170" name="BusyMemberBeyondCandidateHold_IsDroppedWithoutStarting" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.BusyMemberBeyondCandidateHold_IsDroppedWithoutStarting" methodname="BusyMemberBeyondCandidateHold_IsDroppedWithoutStarting" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="793186349" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000990" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1182" name="CancelAll_CancelsSessionsWithoutCountingWatched" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.CancelAll_CancelsSessionsWithoutCountingWatched" methodname="CancelAll_CancelsSessionsWithoutCountingWatched" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="189435855" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.002094" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[BehaviorStateMachine] 行为 Social 被打断：应用切到后台
+[BehaviorStateMachine] 行为 Social 被打断：应用切到后台
+[SocialCoordinator] 会话 1 已取消：应用切到后台
+]]></output>
+              </test-case>
+              <test-case id="1183" name="CancelAll_ClearsWaitingCandidate" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.CancelAll_ClearsWaitingCandidate" methodname="CancelAll_ClearsWaitingCandidate" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="1517916766" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000864" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1166" name="ChainOfPairs_FormsOneThreePetSession" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.ChainOfPairs_FormsOneThreePetSession" methodname="ChainOfPairs_FormsOneThreePetSession" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="1632458412" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000721" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1181" name="CooldownExpiredButPairStillLocked_DoesNotReplay" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.CooldownExpiredButPairStillLocked_DoesNotReplay" methodname="CooldownExpiredButPairStillLocked_DoesNotReplay" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="825688906" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001181" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[SocialCoordinator] 会话 1 正常完成：pet_calm, pet_classic
+]]></output>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1165" name="EachPair_StartsOneTwoPetSessionInTheSameFrame" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.EachPair_StartsOneTwoPetSessionInTheSameFrame" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.005310" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1159" name="EachPair_StartsOneTwoPetSessionInTheSameFrame(&quot;pet_calm&quot;,&quot;pet_classic&quot;)" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.EachPair_StartsOneTwoPetSessionInTheSameFrame(&quot;pet_calm&quot;,&quot;pet_classic&quot;)" methodname="EachPair_StartsOneTwoPetSessionInTheSameFrame" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="1992673526" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001352" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1160" name="EachPair_StartsOneTwoPetSessionInTheSameFrame(&quot;pet_calm&quot;,&quot;pet_divine&quot;)" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.EachPair_StartsOneTwoPetSessionInTheSameFrame(&quot;pet_calm&quot;,&quot;pet_divine&quot;)" methodname="EachPair_StartsOneTwoPetSessionInTheSameFrame" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="1275252888" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000755" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1161" name="EachPair_StartsOneTwoPetSessionInTheSameFrame(&quot;pet_calm&quot;,&quot;pet_rage&quot;)" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.EachPair_StartsOneTwoPetSessionInTheSameFrame(&quot;pet_calm&quot;,&quot;pet_rage&quot;)" methodname="EachPair_StartsOneTwoPetSessionInTheSameFrame" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="124121149" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000569" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1162" name="EachPair_StartsOneTwoPetSessionInTheSameFrame(&quot;pet_classic&quot;,&quot;pet_divine&quot;)" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.EachPair_StartsOneTwoPetSessionInTheSameFrame(&quot;pet_classic&quot;,&quot;pet_divine&quot;)" methodname="EachPair_StartsOneTwoPetSessionInTheSameFrame" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="939732459" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000575" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1163" name="EachPair_StartsOneTwoPetSessionInTheSameFrame(&quot;pet_classic&quot;,&quot;pet_rage&quot;)" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.EachPair_StartsOneTwoPetSessionInTheSameFrame(&quot;pet_classic&quot;,&quot;pet_rage&quot;)" methodname="EachPair_StartsOneTwoPetSessionInTheSameFrame" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="1699007272" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000538" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1164" name="EachPair_StartsOneTwoPetSessionInTheSameFrame(&quot;pet_divine&quot;,&quot;pet_rage&quot;)" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.EachPair_StartsOneTwoPetSessionInTheSameFrame(&quot;pet_divine&quot;,&quot;pet_rage&quot;)" methodname="EachPair_StartsOneTwoPetSessionInTheSameFrame" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="565138001" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000528" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1177" name="ExternalInterruptOfOneMember_CancelsWholeSession" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.ExternalInterruptOfOneMember_CancelsWholeSession" methodname="ExternalInterruptOfOneMember_CancelsWholeSession" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="801760960" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001967" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[BehaviorStateMachine] 行为 Social 被打断：应用切到后台
+[BehaviorStateMachine] 行为 Social 被打断：成员演出被外部打断
+[SocialCoordinator] 会话 1 取消：成员演出被外部打断
+]]></output>
+              </test-case>
+              <test-case id="1168" name="FullyConnectedPets_FormOneFourPetSession" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.FullyConnectedPets_FormOneFourPetSession" methodname="FullyConnectedPets_FormOneFourPetSession" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="1547888979" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000970" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1175" name="MemberLost_CancelsWholeSession_WithoutCountingWatched" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.MemberLost_CancelsWholeSession_WithoutCountingWatched" methodname="MemberLost_CancelsWholeSession_WithoutCountingWatched" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="695987418" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.002163" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[BehaviorStateMachine] 行为 Social 被打断：成员丢失或全局暂停
+[BehaviorStateMachine] 行为 Social 被打断：成员丢失或全局暂停
+[SocialCoordinator] 会话 1 取消：成员丢失或全局暂停
+]]></output>
+              </test-case>
+              <test-case id="1176" name="MemberSeparated_CancelsWholeSession" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.MemberSeparated_CancelsWholeSession" methodname="MemberSeparated_CancelsWholeSession" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="393695608" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001836" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[BehaviorStateMachine] 行为 Social 被打断：成员移走
+[BehaviorStateMachine] 行为 Social 被打断：成员移走
+[SocialCoordinator] 会话 1 取消：成员移走
+]]></output>
+              </test-case>
+              <test-case id="1184" name="MissingSocialLaugh_ExcludesOnlyThatPet" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.MissingSocialLaugh_ExcludesOnlyThatPet" methodname="MissingSocialLaugh_ExcludesOnlyThatPet" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="1425829482" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001133" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1178" name="NaturalCompletion_CountsWatchedExactlyOncePerMember" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.NaturalCompletion_CountsWatchedExactlyOncePerMember" methodname="NaturalCompletion_CountsWatchedExactlyOncePerMember" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="143377043" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001200" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[SocialCoordinator] 会话 1 正常完成：pet_calm, pet_classic
+]]></output>
+              </test-case>
+              <test-case id="1188" name="NegativeSocialWatchedCount_IsSanitisedOnRestore" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.NegativeSocialWatchedCount_IsSanitisedOnRestore" methodname="NegativeSocialWatchedCount_IsSanitisedOnRestore" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="173445052" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000594" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1179" name="NewPartnerWithinCooldown_WaitsThenStartsAfterFiveSeconds" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.NewPartnerWithinCooldown_WaitsThenStartsAfterFiveSeconds" methodname="NewPartnerWithinCooldown_WaitsThenStartsAfterFiveSeconds" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="1379648983" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001728" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[SocialCoordinator] 会话 1 正常完成：pet_calm, pet_classic
+]]></output>
+              </test-case>
+              <test-case id="1171" name="PendingAutoRequest_OutranksSocial" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.PendingAutoRequest_OutranksSocial" methodname="PendingAutoRequest_OutranksSocial" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="452192433" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000852" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1189" name="PetPair_OrdersMembersByOrdinalAndComparesByValue" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.PetPair_OrdersMembersByOrdinalAndComparesByValue" methodname="PetPair_OrdersMembersByOrdinalAndComparesByValue" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="1208055859" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000990" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1190" name="PetPair_RejectsEmptyAndIdenticalIds" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.PetPair_RejectsEmptyAndIdenticalIds" methodname="PetPair_RejectsEmptyAndIdenticalIds" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="1307261925" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000977" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1172" name="ReadingFullValuePendingConfirm_DoesNotBlockSocial" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.ReadingFullValuePendingConfirm_DoesNotBlockSocial" methodname="ReadingFullValuePendingConfirm_DoesNotBlockSocial" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="70548917" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000725" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1186" name="SaveRoundTrip_KeepsSocialWatchedCount" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.SaveRoundTrip_KeepsSocialWatchedCount" methodname="SaveRoundTrip_KeepsSocialWatchedCount" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="1172000853" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.010182" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1185" name="SocialTuning_FallsBackToDefaultsAndKeepsHysteresis" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.SocialTuning_FallsBackToDefaultsAndKeepsHysteresis" methodname="SocialTuning_FallsBackToDefaultsAndKeepsHysteresis" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="829991674" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.005472" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[SocialTuning] MaxHeightDelta 非法（0），已回退设计默认值 0.035。
+[SocialTuning] MaxNormalAngleDegrees 非法（NaN），已回退设计默认值 20。
+[SocialTuning] EnterDwellSeconds 非法（-1），已回退设计默认值 0.6。
+[SocialTuning] CandidateHoldSeconds 非法（0），已回退设计默认值 2。
+[SocialTuning] MemberCooldownSeconds 非法（-2），已回退设计默认值 5。
+[SocialTuning] ExitDistance 0.100m 小于 EnterDistance 0.200m，迟滞会失效；已按 EnterDistance 处理。
+]]></output>
+              </test-case>
+              <test-case id="1173" name="TapDuringSocial_IsRefusedWithoutScoring" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.TapDuringSocial_IsRefusedWithoutScoring" methodname="TapDuringSocial_IsRefusedWithoutScoring" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="1833091233" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001639" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[SocialCoordinator] 会话 1 正常完成：pet_calm, pet_classic
+]]></output>
+              </test-case>
+              <test-case id="1167" name="TwoDisjointGroups_StartTwoSeparateSessions" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.TwoDisjointGroups_StartTwoSeparateSessions" methodname="TwoDisjointGroups_StartTwoSeparateSessions" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="609530070" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001079" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1187" name="V2EntryWithoutSocialWatchedCount_LoadsAsZero" fullname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests.V2EntryWithoutSocialWatchedCount_LoadsAsZero" methodname="V2EntryWithoutSocialWatchedCount_LoadsAsZero" classname="ZQXNXS.ARPet.Tests.SocialCoordinatorTests" runstate="Runnable" seed="2128554155" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.002254" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1191" name="SocialSessionTests" fullname="ZQXNXS.ARPet.Tests.SocialSessionTests" classname="ZQXNXS.ARPet.Tests.SocialSessionTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.011341" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1196" name="AlreadyTouchingAtStartup_DoesNotStart_UntilSeparatedAndReapproached" fullname="ZQXNXS.ARPet.Tests.SocialSessionTests.AlreadyTouchingAtStartup_DoesNotStart_UntilSeparatedAndReapproached" methodname="AlreadyTouchingAtStartup_DoesNotStart_UntilSeparatedAndReapproached" classname="ZQXNXS.ARPet.Tests.SocialSessionTests" runstate="Runnable" seed="355134739" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.002677" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1192" name="ApproachAndHold_StartsOneSession_CountsOnce_AndDoesNotReplayWhileLocked" fullname="ZQXNXS.ARPet.Tests.SocialSessionTests.ApproachAndHold_StartsOneSession_CountsOnce_AndDoesNotReplayWhileLocked" methodname="ApproachAndHold_StartsOneSession_CountsOnce_AndDoesNotReplayWhileLocked" classname="ZQXNXS.ARPet.Tests.SocialSessionTests" runstate="Runnable" seed="219885690" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.002135" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[SocialCoordinator] 会话 1 正常完成：pet_calm, pet_classic
+[SocialCoordinator] 会话 2 正常完成：pet_calm, pet_classic
+]]></output>
+              </test-case>
+              <test-case id="1195" name="ChainOfThreePets_FormsOneThreePetSession" fullname="ZQXNXS.ARPet.Tests.SocialSessionTests.ChainOfThreePets_FormsOneThreePetSession" methodname="ChainOfThreePets_FormsOneThreePetSession" classname="ZQXNXS.ARPet.Tests.SocialSessionTests" runstate="Runnable" seed="936637095" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000602" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1193" name="MemberLost_CancelsWholeSession_WithoutCounting_AndRecoveryDoesNotReplay" fullname="ZQXNXS.ARPet.Tests.SocialSessionTests.MemberLost_CancelsWholeSession_WithoutCounting_AndRecoveryDoesNotReplay" methodname="MemberLost_CancelsWholeSession_WithoutCounting_AndRecoveryDoesNotReplay" classname="ZQXNXS.ARPet.Tests.SocialSessionTests" runstate="Runnable" seed="1794367908" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001911" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[BehaviorStateMachine] 行为 Social 被打断：成员丢失或全局暂停
+[BehaviorStateMachine] 行为 Social 被打断：成员丢失或全局暂停
+[SocialCoordinator] 会话 1 取消：成员丢失或全局暂停
+]]></output>
+              </test-case>
+              <test-case id="1194" name="PauseAll_CancelsSocial_AndDoesNotRestartAfterResume" fullname="ZQXNXS.ARPet.Tests.SocialSessionTests.PauseAll_CancelsSocial_AndDoesNotRestartAfterResume" methodname="PauseAll_CancelsSocial_AndDoesNotRestartAfterResume" classname="ZQXNXS.ARPet.Tests.SocialSessionTests" runstate="Runnable" seed="1311451353" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001585" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[BehaviorStateMachine] 行为 Social 被打断：应用切到后台
+[BehaviorStateMachine] 行为 Social 被打断：应用切到后台
+[SocialCoordinator] 会话 1 已取消：应用切到后台
+]]></output>
+              </test-case>
+              <test-case id="1197" name="SinglePet_HasSocialComponentsButNoPairs" fullname="ZQXNXS.ARPet.Tests.SocialSessionTests.SinglePet_HasSocialComponentsButNoPairs" methodname="SinglePet_HasSocialComponentsButNoPairs" classname="ZQXNXS.ARPet.Tests.SocialSessionTests" runstate="Runnable" seed="1667354707" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000355" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1198" name="TapDuringSocial_IsRefusedWithoutScoring" fullname="ZQXNXS.ARPet.Tests.SocialSessionTests.TapDuringSocial_IsRefusedWithoutScoring" methodname="TapDuringSocial_IsRefusedWithoutScoring" classname="ZQXNXS.ARPet.Tests.SocialSessionTests" runstate="Runnable" seed="173761094" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000405" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1265" name="StubTrackingSourceTests" fullname="ZQXNXS.ARPet.Tests.StubTrackingSourceTests" classname="ZQXNXS.ARPet.Tests.StubTrackingSourceTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.003930" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1269" name="DuplicateTargetId_KeepsFirstEntryAndReportsError" fullname="ZQXNXS.ARPet.Tests.StubTrackingSourceTests.DuplicateTargetId_KeepsFirstEntryAndReportsError" methodname="DuplicateTargetId_KeepsFirstEntryAndReportsError" classname="ZQXNXS.ARPet.Tests.StubTrackingSourceTests" runstate="Runnable" seed="107975656" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001193" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[[StubTrackingSource] 目标 ID “card_classic” 重复，已忽略第 1 个条目（只保留第一条）。
+]]></output>
+              </test-case>
+              <test-case id="1267" name="GlobalSimulatedStatus_OverridesEveryTarget" fullname="ZQXNXS.ARPet.Tests.StubTrackingSourceTests.GlobalSimulatedStatus_OverridesEveryTarget" methodname="GlobalSimulatedStatus_OverridesEveryTarget" classname="ZQXNXS.ARPet.Tests.StubTrackingSourceTests" runstate="Runnable" seed="200470679" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000304" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1266" name="PerTargetSimulatedStatus_IsIndependentAndPoseComesFromOwnProxy" fullname="ZQXNXS.ARPet.Tests.StubTrackingSourceTests.PerTargetSimulatedStatus_IsIndependentAndPoseComesFromOwnProxy" methodname="PerTargetSimulatedStatus_IsIndependentAndPoseComesFromOwnProxy" classname="ZQXNXS.ARPet.Tests.StubTrackingSourceTests" runstate="Runnable" seed="1571972294" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000784" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1268" name="UnregisteredTargetId_IsAnsweredAsLostWithoutThrowing" fullname="ZQXNXS.ARPet.Tests.StubTrackingSourceTests.UnregisteredTargetId_IsAnsweredAsLostWithoutThrowing" methodname="UnregisteredTargetId_IsAnsweredAsLostWithoutThrowing" classname="ZQXNXS.ARPet.Tests.StubTrackingSourceTests" runstate="Runnable" seed="1916037527" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000596" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1199" name="TapGestureRecognizerTests" fullname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests" classname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.011359" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1205" name="Cancel_DropsPendingSingle_WithoutReplay" fullname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests.Cancel_DropsPendingSingle_WithoutReplay" methodname="Cancel_DropsPendingSingle_WithoutReplay" classname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests" runstate="Runnable" seed="1407435450" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.002900" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1206" name="CancelAll_DropsEveryPendingSingle" fullname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests.CancelAll_DropsEveryPendingSingle" methodname="CancelAll_DropsEveryPendingSingle" classname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests" runstate="Runnable" seed="488191264" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000488" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1208" name="CancelUnavailable_DropsOnlyThePetsThatCannotBeTouched" fullname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests.CancelUnavailable_DropsOnlyThePetsThatCannotBeTouched" methodname="CancelUnavailable_DropsOnlyThePetsThatCannotBeTouched" classname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests" runstate="Runnable" seed="1608113202" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001388" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1209" name="EventIds_IncreaseStrictlyPerPet_AcrossSinglesAndDoubles" fullname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests.EventIds_IncreaseStrictlyPerPet_AcrossSinglesAndDoubles" methodname="EventIds_IncreaseStrictlyPerPet_AcrossSinglesAndDoubles" classname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests" runstate="Runnable" seed="302490598" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001767" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1202" name="GapJustUnderWindow_IsDouble_GapJustOver_IsTwoSingles" fullname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests.GapJustUnderWindow_IsDouble_GapJustOver_IsTwoSingles" methodname="GapJustUnderWindow_IsDouble_GapJustOver_IsTwoSingles" classname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests" runstate="Runnable" seed="583525348" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000369" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1210" name="NonFiniteClock_DoesNotOpenAWindow" fullname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests.NonFiniteClock_DoesNotOpenAWindow" methodname="NonFiniteClock_DoesNotOpenAWindow" classname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests" runstate="Runnable" seed="1748460626" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000179" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1201" name="SecondTapInsideWindow_EmitsOneDoubleTap_AndNoSingleTap" fullname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests.SecondTapInsideWindow_EmitsOneDoubleTap_AndNoSingleTap" methodname="SecondTapInsideWindow_EmitsOneDoubleTap_AndNoSingleTap" classname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests" runstate="Runnable" seed="1450324786" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000253" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1200" name="SingleTap_IsEmittedOnlyAfterWindowExpires" fullname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests.SingleTap_IsEmittedOnlyAfterWindowExpires" methodname="SingleTap_IsEmittedOnlyAfterWindowExpires" classname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests" runstate="Runnable" seed="604086641" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000332" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1203" name="TapsOnDifferentPets_NeverBecomeDoubleTap" fullname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests.TapsOnDifferentPets_NeverBecomeDoubleTap" methodname="TapsOnDifferentPets_NeverBecomeDoubleTap" classname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests" runstate="Runnable" seed="1131300369" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.001187" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1204" name="ThirdTap_OpensNewWindow_WithoutSecondDoubleTap" fullname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests.ThirdTap_OpensNewWindow_WithoutSecondDoubleTap" methodname="ThirdTap_OpensNewWindow_WithoutSecondDoubleTap" classname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests" runstate="Runnable" seed="845198388" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000256" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1207" name="Tick_WhenPetBecameUnavailable_DropsPendingSingle" fullname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests.Tick_WhenPetBecameUnavailable_DropsPendingSingle" methodname="Tick_WhenPetBecameUnavailable_DropsPendingSingle" classname="ZQXNXS.ARPet.Tests.TapGestureRecognizerTests" runstate="Runnable" seed="890701454" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000225" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1211" name="TapGestureSessionTests" fullname="ZQXNXS.ARPet.Tests.TapGestureSessionTests" classname="ZQXNXS.ARPet.Tests.TapGestureSessionTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.008068" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1215" name="Backgrounding_DropsPendingTapInsteadOfReplayingIt" fullname="ZQXNXS.ARPet.Tests.TapGestureSessionTests.Backgrounding_DropsPendingTapInsteadOfReplayingIt" methodname="Backgrounding_DropsPendingTapInsteadOfReplayingIt" classname="ZQXNXS.ARPet.Tests.TapGestureSessionTests" runstate="Runnable" seed="1982530152" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.002180" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1213" name="DoubleTap_AddsOnlyTheDoubleGainOnce" fullname="ZQXNXS.ARPet.Tests.TapGestureSessionTests.DoubleTap_AddsOnlyTheDoubleGainOnce" methodname="DoubleTap_AddsOnlyTheDoubleGainOnce" classname="ZQXNXS.ARPet.Tests.TapGestureSessionTests" runstate="Runnable" seed="299110003" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.002925" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1214" name="PetLostDuringWindow_ScoresNothing" fullname="ZQXNXS.ARPet.Tests.TapGestureSessionTests.PetLostDuringWindow_ScoresNothing" methodname="PetLostDuringWindow_ScoresNothing" classname="ZQXNXS.ARPet.Tests.TapGestureSessionTests" runstate="Runnable" seed="471515292" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000757" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1216" name="TapDuringTouchReact_IsRefusedByBehaviorLayer_WithoutScoring" fullname="ZQXNXS.ARPet.Tests.TapGestureSessionTests.TapDuringTouchReact_IsRefusedByBehaviorLayer_WithoutScoring" methodname="TapDuringTouchReact_IsRefusedByBehaviorLayer_WithoutScoring" classname="ZQXNXS.ARPet.Tests.TapGestureSessionTests" runstate="Runnable" seed="863024305" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000584" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1212" name="TappingClassic_DoesNotChangeCalm" fullname="ZQXNXS.ARPet.Tests.TapGestureSessionTests.TappingClassic_DoesNotChangeCalm" methodname="TappingClassic_DoesNotChangeCalm" classname="ZQXNXS.ARPet.Tests.TapGestureSessionTests" runstate="Runnable" seed="1148800501" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000401" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1227" name="TouchInputBridgeTests" fullname="ZQXNXS.ARPet.Tests.TouchInputBridgeTests" classname="ZQXNXS.ARPet.Tests.TouchInputBridgeTests" runstate="Runnable" testcasecount="8" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.008977" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1232" name="ColliderPresent_TakesPriorityOverRadiusApproximation" fullname="ZQXNXS.ARPet.Tests.TouchInputBridgeTests.ColliderPresent_TakesPriorityOverRadiusApproximation" methodname="ColliderPresent_TakesPriorityOverRadiusApproximation" classname="ZQXNXS.ARPet.Tests.TouchInputBridgeTests" runstate="Runnable" seed="270536225" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.004390" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1233" name="DisabledHitTarget_IsSkipped" fullname="ZQXNXS.ARPet.Tests.TouchInputBridgeTests.DisabledHitTarget_IsSkipped" methodname="DisabledHitTarget_IsSkipped" classname="ZQXNXS.ARPet.Tests.TouchInputBridgeTests" runstate="Runnable" seed="824564255" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000396" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1234" name="NearestHitTarget_Wins" fullname="ZQXNXS.ARPet.Tests.TouchInputBridgeTests.NearestHitTarget_Wins" methodname="NearestHitTarget_Wins" classname="ZQXNXS.ARPet.Tests.TouchInputBridgeTests" runstate="Runnable" seed="2127036020" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000432" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1235" name="NoCameraAssigned_AndNoMainCamera_ReturnsFalseWithoutThrowing" fullname="ZQXNXS.ARPet.Tests.TouchInputBridgeTests.NoCameraAssigned_AndNoMainCamera_ReturnsFalseWithoutThrowing" methodname="NoCameraAssigned_AndNoMainCamera_ReturnsFalseWithoutThrowing" classname="ZQXNXS.ARPet.Tests.TouchInputBridgeTests" runstate="Runnable" seed="125617252" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000647" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1228" name="NoHitTarget_NeverHits" fullname="ZQXNXS.ARPet.Tests.TouchInputBridgeTests.NoHitTarget_NeverHits" methodname="NoHitTarget_NeverHits" classname="ZQXNXS.ARPet.Tests.TouchInputBridgeTests" runstate="Runnable" seed="598470563" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000294" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1231" name="RadiusApproximation_MissesWhenOriginBehindCamera" fullname="ZQXNXS.ARPet.Tests.TouchInputBridgeTests.RadiusApproximation_MissesWhenOriginBehindCamera" methodname="RadiusApproximation_MissesWhenOriginBehindCamera" classname="ZQXNXS.ARPet.Tests.TouchInputBridgeTests" runstate="Runnable" seed="519369619" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000407" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1230" name="RadiusApproximation_MissesWhenPointerFarFromOrigin" fullname="ZQXNXS.ARPet.Tests.TouchInputBridgeTests.RadiusApproximation_MissesWhenPointerFarFromOrigin" methodname="RadiusApproximation_MissesWhenPointerFarFromOrigin" classname="ZQXNXS.ARPet.Tests.TouchInputBridgeTests" runstate="Runnable" seed="78590839" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000478" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1229" name="RadiusApproximation_ReturnsMatchingPetId" fullname="ZQXNXS.ARPet.Tests.TouchInputBridgeTests.RadiusApproximation_ReturnsMatchingPetId" methodname="RadiusApproximation_ReturnsMatchingPetId" classname="ZQXNXS.ARPet.Tests.TouchInputBridgeTests" runstate="Runnable" seed="408435843" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000409" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1252" name="TouchPokeRuleTests" fullname="ZQXNXS.ARPet.Tests.TouchPokeRuleTests" classname="ZQXNXS.ARPet.Tests.TouchPokeRuleTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.003214" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1261" name="CancelledPointer_IsNotReplayedAfterTrackingRecovers" fullname="ZQXNXS.ARPet.Tests.TouchPokeRuleTests.CancelledPointer_IsNotReplayedAfterTrackingRecovers" methodname="CancelledPointer_IsNotReplayedAfterTrackingRecovers" classname="ZQXNXS.ARPet.Tests.TouchPokeRuleTests" runstate="Runnable" seed="1535334465" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000532" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1255" name="LongPress_DoesNotQualify" fullname="ZQXNXS.ARPet.Tests.TouchPokeRuleTests.LongPress_DoesNotQualify" methodname="LongPress_DoesNotQualify" classname="ZQXNXS.ARPet.Tests.TouchPokeRuleTests" runstate="Runnable" seed="1699352204" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000272" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1260" name="LowDpi_KeepsPixelFloor" fullname="ZQXNXS.ARPet.Tests.TouchPokeRuleTests.LowDpi_KeepsPixelFloor" methodname="LowDpi_KeepsPixelFloor" classname="ZQXNXS.ARPet.Tests.TouchPokeRuleTests" runstate="Runnable" seed="548623358" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000116" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1256" name="PointerDownOnUi_IsSwallowed" fullname="ZQXNXS.ARPet.Tests.TouchPokeRuleTests.PointerDownOnUi_IsSwallowed" methodname="PointerDownOnUi_IsSwallowed" classname="ZQXNXS.ARPet.Tests.TouchPokeRuleTests" runstate="Runnable" seed="329401725" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000148" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1254" name="Swipe_DoesNotQualify" fullname="ZQXNXS.ARPet.Tests.TouchPokeRuleTests.Swipe_DoesNotQualify" methodname="Swipe_DoesNotQualify" classname="ZQXNXS.ARPet.Tests.TouchPokeRuleTests" runstate="Runnable" seed="1232484192" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000167" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1253" name="TapOnPet_IsQualified" fullname="ZQXNXS.ARPet.Tests.TouchPokeRuleTests.TapOnPet_IsQualified" methodname="TapOnPet_IsQualified" classname="ZQXNXS.ARPet.Tests.TouchPokeRuleTests" runstate="Runnable" seed="2145776866" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000174" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1257" name="TapWhenPetInvisible_IsNotQualified" fullname="ZQXNXS.ARPet.Tests.TouchPokeRuleTests.TapWhenPetInvisible_IsNotQualified" methodname="TapWhenPetInvisible_IsNotQualified" classname="ZQXNXS.ARPet.Tests.TouchPokeRuleTests" runstate="Runnable" seed="1717106370" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000154" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1259" name="TravelThreshold_UsesDpiWhenItIsHigher" fullname="ZQXNXS.ARPet.Tests.TouchPokeRuleTests.TravelThreshold_UsesDpiWhenItIsHigher" methodname="TravelThreshold_UsesDpiWhenItIsHigher" classname="ZQXNXS.ARPet.Tests.TouchPokeRuleTests" runstate="Runnable" seed="2018598002" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000227" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1258" name="TwoRapidTaps_AreBothQualified" fullname="ZQXNXS.ARPet.Tests.TouchPokeRuleTests.TwoRapidTaps_AreBothQualified" methodname="TwoRapidTaps_AreBothQualified" classname="ZQXNXS.ARPet.Tests.TouchPokeRuleTests" runstate="Runnable" seed="23144926" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000173" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1236" name="TrackingStateMachineTests" fullname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests" classname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.004676" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1246" name="BeforeFirstDetection_RemainsSearching" fullname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests.BeforeFirstDetection_RemainsSearching" methodname="BeforeFirstDetection_RemainsSearching" classname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests" runstate="Runnable" seed="1131702114" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000307" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1244" name="CanShow_IsWiderThanCanInteract_OnlyForFreshLimited" fullname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests.CanShow_IsWiderThanCanInteract_OnlyForFreshLimited" methodname="CanShow_IsWiderThanCanInteract_OnlyForFreshLimited" classname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests" runstate="Runnable" seed="1686703667" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000295" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1250" name="CustomFreshnessLimit_IsUsedForInteraction" fullname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests.CustomFreshnessLimit_IsUsedForInteraction" methodname="CustomFreshnessLimit_IsUsedForInteraction" classname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests" runstate="Runnable" seed="895876426" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000118" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1249" name="EstimatedOrLimitedPose_IsNotSettleable" fullname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests.EstimatedOrLimitedPose_IsNotSettleable" classname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000733" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1247" name="EstimatedOrLimitedPose_IsNotSettleable(Limited)" fullname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests.EstimatedOrLimitedPose_IsNotSettleable(Limited)" methodname="EstimatedOrLimitedPose_IsNotSettleable" classname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests" runstate="Runnable" seed="150260029" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000149" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1248" name="EstimatedOrLimitedPose_IsNotSettleable(ExtendedTracked)" fullname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests.EstimatedOrLimitedPose_IsNotSettleable(ExtendedTracked)" methodname="EstimatedOrLimitedPose_IsNotSettleable" classname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests" runstate="Runnable" seed="1814439555" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000100" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1238" name="FirstTrack_GoesStraightToTracking_NotRecovered" fullname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests.FirstTrack_GoesStraightToTracking_NotRecovered" methodname="FirstTrack_GoesStraightToTracking_NotRecovered" classname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests" runstate="Runnable" seed="1715311799" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000213" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1237" name="InitialState_IsSearching" fullname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests.InitialState_IsSearching" methodname="InitialState_IsSearching" classname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests" runstate="Runnable" seed="1915191701" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000164" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1243" name="InvalidFrame_DisablesInteractionBeforeLostHint" fullname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests.InvalidFrame_DisablesInteractionBeforeLostHint" methodname="InvalidFrame_DisablesInteractionBeforeLostHint" classname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests" runstate="Runnable" seed="1040755811" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000196" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1239" name="LostThenTracked_ReportsRecovered_ThenSettlesToTracking" fullname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests.LostThenTracked_ReportsRecovered_ThenSettlesToTracking" methodname="LostThenTracked_ReportsRecovered_ThenSettlesToTracking" classname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests" runstate="Runnable" seed="1512826576" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000191" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1241" name="PausedStatus_IsTreatedAsLost_NotAsTracking" fullname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests.PausedStatus_IsTreatedAsLost_NotAsTracking" methodname="PausedStatus_IsTreatedAsLost_NotAsTracking" classname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests" runstate="Runnable" seed="549244863" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000121" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1245" name="RepeatedLossDuringRecovered_EventuallyBecomesLost" fullname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests.RepeatedLossDuringRecovered_EventuallyBecomesLost" methodname="RepeatedLossDuringRecovered_EventuallyBecomesLost" classname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests" runstate="Runnable" seed="1473314320" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000186" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1251" name="Reset_ClearsCountersAndInteractionAvailability" fullname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests.Reset_ClearsCountersAndInteractionAvailability" methodname="Reset_ClearsCountersAndInteractionAvailability" classname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests" runstate="Runnable" seed="217805238" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000186" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1240" name="SingleFrameDrop_DoesNotFlickerToLost" fullname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests.SingleFrameDrop_DoesNotFlickerToLost" methodname="SingleFrameDrop_DoesNotFlickerToLost" classname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests" runstate="Runnable" seed="1765011084" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000123" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1242" name="StaleSample_IsNotSettleable" fullname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests.StaleSample_IsNotSettleable" methodname="StaleSample_IsNotSettleable" classname="ZQXNXS.ARPet.Tests.TrackingStateMachineTests" runstate="Runnable" seed="125958364" result="Passed" start-time="2026-10-27 12:20:34Z" end-time="2026-10-27 12:20:34Z" duration="0.000121" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: D:\Cache\Temp\opencode\fix-tests.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

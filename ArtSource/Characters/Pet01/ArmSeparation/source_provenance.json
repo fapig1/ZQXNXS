@@ -1,0 +1,35 @@
+{
+  "shape_revision": "20260928_arm_separation",
+  "source_sha256": "9ecd9dddaf42a899fa356cb058335d75822ffc3614150ccd0f63a48e7f2e0cee",
+  "source": "ArtSource/Characters/Pet01/pet01.blend",
+  "original_vertex_count": 10434,
+  "kept_actions_curves_sha256": "5c33486b631f13d4f8c82bcace7a0f344d5f2d255d5744b9743e4287a6ae8b90",
+  "kept_actions": [
+    "Idle",
+    "Eat",
+    "TouchReact",
+    "DozeLoop",
+    "WalkLoop",
+    "calm_zen",
+    "rage_roar",
+    "social_laugh"
+  ],
+  "rebuilt_actions": [
+    "classic_proud",
+    "divine_awaken"
+  ],
+  "regeneration": {
+    "arm_vertices": {
+      "L": 1001,
+      "R": 1002
+    },
+    "torso_vertices_with_frozen_weights": 8019,
+    "formerly_covered_vertices_harmonic": 3389,
+    "vertices_before": 10434,
+    "vertices_after": 12452,
+    "triangles_after": 24536,
+    "facial_vertices_matched": 4324,
+    "facial_max_deviation_m": 5.066394805908203e-07
+  },
+  "note": "Skin regenerated with build_pet01 builders: complete armless torso plus two closed doll-joint arms. Face/eyes above z=0.1710 match within 1um; rest bones and kept Action curves unchanged."
+}

@@ -1,0 +1,147 @@
+{
+  "generator": "Tools/Blender/build_pet01_face_overlay.py",
+  "viewOffsetMeters": 0.01,
+  "eyesPatch": "Pet01_FaceEyes",
+  "mouthPatch": "Pet01_FaceMouth",
+  "headBone": "Head",
+  "eyeCells": [
+    {
+      "name": "squint",
+      "st": [
+        0.5,
+        0.1875,
+        0.0,
+        0.8125
+      ]
+    },
+    {
+      "name": "closed",
+      "st": [
+        0.5,
+        0.1875,
+        0.5,
+        0.8125
+      ]
+    },
+    {
+      "name": "divine",
+      "st": [
+        0.5,
+        0.1875,
+        0.0,
+        0.625
+      ]
+    },
+    {
+      "name": "rage",
+      "st": [
+        0.5,
+        0.1875,
+        0.5,
+        0.625
+      ]
+    }
+  ],
+  "mouthCells": [
+    {
+      "name": "smile",
+      "st": [
+        0.5,
+        0.25,
+        0.0,
+        0.75
+      ]
+    },
+    {
+      "name": "laugh",
+      "st": [
+        0.5,
+        0.25,
+        0.5,
+        0.75
+      ]
+    },
+    {
+      "name": "roar",
+      "st": [
+        0.5,
+        0.25,
+        0.0,
+        0.5
+      ]
+    },
+    {
+      "name": "o",
+      "st": [
+        0.5,
+        0.25,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "serene",
+      "st": [
+        0.5,
+        0.25,
+        0.0,
+        0.25
+      ]
+    },
+    {
+      "name": "flat",
+      "st": [
+        0.5,
+        0.25,
+        0.5,
+        0.25
+      ]
+    }
+  ],
+  "covers": [
+    {
+      "variant": "classic",
+      "eyesUv": [
+        0.250023,
+        0.896489
+      ],
+      "mouthUv": [
+        0.251083,
+        0.849268
+      ]
+    },
+    {
+      "variant": "calm",
+      "eyesUv": [
+        0.250023,
+        0.896489
+      ],
+      "mouthUv": [
+        0.251083,
+        0.849268
+      ]
+    },
+    {
+      "variant": "rage",
+      "eyesUv": [
+        0.250023,
+        0.896489
+      ],
+      "mouthUv": [
+        0.251083,
+        0.849268
+      ]
+    },
+    {
+      "variant": "divine",
+      "eyesUv": [
+        0.250023,
+        0.896489
+      ],
+      "mouthUv": [
+        0.251083,
+        0.849268
+      ]
+    }
+  ]
+}

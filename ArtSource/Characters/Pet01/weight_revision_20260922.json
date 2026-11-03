@@ -1,0 +1,2443 @@
+{
+  "shape_revision": "20260922_arm_belly_weight_transition",
+  "source_sha256_before": "eb1aba87062e13cd5f2bbfcca7080a052ba8b199b6f56c4ad72be8ecf2a0a9e4",
+  "source_sha256_after": "a73d547d1bb60b8d79864dd6b8e39fff8e5f3f4db7ae95e6cca78013d049b6e6",
+  "vertices_changed": 405,
+  "changed_vertices": {
+    "2594": {
+      "side": "L",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "2598": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "2599": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "619": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "621": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "624": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "625": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "626": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "627": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "628": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Chest"
+    },
+    "629": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Chest"
+    },
+    "630": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "631": {
+      "side": "L",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Chest"
+    },
+    "632": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "633": {
+      "side": "L",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Chest"
+    },
+    "634": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "635": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "636": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "637": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "638": {
+      "side": "L",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "639": {
+      "side": "L",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Chest"
+    },
+    "640": {
+      "side": "L",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Chest"
+    },
+    "641": {
+      "side": "L",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "642": {
+      "side": "L",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Spine"
+    },
+    "643": {
+      "side": "L",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Spine"
+    },
+    "644": {
+      "side": "L",
+      "distance": 5,
+      "hand_weight": 0.55,
+      "torso": "Chest"
+    },
+    "648": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "650": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "652": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "655": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "656": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "657": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "658": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "659": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "660": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "662": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "664": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "665": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "670": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "674": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "675": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "676": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2724": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "678": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "680": {
+      "side": "L",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "681": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "682": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "683": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Chest"
+    },
+    "684": {
+      "side": "L",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Chest"
+    },
+    "685": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "686": {
+      "side": "L",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Chest"
+    },
+    "687": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "688": {
+      "side": "L",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "689": {
+      "side": "L",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Chest"
+    },
+    "690": {
+      "side": "L",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Chest"
+    },
+    "691": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "692": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "693": {
+      "side": "L",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "694": {
+      "side": "L",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "695": {
+      "side": "L",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Chest"
+    },
+    "696": {
+      "side": "L",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Spine"
+    },
+    "697": {
+      "side": "L",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "698": {
+      "side": "L",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Spine"
+    },
+    "699": {
+      "side": "L",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Spine"
+    },
+    "700": {
+      "side": "L",
+      "distance": 5,
+      "hand_weight": 0.55,
+      "torso": "Spine"
+    },
+    "702": {
+      "side": "L",
+      "distance": 5,
+      "hand_weight": 0.55,
+      "torso": "Spine"
+    },
+    "706": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "707": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "708": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "709": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "710": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "711": {
+      "side": "L",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "712": {
+      "side": "L",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Spine"
+    },
+    "713": {
+      "side": "L",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "714": {
+      "side": "L",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Spine"
+    },
+    "716": {
+      "side": "L",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "717": {
+      "side": "L",
+      "distance": 5,
+      "hand_weight": 0.55,
+      "torso": "Chest"
+    },
+    "718": {
+      "side": "L",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Spine"
+    },
+    "719": {
+      "side": "L",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Spine"
+    },
+    "720": {
+      "side": "L",
+      "distance": 5,
+      "hand_weight": 0.55,
+      "torso": "Spine"
+    },
+    "721": {
+      "side": "L",
+      "distance": 5,
+      "hand_weight": 0.55,
+      "torso": "Spine"
+    },
+    "2779": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2780": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2782": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2783": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2784": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2785": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2786": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "2787": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2788": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2798": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2800": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2801": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2805": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2806": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "765": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "766": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2813": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2814": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2815": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2816": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2817": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "2818": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "2819": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "774": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "775": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2820": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "2821": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "779": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2829": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2830": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "783": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2831": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "785": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "786": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "787": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "788": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "789": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "790": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "791": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "792": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "793": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "2833": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "2834": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2835": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "2836": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "2837": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2838": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "2839": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "2840": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "2841": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "2842": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "2844": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "2846": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "2847": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "2848": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "2849": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "2850": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "2851": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "2852": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "2853": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "2854": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "2855": {
+      "side": "L",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "2856": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "2857": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "817": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "818": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "2858": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "2859": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "825": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "826": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "827": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "828": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "830": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "831": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "832": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Chest"
+    },
+    "833": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "834": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "835": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "836": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "837": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "838": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "839": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "840": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "841": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "842": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "843": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "844": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "845": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "846": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "847": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "848": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "849": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "850": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "851": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "852": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "853": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Chest"
+    },
+    "868": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "869": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "872": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "875": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "878": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Chest"
+    },
+    "879": {
+      "side": "L",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "880": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Chest"
+    },
+    "881": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Chest"
+    },
+    "882": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Chest"
+    },
+    "883": {
+      "side": "L",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Chest"
+    },
+    "884": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Chest"
+    },
+    "885": {
+      "side": "L",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Chest"
+    },
+    "886": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "887": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "888": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "889": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "890": {
+      "side": "L",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "891": {
+      "side": "L",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Chest"
+    },
+    "892": {
+      "side": "L",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "893": {
+      "side": "L",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "2832": {
+      "side": "L",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1548": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1550": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1553": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1555": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1556": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1557": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1558": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1559": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1560": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1561": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1562": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1563": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1564": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1565": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1570": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1571": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "1572": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "1573": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "1574": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "1575": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1576": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "1577": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "4281": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1592": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1593": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1594": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1595": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1596": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1597": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1598": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1599": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1600": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "1601": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1602": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "1641": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1642": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1643": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1644": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1648": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1649": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1651": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1652": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1658": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1659": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1660": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "1662": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1667": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1668": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1670": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1674": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1675": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "1676": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "1677": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "1678": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1679": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1681": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "1682": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "1683": {
+      "side": "R",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Spine"
+    },
+    "1684": {
+      "side": "R",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Chest"
+    },
+    "1685": {
+      "side": "R",
+      "distance": 5,
+      "hand_weight": 0.55,
+      "torso": "Spine"
+    },
+    "1686": {
+      "side": "R",
+      "distance": 5,
+      "hand_weight": 0.55,
+      "torso": "Spine"
+    },
+    "1687": {
+      "side": "R",
+      "distance": 5,
+      "hand_weight": 0.55,
+      "torso": "Spine"
+    },
+    "1688": {
+      "side": "R",
+      "distance": 6,
+      "hand_weight": 0.6500000000000001,
+      "torso": "Spine"
+    },
+    "1689": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "1690": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "1691": {
+      "side": "R",
+      "distance": 5,
+      "hand_weight": 0.55,
+      "torso": "Chest"
+    },
+    "1692": {
+      "side": "R",
+      "distance": 5,
+      "hand_weight": 0.55,
+      "torso": "Spine"
+    },
+    "1693": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Chest"
+    },
+    "1694": {
+      "side": "R",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Chest"
+    },
+    "1695": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "1696": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "1697": {
+      "side": "R",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Chest"
+    },
+    "1698": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1699": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Chest"
+    },
+    "1700": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Chest"
+    },
+    "1701": {
+      "side": "R",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Chest"
+    },
+    "1702": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Chest"
+    },
+    "1703": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1704": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Chest"
+    },
+    "1705": {
+      "side": "R",
+      "distance": 5,
+      "hand_weight": 0.55,
+      "torso": "Spine"
+    },
+    "1706": {
+      "side": "R",
+      "distance": 5,
+      "hand_weight": 0.55,
+      "torso": "Spine"
+    },
+    "1707": {
+      "side": "R",
+      "distance": 5,
+      "hand_weight": 0.55,
+      "torso": "Spine"
+    },
+    "1708": {
+      "side": "R",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Spine"
+    },
+    "4260": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "1710": {
+      "side": "R",
+      "distance": 5,
+      "hand_weight": 0.55,
+      "torso": "Spine"
+    },
+    "1711": {
+      "side": "R",
+      "distance": 5,
+      "hand_weight": 0.55,
+      "torso": "Spine"
+    },
+    "1712": {
+      "side": "R",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Spine"
+    },
+    "1713": {
+      "side": "R",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Spine"
+    },
+    "4274": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "4275": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1714": {
+      "side": "R",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Spine"
+    },
+    "1715": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "1716": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "1717": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "1718": {
+      "side": "R",
+      "distance": 5,
+      "hand_weight": 0.55,
+      "torso": "Spine"
+    },
+    "1719": {
+      "side": "R",
+      "distance": 6,
+      "hand_weight": 0.6500000000000001,
+      "torso": "Spine"
+    },
+    "1720": {
+      "side": "R",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Spine"
+    },
+    "1721": {
+      "side": "R",
+      "distance": 5,
+      "hand_weight": 0.55,
+      "torso": "Chest"
+    },
+    "1722": {
+      "side": "R",
+      "distance": 5,
+      "hand_weight": 0.55,
+      "torso": "Spine"
+    },
+    "1723": {
+      "side": "R",
+      "distance": 5,
+      "hand_weight": 0.55,
+      "torso": "Spine"
+    },
+    "1724": {
+      "side": "R",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Spine"
+    },
+    "1725": {
+      "side": "R",
+      "distance": 5,
+      "hand_weight": 0.55,
+      "torso": "Chest"
+    },
+    "1726": {
+      "side": "R",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Spine"
+    },
+    "1727": {
+      "side": "R",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Chest"
+    },
+    "4290": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1729": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "4292": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1730": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "4286": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "4287": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "4288": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1734": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1735": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1736": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1737": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Chest"
+    },
+    "1738": {
+      "side": "R",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Chest"
+    },
+    "1739": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1740": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1741": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Chest"
+    },
+    "1742": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Chest"
+    },
+    "1743": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Chest"
+    },
+    "1744": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "1745": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "1746": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "1747": {
+      "side": "R",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Chest"
+    },
+    "1748": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Chest"
+    },
+    "4310": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "4313": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "4314": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "4315": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "4316": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "4317": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "4318": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "4319": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "4320": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "4321": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "4322": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "4323": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "4324": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "4325": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "4326": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "4327": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "4328": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "4329": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "4330": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "4383": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "4384": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "4386": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "4389": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "4394": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "4397": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "4398": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "4399": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "4245": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "4246": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "4248": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "4249": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "4250": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "4251": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "4252": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "4253": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "4254": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "4255": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "4516": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "4256": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "4257": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "4523": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "4525": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "4526": {
+      "side": "R",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Spine"
+    },
+    "4527": {
+      "side": "R",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Spine"
+    },
+    "4258": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "4259": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "4261": {
+      "side": "R",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Spine"
+    },
+    "4262": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "4263": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "4264": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "1490": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1491": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "4265": {
+      "side": "R",
+      "distance": 4,
+      "hand_weight": 0.45,
+      "torso": "Spine"
+    },
+    "4266": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "1498": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1500": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Chest"
+    },
+    "1501": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Chest"
+    },
+    "1502": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Chest"
+    },
+    "1503": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1504": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Chest"
+    },
+    "1506": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Chest"
+    },
+    "1507": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    },
+    "1508": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Chest"
+    },
+    "1510": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Chest"
+    },
+    "1511": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1512": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "1513": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "1514": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1515": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "1516": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1517": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1518": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "1519": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1520": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "1521": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "1522": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Spine"
+    },
+    "1523": {
+      "side": "R",
+      "distance": 3,
+      "hand_weight": 0.35000000000000003,
+      "torso": "Chest"
+    },
+    "1524": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "1525": {
+      "side": "R",
+      "distance": 2,
+      "hand_weight": 0.25,
+      "torso": "Spine"
+    },
+    "4271": {
+      "side": "R",
+      "distance": 1,
+      "hand_weight": 0.15000000000000002,
+      "torso": "Spine"
+    },
+    "4272": {
+      "side": "R",
+      "distance": 0,
+      "hand_weight": 0.05,
+      "torso": "Spine"
+    }
+  },
+  "geometry_counts": {
+    "vertices": 10434,
+    "bones": 26
+  },
+  "note": "Only central belly-side Hand.L/Hand.R transition weights changed; topology, UVs, rest bones and existing actions were preserved."
+}

@@ -1,0 +1,6 @@
+running ARMATURE_AUTO (bone heat)...
+bone heat done
+rendered calm bbox_w=0.117 D=0.619
+rendered rage bbox_w=0.149 D=0.729
+rendered divine bbox_w=0.126 D=0.617
+rendered classic bbox_w=0.112 D=0.618

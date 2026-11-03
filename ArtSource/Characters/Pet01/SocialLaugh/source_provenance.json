@@ -1,0 +1,6 @@
+{
+  "source_sha256": "308d2060266688a070da6c47131b20b0e71fc624af288cb0826078ebca5968a5",
+  "frozen_data_fingerprint": "0f63a8645ec1adc6baeca0e1dab33c86f2e6bdbfe63a21ae2e1e15a5b21413ab",
+  "source": "ArtSource/Characters/Pet01/pet01.blend",
+  "note": "Only social_laugh added. Geometry, UV, weights, rest bones and 9 existing actions unchanged."
+}

@@ -1,0 +1,1367 @@
+{
+  "schema_version": 2,
+  "asset_id": "Pet01",
+  "slice": "P5-A",
+  "date": "2026-10-27",
+  "revision": "2026-10-27 rework after visual review (see Logs/FaceOverlay_20261027/visual_review.md)",
+  "generator": "Tools/Blender/build_pet01_face_overlay.py",
+  "source": {
+    "blend": "ArtSource/Characters/Pet01/pet01.blend",
+    "sha256_expected": "a289a8db83d91452284537fb55afbee4a2a6fb42c0c51a6027b564511a5c3c9b",
+    "sha256_before": "a289a8db83d91452284537fb55afbee4a2a6fb42c0c51a6027b564511a5c3c9b",
+    "sha256_after": "a289a8db83d91452284537fb55afbee4a2a6fb42c0c51a6027b564511a5c3c9b",
+    "unchanged": true,
+    "saved": false,
+    "note": "Opened read-only; no save_mainfile / save_as_mainfile call exists in the script."
+  },
+  "blender": "5.1.1",
+  "scene": {
+    "rig": "Pet01Rig",
+    "mesh": "Pet01_Mesh",
+    "pose_position": "REST",
+    "frame": 1,
+    "evaluated_mesh_triangles": 24536,
+    "material_slots": [
+      "Pet01_Skin",
+      "Pet01_Oral",
+      "Pet01_Eyes"
+    ],
+    "matrix_check": {
+      "Pet01Rig": {
+        "matrix_world_identity": true,
+        "max_deviation": 0.0,
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "Pet01_Mesh": {
+        "matrix_world_identity": true,
+        "max_deviation": 0.0,
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    }
+  },
+  "projection": {
+    "direction": "-Y from y=+0.2, then displaced along the hit triangle normal",
+    "surface_lift_m": {
+      "Pet01_FaceEyes": 0.0012,
+      "Pet01_FaceMouth": 0.001
+    },
+    "note": "No interpolation: a quad is dropped when any of its corners missed the face, so no vertex floats outside the silhouette. UV 0..1 spans one atlas cell (see face_atlas_manifest.json)."
+  },
+  "patches": {
+    "Pet01_FaceEyes": {
+      "grid_segments": [
+        96,
+        36
+      ],
+      "projection": "ray -Y from y=+0.2, then displaced along the hit triangle normal",
+      "normal_lift_m": 0.0012,
+      "vertices": 2450,
+      "triangles": 4666,
+      "triangles_dropped_no_hit": 2246,
+      "dropped_fraction": 0.3249,
+      "ray_misses_vertices": 822,
+      "uv_layer": "UVMap",
+      "bounds_world_m": {
+        "x": [
+          -0.020113110542297363,
+          0.020113887265324593
+        ],
+        "y": [
+          0.015411396510899067,
+          0.030017655342817307
+        ],
+        "z": [
+          0.17756453156471252,
+          0.19754068553447723
+        ]
+      },
+      "surface_gap_m": {
+        "vertical_min": 1.843615354402573e-05,
+        "vertical_max": 0.003630794268632713,
+        "vertical_mean": 0.0011026669167738406,
+        "euclidean_min": 0.0011999999999999882,
+        "euclidean_max": 0.0037715733602564695
+      },
+      "lateral_drift_m": {
+        "max": 0.0011998583700764413,
+        "mean": 0.0007611598533400414
+      },
+      "vertices_lifted_by_eye_or_lid": 608,
+      "normals_all_positive_y": false,
+      "min_face_normal_y": -0.9976,
+      "object_matrix_world_identity": true,
+      "parent": null,
+      "repair_iterations": 4,
+      "repair_vertex_lifts": 477,
+      "repair_step_m": 0.00025,
+      "repair_converged": false,
+      "poke_through_threshold_m": 0.005,
+      "quads_dropped_steep": 311,
+      "min_facing_normal_y": 0.45,
+      "bridge_grid_steps": 2,
+      "bridge_lift_max_m": 0.002,
+      "bridge_lift_mean_m": 0.000158,
+      "eye_front_vs_skin_m": {
+        "vertices_with_hit": 752,
+        "max_m": 0.0,
+        "min_m": -0.004796653985977173
+      },
+      "lid_front_vs_skin_m": {
+        "vertices_with_hit": 788,
+        "max_m": 0.0,
+        "min_m": -0.011237964034080505
+      },
+      "triangle_gap_m": {
+        "min": 4.5651431719306856e-05,
+        "max": 0.049882955849170685,
+        "mean": 0.0015459567490659152,
+        "no_hit_triangles": 52
+      },
+      "visibility": {
+        "front": {
+          "hidden_by_offset_mm": {
+            "2": 1,
+            "4": 0,
+            "6": 0,
+            "8": 0,
+            "10": 0,
+            "12": 0,
+            "15": 0,
+            "20": 0
+          },
+          "effective_view_offset_m": 0.01,
+          "penetrated_triangles": 6,
+          "penetrated_fraction": 0.0013,
+          "occluded_by_far_geometry_triangles": 0,
+          "still_hidden_after_view_offset_triangles": 0,
+          "nearest_occluder_m": 3.320241012261249e-05
+        },
+        "right35": {
+          "hidden_by_offset_mm": {
+            "2": 24,
+            "4": 6,
+            "6": 0,
+            "8": 0,
+            "10": 0,
+            "12": 0,
+            "15": 0,
+            "20": 0
+          },
+          "effective_view_offset_m": 0.00801,
+          "penetrated_triangles": 31,
+          "penetrated_fraction": 0.0066,
+          "occluded_by_far_geometry_triangles": 2,
+          "still_hidden_after_view_offset_triangles": 0,
+          "nearest_occluder_m": 2.5680457838461734e-05
+        },
+        "left35": {
+          "hidden_by_offset_mm": {
+            "2": 25,
+            "4": 6,
+            "6": 2,
+            "8": 0,
+            "10": 0,
+            "12": 0,
+            "15": 0,
+            "20": 0
+          },
+          "effective_view_offset_m": 0.00801,
+          "penetrated_triangles": 32,
+          "penetrated_fraction": 0.0069,
+          "occluded_by_far_geometry_triangles": 2,
+          "still_hidden_after_view_offset_triangles": 0,
+          "nearest_occluder_m": 2.6175175662501715e-05
+        },
+        "right60": {
+          "hidden_by_offset_mm": {
+            "2": 100,
+            "4": 28,
+            "6": 13,
+            "8": 1,
+            "10": 0,
+            "12": 0,
+            "15": 0,
+            "20": 0
+          },
+          "effective_view_offset_m": 0.00461,
+          "penetrated_triangles": 123,
+          "penetrated_fraction": 0.0264,
+          "occluded_by_far_geometry_triangles": 15,
+          "still_hidden_after_view_offset_triangles": 20,
+          "nearest_occluder_m": 3.0851373594487086e-05
+        },
+        "left60": {
+          "hidden_by_offset_mm": {
+            "2": 98,
+            "4": 25,
+            "6": 15,
+            "8": 0,
+            "10": 0,
+            "12": 0,
+            "15": 0,
+            "20": 0
+          },
+          "effective_view_offset_m": 0.00461,
+          "penetrated_triangles": 124,
+          "penetrated_fraction": 0.0266,
+          "occluded_by_far_geometry_triangles": 18,
+          "still_hidden_after_view_offset_triangles": 19,
+          "nearest_occluder_m": 2.3614036763319746e-05
+        },
+        "side90": {
+          "hidden_by_offset_mm": {
+            "2": 1345,
+            "4": 547,
+            "6": 277,
+            "8": 98,
+            "10": 0,
+            "12": 0,
+            "15": 0,
+            "20": 0
+          },
+          "effective_view_offset_m": 0.0,
+          "penetrated_triangles": 1083,
+          "penetrated_fraction": 0.2321,
+          "occluded_by_far_geometry_triangles": 383,
+          "still_hidden_after_view_offset_triangles": 1466,
+          "nearest_occluder_m": 5.400188092608005e-05
+        }
+      },
+      "atlas_ink": {
+        "squint": {
+          "painted_vertices": 111,
+          "strong_vertices": 111,
+          "max_alpha": 1.0
+        },
+        "closed": {
+          "painted_vertices": 80,
+          "strong_vertices": 72,
+          "max_alpha": 1.0
+        },
+        "divine": {
+          "painted_vertices": 1065,
+          "strong_vertices": 970,
+          "max_alpha": 1.0
+        },
+        "rage": {
+          "painted_vertices": 977,
+          "strong_vertices": 925,
+          "max_alpha": 1.0
+        }
+      },
+      "ink_cut_pixels_alpha_gt_0_25": 0,
+      "head_extent_in_cell_uv": [
+        {
+          "v": 0.0,
+          "z_m": 0.1785,
+          "u": [
+            0.05,
+            0.95
+          ]
+        },
+        {
+          "v": 0.1,
+          "z_m": 0.1803,
+          "u": [
+            0.0583,
+            0.9417
+          ]
+        },
+        {
+          "v": 0.2,
+          "z_m": 0.1821,
+          "u": [
+            0.0667,
+            0.9333
+          ]
+        },
+        {
+          "v": 0.3,
+          "z_m": 0.1839,
+          "u": [
+            0.075,
+            0.925
+          ]
+        },
+        {
+          "v": 0.4,
+          "z_m": 0.1857,
+          "u": [
+            0.0833,
+            0.9167
+          ]
+        },
+        {
+          "v": 0.5,
+          "z_m": 0.1875,
+          "u": [
+            0.1,
+            0.9
+          ]
+        },
+        {
+          "v": 0.6,
+          "z_m": 0.1893,
+          "u": [
+            0.1083,
+            0.8917
+          ]
+        },
+        {
+          "v": 0.7,
+          "z_m": 0.1911,
+          "u": [
+            0.1333,
+            0.8667
+          ]
+        },
+        {
+          "v": 0.8,
+          "z_m": 0.1929,
+          "u": [
+            0.1667,
+            0.8333
+          ]
+        },
+        {
+          "v": 0.9,
+          "z_m": 0.1947,
+          "u": [
+            0.2,
+            0.8
+          ]
+        },
+        {
+          "v": 1.0,
+          "z_m": 0.1965,
+          "u": [
+            0.25,
+            0.75
+          ]
+        }
+      ],
+      "original_footprint_cover": {
+        "footprint_samples": 3594,
+        "no_quad": 0,
+        "cells": {
+          "divine": {
+            "uncovered": 0,
+            "uncovered_fraction": 0.0
+          },
+          "rage": {
+            "uncovered": 0,
+            "uncovered_fraction": 0.0
+          }
+        }
+      }
+    },
+    "Pet01_FaceMouth": {
+      "grid_segments": [
+        28,
+        14
+      ],
+      "projection": "ray -Y from y=+0.2, then displaced along the hit triangle normal",
+      "normal_lift_m": 0.001,
+      "vertices": 435,
+      "triangles": 784,
+      "triangles_dropped_no_hit": 0,
+      "dropped_fraction": 0.0,
+      "ray_misses_vertices": 0,
+      "uv_layer": "UVMap",
+      "bounds_world_m": {
+        "x": [
+          -0.018029944971203804,
+          0.018030505627393723
+        ],
+        "y": [
+          0.015875600278377533,
+          0.029575113207101822
+        ],
+        "z": [
+          0.16522882878780365,
+          0.18253706395626068
+        ]
+      },
+      "surface_gap_m": {
+        "vertical_min": 0.00059878164763838,
+        "vertical_max": 0.003981319633519817,
+        "vertical_mean": 0.0012607989613494352,
+        "euclidean_min": 0.0009999999999999929,
+        "euclidean_max": 0.003985965102847604
+      },
+      "lateral_drift_m": {
+        "max": 0.000993016926906918,
+        "mean": 0.0005288101248962951
+      },
+      "vertices_lifted_by_eye_or_lid": 22,
+      "normals_all_positive_y": false,
+      "min_face_normal_y": -0.1254,
+      "object_matrix_world_identity": true,
+      "parent": null,
+      "repair_iterations": 4,
+      "repair_vertex_lifts": 153,
+      "repair_step_m": 0.00025,
+      "repair_converged": false,
+      "poke_through_threshold_m": 0.005,
+      "quads_dropped_steep": 0,
+      "min_facing_normal_y": 0.45,
+      "bridge_grid_steps": 2,
+      "bridge_lift_max_m": 0.002,
+      "bridge_lift_mean_m": 0.00034,
+      "eye_front_vs_skin_m": {
+        "vertices_with_hit": 32,
+        "max_m": 0.0,
+        "min_m": -0.00437551736831665
+      },
+      "lid_front_vs_skin_m": {
+        "vertices_with_hit": 34,
+        "max_m": -0.0005926340818405151,
+        "min_m": -0.00958012044429779
+      },
+      "triangle_gap_m": {
+        "min": 5.2764382417080924e-05,
+        "max": 0.03666529804468155,
+        "mean": 0.0016935275740070444,
+        "no_hit_triangles": 3
+      },
+      "visibility": {
+        "front": {
+          "hidden_by_offset_mm": {
+            "2": 11,
+            "4": 2,
+            "6": 2,
+            "8": 0,
+            "10": 0,
+            "12": 0,
+            "15": 0,
+            "20": 0
+          },
+          "effective_view_offset_m": 0.01,
+          "penetrated_triangles": 23,
+          "penetrated_fraction": 0.0293,
+          "occluded_by_far_geometry_triangles": 2,
+          "still_hidden_after_view_offset_triangles": 0,
+          "nearest_occluder_m": 0.0001322967145824805
+        },
+        "right35": {
+          "hidden_by_offset_mm": {
+            "2": 14,
+            "4": 2,
+            "6": 1,
+            "8": 1,
+            "10": 0,
+            "12": 0,
+            "15": 0,
+            "20": 0
+          },
+          "effective_view_offset_m": 0.00801,
+          "penetrated_triangles": 26,
+          "penetrated_fraction": 0.0332,
+          "occluded_by_far_geometry_triangles": 1,
+          "still_hidden_after_view_offset_triangles": 1,
+          "nearest_occluder_m": 0.00016158883227035403
+        },
+        "left35": {
+          "hidden_by_offset_mm": {
+            "2": 14,
+            "4": 3,
+            "6": 1,
+            "8": 1,
+            "10": 0,
+            "12": 0,
+            "15": 0,
+            "20": 0
+          },
+          "effective_view_offset_m": 0.00801,
+          "penetrated_triangles": 26,
+          "penetrated_fraction": 0.0332,
+          "occluded_by_far_geometry_triangles": 2,
+          "still_hidden_after_view_offset_triangles": 1,
+          "nearest_occluder_m": 0.00016240599507000297
+        },
+        "right60": {
+          "hidden_by_offset_mm": {
+            "2": 43,
+            "4": 32,
+            "6": 21,
+            "8": 7,
+            "10": 1,
+            "12": 0,
+            "15": 0,
+            "20": 0
+          },
+          "effective_view_offset_m": 0.00461,
+          "penetrated_triangles": 27,
+          "penetrated_fraction": 0.0344,
+          "occluded_by_far_geometry_triangles": 27,
+          "still_hidden_after_view_offset_triangles": 29,
+          "nearest_occluder_m": 0.0002469810424372554
+        },
+        "left60": {
+          "hidden_by_offset_mm": {
+            "2": 42,
+            "4": 33,
+            "6": 24,
+            "8": 10,
+            "10": 3,
+            "12": 1,
+            "15": 0,
+            "20": 0
+          },
+          "effective_view_offset_m": 0.00461,
+          "penetrated_triangles": 26,
+          "penetrated_fraction": 0.0332,
+          "occluded_by_far_geometry_triangles": 30,
+          "still_hidden_after_view_offset_triangles": 31,
+          "nearest_occluder_m": 0.00027970707742497325
+        },
+        "side90": {
+          "hidden_by_offset_mm": {
+            "2": 198,
+            "4": 46,
+            "6": 11,
+            "8": 6,
+            "10": 4,
+            "12": 4,
+            "15": 0,
+            "20": 0
+          },
+          "effective_view_offset_m": 0.0,
+          "penetrated_triangles": 257,
+          "penetrated_fraction": 0.3278,
+          "occluded_by_far_geometry_triangles": 24,
+          "still_hidden_after_view_offset_triangles": 281,
+          "nearest_occluder_m": 0.0003714277409017086
+        }
+      },
+      "atlas_ink": {
+        "smile": {
+          "painted_vertices": 11,
+          "strong_vertices": 9,
+          "max_alpha": 1.0
+        },
+        "laugh": {
+          "painted_vertices": 122,
+          "strong_vertices": 122,
+          "max_alpha": 1.0
+        },
+        "roar": {
+          "painted_vertices": 118,
+          "strong_vertices": 117,
+          "max_alpha": 1.0
+        },
+        "o": {
+          "painted_vertices": 69,
+          "strong_vertices": 67,
+          "max_alpha": 1.0
+        },
+        "serene": {
+          "painted_vertices": 6,
+          "strong_vertices": 3,
+          "max_alpha": 1.0
+        },
+        "flat": {
+          "painted_vertices": 13,
+          "strong_vertices": 13,
+          "max_alpha": 1.0
+        }
+      },
+      "ink_cut_pixels_alpha_gt_0_25": 0,
+      "head_extent_in_cell_uv": [
+        {
+          "v": 0.0,
+          "z_m": 0.1655,
+          "u": [
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "v": 0.1,
+          "z_m": 0.16722,
+          "u": [
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "v": 0.2,
+          "z_m": 0.16894,
+          "u": [
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "v": 0.3,
+          "z_m": 0.17066,
+          "u": [
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "v": 0.4,
+          "z_m": 0.17238,
+          "u": [
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "v": 0.5,
+          "z_m": 0.1741,
+          "u": [
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "v": 0.6,
+          "z_m": 0.17582,
+          "u": [
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "v": 0.7,
+          "z_m": 0.17754,
+          "u": [
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "v": 0.8,
+          "z_m": 0.17926,
+          "u": [
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "v": 0.9,
+          "z_m": 0.18098,
+          "u": [
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "v": 1.0,
+          "z_m": 0.1827,
+          "u": [
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "original_footprint_cover": {
+        "footprint_samples": 276,
+        "no_quad": 0,
+        "cells": {
+          "laugh": {
+            "uncovered": 0,
+            "uncovered_fraction": 0.0
+          },
+          "roar": {
+            "uncovered": 0,
+            "uncovered_fraction": 0.0
+          },
+          "o": {
+            "uncovered": 0,
+            "uncovered_fraction": 0.0
+          }
+        }
+      }
+    }
+  },
+  "mouth_alignment": {
+    "oral_v_range": [
+      0.6105,
+      0.8401
+    ],
+    "oral_v_centre": 0.7253,
+    "oral_u_range": [
+      0.1995,
+      0.8005
+    ],
+    "lip_slit_z_m": [
+      0.1775,
+      0.1787
+    ],
+    "lip_slit_v_range": [
+      0.6977,
+      0.7674
+    ],
+    "lip_slit_x_m": [
+      -0.0102,
+      0.0102
+    ],
+    "lip_slit_u_range": [
+      0.2035,
+      0.7965
+    ],
+    "cells_z_m": [
+      0.1655,
+      0.1827
+    ],
+    "cells_x_m": [
+      -0.0172,
+      0.0172
+    ]
+  },
+  "atlas": {
+    "manifest": "ArtSource/Characters/Pet01/FaceOverlay/face_atlas_manifest.json",
+    "cells": {
+      "eyes": {
+        "squint": [
+          0.5,
+          0.1875,
+          0.0,
+          0.8125
+        ],
+        "closed": [
+          0.5,
+          0.1875,
+          0.5,
+          0.8125
+        ],
+        "divine": [
+          0.5,
+          0.1875,
+          0.0,
+          0.625
+        ],
+        "rage": [
+          0.5,
+          0.1875,
+          0.5,
+          0.625
+        ]
+      },
+      "mouth": {
+        "smile": [
+          0.5,
+          0.25,
+          0.0,
+          0.75
+        ],
+        "laugh": [
+          0.5,
+          0.25,
+          0.5,
+          0.75
+        ],
+        "roar": [
+          0.5,
+          0.25,
+          0.0,
+          0.5
+        ],
+        "o": [
+          0.5,
+          0.25,
+          0.5,
+          0.5
+        ],
+        "serene": [
+          0.5,
+          0.25,
+          0.0,
+          0.25
+        ],
+        "flat": [
+          0.5,
+          0.25,
+          0.5,
+          0.25
+        ]
+      }
+    },
+    "cell_px": {
+      "eyes": [
+        1024,
+        384
+      ],
+      "mouth": [
+        256,
+        128
+      ]
+    },
+    "size_px": {
+      "eyes": [
+        2048,
+        2048
+      ],
+      "mouth": [
+        512,
+        512
+      ]
+    }
+  },
+  "cover_colors_srgb": {
+    "classic": {
+      "eyes_cover_srgb": [
+        0.70196,
+        0.56471,
+        0.26667
+      ],
+      "eyes_uv": [
+        0.250023,
+        0.896489
+      ],
+      "eyes_colour_at_uv_srgb": [
+        0.70196,
+        0.56471,
+        0.26667
+      ],
+      "eyes_median_vs_texel_max_abs_diff": 0.0,
+      "eyes_spread_srgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mouth_cover_srgb": [
+        0.70196,
+        0.56471,
+        0.26667
+      ],
+      "mouth_uv": [
+        0.251083,
+        0.849268
+      ],
+      "mouth_colour_at_uv_srgb": [
+        0.70196,
+        0.56471,
+        0.26667
+      ],
+      "mouth_median_vs_texel_max_abs_diff": 0.0,
+      "mouth_spread_srgb": [
+        0.00392,
+        0.0,
+        0.0
+      ]
+    },
+    "calm": {
+      "eyes_cover_srgb": [
+        0.1451,
+        0.27059,
+        0.4
+      ],
+      "eyes_uv": [
+        0.250023,
+        0.896489
+      ],
+      "eyes_colour_at_uv_srgb": [
+        0.1451,
+        0.27059,
+        0.4
+      ],
+      "eyes_median_vs_texel_max_abs_diff": 0.0,
+      "eyes_spread_srgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mouth_cover_srgb": [
+        0.1451,
+        0.27059,
+        0.4
+      ],
+      "mouth_uv": [
+        0.251083,
+        0.849268
+      ],
+      "mouth_colour_at_uv_srgb": [
+        0.1451,
+        0.27059,
+        0.4
+      ],
+      "mouth_median_vs_texel_max_abs_diff": 0.0,
+      "mouth_spread_srgb": [
+        0.0,
+        0.00392,
+        0.0
+      ]
+    },
+    "rage": {
+      "eyes_cover_srgb": [
+        0.67843,
+        0.27843,
+        0.19216
+      ],
+      "eyes_uv": [
+        0.250023,
+        0.896489
+      ],
+      "eyes_colour_at_uv_srgb": [
+        0.67843,
+        0.27843,
+        0.19216
+      ],
+      "eyes_median_vs_texel_max_abs_diff": 0.0,
+      "eyes_spread_srgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mouth_cover_srgb": [
+        0.67843,
+        0.27843,
+        0.19216
+      ],
+      "mouth_uv": [
+        0.251083,
+        0.849268
+      ],
+      "mouth_colour_at_uv_srgb": [
+        0.67843,
+        0.27843,
+        0.19216
+      ],
+      "mouth_median_vs_texel_max_abs_diff": 0.0,
+      "mouth_spread_srgb": [
+        0.0,
+        0.0,
+        0.00392
+      ]
+    },
+    "divine": {
+      "eyes_cover_srgb": [
+        0.40392,
+        0.28627,
+        0.54902
+      ],
+      "eyes_uv": [
+        0.250023,
+        0.896489
+      ],
+      "eyes_colour_at_uv_srgb": [
+        0.40392,
+        0.28627,
+        0.54902
+      ],
+      "eyes_median_vs_texel_max_abs_diff": 0.0,
+      "eyes_spread_srgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mouth_cover_srgb": [
+        0.40392,
+        0.28627,
+        0.54902
+      ],
+      "mouth_uv": [
+        0.251083,
+        0.849268
+      ],
+      "mouth_colour_at_uv_srgb": [
+        0.40392,
+        0.28627,
+        0.54902
+      ],
+      "mouth_median_vs_texel_max_abs_diff": 0.0,
+      "mouth_spread_srgb": [
+        0.00392,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "cover_sampling": {
+    "eye_ring_samples": 80,
+    "mouth_area_samples": 272,
+    "eye_cover_uv_median": [
+      0.250023,
+      0.896489
+    ],
+    "mouth_cover_uv_median": [
+      0.251083,
+      0.849268
+    ],
+    "note": "UV is geometry-derived, so all four variants share the same pinned texel; the colour differs because each variant has its own base-colour texture."
+  },
+  "cover_methods": {
+    "delivered_preview": "copy of the variant skin material, Image Texture UV collapsed by a Mapping node (scale 0, location = median skin UV), so colour and shading match the skin exactly",
+    "previous_flat": "Principled base colour = sRGB->linear of the sampled median colour; the colour matched on paper but read as an olive patch because the flat surface lost the skin texture detail and highlights",
+    "unity_recommendation": "swap the Eyes/Oral material slots for a copy of that variant's Skin material and set _MainTex_ST = (0, 0, u, v) with (u, v) from cover_colors_srgb.<variant>.{eyes_uv,mouth_uv}",
+    "measured_comparison": {
+      "probe_points_m": {
+        "eye_cover": [
+          0.0155,
+          0.02614,
+          0.1856
+        ],
+        "mouth_cover": [
+          0.0,
+          0.02756,
+          0.178
+        ],
+        "skin_cheek": [
+          0.0145,
+          0.01862,
+          0.172
+        ],
+        "skin_forehead": [
+          0.0,
+          0.02361,
+          0.1945
+        ]
+      },
+      "renders": {
+        "squint_laugh_front.png": {
+          "eye_cover": [
+            0.9206,
+            0.7427,
+            0.2455
+          ],
+          "mouth_cover": [
+            0.9576,
+            0.7671,
+            0.3162
+          ],
+          "skin_cheek": [
+            0.8737,
+            0.7219,
+            0.3973
+          ],
+          "skin_forehead": [
+            0.9285,
+            0.736,
+            0.2351
+          ]
+        },
+        "cover_flat_front.png": {
+          "eye_cover": [
+            0.9206,
+            0.7427,
+            0.2455
+          ],
+          "mouth_cover": [
+            0.9576,
+            0.7671,
+            0.3162
+          ],
+          "skin_cheek": [
+            0.8543,
+            0.6969,
+            0.3445
+          ],
+          "skin_forehead": [
+            0.9285,
+            0.736,
+            0.2351
+          ]
+        }
+      },
+      "eye_cover_vs_skin_forehead": {
+        "squint_laugh_front.png": [
+          -0.0079,
+          0.0067,
+          0.0104
+        ],
+        "cover_flat_front.png": [
+          -0.0079,
+          0.0067,
+          0.0104
+        ]
+      },
+      "mouth_cover_vs_skin_forehead": {
+        "squint_laugh_front.png": [
+          0.0291,
+          0.0311,
+          0.0811
+        ],
+        "cover_flat_front.png": [
+          0.0291,
+          0.0311,
+          0.0811
+        ]
+      }
+    }
+  },
+  "export": {
+    "fbx": "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_FaceOverlay.fbx",
+    "sha256": "5b3d104c004d5d77272b5be7e469d7fbeeccae0172ec2d54b497898fb14e8647",
+    "selected_objects": [
+      "Pet01_FaceEyes",
+      "Pet01_FaceMouth"
+    ],
+    "object_types": [
+      "MESH"
+    ],
+    "materials": "none",
+    "fbx_options": {
+      "add_leaf_bones": false,
+      "use_armature_deform_only": true,
+      "axis_forward": "-Z",
+      "axis_up": "Y",
+      "apply_unit_scale": true,
+      "apply_scale_options": "FBX_SCALE_UNITS",
+      "use_mesh_modifiers": true,
+      "mesh_smooth_type": "FACE",
+      "use_tspace": false,
+      "path_mode": "RELATIVE",
+      "embed_textures": false,
+      "bake_anim": false,
+      "armature_nodetype": "NULL"
+    }
+  },
+  "previews": [
+    {
+      "file": "ArtSource/Characters/Pet01/Logs/FaceOverlay_20261027/neutral_front.png",
+      "group": "neutral",
+      "view": "front",
+      "eyes_cell": null,
+      "mouth_cell": null,
+      "eye_cover": false,
+      "mouth_cover": false,
+      "engine": "BLENDER_EEVEE",
+      "samples": 64,
+      "bytes": 282009
+    },
+    {
+      "file": "ArtSource/Characters/Pet01/Logs/FaceOverlay_20261027/neutral_right35.png",
+      "group": "neutral",
+      "view": "right35",
+      "eyes_cell": null,
+      "mouth_cell": null,
+      "eye_cover": false,
+      "mouth_cover": false,
+      "engine": "BLENDER_EEVEE",
+      "samples": 64,
+      "bytes": 276625
+    },
+    {
+      "file": "ArtSource/Characters/Pet01/Logs/FaceOverlay_20261027/neutral_side90.png",
+      "group": "neutral",
+      "view": "side90",
+      "eyes_cell": null,
+      "mouth_cell": null,
+      "eye_cover": false,
+      "mouth_cover": false,
+      "engine": "BLENDER_EEVEE",
+      "samples": 64,
+      "bytes": 267999
+    },
+    {
+      "file": "ArtSource/Characters/Pet01/Logs/FaceOverlay_20261027/squint_laugh_front.png",
+      "group": "squint_laugh",
+      "view": "front",
+      "eyes_cell": "squint",
+      "mouth_cell": "laugh",
+      "eye_cover": true,
+      "mouth_cover": true,
+      "engine": "BLENDER_EEVEE",
+      "samples": 64,
+      "bytes": 287351
+    },
+    {
+      "file": "ArtSource/Characters/Pet01/Logs/FaceOverlay_20261027/squint_laugh_right35.png",
+      "group": "squint_laugh",
+      "view": "right35",
+      "eyes_cell": "squint",
+      "mouth_cell": "laugh",
+      "eye_cover": true,
+      "mouth_cover": true,
+      "engine": "BLENDER_EEVEE",
+      "samples": 64,
+      "bytes": 281677
+    },
+    {
+      "file": "ArtSource/Characters/Pet01/Logs/FaceOverlay_20261027/squint_laugh_left35.png",
+      "group": "squint_laugh",
+      "view": "left35",
+      "eyes_cell": "squint",
+      "mouth_cell": "laugh",
+      "eye_cover": true,
+      "mouth_cover": true,
+      "engine": "BLENDER_EEVEE",
+      "samples": 64,
+      "bytes": 284279
+    },
+    {
+      "file": "ArtSource/Characters/Pet01/Logs/FaceOverlay_20261027/closed_serene_front.png",
+      "group": "closed_serene",
+      "view": "front",
+      "eyes_cell": "closed",
+      "mouth_cell": "serene",
+      "eye_cover": true,
+      "mouth_cover": true,
+      "engine": "BLENDER_EEVEE",
+      "samples": 64,
+      "bytes": 279472
+    },
+    {
+      "file": "ArtSource/Characters/Pet01/Logs/FaceOverlay_20261027/closed_serene_right35.png",
+      "group": "closed_serene",
+      "view": "right35",
+      "eyes_cell": "closed",
+      "mouth_cell": "serene",
+      "eye_cover": true,
+      "mouth_cover": true,
+      "engine": "BLENDER_EEVEE",
+      "samples": 64,
+      "bytes": 274167
+    },
+    {
+      "file": "ArtSource/Characters/Pet01/Logs/FaceOverlay_20261027/divine_serene_front.png",
+      "group": "divine_serene",
+      "view": "front",
+      "eyes_cell": "divine",
+      "mouth_cell": "serene",
+      "eye_cover": true,
+      "mouth_cover": true,
+      "engine": "BLENDER_EEVEE",
+      "samples": 64,
+      "bytes": 283030
+    },
+    {
+      "file": "ArtSource/Characters/Pet01/Logs/FaceOverlay_20261027/divine_serene_right35.png",
+      "group": "divine_serene",
+      "view": "right35",
+      "eyes_cell": "divine",
+      "mouth_cell": "serene",
+      "eye_cover": true,
+      "mouth_cover": true,
+      "engine": "BLENDER_EEVEE",
+      "samples": 64,
+      "bytes": 279410
+    },
+    {
+      "file": "ArtSource/Characters/Pet01/Logs/FaceOverlay_20261027/divine_serene_left35.png",
+      "group": "divine_serene",
+      "view": "left35",
+      "eyes_cell": "divine",
+      "mouth_cell": "serene",
+      "eye_cover": true,
+      "mouth_cover": true,
+      "engine": "BLENDER_EEVEE",
+      "samples": 64,
+      "bytes": 282271
+    },
+    {
+      "file": "ArtSource/Characters/Pet01/Logs/FaceOverlay_20261027/rage_roar_front.png",
+      "group": "rage_roar",
+      "view": "front",
+      "eyes_cell": "rage",
+      "mouth_cell": "roar",
+      "eye_cover": true,
+      "mouth_cover": true,
+      "engine": "BLENDER_EEVEE",
+      "samples": 64,
+      "bytes": 292350
+    },
+    {
+      "file": "ArtSource/Characters/Pet01/Logs/FaceOverlay_20261027/rage_roar_right35.png",
+      "group": "rage_roar",
+      "view": "right35",
+      "eyes_cell": "rage",
+      "mouth_cell": "roar",
+      "eye_cover": true,
+      "mouth_cover": true,
+      "engine": "BLENDER_EEVEE",
+      "samples": 64,
+      "bytes": 287828
+    },
+    {
+      "file": "ArtSource/Characters/Pet01/Logs/FaceOverlay_20261027/nocover_o_front.png",
+      "group": "nocover_o",
+      "view": "front",
+      "eyes_cell": null,
+      "mouth_cell": "o",
+      "eye_cover": false,
+      "mouth_cover": true,
+      "engine": "BLENDER_EEVEE",
+      "samples": 64,
+      "bytes": 285182
+    },
+    {
+      "file": "ArtSource/Characters/Pet01/Logs/FaceOverlay_20261027/nocover_o_right35.png",
+      "group": "nocover_o",
+      "view": "right35",
+      "eyes_cell": null,
+      "mouth_cell": "o",
+      "eye_cover": false,
+      "mouth_cover": true,
+      "engine": "BLENDER_EEVEE",
+      "samples": 64,
+      "bytes": 279234
+    },
+    {
+      "file": "ArtSource/Characters/Pet01/Logs/FaceOverlay_20261027/squint_laugh_side90.png",
+      "group": "squint_laugh",
+      "view": "side90",
+      "eyes_cell": "squint",
+      "mouth_cell": "laugh",
+      "eye_cover": true,
+      "mouth_cover": true,
+      "engine": "BLENDER_EEVEE",
+      "samples": 64,
+      "bytes": 269007
+    }
+  ],
+  "preview_render": {
+    "engine": "BLENDER_EEVEE",
+    "resolution": [
+      480,
+      528
+    ],
+    "samples": 64,
+    "camera": "Pet01_PreviewCamera, orthographic",
+    "ortho_scale_m": 0.062,
+    "camera_distance_m": 0.4,
+    "image_interpolation": "Linear",
+    "alpha_output": "BLENDED",
+    "views": {
+      "front": "camera on +Y",
+      "right35": "35deg to +X",
+      "left35": "35deg to -X",
+      "side90": "profile, shows the float distance"
+    },
+    "output_dir": "ArtSource/Characters/Pet01/Logs/FaceOverlay_20261027/"
+  },
+  "known_gaps": [
+    "Unity wiring (materials, _MainTex_ST switching, Head bone parenting) is P5-B.",
+    "No mouth/eye geometry is animated; expressions are flat decals in front of the face.",
+    "The eyes rectangle (x +-0.024, z 0.1785..0.1965) is wider than the head in its top corners; those quads are now dropped, not interpolated, so the patch boundary follows the silhouette. See patches.*.atlas_ink / head_extent_in_cell_uv.",
+    "At 60 degrees the far side of the patch can still be occluded by the cheek; those counts are reported only."
+  ]
+}

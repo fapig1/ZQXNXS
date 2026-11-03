@@ -8,8 +8,7 @@ namespace ZQXNXS.ARPet.Core
     /// </summary>
     public enum InteractionEventKind
     {
-        /// <summary>实体投喂：小窝卡与食物卡同时有效，且满足距离、高度、停留与冷却条件。</summary>
-        Feed = 0,
+        // 旧值 Feed = 0（食物卡投喂）已随食物玩法删除。以下保留原数值，旧存档按数值读取时不会错位。
 
         /// <summary>触屏逗弄：点击或滑动角色可交互区域。<b>这是触屏输入，不是现实手部接触识别。</b></summary>
         Pet = 1,
@@ -19,43 +18,84 @@ namespace ZQXNXS.ARPet.Core
 
         /// <summary>拍照留念。</summary>
         Photo = 3,
+
+        /// <summary>
+        /// 语音口令：用户按住麦克风说出一句口令，被离线关键词识别命中。
+        /// 每只在场宠物各收到一个事件（各自的 Id 流），口令 ID 放在 <see cref="InteractionEvent.CommandId"/>。
+        /// </summary>
+        Voice = 4,
+    }
+
+    /// <summary>
+    /// 触屏手势种类。决定单击 / 双击各自结算多少开心值（数值在 PetConfig 的变体调参表里）。
+    /// <b>默认值必须是 <see cref="SingleTap"/> = 0</b>：旧代码与旧测试构造的事件没有该字段，
+    /// 读成单击才符合"一次点按"的原意。
+    /// </summary>
+    public enum PetGesture
+    {
+        SingleTap = 0,
+        DoubleTap = 1,
     }
 
     /// <summary>
     /// 一次已经过判定、可以交给行为层的交互事件。
-    /// 每个事件由 (Kind, Source, Id) 唯一标识，行为层据此保证同一次进入只结算一次。
+    /// 每个事件由 (PetId, Kind, Id) 唯一标识，行为层据此保证同一次进入只结算一次；
+    /// 不同宠物的同名事件流互不吞并。
     /// </summary>
     [Serializable]
     public struct InteractionEvent
     {
-        /// <summary>在同一个 (Kind, Source) 事件流中递增的序号，用于去重与日志追踪。</summary>
+        /// <summary>在同一个 (PetId, Kind) 事件流中递增的序号，用于去重与日志追踪。</summary>
         public int Id;
 
         public InteractionEventKind Kind;
-        public MarkerSlot Source;
+
+        /// <summary>事件归属的宠物稳定 ID（如 <c>pet_classic</c>）。空值属于错误配置，不应产生事件。</summary>
+        public string PetId;
 
         /// <summary>事件发生时刻（<c>Time.time</c> 或跟踪源的时钟，二者保持一致）。</summary>
         public float Time;
 
-        /// <summary>小窝局部坐标下的位置，米制。触屏事件可填点击射线与虚拟平面的交点。</summary>
+        /// <summary>事件发生位置，世界米制坐标。触屏事件可填点击射线与角色交互区域的交点。</summary>
         public Vector3 LocalPoint;
 
-        /// <summary>投喂时的判定距离（米），其他事件为 0。</summary>
+        /// <summary>判定距离（米），仅用于调试追踪；不再有投喂判定，普通事件为 0。</summary>
         public float Distance;
 
-        public static InteractionEvent Create(int id, InteractionEventKind kind, MarkerSlot source, float time,
-            Vector3 localPoint = default, float distance = 0f) => new InteractionEvent
+        /// <summary>
+        /// 触屏手势种类（单击 / 双击）。非触屏事件忽略该字段；
+        /// 缺省值是单击，保证旧代码构造的事件不会被当成双击多结算一次。
+        /// </summary>
+        public PetGesture Gesture;
+
+        /// <summary>语音口令的稳定 ID（如 <c>andi</c>），只对 <see cref="InteractionEventKind.Voice"/> 有意义。</summary>
+        public string CommandId;
+
+        public static InteractionEvent Create(int id, InteractionEventKind kind, string petId, float time,
+            Vector3 localPoint = default, float distance = 0f, PetGesture gesture = PetGesture.SingleTap) => new InteractionEvent
         {
             Id = id,
             Kind = kind,
-            Source = source,
+            PetId = petId,
             Time = time,
             LocalPoint = localPoint,
             Distance = distance,
+            Gesture = gesture,
         };
 
-        public override string ToString() =>
-            $"#{Id} {Kind} from {Source} @t={Time:F2} d={Distance:F3}m";
+        /// <summary>构造一个语音口令事件。</summary>
+        public static InteractionEvent CreateVoice(int id, string petId, float time, string commandId) => new InteractionEvent
+        {
+            Id = id,
+            Kind = InteractionEventKind.Voice,
+            PetId = petId,
+            Time = time,
+            CommandId = commandId,
+        };
+
+        public override string ToString() => Kind == InteractionEventKind.Voice
+            ? $"#{Id} Voice[{CommandId}] for {PetId} @t={Time:F2}"
+            : $"#{Id} {Kind} for {PetId} @t={Time:F2} d={Distance:F3}m g={Gesture}";
     }
 
     /// <summary>
@@ -85,7 +125,7 @@ namespace ZQXNXS.ARPet.Core
         /// <summary>播放一次性特效。</summary>
         void PlayFx(string fxId);
 
-        /// <summary>当前动画的播放速度。调用方只在待机时放慢，单次进食维持 1 倍速。</summary>
+        /// <summary>当前动画的播放速度。新版运行固定 1 倍速，不再按困倦放慢。</summary>
         void SetPlaybackSpeed(float speed);
 
         /// <summary>是否允许显示可交互高亮。</summary>
@@ -106,5 +146,16 @@ namespace ZQXNXS.ARPet.Core
 
         /// <summary>应用一次结算的数值增量。返回是否真的发生了变化。</summary>
         bool Apply(PetNeed need, float delta, float now);
+
+        /// <summary>
+        /// 写入开心值满值周期的可保存字段（周期状态、专属冷却剩余、开始 / 看完次数）。
+        /// 由行为状态机在周期迁移与专属计时变化时调用，保证存档快照只有一份来源。
+        /// </summary>
+        /// <param name="markDirty">
+        /// 周期迁移与计数变化必须为 <c>true</c>（要落盘）；
+        /// 冷却每帧递减本身不必每次打脏标记，传 <c>false</c>，值仍会随下一次写盘一起保存。
+        /// </param>
+        void StoreHappyCycle(HappyCycleState state, float cooldownRemaining, int startCount, int watchedCount,
+            bool markDirty);
     }
 }

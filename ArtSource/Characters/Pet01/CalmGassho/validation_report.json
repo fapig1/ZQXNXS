@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "asset_id": "Pet01",
+  "date": "2026-10-26",
+  "extra_actions": {
+    "calm_zen": {
+      "fps": 30,
+      "frames": [
+        1,
+        76
+      ],
+      "duration_seconds": 2.5,
+      "loop": false,
+      "endpoint_max_error_m": 7.031035206700735e-24,
+      "minimum_z_m": -2.0859032556774793e-10,
+      "max_consecutive_frame_motion_m": 0.009359592230176286,
+      "root_matrix_max_error": 0.0,
+      "largest_step": {
+        "frame": 9,
+        "vertex": 10612
+      },
+      "design_markers": [
+        {
+          "name": "Start",
+          "frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "name": "Complete",
+          "frame": 76,
+          "time_seconds": 2.5
+        }
+      ],
+      "max_stretch": 1.7717436155636532,
+      "stretch_frame": 22,
+      "min_compress": 0.2970393819123377,
+      "compress_frame": 55,
+      "rest_distal_in_torso_m": 0.0025919572286947734,
+      "distal_in_torso_m": 5.8774191234386985e-09,
+      "torso_frame": 1,
+      "hand_in_other_arm_m": 0.0,
+      "arm_frame": 1,
+      "min_palm_gap_m": 0.00037200888618826866,
+      "gap_frame": 70
+    }
+  },
+  "checks": [
+    {
+      "name": "calm_zen_endpoints",
+      "passed": true,
+      "evidence": {
+        "max_error_m": 7.031035206700735e-24
+      }
+    },
+    {
+      "name": "calm_zen_root_bone_fixed",
+      "passed": true,
+      "evidence": {
+        "root_matrix_error": 0.0
+      }
+    },
+    {
+      "name": "calm_zen_above_ground",
+      "passed": true,
+      "evidence": {
+        "minimum_z_m": -2.0859032556774793e-10
+      }
+    },
+    {
+      "name": "calm_zen_planted_feet",
+      "passed": true,
+      "evidence": {
+        "foot_drift_m": 0.0
+      }
+    },
+    {
+      "name": "calm_zen_smooth_motion",
+      "passed": true,
+      "evidence": {
+        "max_step_m": 0.009359592230176286,
+        "largest_step": {
+          "frame": 9,
+          "vertex": 10612
+        }
+      }
+    },
+    {
+      "name": "frozen_data_unchanged",
+      "passed": true,
+      "evidence": {}
+    },
+    {
+      "name": "other_actions_present",
+      "passed": true,
+      "evidence": {
+        "actions": [
+          "DozeLoop",
+          "Eat",
+          "Idle",
+          "TouchReact",
+          "WalkLoop",
+          "calm_zen",
+          "classic_proud",
+          "divine_awaken",
+          "rage_roar",
+          "social_laugh"
+        ]
+      }
+    },
+    {
+      "name": "calm_zen_bounded_edge_stretch",
+      "passed": true,
+      "evidence": {
+        "max_ratio": 1.7717436155636532,
+        "frame": 22,
+        "limit": 2.0
+      }
+    },
+    {
+      "name": "calm_zen_bounded_edge_compress",
+      "passed": true,
+      "evidence": {
+        "min_ratio": 0.2970393819123377,
+        "frame": 55,
+        "limit": 0.25
+      }
+    },
+    {
+      "name": "calm_zen_hands_outside_torso",
+      "passed": true,
+      "evidence": {
+        "excess_depth_m": 5.8774191234386985e-09,
+        "rest_depth_m": 0.0025919572286947734,
+        "frame": 1,
+        "limit_m": 0.0005
+      }
+    },
+    {
+      "name": "calm_zen_hands_not_interpenetrating",
+      "passed": true,
+      "evidence": {
+        "depth_m": 0.0,
+        "frame": 1,
+        "limit_m": 0.0005
+      }
+    },
+    {
+      "name": "calm_zen_fbx_object_scope",
+      "passed": true,
+      "evidence": {
+        "meshes": 1,
+        "armatures": 1
+      }
+    },
+    {
+      "name": "calm_zen_fbx_bones",
+      "passed": true,
+      "evidence": {
+        "bones": 26
+      }
+    },
+    {
+      "name": "calm_zen_fbx_take",
+      "passed": true,
+      "evidence": {
+        "take": "Pet01Rig|calm_zen"
+      }
+    },
+    {
+      "name": "calm_zen_fbx_pose_preservation",
+      "passed": true,
+      "evidence": {
+        "maximum_error_m": 1.2170073659945047e-07,
+        "sample_frames": 10
+      }
+    }
+  ],
+  "roundtrip": {
+    "calm_zen": {
+      "file": "ArtSource/Characters/Pet01/CalmGassho/Exports/Pet01_calm_zen.fbx",
+      "bytes": 1065772,
+      "sha256": "d0ed1d4df23518032a059049a43e740f50c601b58a5dc0fb534f9ca8d1a05e0d",
+      "pose_errors": [
+        {
+          "source_frame": 1,
+          "max_surface_distance_m": 4.626714655842079e-08
+        },
+        {
+          "source_frame": 19,
+          "max_surface_distance_m": 5.398458569061404e-08
+        },
+        {
+          "source_frame": 38,
+          "max_surface_distance_m": 8.363255687982019e-08
+        },
+        {
+          "source_frame": 57,
+          "max_surface_distance_m": 1.2170073659945047e-07
+        },
+        {
+          "source_frame": 76,
+          "max_surface_distance_m": 4.626714655842079e-08
+        },
+        {
+          "source_frame": 10,
+          "max_surface_distance_m": 7.508562305247324e-08
+        },
+        {
+          "source_frame": 30,
+          "max_surface_distance_m": 8.462232869987929e-08
+        },
+        {
+          "source_frame": 41,
+          "max_surface_distance_m": 5.998180085953209e-08
+        },
+        {
+          "source_frame": 47,
+          "max_surface_distance_m": 9.453727045638516e-08
+        },
+        {
+          "source_frame": 60,
+          "max_surface_distance_m": 6.090023418892088e-08
+        }
+      ],
+      "take": "Pet01Rig|calm_zen"
+    }
+  },
+  "passed": true,
+  "staged_sha256": "a289a8db83d91452284537fb55afbee4a2a6fb42c0c51a6027b564511a5c3c9b",
+  "exports_sha256": {
+    "Pet01_calm_zen.fbx": "d0ed1d4df23518032a059049a43e740f50c601b58a5dc0fb534f9ca8d1a05e0d"
+  }
+}

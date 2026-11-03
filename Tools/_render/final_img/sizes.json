@@ -1,0 +1,86 @@
+{
+"act_calm.jpg": [
+480,
+528
+],
+"act_classic.jpg": [
+480,
+528
+],
+"act_divine.jpg": [
+480,
+528
+],
+"act_laugh.jpg": [
+480,
+528
+],
+"act_rage.jpg": [
+480,
+528
+],
+"card_calm.jpg": [
+629,
+900
+],
+"card_classic.jpg": [
+630,
+900
+],
+"card_divine.jpg": [
+629,
+900
+],
+"card_rage.jpg": [
+630,
+900
+],
+"form_angel.jpg": [
+405,
+720
+],
+"form_egg.jpg": [
+408,
+720
+],
+"form_meditation.jpg": [
+408,
+720
+],
+"form_police.jpg": [
+408,
+720
+],
+"real_four_cards.jpg": [
+1400,
+892
+],
+"real_four_panel.jpg": [
+700,
+1260
+],
+"real_single_card.jpg": [
+638,
+1400
+],
+"real_ui_voice.jpg": [
+720,
+1600
+],
+"tarot_calm.jpg": [
+514,
+900
+],
+"tarot_classic.jpg": [
+511,
+900
+],
+"tarot_divine.jpg": [
+529,
+900
+],
+"tarot_rage.jpg": [
+530,
+900
+]
+}

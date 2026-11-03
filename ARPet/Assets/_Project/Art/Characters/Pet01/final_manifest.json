@@ -1,21 +1,29 @@
 {
   "schema_version": 1,
+  "updated": "2026-10-26",
+  "shape_revision": "20260928_arm_separation",
+  "variant_inventory": "Docs/四色奶蛙资产元数据.json",
   "target_id": "Pet01",
   "character": "奶蛙风格圆脸小生物，金黄色身体、奶油色腹部、绿色眼睛、棕色指趾",
-  "status": "final",
-  "status_label": "用户于 2026-09-11 确认当前版本为最终版",
+  "status": "exclusive_skeletal_development_preview",
+  "status_label": "形体基线于2026-09-11定稿；2026-09-22授权权重修订；2026-09-28授权手臂分离修订（娃娃关节），专属完整演出未验收",
   "finalized_date": "2026-09-11",
   "frozen": {
     "source_file": "ArtSource/Characters/Pet01/pet01.blend",
-    "source_sha256": "fad23c5c0b4d8b50d106c4bdb943b7d6f4eebba433b15b83c6e42db559acb89f",
+    "source_sha256": "a289a8db83d91452284537fb55afbee4a2a6fb42c0c51a6027b564511a5c3c9b",
+    "previous_source_sha256": "35c5625db06f13de88510edab883ab87293bbfee9f4464404ba871a21f12b13d",
+    "previous_source_local_archive": "ArtSource/Characters/Pet01/Archive/20261026_before_calm_gassho/pet01.blend",
+    "baseline_sha256": "fad23c5c0b4d8b50d106c4bdb943b7d6f4eebba433b15b83c6e42db559acb89f",
+    "baseline_local_archive": "ArtSource/Characters/Pet01/Archive/20260917_before_extra_actions/pet01.blend",
+    "source_note": "20260928_arm_separation (user-authorized shape_revision): torso, legs, tail and eyes regenerated without arms (face within 1um of the previous source), arms rebuilt as separate closed doll-joint shells on the unchanged 26-bone rig, max 8 influences; classic_proud rebuilt as a one-arm greeting and divine_awaken as horizontal angel wings, the other 8 Action curves unchanged (arm-separation source 35c5625d archived at ArtSource/Characters/Pet01/Archive/20261026_before_calm_gassho/pet01.blend, the one before it at Archive/20260928_before_arm_separation/). 2026-10-26 Action-only update: calm_zen re-authored as gassho + closed eyes + three decreasing nods (ArtSource/Characters/Pet01/CalmGassho/). Complete performances not accepted; see Docs/手臂分离修订记录_20260929.md.",
     "geometry": {
-      "vertices": 10434,
-      "triangles": 20528,
+      "vertices": 12452,
+      "triangles": 24536,
       "bones": 26,
-      "maximum_skin_influences": 3,
+      "maximum_skin_influences": 8,
       "rest_height_m": 0.2,
-      "rest_width_m": 0.11121256649494171,
-      "rest_depth_m": 0.10253442823886871
+      "rest_width_m": 0.11134443432092667,
+      "rest_depth_m": 0.10260229557752609
     },
     "clips": [
       { "name": "Idle", "fps": 30, "duration_seconds": 3.0, "loop": true },
@@ -38,16 +46,29 @@
     { "name": "Pet01_Eyes", "metallic": 0.0, "smoothness": 0.64 },
     { "name": "Pet01_Oral", "metallic": 0.0, "smoothness": 0.57 }
   ],
-  "not_made_yet": ["WalkLoop", "TouchReact", "Happy", "DozeLoop"],
+  "extra_clips": [
+    {"name": "TouchReact", "fps": 30, "duration_seconds": 0.7, "loop": false, "validation": "passed_20260917", "animator_wired": false, "file": "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_TouchReact.fbx"},
+    {"name": "DozeLoop", "fps": 30, "duration_seconds": 4.0, "loop": true, "validation": "passed_20260917", "animator_wired": false, "file": "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_DozeLoop.fbx"},
+    {"name": "WalkLoop", "fps": 30, "duration_seconds": 1.0, "loop": true, "validation": "failed_ground_penetration", "animator_wired": false, "file": "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_WalkLoop.fbx"}
+  ],
+  "exclusive_skeletal_clips": ["classic_proud", "calm_zen", "rage_roar", "divine_awaken"],
+  "exclusive_full_performance_accepted": false,
+  "shared_skeletal_clips": [
+    {"name": "social_laugh", "fps": 30, "duration_seconds": 2.4, "loop": false, "validation": "passed_20260928", "animator_wired": true, "business_trigger_wired": false, "file": "ARPet/Assets/_Project/Art/Characters/Pet01/Models/Pet01_social_laugh.fbx"}
+  ],
+  "not_made_yet": ["exclusive_expressions_and_effects", "social_laugh_mouth_eye_textures_and_effects"],
+  "not_made_yet_note": "Proposed capability labels, not existing Animator state names",
+  "cancelled_legacy_actions": ["Happy"],
   "verification": {
     "blender_source_validated": true,
     "blender_fbx_roundtrip": true,
-    "unity_import_tested": false,
-    "android_device_tested": false,
+    "unity_import_tested": true,
+    "android_device_tested": true,
+    "scope": "20260929 shape_revision 20260928_arm_separation (doll-joint arms; classic_proud greeting and divine_awaken horizontal wings rebuilt; other 8 Action curves unchanged) validated in Blender with FBX roundtrip, EditMode rerun recorded in Docs/手臂分离修订记录_20260929.md; Android evidence remains historical 20260918 single-pet baseline. Full performances and four-target interactions pending.",
     "materials_rebuilt_in_unity": true,
     "materials_rebuilt_note": "2026-09-17：菜单“桌上有龙 / 3. 接入角色材质与 Animator”已创建 Pet01_Skin/Pet01_Oral/Pet01_Eyes 三个 Standard 材质（Metallic=0，Smoothness 0.43/0.57/0.64，均引用 Pet01_BaseColor.png）并按实际子网格顺序赋给 SkinnedMeshRenderer；未在真机或编辑器 Game 视图下核实光照观感。",
     "animator_controller_created": true,
-    "animator_controller_note": "2026-09-17：Assets/_Project/Animations/Pet01Controller.controller 已生成，Idle（循环）/Eat（单次）两个状态已挂真实 AnimationClip；PetPresenter.animator 字段已在 01_TrackingSmoke 场景中指向 Pet01 的 Animator。EditMode 测试已驱动该 Controller 走完 Idle→Eat→Idle 真实状态切换。仍未验证：02_Main 场景（Vuforia 接线未完成）与真机播放效果。"
+    "animator_controller_note": "Pet01Controller含Idle/Eat、四专属骨骼状态及20260928共享social_laugh状态；20260922独立四色开发预览已接。TouchReact/DozeLoop/WalkLoop、满值业务与多宠AR仍未接。"
   },
-  "note": "本文件是最终版冻结记录。任何后续形体或动画修改都视为新一轮修订，需要新开 shape_revision 并同步更新 Docs/奶蛙最终版资产说明.md。"
+  "note": "冻结形体/骨架/Idle/Eat；允许在冻结骨架增加Action并独立验证。改形体/权重按解冻流程新开shape_revision。frozen.clips/exported_files记录原冻结交付，新增片段见extra_clips。"
 }

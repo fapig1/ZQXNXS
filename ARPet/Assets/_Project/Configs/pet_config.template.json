@@ -1,17 +1,84 @@
 {
-  "schema_version": 1,
-  "note": "这是 PetConfig 的字段说明与默认值清单，供人工核对与代码评审使用。实际运行时以 Assets/_Project/Configs/PetBehaviorConfig.asset（ScriptableObject）为准；本文件不是运行时读取的数据源，避免出现两份互相矛盾的配置。",
-  "updated": "2026-09-12",
+  "schema_version": 2,
+  "note": "这是 PetConfig 的字段说明与默认值清单，供人工核对与代码评审使用。实际运行时以 Assets/_Project/Configs/PetBehaviorConfig.asset（ScriptableObject）为准；本文件不是运行时读取的数据源，避免出现两份互相矛盾的配置。食物卡投喂已从新版玩法删除，本清单只保留开心值。",
+  "updated": "2026-10-27",
   "need_seeds": [
-    { "need": "Hunger",    "initial": 0.30,  "decay_per_second": 0.0035, "max": 1.0, "meaning": "0=很饱 1=非常饿，随时间上升" },
-    { "need": "Happiness", "initial": 0.60,  "decay_per_second": -0.0015, "max": 1.0, "meaning": "逗弄与投喂提升，随时间缓慢下降" },
-    { "need": "Energy",    "initial": 0.85,  "decay_per_second": -0.0010, "max": 1.0, "meaning": "随时间下降，休息恢复" }
+    { "need": "Happiness", "initial": 0.60,  "decay_per_second": 0.0, "max": 1.0, "meaning": "开心值：触屏逗弄提升；2026-10-27 起不随时间自然衰减（在线与离线都为 0，衰减代码路径保留）" }
   ],
+  "legacy_note": "旧版 Hunger / Energy / FeedCount 仍保留在 PetState 结构里，只用于存档 v1 迁移；新版运行不读不写，也不再出现在配置中。PetBehaviorId.Eating 同理：Eat 片段仍在 Animator 中，但不进入新版行为配置。",
   "max_offline_seconds": 43200,
-  "thresholds": {
-    "hungry_threshold": 0.65,
-    "sleepy_threshold": 0.25
+  "variant_tunings": [
+    {
+      "variant": "Classic",
+      "pet_id": "pet_classic",
+      "single_tap_gain": 0.06,
+      "double_tap_gain": 0.10,
+      "fallback_happiness": 0.70,
+      "rearm_threshold": 0.80,
+      "exclusive_cooldown_seconds": 8.0,
+      "exclusive_state": "classic_proud",
+      "exclusive_duration_seconds": 2.0
+    },
+    {
+      "variant": "Calm",
+      "pet_id": "pet_calm",
+      "single_tap_gain": 0.04,
+      "double_tap_gain": 0.07,
+      "fallback_happiness": 0.75,
+      "rearm_threshold": 0.80,
+      "exclusive_cooldown_seconds": 8.0,
+      "exclusive_state": "calm_zen",
+      "exclusive_duration_seconds": 2.5
+    },
+    {
+      "variant": "Rage",
+      "pet_id": "pet_rage",
+      "single_tap_gain": 0.08,
+      "double_tap_gain": 0.12,
+      "fallback_happiness": 0.65,
+      "rearm_threshold": 0.85,
+      "exclusive_cooldown_seconds": 6.0,
+      "exclusive_state": "rage_roar",
+      "exclusive_duration_seconds": 2.0
+    },
+    {
+      "variant": "Divine",
+      "pet_id": "pet_divine",
+      "single_tap_gain": 0.06,
+      "double_tap_gain": 0.10,
+      "fallback_happiness": 0.65,
+      "rearm_threshold": 0.75,
+      "exclusive_cooldown_seconds": 12.0,
+      "exclusive_state": "divine_awaken",
+      "exclusive_duration_seconds": 2.5
+    }
+  ],
+  "tuning_note": "单击 / 双击加分只在行为状态机接受事件的那一处结算一次；双击只结算双击值。满值演出开始瞬间开心值回落到 fallback_happiness，冷却从这一刻起计时。fallback_happiness > rearm_threshold 属于非法配置：运行时会记一条警告并按阈值处理，避免永远无法重新武装。",
+  "social": {
+    "note": "靠近共同大笑（P4）。本表是空间与节奏阈值的唯一配置来源：几何判定在 Interaction 层的 ProximityRule，组协调与候选等待在 Pet 层的 SocialCoordinator。全部为设计初值，非真机实测结论。",
+    "enter_distance_m": 0.18,
+    "exit_distance_m": 0.23,
+    "max_height_delta_m": 0.035,
+    "max_normal_angle_degrees": 20.0,
+    "enter_dwell_seconds": 0.6,
+    "exit_dwell_seconds": 0.3,
+    "lost_separation_seconds": 2.0,
+    "relocation_distance_m": 0.03,
+    "candidate_hold_seconds": 2.0,
+    "member_cooldown_seconds": 5.0,
+    "sanitise_note": "非正 / NaN 的字段回退设计默认值并记警告；exit_distance < enter_distance 时按 enter_distance 处理（否则迟滞失效）。个人冷却从会话开始时刻算起，取消也不归还。关系对的锁在两种情况下解除：两卡同时可见且水平拉开到 exit_distance 外保持 exit_dwell_seconds；或任一张卡连续不在画面里满 lost_separation_seconds（LIMITED 仍算在画面里），且放回时两卡相对位置变化 ≥ relocation_distance_m（原地掉跟踪又回来不算，2026-10-30 O-10）。2026-10-30 起不再有“首次同时可见就贴近则先上锁”。",
+    "arbitration": "跟踪/后台取消 > 已开始的单次演出不被打断 > 未开始的满值请求（PendingAuto）> 共同大笑 > TouchReact > Idle。共同大笑不加开心值。"
   },
+  "animator_states": [
+    "Idle",
+    "TouchReact",
+    "classic_proud",
+    "calm_zen",
+    "rage_roar",
+    "divine_awaken",
+    "social_laugh"
+  ],
+  "capability_note": "AnimatorStates 是行为可用性的唯一判据（Animator Controller 里真实存在的状态名）。缺片段只禁用对应行为：DozeLoop / WalkLoop / Eat 仍未接线，因此不在清单中，Resting / Chasing / Eating 依然不可进入。Exclusive 的动画名取 variant_tunings 的 exclusive_state。",
   "behaviors": [
     {
       "id": "Idle",
@@ -22,32 +89,39 @@
       "enabled": true
     },
     {
-      "id": "Eating",
-      "animation": "Eat",
-      "loop": false,
-      "duration_seconds": 3.2,
-      "on_enter": [{ "need": "Happiness", "value": 0.02 }],
-      "on_exit_settled": [{ "need": "Hunger", "value": -0.45 }],
-      "on_interrupted": [],
-      "asset_status": "已制作（Pet01_Eat.fbx，3.2 s 单次）",
-      "enabled": true,
-      "note": "当前唯一结算点是行为层 3.2 s 完成时；2.4 s Consume 仅为设计标记，动画事件尚未接入。"
-    },
-    {
       "id": "Petted",
       "animation": "TouchReact",
       "loop": false,
       "duration_seconds": 0.7,
-      "asset_status": "动画尚未制作",
-      "enabled": false
+      "on_enter": [],
+      "asset_status": "TouchReact 已进入 AnimatorStates 清单（Animator 状态由下一个切片接线）",
+      "enabled": true
+    },
+    {
+      "id": "Exclusive",
+      "animation": "由 variant_tunings.exclusive_state 提供",
+      "loop": false,
+      "duration_seconds": "由 variant_tunings.exclusive_duration_seconds 提供",
+      "asset_status": "四段正式专属片段已接 Animator（classic_proud / calm_zen / rage_roar / divine_awaken）",
+      "enabled": true
+    },
+    {
+      "id": "Social",
+      "enum_value": 7,
+      "animation": "social_laugh",
+      "loop": false,
+      "duration_seconds": 2.4,
+      "on_enter": [],
+      "asset_status": "social_laugh 已在 AnimatorStates 清单中；由 SocialCoordinator 统一提交会话 ID",
+      "enabled": true,
+      "note": "共同大笑只演出，不加开心值；执行中占用行为通道（点按被拒绝且不排队）。候选等待上限与参与者冷却见 social 段。"
     },
     {
       "id": "Resting",
       "animation": "DozeLoop",
       "loop": true,
       "duration_seconds": 0.0,
-      "per_second": [{ "need": "Energy", "value": 0.02 }],
-      "asset_status": "动画尚未制作",
+      "asset_status": "动画尚未接入 Unity（不在 AnimatorStates 中）",
       "enabled": false
     },
     {
@@ -55,22 +129,23 @@
       "animation": "WalkLoop",
       "loop": true,
       "duration_seconds": 0.0,
-      "per_second": [{ "need": "Energy", "value": -0.01 }],
-      "asset_status": "动画尚未制作",
+      "asset_status": "动画尚未接入 Unity（WalkLoop 穿地检查未通过，不在 AnimatorStates 中）",
       "enabled": false
     }
   ],
-  "eat_rule": {
-    "max_horizontal_distance_m": 0.10,
-    "max_height_delta_m": 0.06,
-    "required_dwell_seconds": 0.6,
-    "cooldown_seconds": 4.0,
-    "re_arm_distance_m": 0.16,
-    "stale_seconds": 0.35,
-    "note": "以上为代码内置初值，全部需要在真机上按实际卡片间距与持机方式调整。"
+  "happiness_cycle": {
+    "states": ["Armed", "PendingAuto", "PendingConfirm", "Released"],
+    "save_fields": {
+      "HappyCycle": "周期状态，int 存储；旧档缺字段读成 Armed = 0",
+      "ExclusiveCooldownRemaining": "冷却剩余秒数，只随行为时钟递减",
+      "ExclusiveStartCount": "开始过专属演出的次数",
+      "ExclusiveWatchedCount": "完整看完的次数（被打断不计）",
+      "SocialWatchedCount": "共同大笑完整看完的次数（整组取消不计）"
+    },
+    "load_rule": "读档不因 100% 自动开始：已满值且周期为 Armed / PendingAuto 时改为 PendingConfirm，玩家点一下确认才播。冷却在跟踪丢失（不推进行为时钟）时冻结。"
   },
   "presentation": {
     "default_cross_fade_seconds": 0.15
   },
-  "tuning_status": "全部数值均为设计初值，尚未经过真机体验调整。"
+  "tuning_status": "单击 / 双击加分、回落值、阈值、冷却、时长均为 2026-10-27 用户定稿的设计值，尚未经过真机体验微调。"
 }

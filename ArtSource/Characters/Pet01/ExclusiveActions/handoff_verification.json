@@ -1,0 +1,57 @@
+{
+  "date": "2026-09-22",
+  "source_sha256": "308d2060266688a070da6c47131b20b0e71fc624af288cb0826078ebca5968a5",
+  "installed_files": {
+    "Pet01_classic_proud.fbx": {
+      "current_export_sha256": "4939cea2d8a2f29266b48a1d0a20be16ea96cbd6f2e73111beb7bc851676e4e6",
+      "unity_sha256": "4939cea2d8a2f29266b48a1d0a20be16ea96cbd6f2e73111beb7bc851676e4e6",
+      "byte_identical": true
+    },
+    "Pet01_calm_zen.fbx": {
+      "current_export_sha256": "62a25c44041f803920a2fa578746b94c70f3a0b77e83ded1b4cff24f6f040cbf",
+      "unity_sha256": "62a25c44041f803920a2fa578746b94c70f3a0b77e83ded1b4cff24f6f040cbf",
+      "byte_identical": true
+    },
+    "Pet01_rage_roar.fbx": {
+      "current_export_sha256": "84da76cfec2d005218ef7104802c4569c5330d991a9e4c038cc6a34bb7730da2",
+      "unity_sha256": "84da76cfec2d005218ef7104802c4569c5330d991a9e4c038cc6a34bb7730da2",
+      "byte_identical": true
+    },
+    "Pet01_divine_awaken.fbx": {
+      "current_export_sha256": "896b5893a7fc1979c4afa61bf67782307f861fcaae9c7b9448ac54e6a033b3d6",
+      "unity_sha256": "896b5893a7fc1979c4afa61bf67782307f861fcaae9c7b9448ac54e6a033b3d6",
+      "byte_identical": true
+    },
+    "Pet01.fbx": {
+      "current_export_sha256": "bb9d9d62e5298726ac3dd1225ded89d8f5c0d64b19a25cc50e745eff43447f7b",
+      "unity_sha256": "bb9d9d62e5298726ac3dd1225ded89d8f5c0d64b19a25cc50e745eff43447f7b",
+      "byte_identical": true
+    },
+    "Pet01_Idle.fbx": {
+      "current_export_sha256": "798ec321c64d36051b98faae0639b4fbbd49c171dac0e410a68258a482db80fe",
+      "unity_sha256": "798ec321c64d36051b98faae0639b4fbbd49c171dac0e410a68258a482db80fe",
+      "byte_identical": true
+    },
+    "Pet01_Eat.fbx": {
+      "current_export_sha256": "0e3912abcff590369a3ace2ad1041b1ad83decf4897ac8737f38565346787e5d",
+      "unity_sha256": "0e3912abcff590369a3ace2ad1041b1ad83decf4897ac8737f38565346787e5d",
+      "byte_identical": true
+    },
+    "Pet01_TouchReact.fbx": {
+      "current_export_sha256": "5b00a43c81e4fc3c0b647dd99044cc84fa4cbc17bd9f25e3e543da643e28a6d4",
+      "unity_sha256": "5b00a43c81e4fc3c0b647dd99044cc84fa4cbc17bd9f25e3e543da643e28a6d4",
+      "byte_identical": true
+    },
+    "Pet01_DozeLoop.fbx": {
+      "current_export_sha256": "f332a652270bcd4c7c39d939b1db7e1f1a6cbb734ec906246faca9bdac92258a",
+      "unity_sha256": "f332a652270bcd4c7c39d939b1db7e1f1a6cbb734ec906246faca9bdac92258a",
+      "byte_identical": true
+    },
+    "Pet01_WalkLoop.fbx": {
+      "current_export_sha256": "e66453ac5c18d3af32b9d3ee69db0efdc0d37f728059cf9c64615dea742b1f83",
+      "unity_sha256": "e66453ac5c18d3af32b9d3ee69db0efdc0d37f728059cf9c64615dea742b1f83",
+      "byte_identical": true
+    }
+  },
+  "inventory_and_links_passed": true
+}

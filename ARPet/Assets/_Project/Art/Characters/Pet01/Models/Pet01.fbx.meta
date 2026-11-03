@@ -53,9 +53,9 @@ ModelImporter:
     weldVertices: 1
     bakeAxisConversion: 0
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
+    skinWeightsMode: 1
+    maxBonesPerVertex: 8
+    minBoneWeight: 0.00001
     optimizeBones: 1
     meshOptimizationFlags: -1
     indexFormat: 0

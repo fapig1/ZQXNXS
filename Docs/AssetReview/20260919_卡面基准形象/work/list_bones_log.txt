@@ -1,0 +1,53 @@
+=== Objects ===
+obj: 'Meshy_Proportion_Reference' type=MESH parent=None loc=(0.0000,0.0000,0.0000) rot=(0.0000,0.0000,0.0000) scale=(1.000,1.000,1.000) hide_render=True
+obj: 'Pet01_Mesh' type=MESH parent=Pet01Rig loc=(0.0000,0.0000,0.0000) rot=(0.0000,0.0000,0.0000) scale=(1.000,1.000,1.000) hide_render=False
+obj: 'Pet01_PreviewCamera' type=CAMERA parent=None loc=(-0.2900,0.4400,0.2150) rot=(1.3652,-0.0000,-2.5536) scale=(1.000,1.000,1.000) hide_render=False
+obj: 'Pet01Rig' type=ARMATURE parent=None loc=(0.0000,0.0000,0.0000) rot=(0.0000,0.0000,0.0000) scale=(1.000,1.000,1.000) hide_render=False
+obj: 'Preview_Fill' type=LIGHT parent=None loc=(0.2800,0.2200,0.2600) rot=(1.1485,-0.0000,2.2368) scale=(1.000,1.000,1.000) hide_render=False
+obj: 'Preview_Key' type=LIGHT parent=None loc=(-0.3000,0.3600,0.4600) rot=(0.9157,-0.0000,-2.4469) scale=(1.000,1.000,1.000) hide_render=False
+obj: 'Preview_Rim' type=LIGHT parent=None loc=(0.0600,-0.3200,0.3900) rot=(0.8431,-0.0000,0.1853) scale=(1.000,1.000,1.000) hide_render=False
+obj: 'PreviewFloor' type=MESH parent=None loc=(0.0000,0.0000,-0.0004) rot=(0.0000,0.0000,0.0000) scale=(1.000,1.000,1.000) hide_render=False
+
+=== Armature Pet01_Skeleton (26 bones) ===
+bone: Root                     parent=-                    head=(+0.0000,+0.0000,+0.0000) tail=(+0.0000,+0.0000,+0.0240)
+bone: Pelvis                   parent=Root                 head=(+0.0000,-0.0080,+0.0560) tail=(+0.0000,-0.0080,+0.0900)
+bone: Spine                    parent=Pelvis               head=(+0.0000,-0.0080,+0.0900) tail=(+0.0000,-0.0070,+0.1270)
+bone: Chest                    parent=Spine                head=(+0.0000,-0.0070,+0.1270) tail=(+0.0000,-0.0040,+0.1620)
+bone: Head                     parent=Chest                head=(+0.0000,-0.0040,+0.1620) tail=(+0.0000,+0.0060,+0.1950)
+bone: MouthLower               parent=Head                 head=(+0.0000,+0.0220,+0.1773) tail=(+0.0000,+0.0220,+0.1863)
+bone: MouthUpper               parent=Head                 head=(+0.0000,+0.0220,+0.1778) tail=(+0.0000,+0.0220,+0.1868)
+bone: Eye.L                    parent=Head                 head=(+0.0131,+0.0211,+0.1856) tail=(+0.0163,+0.0284,+0.1858)
+bone: LidUpper.L               parent=Head                 head=(+0.0131,+0.0211,+0.1856) tail=(+0.0204,+0.0179,+0.1856)
+bone: LidLower.L               parent=Head                 head=(+0.0131,+0.0211,+0.1856) tail=(+0.0204,+0.0179,+0.1856)
+bone: Eye.R                    parent=Head                 head=(-0.0131,+0.0211,+0.1856) tail=(-0.0163,+0.0284,+0.1858)
+bone: LidUpper.R               parent=Head                 head=(-0.0131,+0.0211,+0.1856) tail=(-0.0058,+0.0243,+0.1856)
+bone: LidLower.R               parent=Head                 head=(-0.0131,+0.0211,+0.1856) tail=(-0.0058,+0.0243,+0.1856)
+bone: UpperArm.L               parent=Chest                head=(+0.0280,-0.0020,+0.1430) tail=(+0.0445,+0.0210,+0.1160)
+bone: Forearm.L                parent=UpperArm.L           head=(+0.0445,+0.0210,+0.1160) tail=(+0.0220,+0.0465,+0.1030)
+bone: Hand.L                   parent=Forearm.L            head=(+0.0220,+0.0465,+0.1030) tail=(+0.0070,+0.0485,+0.1000)
+bone: UpperArm.R               parent=Chest                head=(-0.0280,-0.0020,+0.1430) tail=(-0.0445,+0.0210,+0.1160)
+bone: Forearm.R                parent=UpperArm.R           head=(-0.0445,+0.0210,+0.1160) tail=(-0.0220,+0.0465,+0.1030)
+bone: Hand.R                   parent=Forearm.R            head=(-0.0220,+0.0465,+0.1030) tail=(-0.0070,+0.0485,+0.1000)
+bone: Tail                     parent=Pelvis               head=(+0.0000,-0.0350,+0.0840) tail=(+0.0000,-0.0500,+0.0870)
+bone: Thigh.L                  parent=Pelvis               head=(+0.0270,-0.0005,+0.0640) tail=(+0.0275,-0.0045,+0.0340)
+bone: Shin.L                   parent=Thigh.L              head=(+0.0275,-0.0045,+0.0340) tail=(+0.0260,-0.0100,+0.0100)
+bone: Foot.L                   parent=Shin.L               head=(+0.0260,-0.0100,+0.0100) tail=(+0.0430,+0.0150,+0.0040)
+bone: Thigh.R                  parent=Pelvis               head=(-0.0270,-0.0005,+0.0640) tail=(-0.0275,-0.0045,+0.0340)
+bone: Shin.R                   parent=Thigh.R              head=(-0.0275,-0.0045,+0.0340) tail=(-0.0260,-0.0100,+0.0100)
+bone: Foot.R                   parent=Shin.R               head=(-0.0260,-0.0100,+0.0100) tail=(-0.0430,+0.0150,+0.0040)
+
+=== Materials ===
+mat: Pet01_Eyes use_nodes=True :: ['BSDF base=linked:TEX_IMAGE img=Pet01_BaseColor //Textures\\Pet01_BaseColor.png emis=(1.0, 1.0, 1.0, 1.0) strength=0.0 metal=0.00 rough=0.36']
+mat: Pet01_Oral use_nodes=True :: ['BSDF base=linked:TEX_IMAGE img=Pet01_BaseColor //Textures\\Pet01_BaseColor.png emis=(1.0, 1.0, 1.0, 1.0) strength=0.0 metal=0.00 rough=0.43']
+mat: Pet01_Skin use_nodes=True :: ['BSDF base=linked:TEX_IMAGE img=Pet01_BaseColor //Textures\\Pet01_BaseColor.png emis=(1.0, 1.0, 1.0, 1.0) strength=0.0 metal=0.00 rough=0.57']
+mat: PreviewFloor_Material use_nodes=True :: ['BSDF base=(0.74, 0.79, 0.78, 1.0) emis=(1.0, 1.0, 1.0, 1.0) strength=0.0 metal=0.00 rough=0.82']
+
+=== Actions ===
+action: DozeLoop frames 1-121
+action: Eat frames 1-97
+action: Idle frames 1-91
+action: TouchReact frames 1-22
+action: WalkLoop frames 1-31
+
+=== Meshes ===
+mesh: mesh verts=32755 tris=65546 material_slots=[]

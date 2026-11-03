@@ -1,28 +1,11 @@
-# StreamingAssets — 运行期按原样读取的数据
+# StreamingAssets — Vuforia设备数据库
 
-Vuforia 的**设备数据库**（`.dat` + `.xml`）放在这里。
-这个目录的内容在构建时**不会被转换**，而是原样打包进 APK，运行时按文件路径读取 —— 这正是 Vuforia 要求的加载方式。
+2026-09-22核对：`Vuforia/ZQXS.xml` 和 `Vuforia/ZQXS.dat` 已替换为新 Vuforia 数据库导出。XML 含 `card_classic`、`card_calm`、`card_rage`、`card_divine` 四个角色目标，尺寸均为 `0.066×0.093923m`，并保留旧 `den_card_placeholder` / `food_card_placeholder` 条目供历史场景回溯。当前场景仍引用旧目标，最大同时跟踪数仍为2；四目标接线与真机能力尚未验证。
 
-## 现状
+用户已删除食物卡玩法；旧条目暂用于尚未迁移的单宠场景，新业务不会继续使用食物目标。
 
-**目录为空。** 尚未创建 Vuforia 目标数据库，因为还没有设计标记卡图案。
+下一步按 [四色资产映射](../../../Docs/四色奶蛙资产映射.md) 补录四卡评级、接入新目标场景并做实测；classic有历史4星，其余pending。实际目标宽0.066m、高0.093923m，以完整上传图对应的印刷范围为准，不能填70×99mm保护套尺寸。
 
-## 获取步骤
+导入新库必须同时更新TargetBinding、场景Observer及ProjectSetup/构建准备；当前工具仍生成旧占位目标。先两宠后四宠验证，六配对与四卡同屏实测不由评级替代。Vuforia11没有Load Database勾选，目标启用时加载。
 
-1. 打开 Vuforia Developer Portal → **Target Manager**。
-2. 新建一个 **Device** 类型数据库（设备数据库可离线使用；Cloud 数据库不适合本项目）。
-3. 上传两张卡：
-   - **小窝卡**（`Den`）：定位角色与虚拟平面；
-   - **食物卡**（`Food`）：投喂道具。
-   星级评分建议 ≥ 3 星，尽量选高对比、非重复纹理、不对称的图案。
-4. 下载数据库的 Unity 包，导入工程。
-   导入后 `.dat` / `.xml` 通常自动落在 `Assets/StreamingAssets/Vuforia/`。
-5. **在 Unity 里核对 `ImageTarget` 的 Size 填的是印刷图案的有效尺寸（米），不是纸张外框尺寸。**
-   这个数值填错是"模型比例明显不对"最常见的原因。
-
-## 注意
-
-- 数据库要**按所选 SDK 版本的导入规则**放置；第三方包保留其规定的目录结构，不要手工搬动。
-- 免费 Development 许可会显示水印，课设范围内可接受，但报告里要如实写明。
-- 标记卡的**设计源图**放 `ArtSource/Markers/`，**最终打印版与有效尺寸记录**放 `Docs/Markers/`
-  （这两个目录尚未建立）。
+旧数据库退出运行包随迁移实施；设计源、打印母版、目标ID与尺寸记录统一见资产映射，不再另造并行目录说明。

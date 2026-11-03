@@ -1,33 +1,11 @@
 # Animations — 动画播放配置
 
-Animator Controller、Avatar Mask、Animator Override 等**播放配置**放这里。
-角色本体的 FBX 动画在 `../Art/Characters/Pet01/Models/`，不要混放。
+2026-09-22：已生成 `Pet01_classic_proud.fbx`、`Pet01_calm_zen.fbx`、`Pet01_rage_roar.fbx`、`Pet01_divine_awaken.fbx`，每段均为30fps单次片段；Blender全帧检查、逐段FBX回读和旧Idle/Eat/TouchReact/DozeLoop回归通过。Unity接入菜单为“桌上有龙 / 动画 / 接入四色专属动作”，会把四段加入 `Pet01Controller` 和 `PetExclusiveAnimations.asset`。
 
-## 计划中的 Animator Controller
+开发预览场景为 `03_ExclusiveAnimationPreview.unity`，按钮只验证实际 Animator 播放，不经过业务判定；满值业务触发已于 2026-10-27 接通，走的是 `02_Main` 的宠物实例，不是该预览场景。
 
-| Controller | 状态 | 说明 |
-| --- | --- | --- |
-| `Pet01.controller` | 待创建 | 第 0 层含 `Idle`（默认，Loop）与 `Eat`（单次）两个状态 |
+Apply Root Motion关闭；Idle循环、Eat与TouchReact不循环（TouchReact 0.7s）。行为层传入 `PetConfig.Behaviors[].AnimationName`，`Exclusive` 取该变体的 `VariantTunings.ExclusiveStateName`，不能把枚举名当成所有状态名。
 
-接入要求：
+TouchReact/DozeLoop 已有 FBX 并通过历史检查；**TouchReact 已于 2026-10-27 接入 Animator 并由 `Petted` 使用**（第 0 层、非循环、FBX 按 Custom/8 影响导入），DozeLoop/WalkLoop 仍未接、`Resting`/`Chasing` 因不在 `PetConfig.AnimatorStates` 能力清单而关闭（原 `Aspect.HasAnimatorClip` 硬编码已删除）。WalkLoop 穿地未过。旧Happy已取消。四段专属骨骼片段已接入预览；2026-09-28共享 `social_laugh`（2.4s单次）已加为Animator状态，由同一安装菜单写入。四色开心值满值与单击/双击已接，专属表情、二维嘴眼、粒子音效与接近组协调仍待实现。
 
-- `Apply Root Motion` **关闭**（两段动画都不含整体位移，Root 固定）。
-- `Idle` 勾选 **Loop Time**；`Eat` **不勾**。
-- Idle→Eat 过渡初值 **0.12～0.20 s**，Eat 播完回 Idle。
-- 首次检查阶段关闭动画压缩与 `Optimize Game Objects`，便于定位问题；通过后再评估优化。
-
-## 状态名必须与代码一致
-
-`PetPresenter.PlayBehavior` 用 `PetBehaviorId` 的名字去 `Animator.HasState` 查状态，
-因此状态名必须是 `Idle` / `Eat`（大小写敏感）。
-`PetConfig.Behaviors[].AnimationName` 可以覆盖这个默认映射。
-
-**未来扩展时**：`WalkLoop` / `TouchReact` / `Happy` / `DozeLoop` 做好后，
-除了在这里加状态，还要把 `PetConfig.Aspect.HasAnimatorClip` 里对应项改为 `true`，
-否则状态机仍然不会选择它们（这是有意设计的保护）。
-
-## 结算只能有一处
-
-进食的数值结算目前在行为层按时长（3.2 s）触发。
-**如果改用 Animation Event，必须同时关掉行为层的时长结算**，两者只能留一个。
-源资产的 `Consume`（2.4 s）标记只是设计元数据，不会自动变成 Unity 事件。
+四色映射与下一阶段见 [资产交接](../../../../Docs/四色奶蛙资产映射.md)。食物玩法退出新版，但原Eat冻结资产仍保留；旧业务3.2s结算，源Consume 2.4s为设计标记。时钟与动画事件只允许一个结算来源。

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>四种奶蛙卡面基准形象 · 备选评审 v2（2026-09-19）</title>
+<style>
+  body { font-family: "Microsoft YaHei", sans-serif; background: #f4f2ee; margin: 0; padding: 24px; color: #333; }
+  h1 { font-size: 22px; } h2 { font-size: 18px; margin-top: 40px; border-left: 5px solid currentColor; padding-left: 10px; }
+  .note { background: #fff8e6; border: 1px solid #e8d9a0; border-radius: 8px; padding: 12px 16px; margin: 12px 0; font-size: 14px; }
+  .warn { background: #fdeaea; border: 1px solid #e8a0a0; border-radius: 8px; padding: 12px 16px; margin: 12px 0; font-size: 14px; }
+  .grid { display: flex; flex-wrap: wrap; gap: 16px; }
+  .card { background: #fff; border-radius: 10px; padding: 12px; width: 320px; box-shadow: 0 2px 6px rgba(0,0,0,.08); }
+  .card img { width: 100%; border-radius: 6px; display: block; }
+  .card .tag { display: inline-block; font-size: 12px; padding: 2px 8px; border-radius: 10px; margin: 8px 0 4px; }
+  .pick { background: #e3f7e3; color: #1a7a1a; } .alt { background: #e8eefc; color: #2452a8; } .alt2 { background: #fdeecd; color: #9a6b00; }
+  .card p { font-size: 13px; line-height: 1.7; margin: 6px 0 0; }
+  .c-calm { color: #3a6ea8; } .c-rage { color: #c0392b; } .c-divine { color: #7d3c98; } .c-classic { color: #b8860b; }
+  ul li { font-size: 14px; }
+</style>
+</head>
+<body>
+<h1>四种奶蛙卡面基准形象 · 备选评审 v2（2026-09-19）</h1>
+
+<div class="note" style="background:#e8f4e8;border-color:#a0d8a0">
+<b>进度更新（2026-09-19）：</b>用户已选定四款基准全部采用<b>备选 A</b>；卡面规格经 Vuforia 官方文档调研定为<b>竖直矩形 70×120 mm（300 DPI 827×1417 px，含 3mm 出血 883×1472 px）</b>，调研依据见 <code>findings_agentD.md</code>。
+四张卡面图已由制作代理产出并通过独立审查（成品在 <code>out/</code>：card_calm / card_rage / card_divine / card_classic 及其 _bleed / _gray 版本），制作与审查记录见 <code>findings_agentE.md</code>。
+两处姿势妥协（rage 抬臂→肘部外撑贴体侧、classic 背手→扶肚挺立）源于冻结网格的既有缺陷：手指/前臂内缘与肚皮同属一块焊接曲面，且 Meshy 自动权重污染了肚皮顶点，任何"手抬离体表"的姿势都会撕扯破面——若将来要还原梗图原始姿态，须按冻结资产解冻流程处理网格与权重。
+rage 表情仍保留原梗"反差萌"（默认脸+嘴角微翘），待用户复核。
+</div>
+
+<div class="note">
+<b>定位说明：</b>三张"模式切换"表情包（已核实为同一画师/同一角色模板的情绪变体：无颈钟形圆胖身形、眼距极宽、软胶 3D 质感）里的角色<b>不是奶蛙</b>，它们只提供<b>姿态 / 表情 / 构图 / 情绪</b>基准。
+正式卡面必须以我们的奶蛙形象（冻结模型同款）重绘对应姿势，可参照本页官方参考图与网络备选图。
+评审时请分别勾选每款的一张"基准形象图"，卡面画师按它出图。
+</div>
+
+<div class="warn">
+<b>v2 修订说明（相对昨晚 v1）：</b>昨晚评审页的文字描述由上一会话凭看图记忆写出，本轮已由三个独立子代理逐张实看核实并修正——其中修正较大的有：平静款并非"叉腰直立、眯嘴微笑"；愤怒款手臂并非高举过头；神格款的真实风险是<b>淡紫肚皮与白背景去色后明暗差小</b>（Vuforia 特征弱），而非"眼睛周围背景"；视频帧 t1 实为 3/4 侧面且与 standing 趋同，已撤出备选。另新增网络调研备选（见经典款与文末调研结论）。
+</div>
+
+<div class="note">
+<b>卡面硬性要求（Vuforia）：</b>① 主体与背景明暗差要够，设计稿先去色自检；② 避免大面积无细节纯色块；③ 每张卡含专属名称文字（文字是高质量特征点）；④ 打印用哑光纸不覆亮膜；⑤ 定稿前先传<b>去色版</b>到 Target Manager 看星级 ≥3，再做彩色样卡真机交叉验证。
+<b>三张梗图共同注意：</b>底部彩条文字条（"切换平静模式"带冒汗脸 emoji / "切换愤怒模式"带怒脸 emoji / "切换为神格模式"无 emoji）<b>不进卡面</b>，只取角色区域；且三张梗图的双脚均被文字条截断，redraw 时需补画完整脚部。
+</div>
+
+<h2 class="c-calm">① 平静款（calm / 蓝）</h2>
+<div class="grid">
+  <div class="card">
+    <img src="img/meme_calm.jpg" alt="平静模式梗图">
+    <span class="tag pick">备选 A（推荐，定姿态与情绪）</span>
+    <p><b>梗图"切换平静模式"。</b>单臂自然下垂、身体侧转约 30°~45° 朝画面右方的慵懒后倾站姿，重心稳；绿眼环大黑瞳、闭口上扬短口缝（眼睛是睁开的，不是眯眼），松弛感来自站姿而非表情。蓝身体+浅蓝肚皮即 calm 皮肤配色来源。适用于全身居中、微侧构图。</p>
+  </div>
+  <div class="card">
+    <img src="img/ref_smiling.png" alt="奶蛙正面微笑">
+    <span class="tag alt">备选 B（推荐，定形象）</span>
+    <p><b>奶蛙正面微笑参考。</b>正面、双手背后、上扬微笑嘴线，是全部参考图里笑意最明确的一张，情绪与 A 一致但"奶蛙本蛙"。缺点：半身近景构图（无腿脚）、画质偏软、正面平光体积感弱——作卡面需补画下半身并加强明暗。</p>
+  </div>
+</div>
+
+<h2 class="c-rage">② 愤怒款（rage / 红）</h2>
+<div class="grid">
+  <div class="card">
+    <img src="img/meme_rage.jpg" alt="愤怒模式梗图">
+    <span class="tag pick">备选 A（推荐，定姿态）</span>
+    <p><b>梗图"切换愤怒模式"。</b>一臂抬至头肩高度向斜外前方平伸、五指张开掌心朝外，另一手轻贴肚皮右侧——动势强但并非高举过头。红/橙红身体+奶白肚皮+深棕手脚与 rage 皮肤对应。<b>决策点：</b>原梗笑点是"文字暴怒、表情带笑"的反差萌（白环黑瞳圆睁+嘴角微翘），奶蛙版保留反差萌还是改真憋怒（鼓腮、眉区压低），评审时拍板。</p>
+  </div>
+  <div class="card">
+    <img src="img/ref_wave.png" alt="奶蛙抬手姿势">
+    <span class="tag alt">备选 B（推荐，定形象）</span>
+    <p><b>奶蛙招手/预备手势参考。</b>一臂屈肘收在胸前、另一臂向斜上方伸出张开手掌，马步重心——与 A 的手势同构，形象即奶蛙本蛙，即"A 的姿势 + B 的身体"。注意：此图为<b>黑底抠图</b>，黑底高对比下轮廓特征极其丰富，也提示 rage 卡可用深色背景衬托主体。</p>
+  </div>
+  <div class="card">
+    <img src="candidates_web/web_09_appstore_shot5.jpg" alt="奶蛙大哭表情演出参考">
+    <span class="tag alt2">备选 C（情绪演出参考，非基准）</span>
+    <p><b>奶蛙正面大哭（闭眼+大张嘴+泪花粒子）。</b>不作为基准形象，仅供 rage 款的愤怒表情幅度、泪花/特效设计语言迁移参考。</p>
+  </div>
+</div>
+
+<h2 class="c-divine">③ 神格款（divine / 紫）</h2>
+<div class="grid">
+  <div class="card">
+    <img src="img/meme_divine.jpg" alt="神格模式梗图">
+    <span class="tag pick">备选 A（推荐，定姿态与情绪）</span>
+    <p><b>梗图"切换为神格模式"。</b>正面端正对称、双臂垂放贴身、全白发光椭圆眼（无瞳孔、带泛光，全图最强记忆点）、闭口长弧微笑，超然感与反差幽默并存。紫身体+淡紫肚皮对应 divine 皮肤。<b>Vuforia 风险：</b>淡紫肚皮明度很高，与白背景去色后明暗差小，是三张梗图里特征最弱的一张——redraw 必须主动加描边/阴影层次，或用暗紫背景衬托白眼与浅色肚皮。</p>
+  </div>
+  <div class="card">
+    <img src="img/ref_front_t6.png" alt="奶蛙微仰拍帧">
+    <span class="tag alt">备选 B（推荐，定形象）</span>
+    <p><b>奶蛙视频微仰拍帧（t6）。</b>机位略低、角色俯视镜头，3/4 正面，是参考图里唯一露齿憨笑的一张（眼半眯、捂肚交握，可见小尾巴尖），表情信息量最大。作神格款形象基准时，把憨笑收敛为浅笑即可；"俯视镜头"自带一点睥睨感，与神格气质契合。</p>
+  </div>
+</div>
+
+<h2 class="c-classic">④ 经典款（classic / 暖黄，默认皮肤）</h2>
+<div class="grid">
+  <div class="card">
+    <img src="img/ref_hero.png" alt="奶蛙官方hero站姿">
+    <span class="tag pick">备选 A（推荐，定形象）</span>
+    <p><b>奶蛙官方 hero 站姿。</b>3/4 侧面、背手直立、下巴微抬，黄身体+奶白大肚皮+棕手脚，纯白底、全身完整、无水印，是 7 张官方参考里画质和形体最标准的一张——同时可作四卡共用的形体/配色校对基准。"平平无奇但自带一点傲娇"，与其他三款的"模式感"形成反差。</p>
+  </div>
+  <div class="card">
+    <img src="candidates_web/web_10_appstore_shot_ipad1.jpg" alt="梗图同款奶蛙抱脚大笑">
+    <span class="tag alt">备选 B（推荐，定姿态与情绪）</span>
+    <p><b>梗图同款奶蛙形象最清晰的一张网络图（App Store《奶蛙：奶蛙表情包》官方截图，600x1299）。</b>黄肤胖蛙、大绿眼、咧嘴露牙开怀笑、抱脚站姿，白底居中、对比强、无大面积纯色块，Vuforia 友好。若经典款基调采纳"开心/元气"方向（三张梗图已覆盖静/动/圣，第四款补"开心"，张嘴笑区别于三张的闭口笑），这张的姿态情绪最合适；肤色按本项目奶白色替换。</p>
+  </div>
+  <div class="card">
+    <img src="img/ref_standing.png" alt="奶蛙扶肚站姿">
+    <span class="tag alt2">备选 C</span>
+    <p><b>奶蛙近正侧面、双手扶肚的放空站姿。</b>纯白底、全身完整，暖橙色调偏重。日常感足够但姿态与表情信息量偏弱，且与 t1 趋同（t1 已撤出），列为替补。</p>
+  </div>
+</div>
+
+<h2>评审要点清单</h2>
+<ul style="font-size:14px; line-height:1.9">
+  <li>每款勾选一张基准形象图（A/B/C 或提出新的）；四张卡构图已按"侧身慵懒 / 抬手动怒 / 正面端立俯视 / 3-4 侧背手或抱脚大笑"错开，两两朝向、四肢、表情均不同。</li>
+  <li><b>待拍板 1：</b>四肤色定色——按梗图映射为 蓝(calm) / 红(rage) / 紫(divine) / 暖黄(classic，默认)。设计文档 v0.2 中的示例色（红/嫩绿/粉/暖黄）与此不同，以本页为准则需回写设计文档。</li>
+  <li><b>待拍板 2：</b>愤怒款表情走"反差萌（表面带笑）"还是"真憋怒"。</li>
+  <li><b>待拍板 3：</b>经典款基调——"傲娇日常（ref_hero）"还是"开心元气（web_10）"，或两者合并（hero 站姿 + 开怀表情）。</li>
+  <li><b>待拍板 4：</b>参考图统一为暖黄基色，而冻结模型的身体色偏黄绿；卡面以参考图暖黄为准、模型贴图是否向其校色，需记录决策。</li>
+  <li>卡面名称文字建议直接用模式名：「平静模式」「愤怒模式」「神格模式」「经典模式」（可再议）；四卡名称互不相同即满足 Vuforia 特征差异要求。</li>
+  <li>定稿后流程：彩色卡面设计 → 去色自检 → 去色版传 Target Manager 星级≥3 → 打彩色样卡（0.1 m，哑光）→ 真机识别 + 两两交叉验证。</li>
+</ul>
+
+<h2>网络调研结论（2026-09-19）</h2>
+<ul style="font-size:14px; line-height:1.9">
+  <li>"奶蛙"形象源自 2024-10 星野平台"大笑奶龙"AI 变异形象的网络传播，无官方图集与原作者；"平静/愤怒/神格模式"三张梗图未检索到出处与原作者，按匿名二创处理，以本地 3 张为设计基准即可。</li>
+  <li>网络图源受素材站污染与反爬限制，有效来源为 App Store《奶蛙：奶蛙表情包》官方截图；共下载 9 张存于 <code>candidates_web/</code>，逐张评价见 <code>findings_agentC.md</code>。除 web_10、web_09 外其余未达备选线。</li>
+  <li>三个子代理的逐图实看记录：<code>findings_agentA.md</code>（三张梗图）、<code>findings_agentB.md</code>（七张官方/视频参考）、<code>findings_agentC.md</code>（网络候选）。</li>
+  <li>未进备选但留用的图：ref_rolling（横构图大笑，留作衍生素材）、ref_front_t1（与 standing 趋同）。</li>
+</ul>
+</body>
+</html>
